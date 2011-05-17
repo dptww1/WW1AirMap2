@@ -1,4 +1,4 @@
-// Created by mkaerocal.rb from jastas.xml and gazetteer.xml on Wed Feb 27 22:44:13 EST 2008
+// Created by mkaerocal.rb from jastas.xml and gazetteer.xml on Mon May 16 23:23:36 EDT 2011
 
 var aerodromeCalendar = {
   "?" : [

@@ -573,7 +573,7 @@
     <location name="Tramecourt" country="France"><mapLoc refPt="Arras" xDist="-28.6" yDist="-12.3"/></location>
     <location name="Trécon" country="France"><mapLoc refPt="Reims" xDist="0.0" yDist="26.1"/></location>
     <location name="Trefcon" country="France"><mapLoc refPt="Cambrai" xDist="-5.78" yDist="18.22"/></location>
-    <location name="Treizennes" country="France"><mapLoc refPt="Arras" xDist="-8.7" yDist="-12.4"/></location>
+    <location name="Treizennes" country="France"><mapLoc refPt="Lille" xDist="-27.9" yDist=".5"/><notes>Modern Trézenne on Google Maps</notes></location>
     <location name="Trier" country="Germany"><mapLoc refPt="Metz" xDist="22.86" yDist="-37.14"/></location>
     <location name="Udine" country="Italy"></location>
     <location name="Ugny-l'Équipée" country="France"><mapLoc refPt="Cambrai" xDist="-7.56" yDist="20.44"/></location>

@@ -1,4 +1,4 @@
-// Created by mkgazetteer.rb from gazetteer.xml on Wed Feb 27 22:44:05 EST 2008
+// Created by mkgazetteer.rb from gazetteer.xml on Mon May 16 23:23:27 EDT 2011
 
 var gazetteer = {
 "Abbeville": {loc:["Amiens",-20.9,-16.0]},
@@ -559,7 +559,7 @@ var gazetteer = {
 "Tramecourt": {loc:["Arras",-28.6,-12.3]},
 "Trécon": {loc:["Reims",0.0,26.1]},
 "Trefcon": {loc:["Cambrai",-5.78,18.22]},
-"Treizennes": {loc:["Arras",-8.7,-12.4]},
+"Treizennes": {loc:["Lille",-27.9,.5],notes:""},
 "Trier": {loc:["Metz",22.86,-37.14]},
 "Udine": "Italy",
 "Ugny-l'Équipée": {loc:["Cambrai",-7.56,20.44]},
