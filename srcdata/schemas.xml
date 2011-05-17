@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="squadrons-belgium.xml" uri="squadrons.rnc"/>
+  <uri resource="squadrons-german.xml"  uri="squadrons.rnc"/>
+  <uri resource="gazetteer.xml"         uri="gazetteer.rnc"/>
+</locatingRules>

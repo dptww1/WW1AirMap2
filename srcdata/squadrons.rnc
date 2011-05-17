@@ -1,0 +1,23 @@
+# $Id: $
+
+grammar {
+    start = Squadrons
+
+    Squadrons = element squadrons { Squadron* }
+
+    Squadron = element squadron {
+       attribute nation { text },
+       attribute type   { text },
+       attribute num    { text },
+       Location*
+    }
+
+    Location = element location {
+       attribute name     { text },
+       attribute fromDate { text },
+       attribute toDate   { text },
+       attribute fromDateCertainty { text }?,
+       attribute toDateCertainty   { text }?,
+       element   notes    { text }?
+    }
+}

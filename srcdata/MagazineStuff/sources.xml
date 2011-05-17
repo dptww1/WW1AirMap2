@@ -1,0 +1,524 @@
+<?xml version="1.0"?><!-- will need charset encoding eventually -->
+
+<!-- $Id: sources.xml,v 1.2 2004/08/20 14:45:01 DaveT Exp DaveT $ -->
+
+<sources>
+  <journal name="Over the Front" abbrevName="OtF">
+
+    <issue volume="1" number="1" year="1986" season="Spring">
+      <article id="OtF_1_1_1" title="Fierce Days and Nights in Flanders" pages="3-7">
+        <author lastName="Rabe" firstName="Hans-Gerd"/>
+      </article>
+
+      <article id="OtF_1_1_2" title="Jack Malone" subtitle="The First Ace of Naval 3" pages="8-24">
+        <author lastName="Taylor" firstName="Stewart" middleName="K."/>
+      </article>
+
+      <article id="OtF_1_1_3" title="Hans Pippart" subtitle="An Ace From Baden" pages="25-31">
+        <author lastName="O'Connor" firstName="Neal" middleName="W."/>
+      </article>
+
+      <article id="OtF_1_1_4" title="Combat History of Groupe de Combat 23" pages="32-45">
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+      </article>
+
+      <article id="OtF_1_1_4" title="No Greater Love" subtitle="The Story of Lt. Wilbur Whie" pages="46-58">
+        <author lastName="Parks" firstName="James" middleName="J."/>
+      </article>
+
+      <article id="OtF_1_1_5" title="The Ordeal of Alan Winslow" pages="59-68">
+        <author lastName="Gordon" firstName="Dennis"/>
+      </article>
+
+      <article id="OtF_1_1_6" title="Summary of the Career of Silvio Scaroni" pages="69-74">
+        <author lastName="Kerr" firstName="James" middleName="L."/>
+      </article>
+
+      <article id="OtF_1_1_7" title="Colors" subtitle="Nieuport 17s in Italy" pages="75-82">
+        <author lastName="VanWyngarden" firstName="Gregg"/>
+      </article>
+
+      <article id="OtF_1_1_8" title="Mentioned in Despatches" pages="83-85">
+        <editor lastName="Duiven" firstName="Richard"/>
+        <supplement articleId="CC_22_3_TBD" lastName="Bennett" firstName="William" middleName="J." pages="83"/><!-- Wind Soc MoH winners -->
+        <supplement articleId="CC_26_2_TBD" lastName="Sunderland" firstName="Gary" pages="83-84"/><!-- Wintgens -->
+        <supplement articleId="CC_26_1_TBD" lastName="Taylor" firstName="Stewart" middleName="K." pages="84"/><!-- No 20 Squadron -->
+        <supplement articleId="CC_23_1_TBD" lastName="Cooper" firstName="Malcolm" pages="84"/><!-- Bogohl 3 -->
+      </article>
+
+      <article id="OtF_1_1_9" title="Taps" pages="86-88">
+        <editor lastName="Linneman" firstName="John"/>
+      </article>
+
+      <article id="OtF_1_1_10" title="Between the Bookends" pages="89-95">
+        <editor lastName="Linneman" firstName="John"/>
+      </article>
+    </issue>
+
+    <issue volume="1" number="2" year="1986" season="Summer">
+      <article id="OtF_1_2_1" title="L'Escadrille SPA 163" pages="99-117">
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+      </article>
+
+      <article id="OTF_1_2_2" title="Caporetto" part="1" subtitle="The Breakthrough" pages="118-134"/>
+      <article id="OTF_1_2_3" title="Individual Markings of No 64 Squadron RFC/RAF" pages="135-144"/>
+      <article id="OTF_1_2_4" title="No 4 Squadron, Australian Flying Corps" pages="145-158"/>
+      <article id="OTF_1_2_5" title="Smuggled German Aircraft" pages="159-165"/>
+      <article id="OTF_1_2_6" title="Jean Bourjade" subtitle="The Pilot of St Thérése" pages="166-171"/>
+      <article id="OTF_1_2_7" title="Hans-Gerd Rabe" subtitle="In Memoriam, 1895-1986" pages="172-176"/>
+      <article id="OTF_1_2_8" title="Plumage" subtitle="The Hard Luck Escadrille: Marking and Short History of SPA 159 &quot;Le Poing&quot;" pages="177-182"/>
+      <article id="OTF_1_2_9" title="Mentioned in Despatches" pages="183-184"/>
+      <article id="OTF_1_2_10" title="Taps" pages="185-186"/>
+      <article id="OTF_1_2_11" title="Between the Bookends" pages="187=191"/>
+    </issue>
+
+    <issue volume="1" number="3" year="1986" season="Fall">
+      <article id="OTF_1_3_1" title="Leutnant der Reserve otto Brauneck" part="2" pages="194-200"/>
+      <article id="OTF_1_3_2" title="The War Diary and Letters of Walter L Avery" subtitle="95th Aero Squadron" pages="201-229"/>
+      <article id="OTF_1_3_3" title="The War Diary and Letters of Lansing C Holden, Jr" subtitle="95th Aero Squadron Ace" pages="230-260"/>
+      <article id="OTF_1_3_4" title="Caporetto" part="2" subtitle="Retreat and Recovery" pages="261-276"/>
+      <article id="OTF_1_3_5" title="Plumage" subtitle="17th Aero Squadron USAS &quot;The Snow Owls&quot;" pages="277-280"/>
+      <article id="OTF_1_3_6" title="Mentioned in Despatches" pages="281-284"/>
+      <article id="OTF_1_3_7" title="Taps" pages="285"/>
+      <article id="OTF_1_3_8" title="Between the Bookends" pages="286"/>
+    </issue>
+
+    <issue volume="1" number="4" year="1986" season="Winter">
+      <article id="OTF_1_4_1" title="Carroll Dana Winslow" pages="290-296"/>
+      <article id="OTF_1_4_2" title="Groupe de Bombardement 1" subtitle="A History" pages="297-326"/>
+      <article id="OTF_1_4_3" title="A Brief Photo Essay of the Sopwith Snipe 7F.1" pages="327-330"/>
+      <article id="OTF_1_4_4" title="Bohumil Munzar" pages="331-339"/>
+      <article id="OTF_1_4_5" title="The Final Dogfight of the Red Baron" pages="340-341"/>
+      <article id="OTF_1_4_6" title="Caporetto" part="3" subtitle="The Aftermath" pages="342-364"/>
+      <article id="OTF_1_4_7" title="A Collector's &quot;Flea Market Find&quot;" pages="365"/>
+      <article id="OTF_1_4_8" title="How I Won My Wings" pages="366"/>
+      <article id="OTF_1_4_9" title="Plumage" pages="367-369"/>
+      <article id="OTF_1_4_10" title="Mentioned in Despatches" pages="370-372"/>
+      <article id="OTF_1_4_11" title="Taps" pages="373"/>
+      <article id="OTF_1_4_12" title="Between the Bookends" pages="374-384"/>
+    </issue>
+
+    <issue volume="2" number="1" year="1987" season="Spring">
+      <article id="OtF_2_1_1" title="L'Escadrille SPA 154" pages="2-19">
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+        <unitHistory unitName="SPA154" country="France" personnelList="true" victoryList="true" airfieldsList="true"/>
+        <comments>Also has short biographies of commanders and some pilots.</comments>
+      </article>
+
+      <article id="OtF_2_1_2" title="Observations on Ducks and Dice" pages="20-22">
+        <author lastName="Guttman" firstName="Jon"/>
+        <author lastName="Eder" firstName="Jack"/>
+        <interview country="United States" lastName="Harrison" firstName="Randolph" middleName="C."/>
+      </article>
+
+      <article id="OtF_2_1_3" title='A Brief History of Escadrille AR.258, "Les Canards Baisses"' pages="23">
+        <author lastName="Guttman" firstName="Jon"/>
+        <unitHistory country="France" unitName="AR258" personnelList="true" victoryList="true" airfieldsList="true"/>
+      </article>
+
+      <article id="OtF_2_1_4" title="The Original Flying Circus" subtitle="The Combat Log of Royal Prussian Jagdstaffel 11" pages="25-39">
+        <author lastName="Duiven" firstName="Richard"/>
+        <author lastName="Sands" firstName="Jeffrey"/>
+        <unitHistory country="Germany" unitName="Jasta 11" personnelList="true" victoryList="true" airfieldsList="true"/>
+      </article>
+
+      <article id="OtF_2_1_5" title="Observations Over the Italian Front" pages="40-44">
+        <author lastName="Guttman" firstName="Jon"/>
+        <interview country="Austria-Hungary" lastName="Boksay" firstName="Antal"/>
+      </article>
+
+      <article id="OtF_2_1_6" title="A Winged Crusader Over Palestine" subtitle="Lt. J. E. Atkinson No. 14 Squadron - Royal Flying Corps" pages="45-46">
+        <author lastName="Eder" firstName="Jack" middleName="R."/>
+        <interview country="Britain" lastName="Atkinson" firstName="J." middleName="E."/>
+      </article>
+
+      <article id="OtF_2_1_7" title="Jonathon P. Glasby, Jr." subtitle="2nd Lieutenant, F.A. and 278th Aero Squadron" pages="47-52">
+        <author lastName="Eder" firstName="Jack" middleName="R."/>
+        <interview country="United States" lastName="Glasby" firstName="Jonathon" middleName="P."/>
+      </article>
+
+      <article id="OtF_2_1_8" title="Flying with 20" subtitle="The Wartime Experiences of John Metcalf Purcell" pages="53-58">
+        <author lastName="Streckfuss" firstName="James"/>
+        <author lastName="Eder" firstName="Jack" middleName="R."/>
+        <author lastName="Guttman" firstName="Jon"/>
+        <interview country="United States" lastName="Purcell" firstName="John" middleName="Purcell"/>
+      </article>
+
+      <article id="OtF_2_1_9" title="A Short Time in the Air, a Short Time in Prison" subtitle="Frederick Vernon Foster, 91st Aero Squadron, USAS" pages="59-60">
+        <author lastName="Guttman" firstName="Jon"/>
+        <interview country="United States" lastName="Foster" firstName="Frederick" middleName="Vernon"/>
+      </article>
+
+      <article id="OtF_2_1_10" title="Outline of Italian Military Air Service Organization, May 1915" pages="61-68">
+        <author lastName="Whistler" firstName="Richard" middleName="T."/>
+      </article>
+
+      <article id="OtF_2_1_11" title="Gottfried von Banfield" subtitle="The Eagle of Trieste, In Memoriam 1890-1986" pages="69-73">
+        <author lastName="Kilduff" firstName="Peter"/>
+      </article>
+
+      <article id="OtF_2_1_12" title="Willy Coppens, Baron de Houthulst" subtitle="In Memoriam 1892-1987" pages="74-79">
+        <author lastName="O'Connor" firstName="Neal" middleName="W."/>
+      </article>
+
+      <article id="OtF_2_1_13" title="Plumage" subtitle="Escadrille Spa 154: &quot;The Dragon Killers&quot;" pages="80-86">
+        <author lastName="Guttman" firstName="Jon"/>
+      </article>
+
+      <article id="OtF_2_1_14" title="Mentioned in Dispatches" pages="87-89">
+        <author lastName="Duiven" firstName="Richard"/>
+        <supplement articleId="OtF_1_1_2" lastName="Taylor" firstName="Stewart" middleName="K." pages="87"/>
+        <supplement articleId="OtF_1_1_6" lastName="Gordon" firstName="Dennis" pages="87"/>
+        <supplement articleId="CC_16_1_TBD" lastName="Kerr"   firstName="James" middleName="L." suffix="III" pages="87"/><!-- for Captain Barnum article -->
+        <supplement articleId="WW1Aero__110_TBD" lastName="Kerr" firstName="James" middleName="L." suffix="III" pages="87"/><!-- for STROPP: A Mystery Solved? article -->
+        <supplement articleId="OtF_1_1_9" lastName="Kock" firstName="Niels" pages="87"/>
+        <supplement articleId="OtF_1_2_8" lastName="Guttman" firstName="Jon" pages="88"/>
+        <supplement articleId="CC_26_1_TBD" lastName="Guttman" firstName="Jon" pages="88"/><!-- for unnamed article -->
+        <supplement articleId="OtF_1_2_3" lastName="Bailey" firstName="Frank" middleName="W." pages="88"/>
+        <supplement articleId="OtF_1_1_1" lastName="Ayres" firstName="John" pages="88"/>
+      </article>
+
+      <article id="OtF_2_1_15" title="Taps" pages="90-92">
+        <author lastName="Linneman" firstName="John"/>
+      </article>
+
+      <article id="OtF_2_1_16" title="Between the Bookends" pages="93-94">
+        <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+        <review>
+          <author lastName="Robinson" firstName="Douglas" middleName="H."/>
+          <reviewSubject title="Canadian Airmen and the First World War: The Official History of the Royal Canadian Airforce (Volume One)" lastName="Wise" firstName="Sydney" middleName="F."/>
+        </review>
+      </article>
+    </issue>
+
+    <issue volume="2" number="2" year="1987" season="Summer">
+      <article id="OtF_2_2_1" title="Some Reflections on Austro-Hungarian Aviation in World War I" pages="99-107">
+        <author lastName="Grosz" firstName="Peter" middleName="M."/>
+        <comments>Excerpt from Flying Machine Press book</comments>
+      </article>
+
+      <article id="OtF_2_2_2" title="The Austro-Hungarian Aeromotor Industry, 1910-1918" pages="108-115">
+        <author lastName="Pardee" firstName="Douglas" middleName="T."/>
+      </article>
+
+      <article id="OtF_2_2_3" title="An Interview with Ralph A. O'Neill" pages="116-138">
+        <author lastName="Shirley" firstName="Noel"/>
+        <interview country="United States" lastName="O'Neill" firstName="Ralph" middleName="A."/>
+      </article>
+
+      <article id="OtF_2_2_4" title="Heinrich Mathy's Last Raid" pages="139-147">
+        <author lastName="Robinson" firstName="Douglas" middleName="H."/>
+      </article>
+
+      <article id="OtF_2_2_5" title="Horace Clyde Balsley of N 124" pages="148-154">
+        <author lastName="Gordon" firstName="Dennis"/>
+      </article>
+
+      <article id="OtF_2_2_6" title='"Smith IV" Restored' pages="155-160">
+        <author lastName="O'Connor" firstName="Neal" middleName="W."/>
+      </article>
+
+      <article id="OtF_2_2_7" title="Documents Relating to Richthofen's Last Battle" pages="161-172">
+        <author lastName="McGuire" firstName="Frank" middleName="R."/>
+      </article>
+
+      <article id="OtF_2_2_8" title="The Le Prieur Rocket and its Inventor" pages="173-179">
+        <author lastName="O'Connor" firstName="Mike"/>
+      </article>
+
+      <article id="OtF_2_2_9" title="John Lansing Callan" subtitle="Naval Aviation Pioneer" pages="180-185">
+        <author lastName="Shirley" firstName="Noel"/>
+      </article>
+
+      <article id="OtF_2_2_10" title="Colors" subtitle="American Breguet 14s" pages="186-189">
+        <author lastName="VanWyngarden" firstName="Greg"/>
+        <author lastName="Toelle" firstName="Alan" middleName="D."/>
+      </article>
+
+      <article id="OtF_2_2_11" title="Mentioned in Dispatches" pages="190-191">
+        <author lastName="Duiven" firstName="Richard"/>
+        <supplement articleId="OtF_1_3_2" lastName="Guttman" firstName="Jon" pages="190"/>
+        <supplement articleId="OtF_1_4_2" lastName="Guttman" firstName="Jon" pages="190"/>
+        <supplement articleId="OtF_1_4_6" lastName="Guttman" firstName="Jon" pages="190"/>
+        <supplement articleId="OtF_1_4_9" lastName="Guttman" firstName="Jon" pages="190"/>
+        <supplement articleId="OtF_1_1_2" lastName="Guttman" firstName="Jon" pages="190"/>
+      </article>
+
+      <article id="OtF_2_2_12" title="Taps" pages="191-192">
+        <author lastName="Linneman" firstName="John"/>
+      </article>
+    </issue>
+
+    <issue volume="2" number="3" year="1987" season="Autumn">
+      <article id="OtF_2_3_1" title="Flieger Abteilung (A) 240" subtitle="The Reminiscences of Dr. Friedrich Kamfenkel" pages="195-213">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <interview country="Germany" lastName="Kamfenkel" firstName="Friedrich"/>
+      </article>
+
+      <article id="OtF_2_3_2" title="The DFW C.V" subtitle="Short History and Identification Primer" pages="215-229">
+        <author lastName="Grosz" firstName="Peter" middleName="M."/>
+      </article>
+
+      <article id="OtF_2_3_3" title="German P.O.W. Interrogations" pages="230-244">
+        <author lastName="LaRocque" firstName="Jeanne" middleName="M."/>
+      </article>
+
+      <article id="OtF_2_3_4" title="World Power or Downfall!" subtitle="The Story of the 'Silent Raid'" pages="245-259">
+        <author lastName="Robinson" firstName="Douglas" middleName="H."/>
+      </article>
+
+      <article id="OtF_2_3_5" title="A Balloon Buster on the Eastern Front" subtitle="Remniscences of Dr. Wilhelm Bormann" pages="261-266">
+        <author lastName="Gaulke" firstName="Randal" middleName="S."/>
+        <interview country="Germany" lastName="Bormann" firstName="Wilhelm"/>
+      </article>
+
+      <article id="OtF_2_3_6" title="Jasta 11 Revisited" pages="267-274">
+        <author lastName="Brown" firstName="Bowman" middleName="A." suffix="Jr."/>
+      </article>
+
+      <article id="OtF_2_3_7" title="A Matter of Style" pages="274"/>
+
+      <article id="OtF_2_3_8" title="Banfield War Diary Excerpts" pages="275-278">
+        <author lastName="Gaulke" firstName="Randal" middleName="S."/>
+      </article>
+
+      <article id="OtF_2_3_9" title="Plumage" subtitle="No. 2 Squadron AFC, a.k.a. 68 Squadron, RFC" pages="279-282">
+        <author lastName="Guttman" firstName="Jon"/>
+      </article>
+
+      <article id="OtF_2_3_10" title="Mentioned in Dispatches" pages="283-284">
+        <author lastName="Duiven" firstName="Richard"/>
+        <supplement articleId="CC_21_1_TBD" lastName="Duiven" firstName="Richard" pages="283"/><!-- for Jasta 24 article -->
+        <supplement articleId="OtF_1_4_2" lastName="Nilsson" firstName="Thomas" pages="283"/>
+        <supplement articleId="OtF_1_4_5" lastName="Thompson" firstName="Jesse" middleName="D." pages="283"/>
+      </article>
+
+      <article id="OtF_2_3_11" title="Taps" pages="285-286">
+        <author lastName="Linneman" firstName="John"/>
+      </article>
+
+      <article id="OtF_2_3_12" title="Between the Bookends" pages="286-287">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="W.W.1 Aero #116" lastName="Opdycke" firstName="Leo"/>
+        </review>
+        <review>
+          <author lastName="O'Connor" firstName="Neal" middleName="W."/>
+          <reviewSubject title="The Airman's War, 1914-1918" lastName="Liddle" firstName="Peter" middleName="H."/>
+        </review>
+      </article>
+
+      <article id="OtF_2_3_13" title="How to Submit Articles for Publication" pages="288"/>
+
+      <article id="OtF_2_3_14" title="How to Prepare an Article for Publication" pages="288"/>
+    </issue>
+
+    <issue volume="2" number="4" year="1987" season="Winter">
+      <article id="OtF_2_4_1" title="Reminiscences of a Schlachtflieger" subtitle="Eduard Wolfgang Zorer" pages="291-297">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <interview country="Germany" lastName="Zorer" firstName="Eduard" middleName="Wolfgang"/>
+      </article>
+
+      <article id="OtF_2_4_2" title="A Brief History of No. 41 Squadron, RFC/RAF" pages="298-325">
+        <author lastName="Sater" firstName="Ola" middleName="A."/>
+        <author lastName="Chamberlain" firstName="Paul"/>
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+      </article>
+      
+      <article id="OtF_2_4_3" title="The LVG C.V and LVG C.VI General Reconnaissance Biplanes" pages="326-343">
+        <author lastName="Grosz" firstName="Peter" middleName="M."/>
+      </article>
+
+      <article id="OtF_2_4_4" title="Groupe de Combat 16" pages="344-355">
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+      </article>
+
+      <article id="OtF_2_4_5" title="A Brief History of U.S. Naval Dirigible Stations in Foreign Service" pages="356-370">
+        <author lastName="Shirley" firstName="Noel"/>
+      </article>
+
+      <article id="OtF_2_4_6" title="Colors" subtitle="The Pfalz D.III and D.IIIa" pages="371-375">
+        <author lastName="VanWyngarden" firstName="Greg"/>
+      </article>
+
+      <article id="OtF_2_4_7" title="Mentioned in Dispatches" pages="376-378">
+        <author lastName="Duiven" firstName="Richard"/>
+        <supplement articleId="OtF_2_1_IFC" lastName="Grosz" firstName="Peter" middleName="M." pages="376"/>
+        <supplement articleId="OtF_1_2_4" lastName="Negus" firstName="Geoffrey" pages="376"/><!-- for No 4 AFC article -->
+        <supplement articleId="OtF_1_1_4" lastName="Nilsson" firstName="Thomas" pages="376"/><!-- for GC23 article -->
+        <supplement articleId="OtF_2_1_1" lastName="Nilsson" firstName="Thomas" pages="376"/>
+        <supplement articleId="OtF_1_1_2" lastName="Goldenberg" firstName="Martin" pages="377"/>
+        <supplement articleId="OtF_1_3_2" lastName="Goldenberg" firstName="Martin" pages="377"/>
+        <supplement articleId="OtF_2_1_2" lastName="Shatzer" firstName="Bill" pages="377"/>
+        <supplement articleId="OtF_2_1_2" lastName="Lawson" firstName="Stephen" pages="377"/>
+        <supplement articleId="OtF_2_1_IFC" lastName="Lawson" firstName="Stephen" pages="377"/>
+        <supplement articleId="OtF_2_2_8" lastName="Allen" firstName="Al" pages="377"/>
+        <supplement articleId="OtF_2_1_10" lastName="Meyers" firstName="Roy" pages="377"/>
+        <supplement articleId="OtF_2_1_12" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_1_1_7" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_1_2_2" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_1_3_4" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_1_4_6" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_2_2_1" lastName="Kerr" firstName="Jim" pages="378"/>
+        <supplement articleId="OtF_2_1_13" lastName="Paep" firstName="Klaus" pages="378"/>
+        <supplement articleId="CC_24_2_TBD" lastName="Lawson" firstName="Stephen" pages="378"/><!-- for p.21 article -->
+        <review>
+          <author lastName="Lawson" firstName="Stephen"/>
+          <reviewSubject title="Fokker Fighters of WWI" lastName="Imrie" firstName="Alex"/>
+        </review>
+      </article>
+
+      <article id="OtF_2_4_8" title="Taps" pages="379-380">
+        <author lastName="Linneman" firstName="John"/>
+      </article>
+
+      <article id="OtF_2_4_9" title="Between the Bookends" pages="381-384">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <review>
+          <author lastName="Streckfuss" firstName="James"/>
+          <reviewSubject title="The Epic of Flight" lastName="Time-Life Books, Inc."/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="Georges Guynemer" lastName="Hylands" firstName="Dennis"/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="World War I Aviation Books in English: An Annotated Bibliography" lastName="Noffsinger" firstName="James" middleName="Philip"/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="James McCudden VC" lastName="Revell" firstName="Alex"/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="Eye in the Sky 1918: Recollections of a World War One Pilot on Artillery and Infantry Co-operation Duties" lastName="Townsend" firstName="Philip" middleName="Brereton"/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="Albatros D.III" lastName="Rimell" firstName="Raymond" middleName="Laurence"/>
+        </review>
+        <review>
+          <author lastName="Kerr" firstName="James" middleName="L." suffix="III"/>
+          <reviewSubject title="Fokker Fighters of World War I" lastName="Imrie" firstName="Alex"/>
+        </review>
+      </article>
+    </issue>
+
+    <issue volume="19" number="1" year="2004" season="Spring">
+      <article id="OtF_19_1_1" title="Jesse Orrin Creech" subtitle="148th Aero Squadron" pages="4-41">
+        <author lastName="Miller" firstName="Stephen"/>
+        <author lastName="Roesler" firstName="Alan"/>
+      </article>
+
+      <article id="OtF_19_1_2" title="Memories of No. 3 Squadron Australian Flying Corps" subtitle="An Interview with Harold Edwards" pages="42-49">
+        <author lastName="Hellwig" firstName="Adrian"/>
+        <interview country="Australia" lastName="Edwards" firstName="Harold"/>
+      </article>
+
+      <article id="OtF_19_1_3" title="No. 3 Squadron, Australian Flying Corps" pages="50-69">
+        <author lastName="Bailey" firstName="Frank" middleName="W."/>
+        <author lastName="Roesler" firstName="Alan" middleName="L."/>
+      </article>
+
+      <article id="OtF_19_1_4" title="Rare Birds" subtitle="Roland D.III Fighter: A Photo Essay" pages="70-86">
+        <author lastName="Grosz" firstName="Peter" middleName="M."/>
+      </article>
+
+      <article id="OtF_19_1_5" title="Nachrichtenblatt der Luftstreitkräfte" subtitle="No. 18" pages="88-91">
+        <author lastName="Hayzlett" firstName="Janice"/>
+        <author lastName="Kilduff" firstName="Peter"/>
+      </article>
+
+      <article id="OtF_19_1_6" title="Between the Bookends" pages="92-96">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Italian Aces of World War I and Their Aircraft" lastName="Gentilli" firstName="Roberto"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Echoes of Eagles" lastName="Wooley" firstName="Charles"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="U.S. Air Service in the British Isles 1917-1919" lastName="Boyden" firstName="James" middleName="N."/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Aviatik B-Types" lastName="Grosz" firstName="P" middleName="M"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="The AMC DH6" lastName="Robertson" firstName="Bruce"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Windsock International, Vol 19 No. 6"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Windsock International, Vol 20 No. 1"/>
+        </review>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Cross &amp; Cockade Internation Journal, Vol 34 No. 4"/>
+        </review>
+        <review>
+          <author lastName="Shirley" firstName="Noel"/>
+          <reviewSubject title="The '14-'18 Journal, 2003"/>
+        </review>
+        <review>
+          <author lastName="Streckfuss" firstName="James"/>
+          <reviewSubject title="Talking With the Red Baron" lastName="Kilduff" firstName="Peter"/>
+        </review>
+        <review>
+          <author lastName="Streckfuss" firstName="James"/>
+          <reviewSubject title="Classic Fighters Mrborough 2003"/>
+        </review>
+      </article>
+    </issue>
+
+    <issue volume="19" number="2" year="2004" season="Summer">
+      <article id="OtF_19_2_1" title="Ten Days" subtitle="Lt. Charles B. Sands, 27th Aero Squadron" pages="100-117">
+        <author lastName="Lucas" firstName="Stephen"/>
+        <author lastName="Toelle" firstName="Alan"/>
+      </article>
+      <article id="OtF_19_2_2" title="Frank Luke's SPAD #21" pages="118-121">
+        <author lastName="Toelle" firstName="Alan"/>
+      </article>
+      <article id="OtF_19_2_3" title="Joe Wehner" subtitle="The Other Half of the Famous Balloon Busters" pages="122-140">
+        <author lastName="Kloss" firstName="Walter" middleName="E."/>
+      </article>
+      <article id="OtF_19_2_4" title="Personalities of the First Pursuit Group" pages="141-157">
+        <author lastName="Woolley" firstName="Charles"/>
+      </article>
+      <article id="OtF_19_2_5" title="Rare Birds" subtitle="Nieuport 14" pages="158-171">
+        <author lastName="Guttman" firstName="Jon"/>
+        <author lastName="Digmayer" firstName="Martin"/>
+      </article>
+      <article id="OtF_19_2_6" title="Jasta 48" subtitle="The 'Hard Luck' Jasta" pages="172-178">
+        <author lastName="Duiven" firstName="Rick"/>
+      </article>
+      <article id="OtF_19_2_7" title="Nachrichtenblatt der Luftstreitkräfte" subtitle="No. 19" pages="179-182">
+        <author lastName="Hayzlitt" firstName="Jan"/>
+        <author lastName="Kilduff" firstName="Peter"/>
+      </article>
+      <article id="OtF_19_2_8" title="Mentioned in Dispatches" pages="183-185">
+        <author lastName="Bronnenkant" firstName="Lance"/>
+        <supplement articleId="OtF_13_4_TBD" lastName="Roesler" firstName="Alan" pages="183-184"/><!-- for The Search for Frank Luke article -->
+        <ask lastName="Striebig" firstName="Charles" middleName="J.">
+          <person lastName="Potter" firstName="Innis" rank="Lieutenant"/>
+        </ask>
+      </article>
+      <article id="OtF_19_2_9" title="Between the Bookends" pages="186-192">
+        <author lastName="Kilduff" firstName="Peter"/>
+        <review>
+          <author lastName="Kilduff" firstName="Peter"/>
+          <reviewSubject title="Jadgstaffel 5, Volume 1" lastName="Merrill" firstName="G." middleName="K."/>
+        </review>
+      </article>
+    </issue>
+  </journal>
+</sources>

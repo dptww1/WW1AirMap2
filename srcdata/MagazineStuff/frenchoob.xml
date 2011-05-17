@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<orderofbattle country="France">
+  <unit id="SPA154" name="SPA154" size="Escadrille">
+    <formed date="11-Jul-1917" country="France" location="Matigny" parentId="null"><footnote>OtF v2#2</footnote></formed>
+  </unit>
+</orderofbattle>

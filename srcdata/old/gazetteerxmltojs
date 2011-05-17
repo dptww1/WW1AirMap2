@@ -1,0 +1,48 @@
+# -*- perl -*-
+#
+# $Id: $
+#
+
+use strict;
+use XML::DOM;
+
+my $parser = new XML::DOM::Parser;
+my $doc = $parser->parsefile("gazetteer.xml");
+
+my $f;
+open ($f, ">gazetteer.js") or die "can't open gazetter.js: $!\n";
+print $f "var gazetteer = { \n";
+
+my @locs = $doc->getElementsByTagName("location");
+for (my $i = 0; $i <= $#locs; ++$i) {
+	my $loc = $locs[$i];
+	my $name = $loc->getAttribute("name");
+	$name = regexp2latin1($name); # fix bogosity in XML::DOM/Expat/Parser
+    print $f "  \"$name\": ";
+    my $country = $loc->getAttribute("country");
+	if (!$country || ($country =~ /France|Belgium|Germany/)) {
+		my @mapLoc = $loc->getElementsByTagName("mapLoc");
+		if ($#mapLoc >= 0) {
+			print $f "[\"" . $mapLoc[0]->getAttribute("refPt") . "\", " . $mapLoc[0]->getAttribute("xDist") . ", " . $mapLoc[0]->getAttribute("yDist") . "]";
+		} else {
+			print $f "null";
+		}
+	} else {  # Italy, Macedonia, Turkey
+		print $f "\"$country\"";
+	}
+	print $f "," if ($i != $#locs);
+    print $f "\n";
+}
+
+print $f "};\n";
+
+#========================================================================
+sub regexp2latin1 {
+	my $text=shift;
+    $text=~s{([\xc0-\xc3])(.)}{ my $hi = ord($1);
+                                my $lo = ord($2);
+                                chr((($hi & 0x03) <<6) | ($lo & 0x3F))
+                              }ge;
+    return $text;
+  }
+

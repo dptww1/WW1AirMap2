@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<!-- $Id: $ -->
+
+<!-- left off at OtF1.4 page 308 -->
+<squadrons>
+    <!-- sorted by number, regardless of type -->
+    <squadron nation="FR" type="VB" num="1"><!-- OtF1.4 -->
+        <!-- renamed on this date from V 14 -->
+        <location name="?" fromDate="11/23/1914" toDate="12/15/1914"/>
+        <location name="St. Pol-en-Ternoise" fromDate="12/16/1914" toDate="1/9/1915"/>
+        <location name="Camp de Mourmelon" fromDate="1/10/1915" toDate="1/17/1915"/>
+        <location name="Verdun" fromDate="1/18/1915" toDate="2/7/1915"/>
+        <location name="Melette" fromDate="2/8/1915" toDate="3/2/1915"/>
+        <!-- renamed VB 101 -->
+    </squadron>
+    <squadron nation="FR" type="VB" num="2"><!-- OtF1.4 -->
+        <!-- renamed on this date from Br 17 -->
+        <location name="?" fromDate="11/23/1914" toDate="12/15/1914"/>
+        <location name="St. Pol-en-Ternoise" fromDate="12/16/1914" toDate="1/9/1915"/>
+        <location name="Camp de Mourmelon" fromDate="1/10/1915" toDate="1/17/1915"/>
+        <location name="Verdun" fromDate="1/18/1915" toDate="2/7/1915"/>
+        <location name="Melette" fromDate="2/8/1915" toDate="3/2/1915"/>
+        <!-- renamed VB 102 -->
+    </squadron>
+    <squadron nation="FR" type="VB" num="3"><!-- OtF1.4 -->
+        <!-- formed on 11/17/1914 -->
+        <location name="?" fromDate="11/23/1914" toDate="12/15/1914"/>
+        <location name="Chantilly" fromDate="12/16/1914" toDate="1/11/1915"/>
+        <location name="Toul" fromDate="1/12/1915" toDate="2/10/1915"/>
+        <location name="Melette" fromDate="2/11/1915" toDate="3/2/1915"/>
+        <!-- renamed VB 103 -->
+    </squadron>
+    <squadron nation="FR" type="V" num="21"><!-- OtF1.4 -->
+        <location name="Nancy-Malzéville" fromDate="6/7/1915" toDate="6/25/1915" toDateEstimated="true"/><!-- operated with GB1, OtF1.4 -->
+    </squadron>
+    <squadron nation="FR" type="N" num="65">
+        <location name="Nancy-Malzéville" fromDate="10/10/1915" toDate=""/><!-- operated with GB1, OtF1.4 -->    
+    </squadron>
+    <squadron nation="FR" type="C" num="66">
+        <location name="Nancy-Malzéville" fromDate="10/10/1915" toDate=""/><!-- operated with GB1, OtF1.4 -->    
+        <!-- joined GB1 6/19/1916, still at Malzéville -->
+        <!-- detached from GB1 on 9/25/1916 -->
+    </squadron>
+    <squadron nation="FR" type="VB" num="101"><!-- OtF1.4 -->
+        <!-- formed from VB 1 -->
+        <location name="Nancy-Malzéville" fromDate="3/3/1915" toDate="4/19/1915"/>
+        <location name="Epinal" fromDate="4/20/1915" toDate="4/21/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/22/1915" toDate="4/27/1915"/>
+        <location name="Epinal" fromDate="4/28/1915" toDate="4/28/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/29/1915" toDate="10/4/1915"/>
+        <location name="Aulnay-sur-Marne" fromDate="10/5/1915" toDate="10/19/1915"/>
+        <location name="Nancy-Malzéville" fromDate="10/20/1915" toDate="6/14/1916"/>
+        <!-- during April 1916, some planes detached to Autrecourt and others to Lemmes -->
+        <!-- Lemmes contingent: 2 machines 3/14/1916, 2 more 3/30/1916; all to Autrecourt 5/13/1916 -->
+        <!-- Autrecourt contingent: 2 machines 4/24/1916 - 8/8/1916 -->
+        <location name="Sacy-le-Grand" fromDate="6/15/1916" toDate=""/>
+    </squadron>
+    <squadron nation="FR" type="VB" num="102"><!-- OtF1.4 -->
+        <!-- formed from VB 2 -->
+        <location name="Nancy-Malzéville" fromDate="3/3/1915" toDate="4/2/1915"/>
+        <location name="Verdun" fromDate="4/3/1915" toDate="4/5/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/6/1915" toDate="4/24/1915"/>
+        <location name="Epinal" fromDate="4/25/1915" toDate="4/25/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/26/1915" toDate="4/26/1915"/>
+        <location name="Epinal" fromDate="4/27/1915" toDate="4/27/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/28/1915" toDate="4/28/1915"/>
+        <location name="Epinal" fromDate="4/29/1915" toDate="4/29/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/30/1915" toDate="10/4/1915"/>
+        <location name="Aulnay-sur-Marne" fromDate="10/5/1915" toDate="10/19/1915"/>
+        <location name="Nancy-Malzéville" fromDate="10/20/1915" toDate=""/>
+    </squadron>
+    <squadron nation="FR" type="VB" num="103"><!-- OtF1.4 -->
+        <!-- formed from VB 3 -->
+        <location name="Nancy-Malzéville" fromDate="3/3/1915" toDate="4/21/1915"/>
+        <location name="Epinal" fromDate="4/22/1915" toDate="4/24/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/25/1915" toDate="4/25/1915"/>
+        <location name="Epinal" fromDate="4/26/1915" toDate="4/26/1915"/>
+        <location name="Nancy-Malzéville" fromDate="4/27/1915" toDate="4/29/1915"/>
+        <location name="Epinal" fromDate="4/30/1915" toDate="5/2/1915"/>
+        <location name="Nancy-Malzéville" fromDate="5/3/1915" toDate="10/4/1915"/>
+        <location name="Aulnay-sur-Marne" fromDate="10/5/1915" toDate="10/19/1915"/>
+        <location name="Nancy-Malzéville" fromDate="10/20/1915" toDate=""/>
+    </squadron>
+    <squadron nation="FR" type="VC" num="110">
+        <location name="Nancy-Malzéville" fromDate="4/22/1916" toDate=""/>
+    </squadron>
+    <squadron nation="FR" type="VB" num="112">
+        <location name="Nancy-Malzéville" fromDate="12/1/1915" toDate=""/><!-- transferred to GB1 from GB4, OtF1.4 -->    
+    </squadron>
+    <squadron nation="FR" type="VB" num="114"><!-- OtF1.4 p303 lists this as V 114.  Typo or name change? -->
+        <location name="Nancy-Malzéville" fromDate="10/10/1915" toDate="4/23/1916"/><!-- operated with GB1, OtF1.4 -->    
+        <location name="Autrecourt" fromDate="4/24/1916" toDate="9/21/1916"/>
+        <location name="Nancy-Malzéville" fromDate="9/22/1916" toDate=""/><!-- operated with GB1, OtF1.4 -->    
+    </squadron>
+    <squadron nation="FR" type="CEP" num="115"><!-- joined GB1 -->
+        <location name="Nancy-Malzéville" fromDate="5/1/1916" toDate=""/><!-- joined GB1, OtF1.4 -->    
+        <!-- TBD: dangling reference to being Ochey at some point -->
+    </squadron>
+</squadrons>

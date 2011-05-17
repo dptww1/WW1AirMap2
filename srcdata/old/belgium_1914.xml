@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<!-- $Id: $ -->
+
+<!--
+Information from Pieters, "Above Flanders' Fields", Grub Street Press, 1998.
+  -->
+
+<squadrons>
+  <squadron nation="BE" num="1">
+    <location name="Ans" fromDate="8/1/1914" toDate="8/23/1914"/><!-- toDate approximate, "after fall of Liège and Namur" -->
+    <location name="Wilryck" fromDate="8/24/1914" toDate="10/4/1914"/>
+    <location name="Ostende" fromDate="10/5/1914" toDate="10/13/1914"/><!-- toDate approximate -->
+    <location name="St-Pol-sur-Mer" fromDate="10/14/1914" toDate="10/17/1914"/>
+    <location name="Coxyde" fromDate="10/14/1914" toDate="6/15/1916"/><!-- date within June is interpolated -->
+    <!-- 2/22/1916 becomes 1ère Escadrille de Chasse -->
+    <location name="Les Moeres" fromDate="6/16/1916" toDate=""/>
+  </squadron>
+  <squadron nation="BE" num="2">
+    <location name="Belgrade" fromDate="8/1/1914" toDate="8/23/1914"/><!-- toDate approximate, "after fall of Liège and Namur" -->
+    <location name="Chimay" fromDate="8/24/1914" toDate="9/5/1914"/><!-- near Amiens, France -->
+    <location name="Ostende" fromDate="9/6/1914" toDate="10/10/1914"/><!-- fromDate is interpolation here based on Soumoy's death -->
+    <location name="St-Pol-sur-Mer" fromDate="10/11/1914" toDate=""/>
+  </squadron>
+  <squadron nation="BE" num="3"><!-- not completely established at start of mobilization -->
+    <location name="Louvain" fromDate="8/1/1914" toDate="8/23/1914"/><!-- toDate approximate, "after fall of Liège and Namur" -->
+    <location name="Wilryck" fromDate="8/24/1914" toDate="10/4/1914"/>
+    <location name="Ostende" fromDate="10/5/1914" toDate="10/10/1914"/>
+    <location name="St-Pol-sur-Mer" fromDate="10/11/1914" toDate=""/>
+  </squadron>
+  <squadron nation="BE" num="4">    <!-- not completely established at start of mobilization -->
+    <location name="Wilryck" fromDate="8/1/1914" toDate="10/4/1914"/><!-- Modern Wilrijk -->
+    <location name="Ostende" fromDate="10/5/1914" toDate="10/13/1914"/>
+    <location name="St-Pol-sur-Mer" fromDate="10/14/1914" toDate=""/>
+  </squadron>
+  <squadron nation="BE" num="5">
+    <location name="Wilryck" fromDate="8/11/1914" toDate="10/4/1914"/><!-- establishment date interpolated from events in text -->
+    <location name="Ostende" fromDate="10/5/1914" toDate="10/13/1914"/>
+    <location name="St-Pol-sur-Mer" fromDate="10/14/1914" toDate="7/15/1917"/><!-- toDate estimated based on "summer of 1917" -->
+    <!-- Aug 1916 becomes 5me Escadrille de Chasse -->
+    <location name="Les Moeres" fromDate="7/16/1917" toDate=""/>
+  </squadron>
+</squadrons>
+
+

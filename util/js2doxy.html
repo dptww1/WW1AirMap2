@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>js2doxy - utility to convert JavaScript into something Doxygen can understand</title>
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#options">OPTIONS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#help_commands">HELP COMMANDS</a></li>
+	<li><a href="#limitations">LIMITATIONS</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>js2doxy - utility to convert JavaScript into something Doxygen can understand</p>
+<p>
+</p>
+<hr />
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<pre>
+ js2doxy.pl &lt; file.js &gt; file.cpp
+ js2doxy.pl [Options] file.js</pre>
+<pre>
+ Options:</pre>
+<pre>
+ -?             Print usage
+ -d, --debug    Debug mode
+ -h, --help     Show manual
+ -v, --version  Print version</pre>
+<p>
+</p>
+<hr />
+<h1><a name="options">OPTIONS</a></h1>
+<dl>
+<dt><strong><a name="item__2d_3f"><strong>-?</strong></a></strong><br />
+</dt>
+<dd>
+Prints the usage of the script.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2ddebug"><strong>--debug</strong></a></strong><br />
+</dt>
+<dd>
+Prints internal states to the error stream.
+States are triggered by single bits:
+</dd>
+<dd>
+<pre>
+ Bit 0: Dump (1)
+ Bit 1: Database (2)
+ Bit 2: Detector (4)
+ Bit 3: Parser (8)
+ Bit 4: Scanner (16)</pre>
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dhelp"><strong>--help</strong></a></strong><br />
+</dt>
+<dd>
+Shows the manual pages of the script using perldoc.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dversion"><strong>--version</strong></a></strong><br />
+</dt>
+<dd>
+Print the version of the utility and exits.
+</dd>
+<p></p></dl>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p>This program will read from standard input or from the given input file
+and convert the input into pseudo C++ that can be understood by help 
+generator Doxygen.
+The program parses the JavaScript and tries to attach the correct 
+documentation comments.
+Any unattached comment is placed into file scope.</p>
+<p>
+</p>
+<hr />
+<h1><a name="help_commands">HELP COMMANDS</a></h1>
+<p>The program will accept some additional help commands to produce better C++:</p>
+<dl>
+<dt><strong><a name="item__5cctor"><strong>\ctor</strong></a></strong><br />
+</dt>
+<dd>
+This command starts the description of the constructor.
+It can be placed within the documentation comment for a class. 
+It may be used also as first command in such a comment.
+</dd>
+<p></p>
+<dt><strong><a name="item__5ctparam_type_param_comment"><strong>\tparam TYPE PARAM COMMENT</strong></a></strong><br />
+</dt>
+<dd>
+This command sets the type of a parameter.
+It is replaced in the documentation comment with the <strong>\param PARAM COMMENT</strong> 
+command (without the <strong>TYPE</strong>). 
+The program will use the type information in the generated C++ code.  
+It may not be the first command in a documentation comment.
+</dd>
+<p></p>
+<dt><strong><a name="item__5ctreturn_type_comment"><strong>\treturn TYPE COMMENT</strong></a></strong><br />
+</dt>
+<dd>
+This command sets the return type of a function.
+It is replaced in the documentation comment with the <strong>\return COMMENT</strong> 
+command (without the <strong>TYPE</strong>). 
+The program will use the type information in the generated C++ code.  
+It may not be the first command in a documentation comment.
+This comand is a short cut of the normal <strong>\return</strong> command and the <strong>\type</strong>
+command supported by this program.
+</dd>
+<p></p>
+<dt><strong><a name="item__5ctype_type"><strong>\type TYPE</strong></a></strong><br />
+</dt>
+<dd>
+This command sets the type of a variable or the return type of a function.
+It may not be the first command in a documentation comment.
+
+
+</dd>
+<p></p></dl>
+<p>
+</p>
+<hr />
+<h1><a name="limitations">LIMITATIONS</a></h1>
+<p>The program uses internally a has map for the database. 
+Therefore the sequence of the identified elements is by chance and the
+grouping commands of Doxygen are not supported.
+
+</p>
+<p>The program does currently not support single line documentation blocks
+or documentation blocks that *follow* the declaration:
+
+</p>
+<pre>
+ ///
+ //!
+ /**&lt; */
+ ///&lt;
+ /*!&lt; */
+ //!&lt; */
+
+</pre>
+
+</body>
+
+</html>

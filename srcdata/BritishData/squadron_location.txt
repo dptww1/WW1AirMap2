@@ -1,0 +1,1245 @@
+Bases Occupied by Squadron and Date								
+				Date of Arrival on Base				
+Country	Service	Squadron	Base	Day	Month	Year	Service Calculation	Notes
+Britain	RFC	1	Netheravon	13	11	1914	RFC	
+Britain	RFC	1	St-Omer	7	3	1915	RFC	
+Britain	RFC	1	Bailleul	29	3	1915	RFC	
+Britain	RFC	1	Ste-Marie-Cappel	29	3	1918	RFC	
+Britain	RAF	1	Clairmarais South	13	4	1918	RAF	
+Britain	RAF	1	Fienvillers	5	8	1918	RAF	
+Britain	RAF	1	Senlis-le-Sec	6	10	1918	RAF	
+Britain	RAF	1	Bouvincourt	26	10	1918	RAF	
+Britain	RFC	2	Swingate Down	12	8	1914	RFC	
+Britain	RFC	2	Amiens	13	8	1914	RFC	
+Britain	RFC	2	Maubeuge	16	8	1914	RFC	
+Britain	RFC	2	Berliamont	24	8	1914	RFC	
+Britain	RFC	2	Le Cateau	25	8	1914	RFC	
+Britain	RFC	2	St-Quentin	25	8	1914	RFC	
+Britain	RFC	2	La Fere	26	8	1914	RFC	
+Britain	RFC	2	Compiegne	28	8	1914	RFC	
+Britain	RFC	2	Senlis	30	8	1914	RFC	
+Britain	RFC	2	Juilly	31	8	1914	RFC	
+Britain	RFC	2	Serries	2	9	1914	RFC	
+Britain	RFC	2	Touquin	3	9	1914	RFC	
+Britain	RFC	2	Melun	4	9	1914	RFC	
+Britain	RFC	2	Touquin	7	9	1914	RFC	
+Britain	RFC	2	Coulommiers	9	9	1914	RFC	
+Britain	RFC	2	Fee-en Tardenois	12	9	1914	RFC	
+Britain	RFC	2	St-Omer	17	10	1914	RFC	
+Britain	RFC	2	Merville	27	11	1914	RFC	
+Britain	RFC	2	Hesdigneul	30	6	1915	RFC	
+Britain	RAF	2	Floringham	9	6	1918	RAF	
+Britain	RAF	2	Mazingarbe	20	10	1918	RAF	
+Britain	RAF	2	Genech	26	10	1918	RAF	
+Britain	RFC	3	Swingate Down	12	8	1914	RFC	
+Britain	RFC	3	Amiens	13	8	1914	RFC	
+Britain	RFC	3	Maubeuge	16	8	1914	RFC	
+Britain	RFC	3	Le Cateau	24	8	1914	RFC	
+Britain	RFC	3	St-Quentin	25	8	1914	RFC	
+Britain	RFC	3	La Fere	26	8	1914	RFC	
+Britain	RFC	3	Compiegne	28	8	1914	RFC	
+Britain	RFC	3	Senlis	30	8	1914	RFC	
+Britain	RFC	3	Juilly	31	8	1914	RFC	
+Britain	RFC	3	Serris	2	9	1914	RFC	
+Britain	RFC	3	Touquin	3	9	1914	RFC	
+Britain	RFC	3	Melun	4	9	1914	RFC	
+Britain	RFC	3	Touquin	7	9	1914	RFC	
+Britain	RFC	3	Coulommiers	9	9	1914	RFC	
+Britain	RFC	3	Fere-en-Tardenois	12	9	1914	RFC	
+Britain	RFC	3	Amiens	5	10	1914	RFC	
+Britain	RFC	3	Abbeville	8	10	1914	RFC	
+Britain	RFC	3	Moyenneville	9	10	1914	RFC	
+Britain	RFC	3	St-Omer	12	10	1914	RFC	
+Britain	RFC	3	Gonneham	24	11	1914	RFC	
+Britain	RFC	3	Lozinghem	1	6	1915	RFC	
+Britain	RFC	3	Bruay	16	3	1916	RFC	
+Britain	RFC	3	Bertangles	1	4	1916	RFC	
+Britain	RFC	3	Lahoussoye	10	4	1916	RFC	
+Britain	RFC	3	Lavieville	23	1	1917	RFC	
+Britain	RFC	3	Longavesnes	15	7	1917	RFC	
+Britain	RFC	3	Lechelle	24	8	1917	RFC	
+Britain	RFC	3	Warloy	10	10	1917	RFC	
+Britain	RFC	3	Vert Galand	25	3	1918	RFC	
+Britain	RFC	3	Valheureux	26	3	1918	RFC	
+Britain	RAF	3	Lechelle	15	10	1918	RAF	
+Britain	RAF	3	Inchy	4	11	1918	RAF	
+Britain	RFC	4	Netheravon	1	8	1914	RFC	
+Britain	RFC	4	Amiens	13	8	1914	RFC	
+Britain	RFC	4	Swingate	1	8	1914	RFC	
+Britain	RFC	4	Maubeuge	16	8	1914	RFC	
+Britain	RFC	4	Le Cateau	24	8	1914	RFC	
+Britain	RFC	4	St-Quentin	25	8	1914	RFC	
+Britain	RFC	4	La Fere	26	8	1914	RFC	
+Britain	RFC	4	Compiegne	28	8	1914	RFC	
+Britain	RFC	4	Senlis	30	8	1914	RFC	
+Britain	RFC	4	Juilly	31	8	1914	RFC	
+Britain	RFC	4	Serris	2	9	1914	RFC	
+Britain	RFC	4	Touquin	3	9	1914	RFC	
+Britain	RFC	4	Melun	4	9	1914	RFC	
+Britain	RFC	4	Touquin	7	9	1914	RFC	
+Britain	RFC	4	Coulommiers	9	9	1914	RFC	
+Britain	RFC	4	Fere-en-Tardenois	12	9	1914	RFC	
+Britain	RFC	4	Amiens	6	10	1914	RFC	
+Britain	RFC	4	Abbeville	8	10	1914	RFC	
+Britain	RFC	4	Moyenneville	9	10	1914	RFC	
+Britain	RFC	4	St-Omer	12	10	1914	RFC	
+Britain	RFC	4	Bailleul	21	4	1915	RFC	
+Britain	RFC	4	Vert Galand	20	7	1915	RFC	
+Britain	RFC	4	Baizieux	5	8	1915	RFC	
+Britain	RFC	4	Allonville	7	11	1915	RFC	
+Britain	RFC	4	Baizieux	1	2	1916	RFC	
+Britain	RFC	4	Marieux	1	2	1916	RFC	
+Britain	RFC	4	Baizieux	27	3	1916	RFC	
+Britain	RFC	4	Warloy	28	2	1917	RFC	
+Britain	RFC	4	Abeele	30	5	1917	RFC	
+Britain	RFC	4	Chocques	18	11	1917	RFC	
+Britain	RAF	4	Treizennes	8	4	1918	RAF	
+Britain	RAF	4	St-Omer	16	4	1918	RAF	
+Britain	RAF	4	Ste-Marie-Cappel	18	9	1918	RAF	
+Britain	RAF	4	Linselles	21	10	1918	RAF	
+Britain	RAF	4	Ascq	16	11	1918	RAF	
+Britain	RFC	5	Swingate Down	14	8	1914	RFC	
+Britain	RFC	5	Amiens	15	8	1914	RFC	
+Britain	RFC	5	Maubeuge	18	8	1914	RFC	
+Britain	RFC	5	Le Cateau	24	8	1914	RFC	
+Britain	RFC	5	St-Quentin	25	8	1914	RFC	
+Britain	RFC	5	La Fere	26	8	1914	RFC	
+Britain	RFC	5	Compiegne	28	8	1914	RFC	
+Britain	RFC	5	Senlis	30	8	1914	RFC	
+Britain	RFC	5	Juilly	31	8	1914	RFC	
+Britain	RFC	5	Serris	2	9	1914	RFC	
+Britain	RFC	5	Pezarche	3	9	1914	RFC	
+Britain	RFC	5	Melun	4	9	1914	RFC	
+Britain	RFC	5	La Boiserotte	6	9	1914	RFC	
+Britain	RFC	5	Touquin	7	9	1914	RFC	
+Britain	RFC	5	Rebais	8	9	1914	RFC	
+Britain	RFC	5	Coulommiers	9	9	1914	RFC	
+Britain	RFC	5	Fere-en Tardenois	12	9	1914	RFC	
+Britain	RFC	5	Amiens	30	9	1914	RFC	
+Britain	RFC	5	Abbeville	8	10	1914	RFC	
+Britain	RFC	5	Moyenneville	9	10	1914	RFC	
+Britain	RFC	5	St-Omer	12	10	1914	RFC	
+Britain	RFC	5	Bailleul (Town ground)	2	10	1914	RFC	
+Britain	RFC	5	Abeele	27	4	1915	RFC	
+Britain	RFC	5	Droglandt	11	3	1916	RFC	
+Britain	RFC	5	Marieux	2	10	1916	RFC	
+Britain	RFC	5	La Gorgue	24	3	1917	RFC	
+Britain	RFC	5	Savy	7	4	1917	RFC	
+Britain	RFC	5	Acq	2	6	1917	RFC	
+Britain	RAF	5	Le Hameau	25	5	1918	RAF	
+Britain	RAF	5	Bovelles	4	8	1918	RAF	
+Britain	RAF	5	Le Hameau	24	8	1918	RAF	
+Britain	RAF	5	Pronville	14	10	1918	RAF	
+Britain	RAF	5	Emerchicourt	24	10	1918	RAF	
+Britain	RAF	5	Aulnoy	8	11	1918	RAF	
+Britain	RFC	6	Dover	6	10	1914	RFC	
+Britain	RFC	6	Bruges	7	10	1914	RFC	
+Britain	RFC	6	Ostend	8	10	1914	RFC	
+Britain	RFC	6	St.Pol	13	10	1914	RFC	
+Britain	RFC	6	Poperinghe	20	10	1914	RFC	
+Britain	RFC	6	St.Omer	21	10	1914	RFC	
+Britain	RFC	6	Bailleul	18	11	1914	RFC	
+Britain	RFC	6	Poperinghe	8	3	1915	RFC	
+Britain	RFC	6	Abeele	24	4	1915	RFC	
+Britain	RFC	6	Droglandt	2	10	1916	RFC	
+Britain	RFC	6	Abeele	3	11	1916	RFC	
+Britain	RFC	6	Bertangles	12	11	1917	RFC	
+Britain	RFC	6	St.Andre	23	3	1918	RFC	
+Britain	RFC	6	Le Crotoy	26	3	1918	RFC	
+Britain	RAF	6	Fienvillers	17	7	1918	RAF	
+Britain	RAF	6	Bovelles	5	8	1918	RAF	
+Britain	RAF	6	Auxie Chateau	17	8	1918	RAF	
+Britain	RAF	6	Ascq	27	8	1918	RAF	
+Britain	RAF	6	Moislans	27	9	1918	RAF	
+Britain	RAF	6	Longavesnes	6	10	1918	RAF	
+Britain	RAF	6	Bertry	19	10	1918	RAF	
+Britain	RAF	6	Maretz	20	10	1918	RAF	
+Britain	RAF	6	Gondecourt	9	11	1918	RAF	
+Britain	RFC	7	Swingate Down	29	9	1914	RFC	
+Britain	RFC	7	Netheravon	24	10	1914	RFC	
+Britain	RFC	7	St-Omer	8	4	1915	RFC	
+Britain	RFC	7	Droglandt	11	9	1915	RFC	
+Britain	RFC	7	Bailleul	12	12	1915	RFC	
+Britain	RFC	7	Warloy	30	7	1916	RFC	
+Britain	RFC	7	Moreuil	6	2	1917	RFC	
+Britain	RFC	7	Matigny	15	4	1917	RFC	
+Britain	RFC	7	Proven	23	5	1917	RFC	
+Britain	RAF	7	Droglandt	13	4	1918	RAF	
+Britain	RAF	7	Proven	3	9	1918	RAF	
+Britain	RAF	7	Bisseghem	22	10	1918	RAF	
+Britain	RAF	7	Stacegham	1	11	1918	RAF	
+Britain	RAF	7	Menin	5	11	1918	RAF	
+Britain	RFC	8	Brooklands	1	1	1915	RFC	
+Britain	RFC	8	Gosport	6	1	1915	RFC	
+Britain	RFC	8	St-Omer	15	4	1915	RFC	
+Britain	RFC	8	Abeele	1	5	1915	RFC	
+Britain	RFC	8	Oxelaere	1	5	1915	RFC	
+Britain	RFC	8	Vert Galand	24	7	1915	RFC	
+Britain	RFC	8	Marieux	1	8	1915	RFC	
+Britain	RFC	8	La Bellevue	20	2	1916	RFC	
+Britain	RFC	8	Soncamp	3	2	1917	RFC	
+Britain	RFC	8	Boiry-St-Martin	9	5	1917	RFC	
+Britain	RFC	8	Longavesnes	18	10	1917	RFC	
+Britain	RAF	8	Nurlu	1	11	1918	RAF	
+Britain	RFC	8	Chipilly	22	3	1918	RFC	
+Britain	RFC	8	Poulainville	24	3	1918	RFC	
+Britain	RFC	8	Vert Galand	28	3	1918	RFC	
+Britain	RAF	8	Auxi-le-Chateau	12	4	1918	RAF	
+Britain	RAF	8	Vignacourt	5	8	1918	RAF	
+Britain	RAF	8	La Bellevue	18	8	1918	RAF	
+Britain	RAF	8	Estress-en-Chaussee	22	9	1918	RAF	
+Britain	RAF	8	Hervilly	8	10	1918	RAF	
+Britain	RAF	8	Malincourt	18	10	1918	RAF	
+Britain	RAF	8	La Bellevue	1	11	1918	RAF	
+Britain	RFC	9	St-Omer	8	12	1914	RFC	
+Britain	RFC	9	Brooklands	22	3	1915	RFC	
+Britain	RFC	9	Swingate Down	23	7	1915	RFC	
+Britain	RFC	9	St-Omer	12	12	1915	RFC	
+Britain	RFC	9	Bertangles	24	12	1915	RFC	
+Britain	RFC	9	Allonville	26	3	1916	RFC	
+Britain	RFC	9	Chipilly	15	7	1916	RFC	
+Britain	RFC	9	Morlancourt	3	9	1916	RFC	
+Britain	RFC	9	Estrees-en-Chaussee	16	5	1917	RFC	
+Britain	RFC	9	Proven	10	6	1917	RFC	
+Britain	RAF	9	Calais	11	4	1918	RAF	
+Britain	RAF	9	Agenvillers	6	6	1918	RAF	
+Britain	RAF	9	Quevauvillers	17	7	1918	RAF	
+Britain	RAF	9	Amiens	15	8	1918	RAF	
+Britain	RAF	9	Proyart	7	9	1918	RAF	
+Britain	RAF	9	Athies	15	8	1918	RAF	
+Britain	RAF	9	Montigny Farm	6	10	1918	RAF	
+Britain	RAF	9	Premont Farm	18	10	1918	RAF	
+Britain	RAF	9	Tarcienne	29	10	1918	RAF	
+Britain	RFC	10	Farnborough	1	1	1915	RFC	
+Britain	RFC	10	Brooklands	8	1	1915	RFC	
+Britain	RFC	10	Hounslow	1	4	1915	RFC	
+Britain	RFC	10	Netheravon	7	4	1915	RFC	
+Britain	RFC	10	St-Omer	27	7	1915	RFC	
+Britain	RFC	10	Aire	30	7	1915	RFC	
+Britain	RFC	10	Chocques	7	8	1915	RFC	
+Britain	RFC	10	Abeele	18	11	1917	RFC	
+Britain	RAF	10	Droglandy	12	4	1918	RAF	
+Britain	RAF	10	Abeele	22	9	1918	RAF	
+Britain	RAF	10	Menin	21	10	1918	RAF	
+Britain	RAF	10	Staceghem	5	11	1918	RAF	
+Britain	RAF	10	Menin	15	11	1918	RAF	
+Britain	RFC	11	Netheravon	14	2	1915	RFC	
+Britain	RFC	11	St-Omer	25	7	1915	RFC	
+Britain	RFC	11	Vert Galand	29	7	1915	RFC	
+Britain	RFC	11	Villers-Bretonneux	20	9	1915	RFC	
+Britain	RFC	11	Bertangles	27	10	1915	RFC	
+Britain	RFC	11	Savy	1	1	1916	RFC	
+Britain	RFC	11	Izel-le-Hameau	1	8	1916	RFC	
+Britain	RFC	11	La Bellevue	1	6	1917	RFC	
+Britain	RFC	11	Fienvillers	27	3	1918	RFC	
+Britain	RAF	11	Remaisnil	16	4	1918	RAF	
+Britain	RAF	11	Le Quesnoy	7	7	1918	RAF	
+Britain	RAF	11	Vert Galand	19	9	1918	RAF	
+Britain	RAF	11	Mory	15	10	1918	RAF	
+Britain	RAF	11	Bethencourt	1	11	1918	RAF	
+Britain	RFC	12	Netheravon	14	2	1915	RFC	
+Britain	RFC	12	St-Omer	6	9	1915	RFC	
+Britain	RFC	12	Avesnes-le-Comte	3	3	1916	RFC	
+Britain	RFC	12	Wagnonlieu	9	5	1917	RFC	
+Britain	RFC	12	Ablainzevelle	7	7	1917	RFC	
+Britain	RFC	12	Courcelles-le-Comte	1	8	1917	RFC	
+Britain	RFC	12	Boiry-St-Martin	16	12	1917	RFC	
+Britain	RFC	12	Soncamp	22	3	1918	RFC	
+Britain	RAF	12	Mory	17	9	1918	RAF	
+Britain	RAF	12	Estourmel	14	10	1918	RAF	
+Britain	RAF	12	Gerpinnes	29	11	1918	RAF	
+Britain	RAF	12	Clavier	6	12	1918	RAF	
+Britain	RFC	12	Duren	19	2	1918	RFC	
+Britain	RFC	13	Gosport	10	1	1915	RFC	
+Britain	RFC	13	St-Omer	19	10	1915	RFC	
+Britain	RFC	13	Vert Galand	21	10	1915	RFC	
+Britain	RFC	13	Le Hameau		12	1916	RFC	
+Britain	RFC	13	Savy	18	3	1916	RFC	
+Britain	RFC	13	Etrun	9	5	1917	RFC	
+Britain	RFC	13	Le Hameau	22	3	1918	RFC	
+Britain	RAF	13	Mory	22	9	1918	RAF	
+Britain	RAF	13	Carnieres	19	10	1918	RAF	
+Britain	RFC	15	South Farnborough	1	3	1915	RFC	
+Britain	RFC	15	Hounslow	13	4	1915	RFC	
+Britain	RFC	15	Swingate Down	11	5	1915	RFC	
+Britain	RFC	15	St-Omer	23	1	1915	RFC	
+Britain	RFC	15	Droglandt	5	1	1916	RFC	
+Britain	RFC	15	Vert Galand	8	3	1916	RFC	
+Britain	RFC	15	Marieux	27	3	1916	RFC	
+Britain	RFC	15	Lealvillers (Clairfaye Farm)	2	10	1916	RFC	
+Britain	RFC	15	Courcelles-le-Comte	6	6	1917	RFC	
+Britain	RFC	15	La Gorgue	7	7	1917	RFC	
+Britain	RFC	15	Savy	18	8	1917	RFC	
+Britain	RFC	15	Longavesnes	30	8	1917	RFC	
+Britain	RFC	15	Lechelle	8	10	1917	RFC	
+Britain	RFC	15	Bapaume	30	11	1917	RFC	
+Britain	RFC	15	Lechelle	5	12	1917	RFC	
+Britain	RFC	15	Lavieville	22	3	1918	RFC	
+Britain	RFC	15	Lahoussoye	25	3	1918	RFC	
+Britain	RFC	15	Fienvillers	26	3	1918	RFC	
+Britain	RAF	15	Vert Galand	10	4	1918	RAF	
+Britain	RAF	15	Senlis-le-Sec	14	9	1918	RAF	
+Britain	RAF	15	Lechelle (Quatre Vents Farm)	2	10	1918	RAF	
+Britain	RAF	15	Selvigny (Ferme Guillemin)	15	10	1918	RAF	
+Britain	RFC	16	St-Omer	10	2	1915	RFC	
+Britain	RFC	16	La Gorgue 	1	3	1915	RFC	
+Britain	RFC	16	Chocques	1	6	1915	RFC	
+Britain	RFC	16	Merville	18	7	1915	RFC	
+Britain	RFC	16	La Gorgue	12	12	1915	RFC	
+Britain	RFC	16	Bruay	31	8	1916	RFC	
+Britain	RFC	16	Camblain-l'Abbe	25	5	1917	RFC	
+Britain	RAF	16	La Brayelle	21	10	1918	RAF	
+Britain	RAF	16	Auchy	25	10	1918	RAF	
+Britain	RFC	18	Northolt	11	5	1915	RFC	
+Britain	RFC	18	Mousehold Heath	16	8	1915	RFC	
+Britain	RFC	18	St-Omer	18	11	1915	RFC	
+Britain	RFC	18	Treizennes	25	11	1915	RFC	
+Britain	RFC	18	Auchel	12	2	1916	RFC	
+Britain	RFC	18	Bruary	1	4	1916	RFC	
+Britain	RFC	18	Treizennes	22	7	1916	RFC	
+Britain	RFC	18	Bruary	2	8	1916	RFC	
+Britain	RFC	18	Lavieville	6	9	1916	RFC	
+Britain	RFC	18	St Leger les Authie	10	12	1916	RFC	
+Britain	RFC	18	Bertangles	27	1	1917	RFC	
+Britain	RFC	18	Baizieux	25	5	1917	RFC	
+Britain	RFC	18	La Bellevue	10	7	1917	RFC	
+Britain	RFC	18	Auchel	11	10	1917	RFC	
+Britain	RFC	18	Treziennes	2	2	1918	RFC	
+Britain	RAF	18	Serny	9	4	1918	RAF	
+Britain	RAF	18	Maisoncelle	17	8	1918	RAF	
+Britain	RAF	18	Le Hameau	13	10	1918	RAF	
+Britain	RFC	18	La Brayelle	27	0	1918	RFC	
+Britain	RFC	19	Castle Bromwich	1	9	1915	RFC	
+Britain	RFC	19	Netheravon	31	1	1916	RFC	
+Britain	RFC	19	Filton	29	3	1916	RFC	
+Britain	RFC	19	St-Omer	29	3	1916	RFC	
+Britain	RFC	19	Fienvillers	1	8	1916	RFC	
+Britain	RFC	19	Vert Galand	2	4	1917	RFC	
+Britain	RFC	19	Liettres	31	5	1917	RFC	
+Britain	RFC	19	Poperinghe	14	8	1917	RFC	
+Britain	RFC	19	Bailleul (Asylum Ground)	5	9	1917	RFC	
+Britain	RFC	19	Ste-Marie-Cappel	25	12	1917	RFC	
+Britain	RFC	19	Bailleul	13	2	1918	RFC	
+Britain	RFC	19	Ste-Marie-Cappel	23	3	1918	RFC	
+Britain	RFC	19	Savy	31	3	1918	RFC	
+Britain	RAF	19	Cappelle	17	8	1918	RAF	
+Britain	RAF	19	Savy	23	9	1918	RAF	
+Britain	RAF	19	Abscon	24	10	1918	RAF	
+Britain	RFC	20	Netheravon	1	9	1915	RFC	
+Britain	RFC	20	Filton	15	12	1915	RFC	
+Britain	RFC	20	St-Omer	16	1	1916	RFC	
+Britain	RFC	20	Clairmarais	23	1	1916	RFC	
+Britain	RFC	20	Boisdinghem	18	1	1917	RFC	
+Britain	RFC	20	Ste-Marie-Chappel	15	4	1917	RFC	
+Britain	RAF	20	Boisdinghem	13	4	1918	RAF	
+Britain	RAF	20	Vignacourt	26	8	1918	RAF	
+Britain	RAF	20	Suzanne	16	9	1918	RAF	
+Britain	RAF	20	Proyart	24	8	1918	RAF	
+Britain	RAF	20	Moislains	7	10	1918	RAF	
+Britain	RAF	20	Iris Farm	25	10	1918	RAF	
+Britain	RFC	21	Netheravon	23	7	1915	RFC	
+Britain	RFC	21	Boisdinghem	23	1	1916	RFC	
+Britain	RFC	21	Ste-Andres-aux-Bois	2	4	1916	RFC	
+Britain	RFC	21	Fienvillers	19	6	1916	RFC	
+Britain	RFC	21	Boisdinghem	28	7	1916	RFC	
+Britain	RFC	21	Bertangles	25	8	1916	RFC	
+Britain	RFC	21	Boisdinghem	16	2	1917	RFC	
+Britain	RFC	21	Droglandt	24	3	1917	RFC	
+Britain	RFC	21	La Lovie	19	5	1917	RFC	
+Britain	RAF	21	St-Inglevert	13	4	1918	RAF	
+Britain	RAF	21	Floringhem	22	4	1918	RAF	
+Britain	RAF	21	Hesdigneul	19	10	1918	RAF	
+Britain	RAF	21	Seclin	22	10	1918	RAF	
+Britain	RAF	21	Froidment	11	11	1918	RAF	
+Britain	RFC	22	Gosport	1	9	1915	RFC	
+Britain	RFC	22	St-Omer	1	4	1916	RFC	
+Britain	RFC	22	Vert Galand	1	4	1916	RFC	
+Britain	RFC	22	Bertangles	16	4	1916	RFC	
+Britain	RFC	22	Chipilly	27	4	1917	RFC	
+Britain	RFC	22	Flez	1	5	1917	RFC	
+Britain	RFC	22	Warloy	5	7	1917	RFC	
+Britain	RFC	22	Izel-le-Hameau	5	7	1917	RFC	
+Britain	RFC	22	Boisdinghem	14	7	1917	RFC	
+Britain	RFC	22	Estree-Blanche	10	9	1917	RFC	
+Britain	RFC	22	Auchel	22	1	1918	RFC	
+Britain	RFC	22	Treizennes	2	2	1918	RFC	
+Britain	RFC	22	Serny	21	3	1918	RFC	
+Britain	RFC	22	Vert Galand	23	3	1918	RFC	
+Britain	RAF	22	Serny	9	4	1918	RAF	
+Britain	RAF	22	Masioncelle	30	7	1918	RAF	
+Britain	RAF	22	Izel-le-Hameau	22	10	1918	RAF	
+Britain	RAF	22	Aniche	26	10	1918	RAF	
+Britain	RFC	23	Gosport	1	9	1915	RFC	
+Britain	RFC	23	St-Omer	15	3	1916	RFC	
+Britain	RFC	23	Fienvillers	16	3	1916	RFC	
+Britain	RFC	23	Le Hameau	18	3	1916	RFC	
+Britain	RFC	23	Fienvillers	1	9	1916	RFC	
+Britain	RFC	23	Vert Galand	5	9	1916	RFC	
+Britain	RFC	23	Baizieux	5	9	1916	RFC	
+Britain	RFC	23	Auchel	23	5	1917	RFC	
+Britain	RFC	23	Bruay	29	5	1917	RFC	
+Britain	RFC	23	La Lovie	13	6	1917	RFC	
+Britain	RFC	23	Matigny	16	2	1918	RFC	
+Britain	RFC	23	Moreuil	22	3	1918	RFC	
+Britain	RFC	23	Bertangles	28	3	1918	RFC	
+Britain	RAF	23	St-Omer	29	4	1918	RAF	
+Britain	RAF	23	Bertangles	16	5	1918	RAF	
+Britain	RAF	23	Cappy	13	9	1918	RAF	
+Britain	RAF	23	Hancourt	11	10	1918	RAF	
+Britain	RAF	23	Bertry East	25	10	1918	RAF	
+Britain	RFC	24	Hounslow	1	9	1915	RFC	
+Britain	RFC	24	St-Omer	7	2	1916	RFC	
+Britain	RFC	24	Bertangles	10	2	1916	RFC	
+Britain	RFC	24	Chipilly	17	12	116	RFC	
+Britain	RFC	24	Flez	17	4	1917	RFC	
+Britain	RFC	24	Baizieux	10	7	1917	RFC	
+Britain	RFC	24	Teteghem	23	9	1917	RFC	
+Britain	RFC	24	Marieux	24	11	1917	RFC	
+Britain	RFC	24	Villers-Bretonneux	30	12	1917	RFC	
+Britain	RFC	24	Matigny	26	1	1918	RFC	
+Britain	RFC	24	Moreuil	22	3	1918	RFC	
+Britain	RFC	24	Bertangles	26	3	1918	RFC	
+Britain	RFC	24	Conteville	28	3	1918	RFC	
+Britain	RAF	24	Bertangles	14	8	1918	RAF	
+Britain	RAF	24	Cappy	8	9	1918	RAF	
+Britain	RAF	24	Athies	6	10	1918	RAF	
+Britain	RAF	24	Busigny	27	10	1918	RAF	
+Britain	RAF	24	Bisseghem	11	11	1918	RAF	
+Britain	RFC	25	Montrose	25	9	1915	RFC	
+Britain	RFC	25	Thetford	31	12	1915	RFC	
+Britain	RFC	25	Folkestone	19	2	1916	RFC	
+Britain	RFC	25	St-Omer	20	2	1916	RFC	
+Britain	RFC	25	Lozinghem	1	4	1916	RFC	
+Britain	RFC	25	Boisdinghem	11	10	1917	RFC	
+Britain	RFC	25	Serny	3	2	1918	RFC	
+Britain	RFC	25	Villers-Bretonneux	6	3	1918	RFC	
+Britain	RFC	25	Beauvois	24	3	1918	RFC	
+Britain	RFC	25	Ruisseauville	29	3	1918	RFC	
+Britain	RAF	25	La Brayelle	27	10	1918	RAF	
+Britain	RFC	27	Hounslow	5	11	1915	RFC	
+Britain	RFC	27	Swingate Down	10	2	1915	RFC	
+Britain	RFC	27	St-Omer	1	3	1916	RFC	
+Britain	RFC	27	Treizennes	2	3	1916	RFC	
+Britain	RFC	27	St-Andre-aux-Bois	7	6	1916	RFC	
+Britain	RFC	27	Fienvillers	19	6	1916	RFC	
+Britain	RFC	27	Clairmarais North	1	5	1917	RFC	
+Britain	RFC	27	Serny	12	10	1917	RFC	
+Britain	RAF	27	Villers-Bretonneux		7	1918	RAF	
+Britain	RFC	27	Beauvois	24	3	1918	RFC	
+Britain	RFC	27	Ruisseauville	29	3	1918	RFC	
+Britain	RAF	27	Fourneuil	21	4	1918	RAF	
+Britain	RAF	27	Chailly	15	7	1918	RAF	
+Britain	RAF	27	Beauvois	7	8	1918	RAF	
+Britain	RAF	27	Villers-les-Cagnicourt	29	10	1918	RAF	
+Britain	RAF	28	St-Omer	8	10	1917	RFC	Moved from England for Italian Front assignment.
+Britain	RAF	28	Droglandt	10	10	1917	RFC	
+Britain	RAF	28	Candas	29	10	1917	RFC	Sent to Italian Front
+Britain	RFC	29	Gosport	7	11	1915	RFC	
+Britain	RFC	29	St-Omer	25	3	1916	RFC	
+Britain	RFC	29	Abeele	15	4	1916	RFC	
+Britain	RFC	29	Le Hameau	23	10	1916	RFC	
+Britain	RFC	29	Poperinghe	5	7	1917	RFC	
+Britain	RFC	29	La Lovie	16	3	1918	RFC	
+Britain	RAF	29	Tetegham	11	4	1918	RAF	
+Britain	RAF	29	St-Omer	22	4	1918	RAF	
+Britain	RAF	29	Hoog Huis	1	8	1918	RAF	
+Britain	RAF	29	Marcke	23	10	1918	RAF	
+Britain	RFC	32	Netheravon	12	1	1916	RFC	
+Britain	RFC	32	St-Omer	28	5	1916	RFC	
+Britain	RFC	32	Auchel	4	6	1916	RFC	
+Britain	RFC	32	Treizennes	7	6	1916	RFC	
+Britain	RFC	32	Vert Galand	21	7	1916	RFC	
+Britain	RFC	32	Lealvillers	25	10	1916	RFC	
+Britain	RFC	32	Abeele	3	7	1917	RFC	
+Britain	RFC	32	Droglandt	8	7	197	RFC	
+Britain	RFC	32	Bailleul	5	3	1918	RFC	
+Britain	RFC	32	Belleville Farm	27	3	1918	RFC	
+Britain	RFC	32	Beauvois	29	3	1918	RFC	
+Britain	RAF	32	Fouquerolles	3	6	1918	RAF	
+Britain	RAF	32	Ruisseauville	21	6	1918	RAF	
+Britain	RAF	32	Touquin	18	7	1918	RAF	
+Britain	RAF	32	La Bellevue	3	8	1918	RAF	
+Britain	RAF	32	Pronville	27	10	1918	RAF	
+Britain	RAF	32	La Brayelle	1	11	1918	RAF	
+Britain	RFC	34	Castle Bromwich	12	1	1916	RFC	
+Britain	RFC	34	Lilbourne	15	6	1916	RFC	
+Britain	RFC	34	Allonville	16	7	1916	RFC	
+Britain	RFC	34	Villers-Bretonneux	1	2	1917	RFC	
+Britain	RFC	34	Estrees-en-Chaussee	18	4	1917	RFC	
+Britain	RFC	34	Nurlu	16	5	1917	RFC	
+Britain	RFC	34	Villers-Bretonneux	26	5	1917	RFC	
+Britain	RFC	34	Estrees-en-Chaussee	10	6	1917	RFC	
+Britain	RFC	34	Bray-Dunes	29	6	1917	RFC	
+Britain	RFC	34	Candas	1	11	1917	RFC	Sent to Italian Front
+Britain	RFC	35	Thetford	1	2	1916	RFC	
+Britain	RFC	35	Narborough	16	6	1916	RFC	
+Britain	RFC	35	St-Omer	26	1	1917	RFC	
+Britain	RFC	35	St-Andre-aux-Bois	4	2	1917	RFC	
+Britain	RFC	35	Savy	5	4	1917	RFC	
+Britain	RFC	35	Villers-Bretonneux	13	5	1917	RFC	
+Britain	RFC	35	Mons-en-Chaussee	23	5	1917	RFC	
+Britain	RFC	35	Savy	13	7	1917	RFC	
+Britain	RFC	35	La Gorgue	19	7	1917	RFC	
+Britain	RFC	35	La Lovie	5	10	1917	RFC	
+Britain	RFC	35	Bruay	17	10	1917	RFC	
+Britain	RFC	35	Estrees-en-Chaussee	7	11	1917	RFC	
+Britain	RFC	35	Chipilly	22	3	1918	RFC	
+Britain	RAF	35	Poulainville	5	4	1918	RAF	
+Britain	RAF	35	Flesselles	2	5	1918	RAF	
+Britain	RAF	35	Suzanne	7	9	1918	RAF	
+Britain	RAF	35	Moislains	15	9	1918	RAF	
+Britain	RAF	35	Longavesnes	8	10	1918	RAF	
+Britain	RAF	35	Elincourt	17	10	1918	RAF	
+Britain	RFC	40	Gosport	26	2	1916	RFC	
+Britain	RFC	40	St-Omer	19	8	1916	RFC	
+Britain	RFC	40	Treizennes	25	8	1916	RFC	
+Britain	RFC	40	Auchel	25	4	1917	RFC	
+Britain	RFC	40	Bruay	29	4	1917	RFC	
+Britain	RAF	40	Bryas	4	6	1918	RAF	
+Britain	RAF	40	Aniche	24	10	1918	RAF	
+Britain	RFC	41	Gosport	15	4	1916	RFC	
+Britain	RFC	41	Gosport	22	5	1916	RFC	Disbanded
+Britain	RFC	41	Gosport	14	7	1916	RFC	Reformed
+Britain	RFC	41	St-Omer	15	10	1916	RFC	
+Britain	RFC	41	Abeele	21	10	1916	RFC	
+Britain	RFC	41	Hondschoote	24	5	1917	RFC	
+Britain	RFC	41	Abeele	15	6	1917	RFC	
+Britain	RFC	41	Lealvillers	3	7	1917	RFC	
+Britain	RFC	41	Marieux	22	3	1918	RFC	
+Britain	RFC	41	Fienvillers	27	3	1918	RFC	
+Britain	RFC	41	Alquines	29	3	1918	RFC	
+Britain	RAF	41	Savy	9	4	1918	RAF	
+Britain	RAF	41	Serny	11	4	1918	RAF	
+Britain	RAF	41	Estree-Blanche	19	5	1918	RAF	
+Britain	RAF	41	Conteville	1	6	1918	RAF	
+Britain	RAF	41	St-Omer	14	8	1918	RAF	
+Britain	RAF	41	Droglandt	20	9	1918	RAF	
+Britain	RAF	41	Halluin	23	10	1918	RAF	
+Britain	RFC	42	Netheravon	26	2	1916	RFC	
+Britain	RFC	42	Filton	1	4	1916	RFC	
+Britain	RFC	42	St-Omer	8	8	1916	RFC	
+Britain	RFC	42	Bailleul (Town ground)	15	8	1916	RFC	
+Britain	RFC	42	La Gorgue	1	9	1916	RFC	
+Britain	RFC	42	Bailleul (Town ground)	8	11	1916	RFC	
+Britain	RFC	42	Fienvillers	16	11	1917	RFC	
+Britain	RFC	42	Candas	16	11	1917	RFC	Sent to Italian Front
+Britain	RAF	42	?	9	4	1918	RAF	Brought back for Battles of the Lys
+Britain	RFC	43	Montrose	15	4	1916	RFC	
+Britain	RFC	43	Stirling	19	4	1916	RFC	
+Britain	RFC	43	Netheravon	30	8	1916	RFC	
+Britain	RFC	43	Northolt	9	12	1916	RFC	
+Britain	RFC	43	St-Omer	17	1	1917	RFC	
+Britain	RFC	43	Treizennes	25	1	1917	RFC	
+Britain	RFC	43	Lozinghem	30	5	1917	RFC	
+Britain	RFC	43	La Gorgue	15	1	1918	RFC	
+Britain	RFC	43	Avesnes-le-Comte	22	3	1918	RFC	
+Britain	RAF	43	Fouquerolles	3	6	1918	RAF	
+Britain	RAF	43	Estree-Blanche	21	6	1918	RAF	
+Britain	RAF	43	Touquin	12	7	1918	RAF	
+Britain	RAF	43	Fienvillers	2	7	1918	RAF	
+Britain	RAF	43	Senlis-le-Sec	6	10	1918	RAF	
+Britain	RAF	43	Bouvincourt	31	10	1918	RAF	
+Britain	RFC	44	Hainault Farm	24	7	1917	RFC	
+Britain	RFC	45	Gosport	1	3	1916	RFC	
+Britain	RFC	45	Thetford	3	3	1916	RFC	
+Britain	RFC	45	Sedgeford	21	5	1916	RFC	
+Britain	RFC	45	St-Omer	12	10	1916	RFC	
+Britain	RFC	45	Fienvillers	15	10	1916	RFC	
+Britain	RFC	45	Ste-Marie-Cappel	4	12	1916	RFC	
+Britain	RFC	45	Fienvillers	16	11	1917	RFC	
+Britain	RFC	45	Candas	16	12	1917	RFC	Sent to Italian Front
+Britain	RAF	45	Bettoncourt	22	9	1918	RAF	Brought back for Battles of the Lys
+Britain	RFC	46	Brooklands	19	4	1916	RFC	
+Britain	RFC	46	Wyton	20	4	1916	RFC	
+Britain	RFC	46	St-Omer	20	10	1916	RFC	
+Britain	RFC	46	Droglandt	26	10	1916	RFC	
+Britain	RFC	46	Boisdinghem	25	4	1917	RFC	
+Britain	RFC	46	La Gorgue	12	5	1917	RFC	
+Britain	RFC	46	Bruay	6	7	1917	RFC	
+Britain	RFC	46	Suttons Farm	10	7	1917	RFC	
+Britain	RFC	46	Ste-Marie-Cappel	30	7	1917	RFC	
+Britain	RFC	46	Filescamp Farm	7	9	1917	RFC	
+Britain	RAF	46	Liettres	16	5	1918	RAF	
+Britain	RAF	46	Serny	17	6	1918	RAF	
+Britain	RAF	46	Poulainville	14	8	1918	RAF	
+Britain	RAF	46	Cappy	5	9	1918	RAF	
+Britain	RAF	46	Athies	6	10	1918	RAF	
+Britain	RAF	46	Busigny	27	10	1918	RAF	
+Britain	RFC	48	Netheravon	15	3	1916	RFC	
+Britain	RFC	48	Rendcomb	8	6	1916	RFC	
+Britain	RFC	48	La Bellevue	8	3	1917	RFC	
+Britain	RFC	48	Bray-Dunes	10	7	1917	RFC	
+Britain	RFC	48	Leffrinckhoucke	15	9	1917	RFC	
+Britain	RFC	48	Flez	22	12	1917	RFC	
+Britain	RFC	48	Champien	22	3	1918	RFC	
+Britain	RFC	48	Bertangles	24	3	1918	RFC	
+Britain	RFC	48	Conteville	28	3	1918	RFC	
+Britain	RFC	48	Bertangles	3	3	1918	RFC	
+Britain	RAF	48	Boisdinghem	26	8	1918	RAF	
+Britain	RAF	48	Ste-Marie-Cappel	30	9	1918	RAF	
+Britain	RAF	48	Reckem	29	10	1918	RAF	
+Britain	RFC	49	Swingate Down	15	3	1916	RFC	
+Britain	RFC	49	La Bellevue	12	11	1917	RFC	
+Britain	RFC	49	Les Eauvis	26	3	1917	RFC	
+Britain	RFC	49	Boisdinghem	29	3	1917	RFC	
+Britain	RFC	49	Petite Synthe	30	3	1917	RFC	
+Britain	RAF	49	Conteville	3	5	1918	RAF	
+Britain	RAF	49	Fourneuil	2	6	1918	RAF	
+Britain	RAF	49	Beauvois	21	6	1918	RAF	
+Britain	RAF	49	Rozay-en-Brie	15	7	1918	RAF	
+Britain	RAF	49	Beauvois	4	8	1918	RAF	
+Britain	RAF	49	Villers-les-Cagnicourt	29	10	1918	RAF	
+Britain	RFC	52	Hounslow	15	5	1916	RFC	
+Britain	RFC	52	St-Omer	17	11	1916	RFC	
+Britain	RFC	52	Bertangles	18	11	1916	RFC	
+Britain	RFC	52	Chipilly	15	12	1916	RFC	
+Britain	RFC	52	Meaulte	25	1	1917	RFC	
+Britain	RFC	52	Longavesnes	29	3	1917	RFC	
+Britain	RFC	52	Bray-Dunes	15	6	1917	RFC	
+Britain	RFC	52	Izel-le-Hameau	6	12	1917	RFC	
+Britain	RFC	52	Lahoussoye	4	1	1918	RFC	
+Britain	RFC	52	Matigny	12	1	1918	RFC	
+Britain	RFC	52	Golancourt	23	1	1918	RFC	
+Britain	RFC	52	Catigny	22	3	1918	RFC	
+Britain	RFC	52	Lahoussoye	25	3	1918	RFC	
+Britain	RFC	52	Poulainville	25	3	1918	RFC	
+Britain	RFC	52	Abbeville	28	3	1918	RFC	
+Britain	RAF	52	Mont-de-Soissons	3	5	1918	RAF	
+Britain	RAF	52	Fismes	5	5	1918	RAF	
+Britain	RAF	52	Camaille	27	5	1918	RAF	
+Britain	RAF	52	La Ferte	28	5	1918	RAF	
+Britain	RAF	52	Trecon	29	5	1918	RAF	
+Britain	RAF	52	Auxi-le-Chateau	30	6	1918	RAF	
+Britain	RAF	52	Izel-le-Hameau	4	8	1918	RAF	
+Britain	RAF	52	Savy	24	8	1918	RAF	
+Britain	RAF	52	Bourlon	19	10	1918	RAF	
+Britain	RAF	52	Escadoeuvres	21	10	1918	RAF	
+Britain	RAF	52	Avesnes-le-Sec	25	10	1918	RAF	
+Britain	RAF	52	Aulnoy	10	11	1918	RAF	
+Britain	RFC	53	Catterick	15	5	1916	RFC	
+Britain	RFC	53	Farnborough	11	112	1916	RFC	
+Britain	RFC	53	St-Omer	26	12	1916	RFC	
+Britain	RFC	53	Bailleul (Town)	4	1	1917	RFC	
+Britain	RFC	53	Abeele	1	2	1918	RFC	
+Britain	RFC	53	Villeselve	21	2	1918	RFC	
+Britain	RFC	53	Allonville	23	3	1918	RFC	
+Britain	RFC	53	Fienvillers	24	3	1918	RFC	
+Britain	RFC	53	Boisdinghem	26	3	1918	RFC	
+Britain	RAF	53	Abeele	6	4	1918	RAF	
+Britain	RAF	53	Ste-Marie-Cappel	12	4	1918	RAF	
+Britain	RAF	53	Clairmarais South	12	4	1918	RAF	
+Britain	RAF	53	Abeele	21	9	1918	RAF	
+Britain	RAF	53	Coucou	21	10	1918	RAF	
+Britain	RAF	53	Sweveghem	6	11	1918	RAF	
+Britain	RFC	54	Castle Bromwich	15	5	1916	RFC	
+Britain	RFC	54	London Colney	22	12	1916	RFC	
+Britain	RFC	54	St-Omer	24	12	1916	RFC	
+Britain	RFC	54	Bertangles	26	12	1916	RFC	
+Britain	RFC	54	Chipilly	11	1	1917	RFC	
+Britain	RFC	54	Flez	18	4	1917	RFC	
+Britain	RFC	54	Bray-Dunes	18	6	1917	RFC	
+Britain	RFC	54	Leffrinckhoucke	16	7	1917	RFC	
+Britain	RFC	54	Tetegham	8	9	1917	RFC	
+Britain	RFC	54	Bruay	6	12	1917	RFC	
+Britain	RFC	54	Lahoussoye	18	12	1917	RFC	
+Britain	RFC	54	Flez	1	1	1918	RFC	
+Britain	RFC	54	Champien	22	3	1918	RFC	
+Britain	RFC	54	Bertangles	24	3	1918	RFC	
+Britain	RFC	54	Conteville	28	3	1918	RFC	
+Britain	RFC	54	Clairmarais North	7	3	1918	RFC	
+Britain	RFC	54	Caffiers	29	3	1918	RFC	
+Britain	RAF	54	St-Omer	1	6	1918	RAF	
+Britain	RAF	54	Vignacourt	11	6	1918	RAF	
+Britain	RAF	54	Boisdinghem	16	6	1918	RAF	
+Britain	RAF	54	Liettres	30	6	1918	RAF	
+Britain	RAF	54	Touquin	14	7	1918	RAF	
+Britain	RAF	54	Fienvillers	4	8	1918	RAF	
+Britain	RAF	54	Avesnes-le-Comte	25	8	1918	RAF	
+Britain	RAF	54	Rely	17	10	1918	RAF	
+Britain	RAF	54	Merchin	24	10	1918	RAF	
+Britain	RFC	55	Castle Bromwich	8	6	1916	RFC	
+Britain	RFC	55	Lilbourne	10	6	1916	RFC	
+Britain	RFC	55	Fienvillers	5	3	1917	RFC	
+Britain	RFC	55	Boisdinghem	31	3	1917	RFC	
+Britain	RFC	55	Ochey	11	10	1917	RFC	
+Britain	RFC	55	Tantonville	7	11	1917	RFC	
+Britain	RAF	55	Azelot	5	6	1918	RAF	
+Britain	RFC	56	Gosport	8	6	1916	RFC	
+Britain	RFC	56	London Colney	14	7	1916	RFC	
+Britain	RFC	56	St-Omer	5	4	1917	RFC	
+Britain	RFC	56	Vert Galand	7	4	1917	RFC	
+Britain	RFC	56	Liettres	31	5	1917	RFC	
+Britain	RFC	56	Bekesbourne	21	6	1917	RFC	
+Britain	RFC	56	Estree-Blanche	5	7	1917	RFC	
+Britain	RFC	56	Lavieville	20	11	1917	RFC	
+Britain	RFC	56	Baizieux	21	1	1918	RFC	
+Britain	RFC	56	Valheureux	25	3	1918	RFC	
+Britain	RAF	56	Lechelle	16	10	1918	RAF	
+Britain	RAF	56	Esnes	27	10	1918	RAF	
+Britain	RAF	56	La Targette	29	10	1918	RAF	
+Britain	RFC	57	Companthorpe	8	6	1916	RFC	
+Britain	RFC	57	Tadcaster	20	8	1916	RFC	
+Britain	RFC	57	St-Andre-aux-Bois	16	12	1916	RFC	
+Britain	RFC	57	Fienvillers	22	1	1917	RFC	
+Britain	RFC	57	Droglandt	11	6	1917	RFC	
+Britain	RFC	57	Boisdinghem	27	6	1917	RFC	
+Britain	RFC	57	Ste-Marie-Cappel	23	11	1917	RFC	
+Britain	RFC	57	Le Quesnoy	29	3	1918	RFC	
+Britain	RAF	57	Vert Galand	19	9	1918	RAF	
+Britain	RAF	57	Mory	22	10	1918	RAF	
+Britain	RAF	57	Beauvois	9	11	1918	RAF	
+Britain	RFC	58	Cramlington	8	6	1916	RFC	
+Britain	RFC	58	Dover	22	12	1917	RFC	
+Britain	RFC	58	St-Omer	10	1	1918	RFC	
+Britain	RFC	58	Treizennes	13	1	1918	RFC	
+Britain	RFC	58	Clairmarais	1	2	1918	RFC	
+Britain	RFC	58	Auchel	25	3	1918	RFC	
+Britain	RAF	58	Fauquembergues	23	4	1918	RAF	
+Britain	RAF	58	Alquines	31	8	1918	RAF	
+Britain	RAF	58	Provin	27	10	1918	RAF	
+Britain	RFC	59	Narborough	21	6	1916	RFC	
+Britain	RFC	59	St-Omer	13	3	1917	RFC	
+Britain	RFC	59	La Bellevue	23	2	1917	RFC	
+Britain	RFC	59	Le Hameau	1	6	1917	RFC	
+Britain	RFC	59	Longavesnes	15	6	1917	RFC	
+Britain	RFC	59	Mons-en-Chaussee	15	7	1917	RFC	
+Britain	RFC	59	Longavesnes	29	10	1917	RFC	
+Britain	RFC	59	Estrees-en-Chaussee	30	11	1917	RFC	
+Britain	RFC	59	Courcelles-Le-Comte	16	12	1917	RFC	
+Britain	RFC	59	Lealvillers	22	3	1918	RFC	
+Britain	RFC	59	Fienvillers	26	3	1918	RFC	
+Britain	RAF	59	Vert Galand	12	4	1918	RAF	
+Britain	RAF	59	Beugnatre	17	9	1918	RAF	
+Britain	RAF	59	Caudry	14	10	1918	RAF	
+Britain	RFC	60	Gosport	15	5	1916	RFC	
+Britain	RFC	60	St-Omer	28	5	1916	RFC	
+Britain	RFC	60	Boisdinghem	31	5	1916	RFC	
+Britain	RFC	60	Vert Galand	16	6	1916	RFC	
+Britain	RFC	60	St-Andre-aux-Bois	3	8	1916	RFC	
+Britain	RFC	60	Le Hameau	23	8	1916	RFC	
+Britain	RFC	60	Savy	1	9	1916	RFC	
+Britain	RFC	60	Filescamp Farm	18	1	1917	RFC	
+Britain	RFC	60	Ste-Marie-Cappel	5	9	1917	RFC	
+Britain	RFC	60	Balleul	8	3	1918	RFC	
+Britain	RFC	60	La Bellevue	23	3	1918	RFC	
+Britain	RFC	60	Fienvillers	27	3	1918	RFC	
+Britain	RAF	60	Boffles	12	4	1918	RAF	
+Britain	RAF	60	Baizieux	17	9	1918	RAF	
+Britain	RAF	60	Beugnatre	14	10	1918	RAF	
+Britain	RAF	60	Quievy	31	10	1918	RAF	
+Britain	RFC	62	Netheravon	28	7	1916	RFC	
+Britain	RFC	62	Filton	8	8	1916	RFC	
+Britain	RFC	62	Rendcomb	18	7	1917	RFC	
+Britain	RFC	62	St-Omer	23	1	1918	RFC	
+Britain	RFC	62	Serny	30	1	1918	RFC	
+Britain	RFC	62	Cachy	8	3	1918	RFC	
+Britain	RFC	62	Remaisnil	24	3	1918	RFC	
+Britain	RFC	62	Planques	29	3	1918	RFC	
+Britain	RAF	62	Croisettes	7	8	1918	RAF	
+Britain	RAF	62	La Bellevue	26	9	1918	RAF	
+Britain	RAF	62	Villers-les-Cagnicourt	29	10	1918	RAF	
+Britain	RFC	64	Sedgeford	1	8	1916	RFC	
+Britain	RFC	64	St-Omer	14	10	1917	RFC	
+Britain	RFC	64	Le Hameau	15	10	1017	RFC	
+Britain	RAF	64	Aniche	24	10	1918	RAF	
+Britain	RFC	65	Wyton	1	8	1916	RFC	
+Britain	RFC	65	Wye	29	5	1917	RFC	
+Britain	RFC	65	La Lovie	24	10	1917	RFC	
+Britain	RFC	65	Bailleul (Asylum Ground)	4	11	1917	RFC	
+Britain	RFC	65	Poperinghe	17	2	1918	RFC	
+Britain	RFC	65	Droglandt	21	3	1918	RFC	
+Britain	RFC	65	Clairmarais	24	3	1918	RFC	
+Britain	RFC	65	Conteville	26	3	1918	RFC	
+Britain	RAF	65	Bertangles	6	4	1918	RAF	
+Britain	RAF	65	Cappelle	12	8	1918	RAF	
+Britain	RAF	65	Bray-Dunes	16	8	1918	RAF	
+Britain	RAF	65	Petite Synthe	19	9	1918	RAF	
+Britain	RAF	65	Bisseghem	25	10	1918	RAF	
+Britain	RFC	66	Filton	24	6	1916	RFC	
+Britain	RFC	66	Netheravon	2	7	1916	RFC	
+Britain	RFC	66	Filton	27	7	1916	RFC	
+Britain	RFC	66	St-Omer	3	3	1917	RFC	
+Britain	RFC	66	Vert Galand	18	3	1917	RFC	
+Britain	RFC	66	Liettres	31	5	1917	RFC	
+Britain	RFC	66	Calais	20	6	1917	RFC	
+Britain	RFC	66	Estree-Blanche	6	7	1917	RFC	
+Britain	RFC	66	Candas	11	11	1917	RFC	Sent to Italian Front
+Britain	RFC	68	Harlaxton	20	1	1917	RFC	
+Britain	RFC	68	Baizieux	21	9	1917	RFC	
+Britain	RFC	68	"DB - renumbered 2 Sqn, AFC"	19	1	1918	RFC	
+Britain	RFC	69	South Carlton	28	12	1916	RFC	
+Britain	RFC	69	Lympne	24	8	1917	RFC	
+Britain	RFC	69	St-Omer	9	9	1917	RFC	
+Britain	RFC	69	Savy	10	9	1917	RFC	
+Britain	RFC	69	Bailleul (Town)	9	11	1917	RFC	
+Britain	RFC	69	"DB - renumbered 3 Sqn, AFC"	19	1	1918	RFC	
+Britain	RFC	70	South Farnborough	22	4	1916	RFC	
+Britain	RFC	70	Fienvillers	31	5	1916	RFC	
+Britain	RFC	70	Auchel	16	12	1916	RFC	
+Britain	RFC	70	Vert Galand	2	3	1917	RFC	
+Britain	RFC	70	Fienvillers	2	4	1917	RFC	
+Britain	RFC	70	Boisdinghem	14	5	1917	RFC	
+Britain	RFC	70	Liettres	27	6	1917	RFC	
+Britain	RFC	70	Poperinghe	8	9	1917	RFC	
+Britain	RFC	70	Marieux	14	3	1918	RFC	
+Britain	RFC	70	Fienvillers	28	3	1918	RFC	
+Britain	RAF	70	Remaisnil	16	4	1918	RAF	
+Britain	RAF	70	Boisdinghem	8	7	1918	RAF	
+Britain	RAF	70	Esquerdes	1	8	1918	RAF	
+Britain	RAF	70	Droglandt	22	9	1918	RAF	
+Britain	RAF	70	Menin	23	10	1918	RAF	
+Britain	RFC	71	Castle Bromwich	27	3	1917	RFC	
+Britain	RFC	71	St-Omer	18	12	1917	RFC	
+Britain	RFC	71	Bruay	22	12	1917	RFC	
+Britain	RFC	71	"DB - renumbered 4 Sqn, AFC"	19	1	1918	RFC	
+Britain	RFC	73	Upavon	2	7	1917	RFC	
+Britain	RFC	73	St-Omer	9	1	1918	RFC	
+Britain	RFC	73	Liettres	12	1	1918	RFC	
+Britain	RFC	73	Champien	5	3	1918	RFC	
+Britain	RFC	73	Cachy	23	3	1918	RFC	
+Britain	RFC	73	Remaisnil	24	3	1918	RFC	
+Britain	RFC	73	Beauvois	30	3	1918	RFC	
+Britain	RAF	73	Fouquerolles	3	6	1918	RAF	
+Britain	RAF	73	Planques	12	6	1918	RAF	
+Britain	RAF	73	Touquin	14	7	1918	RAF	
+Britain	RAF	73	La Bellevue	4	8	1918	RAF	
+Britain	RAF	73	Foucaucourt	16	9	1918	RAF	
+Britain	RAF	73	Estrees-en-Chaussee	23	9	1918	RAF	
+Britain	RAF	73	Hervilly	8	10	1918	RAF	
+Britain	RAF	73	Malincourt	17	10	1918	RAF	
+Britain	RFC	74	Northolt	1	7	1917	RFC	
+Britain	RFC	74	London Colney	10	7	1917	RFC	
+Britain	RFC	74	Goldhanger	25	3	1918	RFC	
+Britain	RFC	74	St-Omer	30	3	1918	RFC	
+Britain	RAF	74	Tetegham	2	4	1918	RAF	
+Britain	RAF	74	La Lovie	9	4	1918	RAF	
+Britain	RAF	74	Clairmarais North	11	4	1918	RAF	
+Britain	RAF	74	Clairmarais South	7	8	1918	RAF	
+Britain	RAF	74	La Lovie	28	9	1918	RAF	
+Britain	RAF	74	Clairmarais South	3	10	1918	RAF	
+Britain	RAF	74	Marcke	23	10	1918	RAF	
+Britain	RAF	74	Cuerne	1	11	1918	RAF	
+Britain	RFC	79	Gosport	1	8	1917	RFC	
+Britain	RFC	79	Beaulieu	8	8	1917	RFC	
+Britain	RFC	79	St-Omer	20	2	1918	RFC	
+Britain	RFC	79	Estree-Blanche	22	3	1918	RFC	
+Britain	RFC	79	Champien	5	3	1918	RFC	
+Britain	RFC	79	Cachy	22	3	1918	RFC	
+Britain	RFC	79	Beauvois	24	3	1918	RFC	
+Britain	RAF	79	Ste-Marie-Cappel	16	5	1918	RAF	
+Britain	RAF	79	Reckem	22	10	1918	RAF	
+Britain	RFC	80	Thetford	1	8	1917	RFC	
+Britain	RFC	80	Montrose	10	8	1917	RFC	
+Britain	RFC	80	Beverley	17	11	1917	RFC	
+Britain	RFC	80	Boisdinghem	27	1	1918	RFC	
+Britain	RFC	80	Serny	27	2	1918	RFC	
+Britain	RFC	80	Champien	5	3	1918	RFC	
+Britain	RFC	80	Cachy	22	3	1918	RFC	
+Britain	RFC	80	Remaisnil	24	3	1918	RFC	
+Britain	RFC	80	Wamin	29	3	1918	RFC	
+Britain	RFC	80	Belleville Farm	30	3	1918	RFC	
+Britain	RAF	80	La Bellevue	4	4	1918	RAF	
+Britain	RAF	80	Fouquerolles	3	6	1918	RAF	
+Britain	RAF	80	Liettres	21	6	1918	RAF	
+Britain	RAF	80	Touquin	14	7	1918	RAF	
+Britain	RAF	80	Vignacourt	4	8	1918	RAF	
+Britain	RAF	80	Allonville	31	8	1918	RAF	
+Britain	RAF	80	Assevillers	8	8	1918	RAF	
+Britain	RAF	80	Bouvincourt	8	10	1918	RAF	
+Britain	RAF	80	Bertry West	27	10	1918	RAF	
+Britain	RAF	80	Flaumont	10	11	1918	RAF	
+Britain	RFC	82	Doncaster	7	1	1917	RFC	
+Britain	RFC	82	Beverley	6	2	1917	RFC	
+Britain	RFC	82	Waddington	30	3	1917	RFC	
+Britain	RFC	82	St-Omer	17	11	1917	RFC	
+Britain	RFC	82	Savy	20	11	1917	RFC	
+Britain	RFC	82	Golancourt	22	1	1918	RFC	
+Britain	RFC	82	Catigny	22	3	1918	RFC	
+Britain	RFC	82	Allonville	24	3	1918	RFC	
+Britain	RFC	82	Bertangles	27	3	1918	RFC	
+Britain	RFC	82	Agenvillers	28	3	1918	RFC	
+Britain	RAF	82	Quevauvillers	7	6	1918	RAF	
+Britain	RAF	82	Haussimont	15	7	1918	RAF	
+Britain	RAF	82	Quelmes	2	8	1918	RAF	
+Britain	RAF	82	Droglandt	3	9	1918	RAF	
+Britain	RAF	82	Proven	20	9	1918	RAF	
+Britain	RAF	82	Bisseghem	22	101	1918	RAF	
+Britain	RAF	82	Menin	6	11	1918	RAF	
+Britain	RFC	83	Montrose	7	1	1917	RFC	
+Britain	RFC	83	Spittlegate	15	1	1917	RFC	
+Britain	RFC	83	Wyton	15	9	1917	RFC	
+Britain	RFC	83	Narborough	12	12	1917	RFC	
+Britain	RFC	83	St-Omer	6	3	1918	RFC	
+Britain	RFC	83	Auchel	7	3	1918	RFC	
+Britain	RAF	83	Franqueville	2	5	1918	RAF	
+Britain	RAF	83	Lahoussoye	9	10	1918	RAF	
+Britain	RAF	83	Estrees-en-Chaussee	26	10	1918	RAF	
+Britain	RFC	84	Beaulieu	7	1	1917	RFC	
+Britain	RFC	84	Lilbourne	22	3	1917	RFC	
+Britain	RFC	84	Liettres	23	9	1917	RFC	
+Britain	RFC	84	Le Hameau	12	11	1917	RFC	
+Britain	RFC	84	Flez	29	12	1917	RFC	
+Britain	RFC	84	Champien	22	3	1918	RFC	
+Britain	RFC	84	Vert Galand	23	3	1918	RFC	
+Britain	RFC	84	Conteville	28	3	1918	RFC	
+Britain	RAF	84	Bertangles	4	4	1918	RAF	
+Britain	RAF	84	Assevillers	8	9	1918	RAF	
+Britain	RAF	84	Bouvincourt	8	10	1918	RAF	
+Britain	RAF	84	Bertry West	25	10	1918	RAF	
+Britain	RFC	85	Upavon	1	8	1917	RFC	
+Britain	RFC	85	Norwich	10	8	1917	RFC	
+Britain	RFC	85	Hounslow	27	11	1917	RFC	
+Britain	RAF	85	Marquise	22	5	1918	RAF	
+Britain	RAF	85	Petite Synthe	25	5	1918	RAF	
+Britain	RAF	85	St-Omer	11	6	1918	RAF	
+Britain	RAF	85	Bertangles	13	8	1918	RAF	
+Britain	RAF	85	Savy	5	9	1918	RAF	
+Britain	RAF	85	Foucaucourt	23	9	1918	RAF	
+Britain	RAF	85	Estrees-en-Chaussee	9	10	1918	RAF	
+Britain	RAF	85	Escaufourt	27	10	1918	RAF	
+Britain	RFC	85	Phalempin	9	1	1918	RFC	
+Britain	RFC	87	Upavon	1	9	1917	RFC	
+Britain	RFC	87	Sedgeford	15	9	1917	RFC	
+Britain	RFC	87	Hounslow	19	12	1917	RFC	
+Britain	RAF	87	St-Omer	24	4	1918	RAF	
+Britain	RAF	87	Petite Synthe	27	4	1918	RAF	
+Britain	RAF	87	Estrees-en-Chaussee	27	5	1918	RAF	
+Britain	RAF	87	Rougefay	29	6	1918	RAF	
+Britain	RAF	87	Soncamp	19	9	1918	RAF	
+Britain	RAF	87	Boussieres	4	11	1918	RAF	
+Britain	RFC	88	Gosport	24	7	1917	RFC	
+Britain	RFC	88	Harling Road	2	8	1917	RFC	
+Britain	RAF	88	Kenley	2	4	1918	RAF	
+Britain	RAF	88	Cappelle	16	4	1918	RAF	
+Britain	RAF	88	Drionville	19	7	1918	RAF	
+Britain	RAF	88	Serny	2	8	1918	RAF	
+Britain	RAF	88	Floringhem	21	10	1918	RAF	
+Britain	RAF	88	Ascq	23	10	1918	RAF	
+Britain	RAF	88	Gondecourt	26	10	1918	RAF	
+Britain	RAF	88	Bersee	28	10	1918	RAF	
+Britain	RFC	92	London Colney	1	9	1917	RFC	
+Britain	RFC	92	Chattis Hill	14	9	1917	RFC	
+Britain	RFC	92	Tangmere	17	3	1917	RFC	
+Britain	RAF	92	Bray-Dunes	2	7	1918	RAF	
+Britain	RAF	92	Drionville	19	7	1918	RAF	
+Britain	RAF	92	Serny	2	8	1918	RAF	
+Britain	RAF	92	Proyart	27	9	1918	RAF	
+Britain	RAF	92	Estrees-en-Chausee	9	10	1918	RAF	
+Britain	RAF	92	Bertry East	25	10	1918	RAF	
+Britain	RAF	94	Gosport	30	7	1918	RAF	
+Britain	RAF	94	Harling Road	2	8	1918	RAF	
+Britain	RAF	94	Shoreham	27	7	1918	RAF	
+Britain	RAF	94	Upper Heyford	19	8	1918	RAF	
+Britain	RAF	94	Senlis-le-Sec	31	10	1918	RAF	
+Britain	RFC	97	Waddington	1	12	1917	RFC	
+Britain	RFC	97	Stonehenge	21	1	1918	RFC	
+Britain	RFC	97	Netheravon	31	3	1918	RFC	
+Britain	RAF	97	Xaffevillers	3	8	1918	RAF	
+Britain	RFC	98	Harlaxton	15	8	1917	RFC	
+Britain	RFC	98	Old Sarum	30	8	1917	RFC	
+Britain	RFC	98	Lympne	1	3	1918	RFC	
+Britain	RAF	98	St-Omer	1	4	1918	RAF	
+Britain	RAF	98	Clairmarais	1	4	1918	RAF	
+Britain	RAF	98	Alquines	12	4	1918	RAF	
+Britain	RAF	98	Coudekerque	25	5	1918	RAF	
+Britain	RAF	98	Ruisseauville	6	6	1918	RAF	
+Britain	RAF	98	Drionville	21	6	1918	RAF	
+Britain	RAF	98	Chailly	13	7	1918	RAF	
+Britain	RAF	98	Blangermont	3	8	1918	RAF	
+Britain	RAF	98	Abscon	27	10	1918	RAF	
+Britain	RFC	99	Yatesbury	15	8	1917	RFC	
+Britain	RFC	99	Ford Farm	30	8	1917	RFC	
+Britain	RAF	99	St-Omer	25	4	1918	RAF	
+Britain	RAF	99	Tantonville	4	5	1918	RAF	
+Britain	RAF	99	Azelot	5	6	1918	RAF	
+Britain	RAF	99	Auxi-le-Chateau	16	11	1918	RAF	
+Britain	RFC	100	Hingham	11	2	1917	RFC	
+Britain	RFC	100	Farnborough	23	2	1917	RFC	
+Britain	RFC	100	St-Andre-aux-Bois	21	3	1917	RFC	
+Britain	RFC	100	Izel-le-Hameau	1	4	1917	RFC	
+Britain	RFC	100	Treizennes	16	5	1917	RFC	
+Britain	RFC	100	Ochey	5	10	1917	RFC	
+Britain	RAF	100	Villesneux	3	4	1918	RAF	
+Britain	RAF	100	Ochey	9	5	1918	RAF	
+Britain	RAF	100	Xaffevillers	10	8	1918	RAF	
+Britain	RFC	101	Farnborough	12	7	1917	RFC	
+Britain	RFC	101	St-Andre-aux-Bois	25	7	1917	RFC	
+Britain	RAF	101	Le Hameau	7	8	1918	RAF	
+Britain	RAF	101	Clairmarais South	31	8	1918	RAF	
+Britain	RFC	101	Auchel	2	2	1918	RFC	
+Britain	RFC	101	Catigny	16	2	1918	RFC	
+Britain	RFC	101	Fienvillers	24	3	1918	RFC	
+Britain	RFC	101	Haute Vissee	25	3	1918	RFC	
+Britain	RAF	101	Famechon	7	4	1918	RAF	
+Britain	RAF	101	Lahoussoye	8	8	1918	RAF	
+Britain	RAF	101	Proyart East	8	10	1918	RAF	
+Britain	RAF	101	Hancourt	25	10	1918	RAF	
+Britain	RFC	102	Hingham	9	8	1917	RFC	
+Britain	RFC	102	St-Andre-aux-Bois	24	9	1917	RFC	
+Britain	RFC	102	Le Hameau	28	8	1917	RFC	
+Britain	RFC	102	Treizennes	3	10	1917	RFC	
+Britain	RFC	102	Le Hameau	5	3	1918	RFC	
+Britain	RAF	102	Surcamps	10	4	1918	RAF	
+Britain	RAF	102	Famechon	19	9	1918	RAF	
+Britain	RAF	102	Hurtebise Farm	19	10	1918	RAF	
+Britain	RAF	102	La Targette	23	10	1918	RAF	
+Britain	RAF	102	Bevillers	27	10	1918	RAF	
+Britain	RFC	103	Beaulieu	1	9	1917	RFC	
+Britain	RFC	103	Old Sarum	8	9	1917	RFC	
+Britain	RAF	103	Serny	12	5	1918	RAF	
+Britain	RAF	103	Fourneuil	3	6	1918	RAF	
+Britain	RAF	103	Serny	21	6	1918	RAF	
+Britain	RAF	103	Floringhem	21	10	1918	RAF	
+Britain	RAF	103	Ronchin	26	10	1918	RAF	
+Britain	RFC	104	Wyton	1	9	1917	RFC	
+Britain	RFC	104	Andover	16	9	1917	RFC	
+Britain	RAF	104	St-Omer	19	5	1918	RAF	
+Britain	RAF	104	Azelot	20	5	1918	RAF	
+Britain	RFC	107	Catterick	8	10	1917	RFC	
+Britain	RFC	107	Stonehenge	18	10	1917	RFC	
+Britain	RFC	107	Lake Down	2	12	1917	RFC	
+Britain	RAF	107	Le Quesnoy	5	6	1918	RAF	
+Britain	RAF	107	Drionville	25	6	1918	RAF	
+Britain	RAF	107	Chailly	15	7	1918	RAF	
+Britain	RAF	107	Ecoivres	3	8	1918	RAF	
+Britain	RAF	107	Moislains	26	10	1918	RAF	
+Britain	RFC	108	Montrose	1	11	1917	RFC	
+Britain	RFC	108	Stonehenge	12	11	1917	RFC	
+Britain	RFC	108	Lake Down	2	12	1917	RFC	
+Britain	RAF	108	Kenley	14	6	1918	RAF	
+Britain	RAF	108	Cappelle	22	7	1918	RAF	
+Britain	RAF	108	Bisseghem	27	10	1918	RAF	
+Britain	RFC	110	Rendcomb	1	11	1917	RFC	
+Britain	RFC	110	Dover	12	11	1917	RFC	
+Britain	RFC	110	Sedgeford	26	11	1917	RFC	
+Britain	RAF	110	Kenley	15	6	1918	RAF	
+Britain	RAF	110	Bettoncourt	1	9	1918	RAF	
+Britain	RFC	115	Catterick	1	12	1917	RFC	
+Britain	RAF	115	Netheravon	15	4	1918	RAF	
+Britain	RAF	115	Castle Bromwich	17	7	1918	RAF	
+Britain	RAF	115	Roville-aux-Chenes	29	9	1918	RAF	
+Britain	RAF	115	St-Inglevert	1	11	1918	RAF	
+Britain	RFC	148	Andover	10	2	1918	RFC	
+Britain	RFC	148	Ford Junction	1	3	1918	RFC	
+Britain	RAF	148	Auchel	25	4	1918	RAF	
+Britain	RAF	148	Sains-les-Pernes	3	5	1918	RAF	
+Britain	RAF	148	Camblain-l'Abbe	22	10	1918	RAF	
+Britain	RAF	148	Erre	31	10	1918	RAF	
+Britain	RFC	149	Ford Junction	1	3	1918	RFC	
+Britain	RAF	149	Marquise	2	6	1918	RAF	
+Britain	RAF	149	Quilen	4	6	1918	RAF	
+Britain	RAF	149	Alquines	16	6	1918	RAF	
+Britain	RAF	149	Clairmarais North	16	9	1918	RAF	
+Britain	RAF	149	Ste-Margarite	25	10	1918	RAF	
+Britain	RAF	151	Hainault Farm	12	6	1918	RAF	
+Britain	RAF	151	Marquise	19	6	1918	RAF	
+Britain	RAF	151	Fontaine-sur-May	23	6	1918	RAF	
+Britain	RAF	151	Vignacourt	8	9	1918	RAF	
+Britain	RAF	151	Bancourt	8	10	1918	RAF	
+Britain	RAF	152	Rochford	1	10	1918	RAF	
+Britain	RAF	152	Carvin	18	10	1918	RAF	
+Britain	RNAS	1(N)	Fort Grange	17	10	1914	RNAS	"Originally named ""No. 1 Wing, RNAS"", A Flight named Detached Sqn., RNAS"
+Britain	RNAS	1(N)	France?	28	2	1915	RNAS	
+Britain	RNAS	1(N)	Furnes	3	12	1916	RNAS	"Renamed from ""Detached Sqn., RNAS"""
+Britain	RNAS	1(N)	Chipilly	15	2	1917	RNAS	
+Britain	RNAS	1(N)	La Bellevue	11	4	1917	RNAS	
+Britain	RNAS	1(N)	Bailleul (Asylum Ground)	1	6	1917	RNAS	
+Britain	RNAS	1(N)	Middle Aerodrome	2	11	1917	RNAS	
+Britain	RNAS	1(N)	Dover	10	12	1917	RNAS	
+Britain	RNAS	1(N)	Teteghem	16	2	1918	RNAS	
+Britain	RNAS	1(N)	Ste-Marie-Cappel	27	3	1918	RNAS	
+Britain	RNAS	1(N)	Fienvillers	28	3	1918	RNAS	
+Britain	RAF	201	Fienvillers	1	4	1918	RAF	"1N renamed to 201 Sqn, RAF"
+Britain	RAF	201	Nouex-les-Auxi	12	4	1918	RAF	
+Britain	RAF	201	Ste-Marie-Cappel	27	7	1918	RAF	
+Britain	RAF	201	Poulainville	6	8	1918	RAF	
+Britain	RAF	201	Nouex-les-Auxi	14	8	1918	RAF	
+Britain	RAF	201	Baizieux	19	9	1918	RAF	
+Britain	RAF	201	Beugnatre	14	10	1918	RAF	
+Britain	RAF	201	La Targette	27	10	1918	RAF	
+Britain	RNAS	2(N)	Eastchurch	17	10	1914	RNAS	"Originally named ""B Sqn, No. 1 Wing, RNAS"""
+Britain	RNAS	2(N)	France?	2	8	1915	RNAS	
+Britain	RNAS	2(N)	Dover	12	8	1915	RNAS	Moved for Operations in Aegean
+Britain	RNAS	2(N)	St-Pol	5	11	1916	RNAS	Returned from Aegean
+Britain	RNAS	2(N)	Bergues	26	1	1918	RNAS	
+Britain	RAF	202	Bergues	1	4	1918	RAF	"2N renamed to 202 Sqn, RAF"
+Britain	RAF	202	Bergues	1	4	1918	RAF	
+Britain	RNAS	3(N)	Eastchurch		5	1914	RNAS	"Originally named ""Eastchurch Squadron, RNAS"""
+Britain	RNAS	3(N)	Ostend	27	8	1914	RNAS	
+Britain	RNAS	3(N)	St-Pol	1	9	1914	RNAS	
+Britain	RNAS	3(N)	Dover	26	2	1915	RNAS	Moved for Operations in Aegean
+Britain	RNAS	3(N)	St-Pol	5	11	1916	RNAS	Returned from Aegean
+Britain	RNAS	3(N)	Vert Galand	1	2	1917	RNAS	
+Britain	RNAS	3(N)	Bertangles	28	2	1917	RNAS	
+Britain	RNAS	3(N)	Marieux	26	3	1917	RNAS	
+Britain	RNAS	3(N)	Furnes	15	6	1917	RNAS	
+Britain	RNAS	3(N)	Bray-Dunes	6	9	1917	RNAS	
+Britain	RNAS	3(N)	Walmer	1	11	1917	RNAS	
+Britain	RNAS	3(N)	Bray-Dunes	2	1	1918	RNAS	
+Britain	RNAS	3(N)	St-Eloi	11	3	1918	RNAS	
+Britain	RNAS	3(N)	Treizennes	26	3	1918	RNAS	
+Britain	RAF	203	Treizennes	1	4	1918	RAF	"3N renamed to 203 Sqn, RAF"
+Britain	RAF	203	Liettres	9	4	1918	RAF	
+Britain	RAF	203	Filescamp Farm	6	5	1918	RAF	
+Britain	RAF	203	Allonville	14	8	1918	RAF	
+Britain	RAF	203	Filescamp Farm	6	9	1918	RAF	
+Britain	RAF	203	Le Hameau	23	9	1918	RAF	
+Britain	RAF	203	Bruille	24	10	1918	RAF	
+Britain	RNAS	4(N)	Dover	29	3	1915	RNAS	"RNAS Defence Flight, Dover renamed 4N"
+Britain	RNAS	4(N)	Eastchurch	3	8	1915	RNAS	"Renamed 4 Wing, RNAS"
+Britain	RNAS	4(N)	Coudekerque	31	12	1916	RNAS	"Reformed from elements of 5 Wing, RNAS"
+Britain	RNAS	4(N)	Bray-Dunes	1	4	1917	RNAS	
+Britain	RNAS	4(N)	Walmer	2	1	1918	RNAS	
+Britain	RNAS	4(N)	Bray-Dunes	6	3	1918	RNAS	
+Britain	RAF	204	Bray-Dunes	1	4	1918	RAF	"4N renamed to 204 Sqn., RAF"
+Britain	RAF	204	Teteghem	13	4	1918	RAF	
+Britain	RAF	204	Cappelle	30	4	1918	RAF	
+Britain	RAF	204	Teteghem	9	5	1918	RAF	
+Britain	RAF	204	Heule	24	10	1918	RAF	
+Britain	RNAS	5(N)	Coudekerque	31	12	1916	RNAS	"Originally B Sqn., 5 Wing, RNAS"
+Britain	RNAS	5(N)	Petite Synthe	1	4	1917	RNAS	
+Britain	RNAS	5(N)	Villers-Bretonneux	6	3	1918	RNAS	
+Britain	RNAS	5(N)	Mons-en-Chaussee	11	3	1918	RNAS	
+Britain	RNAS	5(N)	Champien	22	3	1918	RNAS	
+Britain	RNAS	5(N)	Bertangles	24	3	1918	RNAS	
+Britain	RNAS	5(N)	Bois-de-Roche	28	3	1918	RNAS	
+Britain	RAF	205	Bois-de-Roche	1	4	1918	RAF	"5N renamed to 205 Sqn., RAF"
+Britain	RAF	205	Bovelles	25	8	1918	RAF	
+Britain	RAF	205	Proyart East	16	8	1918	RAF	
+Britain	RAF	205	Moislains	7	10	1918	RAF	
+Britain	RNAS	6(N)	?	1	11	1916	RNAS	"Originally named 'A' Sqn., No 4 Wing, RNAS"
+Britain	RNAS	6(N)	DB		8	1917	RNAS	Disbanded
+Britain	RNAS	6(N)	Dover	1	11	1917	RNAS	Reformed
+Britain	RNAS	6(N)	Petite Synthe	14	1	1918	RNAS	
+Britain	RNAS	6(N)	Ste-Marie-Cappel	31	3	1918	RNAS	
+Britain	RAF	206	Ste-Marie-Cappel	1	4	1918	RAF	"6N renamed 206 Sqn., RAF"
+Britain	RAF	206	Boisdinghem	11	4	1918	RAF	
+Britain	RAF	206	Alquines	5	6	1918	RAF	
+Britain	RAF	206	Ste-Marie-Cappel	5	10	1918	RAF	
+Britain	RAF	206	Linselles	24	10	1918	RAF	
+Britain	RNAS	7(N)	Petite Synthe	1	11	1916	RNAS	"Originally B Sqn., 4 Wing, RNAS"
+Britain	RNAS	7(N)	Coudekerque	2	4	1917	RNAS	
+Britain	RNAS	7(N)	Coudekerque	28	7	1917	RNAS	"Split into 7 and 7A Sqns, RNAS. 7A became A Sqn, RNAS"
+Britain	RAF	207	Coudekerque	1	4	1918	RAF	"7N renamed to 207 Sqn, RAF"
+Britain	RAF	207	Netheravon	22	4	1918	RAF	
+Britain	RAF	207	Andover	13	5	1918	RAF	
+Britain	RAF	207	Ligescourt	7	6	1918	RAF	
+Britain	RAF	207	Estrees-en-Chaussee	25	10	1918	RAF	
+Britain	RNAS	8(N)	St-Pol	25	10	1916	RNAS	"Formed from 1, 4, 5 Wings"
+Britain	RNAS	8(N)	Vert Galand	26	10	1916	RNAS	
+Britain	RNAS	8(N)	Furnes	7	2	1917	RNAS	
+Britain	RNAS	8(N)	Auchel	28	3	1917	RNAS	
+Britain	RNAS	8(N)	St-Eloi	16	5	1917	RNAS	
+Britain	RNAS	8(N)	Bray-Dunes	28	2	1918	RNAS	
+Britain	RNAS	8(N)	Walmer	1	3	1918	RNAS	
+Britain	RNAS	8(N)	Teteghem	29	3	1918	RNAS	
+Britain	RAF	208	Teteghem	1	4	1918	RAF	"8N renamed 208, Sqn., RAF"
+Britain	RAF	208	La Gorgue	2	4	1918	RAF	
+Britain	RAF	208	Serny	8	4	1918	RAF	
+Britain	RAF	208	Tramecourt	30	7	1918	RAF	
+Britain	RAF	208	Foucaucourt	22	9	1918	RAF	
+Britain	RAF	208	Estrees-en-Chaussee	9	10	1918	RAF	
+Britain	RAF	208	Maretz	26	10	1918	RAF	
+Britain	RNAS	9(N)	St-Pol	1	2	1917	RNAS	"Formed from 8 N Sqn., RNAS"
+Britain	RNAS	9(N)	Furnes	15	5	1917	RNAS	
+Britain	RNAS	9(N)	Flez	15	6	1917	RNAS	
+Britain	RNAS	9(N)	Le Hameau	5	7	1917	RNAS	
+Britain	RNAS	9(N)	Frontier Aerodrome	10	7	1917	RNAS	
+Britain	RNAS	9(N)	Leffrinckhoucke	25	7	1917	RNAS	
+Britain	RNAS	9(N)	Frontier Aerodrome	1	10	1917	RNAS	
+Britain	RNAS	9(N)	Middle Aerodrome	10	10	1917	RNAS	
+Britain	RNAS	9(N)	Dover	16	2	1918	RNAS	
+Britain	RNAS	9(N)	Middle Aerodrome	20	3	1918	RNAS	
+Britain	RNAS	9(N)	Teteghem	21	3	1918	RNAS	
+Britain	RNAS	9(N)	Bray-Dunes	21	3	1918	RNAS	
+Britain	RNAS	9(N)	Cappelle	23	3	1918	RNAS	
+Britain	RNAS	9(N)	Bailleul	27	3	1918	RNAS	
+Britain	RNAS	9(N)	Clairmarais	29	3	1918	RNAS	
+Britain	RAF	209	Clairmarais	1	4	1918	RAF	"9N renamed 209 Sqn., RAF"
+Britain	RAF	209	Bertangles	7	4	1918	RAF	
+Britain	RAF	209	Quelmes	20	7	1918	RAF	
+Britain	RAF	209	Bertangles	6	8	1918	RAF	
+Britain	RAF	209	Le Hameau	14	8	1918	RAF	
+Britain	RAF	209	Bruille	24	10	1918	RAF	
+Britain	RNAS	10(N)	St-Pol	12	2	1917	RNAS	
+Britain	RNAS	10(N)	Furnes	25	3	1917	RNAS	
+Britain	RNAS	10(N)	Droglandt	15	5	1917	RNAS	
+Britain	RNAS	10(N)	Leffrinckhoucke	4	10	1917	RNAS	
+Britain	RNAS	10(N)	Teteghem	27	11	1917	RNAS	
+Britain	RAF	210	Treizennes	1	4	1918	RAF	"10N renamed to 210 Sqn., RAF"
+Britain	RAF	210	Liettres	9	4	1918	RAF	
+Britain	RAF	210	St-Omer	27	4	1918	RAF	
+Britain	RAF	210	Ste-Marie-Cappel	30	5	1918	RAF	
+Britain	RAF	210	Teteghem	9	7	1918	RAF	
+Britain	RAF	210	Eringhem	22	7	1918	RAF	
+Britain	RAF	210	Boussieres	23	10	1918	RAF	
+Britain	RNAS	11(N)	Dunkerque	8	3	1917	RNAS	
+Britain	RNAS	11(N)	Hondschoote	11	7	1917	RNAS	
+Britain	RNAS	11(N)	Hondschoote	27	8	1917	RNAS	Disbanded
+Britain	RNAS	11(N)	Petite Synthe	10	3	1918	RNAS	Reformed
+Britain	RAF	211	Petite Synthe	1	4	1918	RAF	"11N renamed 211 Sqn., RAF"
+Britain	RAF	211	Iris Farm	24	10	1918	RAF	
+Britain	RNAS	12N	Petite Synthe	1	7	1917	RNAS	Training squadron moved from Great Yarmouth
+Britain	RNAS	12N	Petite Synthe	1	4	1918	RAF	Disbanded
+Britain	RNAS	13(N)	St-Pol	15	1	1918	RNAS	Renamed from 'St-Pol Defence Sqn.'
+Britain	RNAS	13(N)	Bergues	25	1	1918	RNAS	
+Britain	RAF	213	Bergues	1	4	1918	RAF	"13N renamed 213 Sqn., RAF"
+Britain	RNAS	14(N)	Coudekerque	8	12	1917	RNAS	"Formed from 7A Sqn., RNAS"
+Britain	RNAS	14(N)	Alquines	10	3	1918	RNAS	
+Britain	RNAS	14(N)	Coudekerque	26	3	1918	RNAS	
+Britain	RAF	214	Coudekerque	1	4	1918	RAF	"14N renamed 214 Sqn., RAF"
+Britain	RAF	214	St-Inglevert	29	6	1918	RAF	
+Britain	RAF	214	Quilen	24	10	1918	RAF	
+Britain	RAF	214	Chemy	30	10	1918	RAF	
+Britain	RNAS	15(N)	Coudekerque	10	3	1918	RNAS	"Formed from 7 and 14 N, RNAS"
+Britain	RAF	215	Coudekerque	1	4	1918	RAF	"15N renamed 215 Sqn., RAF"
+Britain	RAF	215	Netheravon	23	4	1918	RAF	
+Britain	RAF	215	Andover	13	5	1918	RAF	
+Britain	RAF	215	Alquines	4	7	1918	RAF	
+Britain	RAF	215	Xaffevillers	19	8	1918	RAF	
+Britain	RNAS	16(N)	Ochey	8	1	1918	RNAS	"Formed from A Sqn., RNAS"
+Britain	RNAS	16(N)	Villesneux	30	3	1918	RNAS	
+Britain	RAF	216	Villesneux	1	4	1918	RAF	"16N renamed 216 Sqn., RAF"
+Britain	RAF	216	Ochey	9	5	1918	RAF	
+Britain	RAF	216	Autreville	26	8	1918	RAF	
+Britain	RAF	216	Roville-aux-Chenes	28	9	1918	RAF	
+Britain	RNAS	17(N)	Bierne	23	1	1918	RNAS	Formed from RN Seaplane Base
+Britain	RNAS	17(N)	Bergues	1	2	1918	RNAS	
+Britain	RAF	217	Bergues	1	4	1918	RAF	"17N renamed 217 Sqn., RAF"
+Britain	RAF	217	Crochte	10	7	1918	RAF	
+Britain	RAF	218	Dover	24	4	1918	RAF	
+Britain	RAF	218	Petite Synthe	23	5	1918	RAF	
+Britain	RAF	218	Frethun	7	7	1918	RAF	
+Britain	RAF	218	Reumont	25	10	1918	RAF	
+Britain	RAF	233	Walmer		8	1918	RAF	
+Australia	AFC	2	Harlaxton	30	1	1917	RNAS	Moved from Middle East for service in France
+Australia	AFC	2	Baixieux	7	1	1918	RNAS	
+Australia	AFC	2	Auchel	22	1	1918		
+Australia	AFC	2	Savy	2	4	1918		
+Australia	AFC	2	Bertangles	4	4	1918		
+Australia	AFC	2	Bellevue	3	6	1918		
+Australia	AFC	2	Foquorolles	21	6	1918		
+Australia	AFC	2	Liettres	1	7	1918		
+Australia	AFC	2	Reclinghem	1	10	1918		
+Australia	AFC	2	Serny	20	10	1918		
+Australia	AFC	2	Auchel	26	10	1918		
+Australia	AFC	2	Pont-a-Marcq	10	1	1919		
+Australia	AFC	3	South Carlton	28	12	1916		In training after transported from Australia
+Australia	AFC	3	Savy	9	9	1917		
+Australia	AFC	3	Bailleul	12	11	1917		
+Australia	AFC	3	Abeele	22	3	1918		
+Australia	AFC	3	Bertangles	8	4	1918		
+Australia	AFC	3	Flesselles	4	5	1918		
+Australia	AFC	3	Proyart	6	9	1918		
+Australia	AFC	3	Bouvincourt	21	9	1918		
+Australia	AFC	3	Bernes	6	10	1918		
+Australia	AFC	3	Premont	17	10	1918		
+Australia	AFC	3	Tarciennes	29	11	1918		Last station before demobilization.
+Australia	AFC	4	Castle Bromwich	27	3	1917		Training
+Australia	AFC	4	Bruay	22	12	1917		
+Australia	AFC	4	Clairmarais North	28	4	1918		
+Australia	AFC	4	Reclinghem	30	6	1918		
+Australia	AFC	4	Serny	29	9	1918		
+Australia	AFC	4	Auchel	20	10	1918		
+Australia	AFC	4	Grand Ennetieres	26	10	1918		
+Australia	AFC	4	Bisseghem	17	11	1918		

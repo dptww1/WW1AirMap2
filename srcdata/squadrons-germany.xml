@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<!-- $Id: $ -->
+
+<squadrons>
+    <squadron nation="GE" type="Jasta" num="1">
+        <location name="Bertincourt" fromDate="8/22/1916" toDate="9/22/1916"/>
+        <location name="Hermies" fromDate="9/23/1916" toDate="10/26/1916"/>
+        <location name="Proville" fromDate="10/27/1916" toDate="3/22/1917"/>
+        <location name="Besny-Soisy" fromDate="3/23/1917" toDate="3/31/1917"/>
+        <location name="Vivaise" fromDate="4/1/1917" toDate="9/21/1917"/>
+        <location name="Veldes" fromDate="9/22/1917" toDate="11/2/1917" fromDateCertainty="estimated"/>
+        <location name="Campoformidi" fromDate="11/3/1917" toDate="11/10/1917"/>
+        <location name="Aviano" fromDate="11/11/1917" toDate="11/15/1917"/>
+        <location name="Possanerlo" fromDate="11/16/1917" toDate="12/22/1917"/>
+        <location name="San Fior" fromDate="12/23/1917" toDate="3/13/1918"/>
+        <location name="Blaise" fromDate="3/14/1918" toDate="5/30/1918" fromDateCertainty="estimated"><notes>JP p14: Blaise Mar</notes></location>
+        <location name="St.-Rémy-le-Petit West" fromDate="5/13/1918" toDate="6/7/1918"><notes>JP p14: St Rémy</notes></location>
+        <location name="La Bonne Maison Ferme" fromDate="6/8/1918" toDate="6/12/1918"><notes>JP p14: La Bonne Maison</notes></location>
+        <location name="Mont-St.-Martin" fromDate="6/13/1918" toDate="6/26/1918"/>
+        <location name="Magneux" fromDate="6/27/1918" toDate="7/10/1918"><notes>JP p14: Magneuse-Villette</notes></location>
+        <location name="Fonfry" fromDate="7/11/1918" toDate="7/19/1918"/>
+        <location name="Bazoches" fromDate="7/20/1918" toDate="7/26/1918"/>
+        <location name="Maizy" fromDate="7/27/1918" toDate="7/31/1918"/>
+        <location name="Sissone" fromDate="8/1/1918" toDate="8/12/1918"/>
+        <location name="Emerchicourt" fromDate="8/13/1918" toDate="8/24/1918"/>
+        <location name="Roucourt" fromDate="8/25/1918" toDate="9/1/1918"/>
+        <location name="Erre" fromDate="9/2/1918" toDate="9/26/1918"><notes>JP p14: Erre-Somain</notes></location>
+        <location name="Helesmes" fromDate="9/27/1918" toDate="10/11/1918"><notes>JP p14: Helesmes-Denain</notes></location>
+        <location name="Ghlin" fromDate="10/12/1918" toDate="10/17/1918"><notes>JP p14: Ghlin Mons</notes></location>
+        <location name="Castern" fromDate="10/18/1918" toDate="11/9/1918"/>
+        <location name="Wavre" fromDate="11/10/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="2">
+        <location name="Vélu" fromDate="9/1/1916" toDate="9/21/1916"/>
+        <location name="Lagnicourt-Marcel" fromDate="9/22/1916" toDate="12/4/1916"/>
+        <location name="Pronville" fromDate="12/5/1916" toDate="3/13/1917"/>
+        <location name="Eswars" fromDate="3/14/1917" toDate="3/22/1917"/>
+        <location name="Pronville" fromDate="3/23/1917" toDate="7/31/1917"/>
+        <location name="La Petrie" fromDate="8/1/1917" toDate="8/6/1917"/>
+        <location name="Bisseghem" fromDate="8/7/1917" toDate="8/11/1917"></location>
+        <location name="Ghistelles" fromDate="8/12/1917" toDate="8/26/1917"/>
+        <location name="Varsenere" fromDate="8/27/1917" toDate="9/30/1917"/>
+        <location name="Rumbeke" fromDate="10/1/1917" toDate="11/12/1917"/>
+        <location name="Bavichove" fromDate="11/13/1917" toDate="2/15/1918"/>
+        <location name="Marcke" fromDate="2/16/1918" toDate="3/14/1918"/>
+        <location name="Erchin" fromDate="3/15/1918" toDate="4/14/1918"/>
+        <location name="Halluin" fromDate="4/15/1918" toDate="5/20/1918"/>
+        <location name="Vivaise" fromDate="5/21/1918" toDate="6/5/1918"/>
+        <location name="Mont de Soissons Ferme" fromDate="6/6/1918" toDate="7/17/1918"/>
+        <location name="Vauxcéré" fromDate="7/18/1918" toDate="7/29/1918"><notes>JP p15: "18 Jul 1918 - 29 Jun 1918", probable typo</notes></location>
+        <location name="Chambry" fromDate="7/30/1918" toDate="8/24/1918"><notes>JP p15: "30 Jun 1918 - 24 Aug 1918", probable typo</notes></location>
+        <location name="Emerchicourt" fromDate="8/25/1918" toDate="9/26/1918"/>
+        <location name="Lieu-St.-Armand" fromDate="9/27/1918" toDate="9/29/1918"/>
+        <location name="Spultier" fromDate="9/30/1918" toDate="10/9/1918"><notes>JP p16: Spultier, Wavre</notes></location>
+        <location name="Lens" fromDate="10/10/1918" toDate="11/8/1918"><notes>JP p16: Lens, Mons</notes></location>
+        <location name="Aniche" fromDate="11/9/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="3">
+        <location name="Vraignes" fromDate="9/1/1916" toDate="11/4/1916"/>
+        <location name="Fontaine-Uterte" fromDate="11/5/1916" toDate="3/20/1917"/>
+        <location name="Guesnain" fromDate="3/21/1917" toDate="7/11/1917"/>
+        <location name="Houplin" fromDate="7/12/1917" toDate="7/19/1917"/>
+        <location name="Rumbeke" fromDate="7/20/1917" toDate="9/16/1917"/>
+        <location name="Guise" fromDate="9/17/1917" toDate="9/19/1917"/>
+        <location name="Rumbeke" fromDate="9/20/1917" toDate="10/16/1917"/>
+        <location name="Wynghene" fromDate="10/17/1917" toDate="3/12/1918"/>
+        <location name="Briastre" fromDate="3/13/1918" toDate="3/23/1918"/>
+        <location name="Mons-en-Chaussée" fromDate="3/24/1918" toDate="4/10/1918"/>
+        <location name="Ingelmünster" fromDate="4/11/1918" toDate="5/3/1918"/>
+        <location name="Rumbeke" fromDate="5/4/1918" toDate="6/5/1918"/>
+        <location name="Falvy" fromDate="6/6/1918" toDate="7/8/1918"><notes>JP p16: Falvy-Péronne</notes></location>
+        <location name="Blaise" fromDate="7/9/1918" toDate="9/7/1918"/>
+        <location name="Gross-Tanchen" fromDate="11/8/1918" toDate="11/11/1918"><notes>JP p16: Gross-Tanchen, Mörchingen</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="4">
+        <location name="Vaux" fromDate="8/25/1916" toDate="8/31/1916"/>
+        <location name="Roupy" fromDate="9/1/1916" toDate="12/11/1916"/>
+        <location name="Xivry-Circourt" fromDate="12/12/1916" toDate="2/9/1917"/>
+        <location name="Le Catelet" fromDate="2/10/1917" toDate="2/23/1917"/>
+        <location name="Douai" fromDate="2/24/1917" toDate="5/31/1917"/>
+        <location name="Ceune" fromDate="6/1/1917" toDate="7/1/1917"><notes>JP p18: Ceune-Courtrai</notes></location>
+        <location name="Marckebeke" fromDate="7/2/1917" toDate="11/20/1917"/>
+        <location name="Lieu-St.-Armand" fromDate="11/21/1917" toDate="3/25/1918"/>
+        <location name="Léchelle" fromDate="3/26/1918" toDate="4/2/1918"/>
+        <location name="Harbonnières" fromDate="4/3/1918" toDate="4/11/1918"/>
+        <location name="Cappy" fromDate="4/12/1918" toDate="5/19/1918"/>
+        <location name="Longchamps" fromDate="5/20/1918" toDate="5/25/1918"><notes>JP p18: Longchamps, Guise</notes></location>
+        <location name="Puisieux Ferme" fromDate="5/26/1918" toDate="5/30/1918"><notes>JP p18: Puisieux Ferme, Laon</notes></location>
+        <location name="Beugneux" fromDate="5/31/1918" toDate="7/17/1918"/>
+        <location name="Monthussart Ferme" fromDate="7/18/1918" toDate="7/29/1918"/>
+        <location name="Puisieux Ferme" fromDate="7/30/1918" toDate="8/9/1918"><notes>JP p18: Puisieux Ferme, Laon</notes></location>
+        <location name="Ennemain-Falvy Rd" fromDate="8/10/1918" toDate="8/11/1918"><notes>JP p18: Ennemain, Falvy</notes></location>
+        <location name="Bernes" fromDate="8/12/1918" toDate="8/30/1918"/>
+        <location name="Busigny" fromDate="8/31/1918" toDate="9/27/1918"><notes>JP p18: Busigny-Escaufourt</notes></location>
+        <location name="Metz-Frescaty" fromDate="9/28/1918" toDate="10/8/1918"/>
+        <location name="Marville" fromDate="10/9/1918" toDate="11/6/1918"/>
+        <location name="Tellancourt" fromDate="11/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="5">
+        <location name="Béchamps" fromDate="8/21/1916" toDate="9/25/1916"/>
+        <location name="Bellevue Ferme" fromDate="9/26/1916" toDate="9/29/1916"><notes>JP p19: Bellevue Ferme, Senon</notes></location>
+        <location name="Gonnelieu" fromDate="9/30/1916" toDate="3/10/1917"/>
+        <!-- the remaining entries for J5 are corrected as per Rick Duiven on the http://www.theaerodrome.com forum -->
+        <!--  on 9-Oct-2000; search for "just flat out missed" on the forum's search page -->
+        <location name="Boistrancourt" fromDate="3/11/1917" toDate="3/25/1918"/>
+        <location name="Liéramont" fromDate="3/26/1918" toDate="4/23/1918"/>
+        <location name="Cappy" fromDate="4/24/1918" toDate="7/27/1918"><notes>Cappy-sur-Somme</notes></location>
+        <location name="Moislains" fromDate="7/28/1918" toDate="8/24/1918"/>
+        <location name="Nurlu" fromDate="8/25/1918" toDate="9/30/1918"/>
+        <location name="Neuville" fromDate="10/1/1918" toDate="10/7/1918"/>
+        <location name="Escarmain" fromDate="10/8/1918" toDate="10/10/1918"><notes>Escarmain by Capelle</notes></location>
+        <location name="Villers-sire-nicole" fromDate="10/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="6">
+        <location name="Sivry" fromDate="8/25/1916" toDate="9/23/1916"/>
+        <location name="Jametz" fromDate="9/24/1916" toDate="9/29/1916"/>
+        <location name="Ugny-l'Équipée" fromDate="9/30/1916" toDate="3/19/1917"><notes>JP p20: Ugny l'Equipée, Ham</notes></location>
+        <location name="Aulnoye" fromDate="3/20/1917" toDate="6/9/1917"/>
+        <location name="Bisseghem" fromDate="6/10/1917" toDate="7/1/1917"><notes>JP p20: Bissighem-Courtrai</notes></location>
+        <location name="Marckebeke" fromDate="7/2/1917" toDate="11/20/1917"/>
+        <location name="Lieu-St.-Armand" fromDate="11/21/1917" toDate="11/24/1917"/>
+        <location name="Bouchain" fromDate="11/25/1917" toDate="3/20/1918"/>
+        <location name="Awoingt" fromDate="3/21/1918" toDate="3/26/1918"/>
+        <location name="Léchelle" fromDate="3/27/1918" toDate="4/3/1918"><notes> JP p20: Lechelle</notes></location>
+        <location name="Harbonnières" fromDate="4/4/1918" toDate="4/11/1918"><notes>JP p20: Harbonnières, Proyart</notes></location>
+        <location name="Cappy" fromDate="4/12/1918" toDate="4/13/1918"/>
+        <location name="Lomme" fromDate="4/14/1918" toDate="5/20/1918"><notes>JP p20: Lomme, Lille</notes></location>
+        <location name="Guise" fromDate="5/21/1918" toDate="5/26/1918"/>
+        <location name="Puisieux Ferme" fromDate="5/27/1918" toDate="5/31/1918"/>
+        <location name="Beugneux" fromDate="5/31/1918" toDate="7/18/1918"><notes>JP p20: Begneux, assumed typo</notes></location>
+        <location name="Monthussart Ferme" fromDate="7/19/1918" toDate="7/29/1918"/>
+        <location name="Puisieux Ferme" fromDate="7/30/1918" toDate="8/10/1918"/>
+        <location name="Ennemain" fromDate="8/11/1918" toDate="8/11/1918"/>
+        <location name="Bernes" fromDate="8/12/1918" toDate="8/30/1918"/>
+        <location name="Busigny" fromDate="8/31/1918" toDate="9/27/1918"><notes>JP p20: N Busigny</notes></location>
+        <location name="Metz-Frescaty" fromDate="9/28/1918" toDate="10/8/1918"><notes>JP p20: Metz-Frescaty</notes></location>
+        <location name="Marville" fromDate="10/9/1918" toDate="11/6/1918"/>
+        <location name="Tellancourt" fromDate="11/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="7">
+        <location name="Martincourt-sur-Meuse" fromDate="9/1/1916" toDate="9/28/1916"><notes>JP p21: - 28 Sep 1918, obviously a typo</notes></location>
+        <location name="Bellevue Ferme" fromDate="9/29/1916" toDate="10/19/1916"><notes>JP p21: Bellevue Ferme, Senon</notes></location>
+        <location name="La Jolly Ferme" fromDate="10/20/1916" toDate="11/1/1916"><notes>JP p21: La Joly Ferme, Stenay</notes></location>
+        <location name="Procher" fromDate="11/2/1916" toDate="5/4/1917"/>
+        <location name="Eswars" fromDate="5/5/1917" toDate="6/5/1917"/>
+        <location name="Thouroube" fromDate="6/6/1917" toDate="8/21/1917"><notes>JP p21: Thouroube, Roulers</notes></location>
+        <location name="Wynghene" fromDate="8/22/1917" toDate="9/14/1917"/>
+        <location name="Aertrycke" fromDate="9/15/1917" toDate="3/1/1918"/>
+        <location name="Rumbeke" fromDate="3/2/1918" toDate="3/14/1918"/>
+        <location name="Roulers" fromDate="3/15/1918" toDate="3/29/1918"/>
+        <location name="St.-Marguerite" fromDate="3/30/1918" toDate="10/1/1918"/>
+        <location name="Menin" fromDate="10/1/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="8">
+        <location name="Rumbeke" fromDate="9/15/1916" toDate="9/30/1917"/>
+        <location name="Jabbeke" fromDate="10/1/1917" toDate="11/19/1917"><notes>JP p22: Jabbeke-Brügge</notes></location>
+        <location name="Neuvilly" fromDate="11/20/1917" toDate="12/14/1917"><notes>JP p22: Neuvilly, Le Cateau</notes></location>
+        <location name="Wassigny" fromDate="12/15/1917" toDate="3/21/1918"/>
+        <location name="Bohain" fromDate="3/22/1918" toDate="3/24/1918"/>
+        <location name="Beauvois" fromDate="3/25/1918" toDate="3/27/1918"/>
+        <location name="Balâtre" fromDate="3/28/1918" toDate="7/5/1918"><notes>JP p22: Balâtre-Roye</notes></location>
+        <location name="St.-Rémy-le-Petit West" fromDate="7/6/1918" toDate="9/14/1918"><notes>JP p22: St. Rémy</notes></location>
+        <location name="Mercy-le-Haut" fromDate="9/15/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="9">
+        <location name="Leffincourt" fromDate="10/5/1916" toDate="3/23/1918"/>
+        <location name="Chéry-les-Pouilly" fromDate="3/24/1918" toDate="6/6/1918"/>
+        <location name="Monceau-le-Waast" fromDate="6/7/1918" toDate="7/11/1918"/>
+        <location name="Fonfry" fromDate="7/12/1918" toDate="7/20/1918"/>
+        <location name="Rocourt-St.-Martin" fromDate="7/21/1918" toDate="7/22/1918"><notes>JP p23: Rocourt St. Martin</notes></location>
+        <location name="Bazoches" fromDate="7/23/1918" toDate="7/26/1918"/>
+        <location name="Maizy" fromDate="7/27/1918" toDate="7/31/1918"/>
+        <location name="Sissone" fromDate="8/1/1918" toDate="10/11/1918"/>
+        <location name="Plomion" fromDate="10/12/1918" toDate="11/11/1918"><notes>JP p23: Plounion, assumed typo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="10">
+        <location name="Phalempin" fromDate="10/6/1916" toDate="10/27/1916"/>
+        <location name="Jametz" fromDate="10/28/1916" toDate="12/12/1916"><notes>JP p24: Jametz, Stenay</notes></location>
+        <location name="Aincreville" fromDate="12/12/1916" toDate="2/22/1917" toDateCertainty="estimated"/>
+        <location name="Leffincourt" fromDate="2/23/1917" toDate="5/1/1917" fromDateCertainty="estimated"/>
+        <location name="Bersée" fromDate="5/2/1917" toDate="5/24/1917"><notes>JP p24: Bersée, Douai</notes></location>
+        <location name="Heule" fromDate="5/25/1917" toDate="7/1/1917"><notes>JP p24: Heul, Courtrai; assumed typo</notes></location>
+        <location name="Marckebeke" fromDate="7/2/1917" toDate="11/21/1917"/>
+        <location name="Iwuy" fromDate="11/22/1917" toDate="3/20/1918"/>
+        <location name="Awoingt" fromDate="3/21/1918" toDate="3/27/1918"/>
+        <location name="Léchelle" fromDate="3/28/1918" toDate="4/3/1918"><notes>JP p24: Lechelle</notes></location>
+        <location name="Harbonnières" fromDate="4/3/1918" toDate="4/12/1918"><notes>JP p24: Harbonières, Proyart</notes></location>
+        <location name="Cappy" fromDate="4/13/1918" toDate="4/13/1918"/>
+        <location name="Lomme" fromDate="4/14/1918" toDate="5/21/1918"><notes>JP p24: Lomme, Lille</notes></location>
+        <location name="Etreux" fromDate="5/21/1918" toDate="5/26/1918"><notes>JP p24: Etreux, Guise</notes></location>
+        <location name="Puisieux Ferme" fromDate="5/26/1918" toDate="5/31/1918"><notes>JP p24: Puisieux Ferme, Laon</notes></location>
+        <location name="Rugny Ferme" fromDate="6/1/1918" toDate="7/18/1918"><notes>JP p24: Rugny Ferme, Beugneux</notes></location>
+        <location name="Monthussart Ferme" fromDate="7/19/1918" toDate="7/29/1918"/>
+        <location name="Puisieux Ferme" fromDate="7/30/1918" toDate="8/10/1918"/>
+        <location name="Ennemain-Falvy Rd" fromDate="8/11/1918" toDate="8/11/1918"><notes>JP p24: Ennemain, Falvy</notes></location>
+        <location name="Bernes" fromDate="8/12/1918" toDate="8/30/1918"/>
+        <location name="Escaufourt" fromDate="8/31/1918" toDate="9/20/1918"/>
+        <location name="Metz-Frescaty" fromDate="9/25/1918" toDate="10/8/1918"><notes>JP p24: Metz-Frescaty</notes></location>
+        <location name="Marville" fromDate="10/9/1918" toDate="11/6/1918"/>
+        <location name="Tellancourt" fromDate="11/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="11">
+        <location name="La Brayelles" fromDate="10/11/1916" toDate="4/13/1917"><notes>JP p25: Brayelles-Douai</notes></location>
+        <location name="Roucourt" fromDate="4/14/1917" toDate="6/9/1917"><notes>JP p25: Roucourt, Bohain</notes></location>
+        <location name="Harlebeke" fromDate="6/10/1917" toDate="7/1/1917"><notes>JP p25: Harlebeke, Bavichove</notes></location>
+        <location name="Marckebeke" fromDate="7/2/1917" toDate="11/22/1917"><notes>JP p25: Marckebeke, Courtrai</notes></location>
+        <location name="Avesnes-le-Sec" fromDate="11/23/1917" toDate="3/19/1918"><notes>JP p25: Avesnes-le-Sec, Cambrai</notes></location>
+        <location name="Awoingt" fromDate="3/20/1918" toDate="3/25/1918"><notes>JP p25: Awoingt, Cambrai</notes></location>
+        <location name="Léchelle" fromDate="3/26/1918" toDate="4/11/1918"/>
+        <location name="Cappy" fromDate="4/12/1918" toDate="5/20/1918"/>
+        <location name="Guise" fromDate="5/21/1918" toDate="5/26/1918"/>
+        <location name="Puisieux Ferme" fromDate="5/27/1918" toDate="5/31/1918"><notes>JP p26: Puisieux Ferme, Laon</notes></location>
+        <location name="Beugneux" fromDate="6/1/1918" toDate="7/18/1918"><notes>JP p26: Begneux, assumed typo</notes></location>
+        <location name="Monthussart Ferme" fromDate="7/19/1918" toDate="7/31/1918"/>
+        <location name="Puisieux Ferme" fromDate="8/1/1918" toDate="8/10/1918"/>
+        <location name="Ennemain" fromDate="8/11/1918" toDate="8/12/1918"/>
+        <location name="Montigny Ferme" fromDate="8/13/1918" toDate="8/30/1918"/>
+        <location name="Busigny" fromDate="8/31/1918" toDate="9/27/1918"/>
+        <location name="Metz-Frescaty" fromDate="9/28/1918" toDate="10/8/1918"><notes>JP p26: Metz-Frescaty</notes></location>
+        <location name="Marville" fromDate="10/9/1918" toDate="11/6/1918"/>
+        <location name="Tellancourt" fromDate="11/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="12">
+        <location name="Vaux" fromDate="9/28/1916" toDate="11/1/1916"><notes>JP p27: Vaux, Laon</notes></location>
+        <location name="Riencourt-les-Cagnicourt" fromDate="11/2/1916" toDate="12/23/1916"><notes>JP p27: Riencourt, Arras. tJP has two consecutive entries because of army assignment changes, but I've coagulated those entries.</notes></location>
+        <location name="Niederum" fromDate="12/24/1916" toDate="2/19/1917"/>
+        <location name="Epinoy" fromDate="2/20/1917" toDate="4/12/1917"/>
+        <location name="Roucourt" fromDate="4/13/1917" toDate="11/5/1917"/>
+        <location name="Erkeghem" fromDate="11/6/1917" toDate="11/16/1917"/>
+        <location name="Phalempin" fromDate="11/17/1917" toDate="11/26/1917"/>
+        <location name="Roucourt" fromDate="11/27/1917" toDate="2/2/1918"/>
+        <location name="Marle" fromDate="2/3/1918" toDate="2/13/1918"><notes>JP map+gazetteer: Marle-Autremencourt</notes></location>
+        <location name="Toulis" fromDate="2/14/1918" toDate="3/19/1918"/>
+        <location name="Guise" fromDate="3/20/1918" toDate="3/23/1918"/>
+        <location name="Roupy" fromDate="3/24/1918" toDate="3/24/1918"/>
+        <location name="Guisecourt" fromDate="3/25/1918" toDate="3/28/1918"/>
+        <location name="Balâtre" fromDate="3/29/1918" toDate="4/13/1918"/>
+        <location name="Bonneuil Ferme" fromDate="4/14/1918" toDate="4/21/1918"/>
+        <location name="Le Mesnil, Nesle" fromDate="4/22/1918" toDate="6/12/1918"/>
+        <location name="Mesnil-Bruntel" fromDate="6/13/1918" toDate="7/12/1918"/>
+        <location name="Leffincourt" fromDate="7/13/1918" toDate="7/24/1918"/>
+        <location name="Chéry-les-Pouilly" fromDate="7/25/1918" toDate="8/20/1918"/>
+        <location name="Fontaine Notre Dame" fromDate="8/21/1918" toDate="8/28/1918"/>
+        <location name="Neuflize" fromDate="8/29/1918" toDate="9/3/1918"/>
+        <location name="Doncourt" fromDate="9/4/1918" toDate="9/4/1918"/>
+        <location name="Giraumont" fromDate="9/5/1918" toDate="9/28/1918"/>
+        <location name="Charmois" fromDate="9/29/1918" toDate="10/18/1918"><notes>JP p27: Charmois, Stenay</notes></location>
+        <location name="Carignan" fromDate="10/19/1918" toDate="11/3/1918"/>
+        <location name="Florenville" fromDate="11/4/1918" toDate="11/10/1918"/>
+        <location name="Trier" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="13">
+        <location name="Mars-la-Tour" fromDate="10/15/1916" toDate="2/19/1917"/>
+        <location name="?" fromDate="2/20/1917" toDate="3/5/1917"/>
+        <location name="La Selve" fromDate="3/6/1917" toDate="5/1/1917"/>
+        <location name="Le Clos Ferme" fromDate="5/2/1917" toDate="10/30/1917"><notes>JP p28: Le Clos Ferme, Boncourt</notes></location>
+        <location name="Marle" fromDate="11/1/1917" toDate="11/22/1917"><notes>JP p28: Marle</notes></location>
+        <location name="Cambrai" fromDate="11/23/1917" toDate="2/2/1918"/>
+        <location name="Reneuil Ferme" fromDate="2/3/1918" toDate="2/12/1918"/>
+        <location name="Autremencourt" fromDate="2/13/1918" toDate="3/19/1918"/>
+        <location name="Guise" fromDate="3/20/1918" toDate="3/23/1918"/>
+        <location name="Roupy" fromDate="3/24/1918" toDate="3/24/1918"/>
+        <location name="Guisecourt" fromDate="3/25/1918" toDate="3/28/1918"/>
+        <location name="Balâtre" fromDate="3/29/1918" toDate="4/13/1918"/>
+        <location name="Bonneuil Ferme" fromDate="4/14/1918" toDate="4/21/1918"/>
+        <location name="Le Mesnil, Nesle" fromDate="4/22/1918" toDate="6/12/1918"/>
+        <location name="Mesnil-Bruntel" fromDate="6/13/1918" toDate="7/13/1918"/>
+        <location name="Leffincourt" fromDate="7/14/1918" toDate="7/24/1918"/>
+        <location name="Chéry-les-Pouilly" fromDate="7/25/1918" toDate="8/18/1918"/>
+        <location name="Foreste" fromDate="8/19/1918" toDate="8/26/1918"/>
+        <location name="Fontaine Notre Dame" fromDate="8/27/1918" toDate="8/28/1918"/>
+        <location name="Neuflize" fromDate="8/29/1918" toDate="9/3/1918"/>
+        <location name="Tichémont" fromDate="9/4/1918" toDate="9/28/1918"/>
+        <location name="Stenay" fromDate="9/29/1918" toDate="11/1/1918"/>
+        <location name="Carignan" fromDate="11/2/1918" toDate="11/3/1918"/>
+        <location name="Florenville" fromDate="11/4/1918" toDate="11/10/1918"/>
+        <location name="Trier" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="14">
+        <location name="Bühl" fromDate="9/28/1916" toDate="10/14/1916"/>
+        <location name="Marchais" fromDate="10/15/1916" toDate="4/27/1917"/>
+        <location name="La Neuville" fromDate="4/28/1917" toDate="5/15/1917" toDateCertainty="estimated"/>
+        <location name="Marchais" fromDate="5/16/1917" toDate="11/5/1917" fromDateCertainty="estimated"/>
+        <location name="Boncourt" fromDate="11/6/1917" toDate="1/5/1918"/>
+        <location name="Liesse" fromDate="1/6/1918" toDate="3/19/1918"/>
+        <location name="Masny" fromDate="3/20/1918" toDate="4/11/1918"/>
+        <location name="Phalempin" fromDate="4/12/1918" toDate="10/3/1918"/>
+        <location name="Aertrycke" fromDate="10/4/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="15">
+        <location name="Habsheim" fromDate="10/10/1916" toDate="3/2/1917"/>
+        <location name="La Selve" fromDate="3/5/1917" toDate="5/1/1917"/>
+        <location name="Le Clos Ferme" fromDate="5/2/1917" toDate="10/30/1917"><notes>JP p30: Le Clos Ferme, Boncourt</notes></location>
+        <location name="Marle" fromDate="11/1/1917" toDate="11/22/1917"><notes>JP p30: Marle</notes></location>
+        <location name="Cambrai" fromDate="11/23/1917" toDate="2/12/1918"><notes>JP p30: Cambrai area</notes></location>
+        <location name="Autremencourt" fromDate="2/13/1918" toDate="3/19/1918"/>
+        <location name="Guise" fromDate="3/20/1918" toDate="3/23/1918"/>
+        <location name="Roupy" fromDate="3/24/1918" toDate="3/24/1918"/>
+        <location name="Guisecourt" fromDate="3/25/1918" toDate="3/28/1918"/>
+        <location name="Balâtre" fromDate="3/29/1918" toDate="4/13/1918"/>
+        <location name="Bonneuil Ferme" fromDate="4/14/1918" toDate="4/21/1918"/>
+        <location name="Le Mesnil, Nesle" fromDate="4/22/1918" toDate="6/12/1918"/>
+        <location name="Mesnil-Bruntel" fromDate="6/13/1918" toDate="7/12/1918"/>
+        <location name="Leffincourt" fromDate="7/13/1918" toDate="7/24/1918"/>
+        <location name="Chéry-les-Pouilly" fromDate="7/25/1918" toDate="8/18/1918"/>
+        <location name="Foreste" fromDate="8/19/1918" toDate="8/26/1918"/>
+        <location name="Fontaine Notre Dame" fromDate="8/27/1918" toDate="8/28/1918"/>
+        <location name="Neuflize" fromDate="8/29/1918" toDate="9/3/1918"/>
+        <location name="Doncourt" fromDate="9/4/1918" toDate="9/4/1918"/>
+        <location name="Giraumont" fromDate="9/5/1918" toDate="9/13/1918"/>
+        <location name="Tichémont" fromDate="9/14/1918" toDate="9/28/1918"/>
+        <location name="Charmois" fromDate="9/29/1918" toDate="10/18/1918"><notes>JP p30: Charmois, Stenay</notes></location>
+        <location name="Carignan" fromDate="10/10/1918" toDate="11/3/1918"/>
+        <location name="Florenville" fromDate="11/4/1918" toDate="11/10/1918"/>
+        <location name="Trier" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="16">
+        <location name="Ensisheim" fromDate="10/16/1916" toDate="4/13/1917"/>
+        <location name="Habsheim" fromDate="4/14/1917" toDate="5/6/1917"/>
+        <location name="Château-Porcien" fromDate="5/7/1917" toDate="6/4/1917"/>
+        <location name="Spincourt" fromDate="6/6/1917" toDate="10/20/1917"/>
+        <location name="Erlon" fromDate="10/21/1917" toDate="11/23/1917"/>
+        <location name="Mercy-le-Haut" fromDate="11/24/1917" toDate="2/4/1918"/>
+        <location name="Aertrycke" fromDate="2/7/1918" toDate="3/14/1918"/>
+        <location name="Le Cateau" fromDate="3/15/1918" toDate="3/20/1918"/>
+        <location name="Foucaucourt" fromDate="3/21/1918" toDate="4/6/1918"/>
+        <location name="?" fromDate="4/7/1918" toDate="4/12/1918"><notes>Interval is omitted from tJP</notes></location>
+        <location name="St.-Marguerite" fromDate="4/13/1918" toDate="10/15/1918" toDateCertainty="estimated"/>
+        <location name="Scheldewindeke" fromDate="10/16/1918" toDate="11/11/1918" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="17">
+        <location name="Metz-Frescaty" fromDate="11/11/1916" toDate="3/1/1917"><notes>JP p32: Metz-Frescaty</notes></location>
+        <location name="St.-Quentin-le-Petit" fromDate="3/2/1917" toDate="6/25/1917"><notes>JP p32: listed twice for different armies, consolidated here</notes></location>
+        <location name="Ghistelles" fromDate="6/26/1917" toDate="8/28/1917"><notes>JP p32: Ghistelles, Ostende</notes></location>
+        <location name="Wasquehal" fromDate="8/29/1917" toDate="11/6/1917"/>
+        <location name="Erkeghem" fromDate="11/7/1917" toDate="11/20/1917"><notes>JP p32: Erkeghem, Brugge</notes></location>
+        <location name="Neuvilly" fromDate="11/21/1917" toDate="12/1/1917"><notes>JP p32: Neuvilly, Le Cateau</notes></location>
+        <location name="Retheuil Ferme" fromDate="12/2/1917" toDate="3/26/1918"><notes>JP p32: Rutheuil Ferme, Bohain, listed twice for different armies, consolidated here</notes></location>
+        <location name="Douilly" fromDate="3/27/1918" toDate="3/28/1918"/>
+        <location name="Balâtre" fromDate="3/29/1918" toDate="5/19/1918"/>
+        <location name="Ercheu" fromDate="5/20/1918" toDate="7/10/1918"><notes>JP p33: Erchau, assumed typo</notes></location>
+        <location name="Mars-sous-Bourcq" fromDate="7/11/1918" toDate="7/25/1918"/>
+        <location name="Vivaise" fromDate="7/26/1918" toDate="9/25/1918"><notes>JP p33: listed twice for different armies, consolidated here</notes></location>
+        <location name="Chuffilly" fromDate="9/26/1918" toDate="10/9/1918"/>
+        <location name="Malmy-Cheméry" fromDate="10/10/1918" toDate="11/3/1918"/>
+        <location name="St. Medard" fromDate="11/4/1918" toDate="11/11/1918"><notes>JP p33: St. Dedard, Neufchâteau</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="18">
+        <location name="Halluin" fromDate="1/8/1917" toDate="6/12/1917"/>
+        <location name="Marckebeke" fromDate="6/13/1917" toDate="7/1/1917"/>
+        <location name="Harlebeke" fromDate="7/2/1917" toDate="11/23/1917"/>
+        <location name="Houplin" fromDate="11/24/1917" toDate="11/28/1917"><notes>JP p33: - 28 Nov 1918, typo</notes></location>
+        <location name="Avelin" fromDate="11/29/1917" toDate="12/1/1917"/>
+        <location name="Carnières" fromDate="12/2/1917" toDate="12/13/1917"/>
+        <location name="Avelin" fromDate="12/14/1917" toDate="3/19/1918"/>
+        <location name="Bruille" fromDate="3/20/1918" toDate="4/7/1918"/>
+        <location name="Avelin" fromDate="4/8/1918" toDate="4/11/1918"/>
+        <location name="Faches" fromDate="4/12/1918" toDate="4/30/1918"/>
+        <location name="Lomme" fromDate="5/1/1918" toDate="6/13/1918"/>
+        <location name="Möntingen" fromDate="6/14/1918" toDate="11/11/1918"><notes>JP p34: Möntingen, Metz</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="19">
+        <location name="Ronssoy" fromDate="10/25/1916" toDate="12/3/1916"><notes>JP p35: Ronssoy, Epehy</notes></location>
+        <location name="Lagnicourt-Marcel" fromDate="12/4/1916" toDate="12/27/1916"/>
+        <location name="Bühl" fromDate="12/28/1916" toDate="6/30/1917"><notes>JP p35: Bühl, Saarburg</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="7/1/1917" toDate="2/2/1918"/>
+        <location name="Cuirieux" fromDate="2/3/1918" toDate="2/26/1918"/>
+        <location name="Toulis" fromDate="2/27/1918" toDate="3/19/1918"/>
+        <location name="Guise" fromDate="3/20/1918" toDate="3/23/1918"/>
+        <location name="Roupy" fromDate="3/24/1918" toDate="3/24/1918"/>
+        <location name="Guisecourt" fromDate="3/25/1918" toDate="3/28/1918"/>
+        <location name="Balâtre" fromDate="3/29/1918" toDate="4/13/1918"/>
+        <location name="Bonneuil Ferme" fromDate="4/14/1918" toDate="4/21/1918"/>
+        <location name="Le Mesnil, Nesle" fromDate="4/22/1918" toDate="6/12/1918"><notes>JP p35: Le Mesnil-Nesle</notes></location>
+        <location name="Mesnil-Bruntel" fromDate="6/13/1918" toDate="7/12/1918"/>
+        <location name="Leffincourt" fromDate="7/13/1918" toDate="7/24/1918"/>
+        <location name="Chéry-les-Pouilly" fromDate="7/25/1918" toDate="8/21/1918"/>
+        <location name="Fontaine Notre Dame" fromDate="8/22/1918" toDate="8/28/1918"/>
+        <location name="Neuflize" fromDate="8/29/1918" toDate="9/3/1918"/>
+        <location name="Tichémont" fromDate="9/4/1918" toDate="9/28/1918"/>
+        <location name="Stenay" fromDate="9/29/1918" toDate="11/1/1918"/>
+        <location name="Carignan" fromDate="11/2/1918" toDate="11/3/1918"/>
+        <location name="Florenville" fromDate="11/4/1918" toDate="11/10/1918"/>
+        <location name="Trier" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="20">
+        <location name="Essigny-le-Petit" fromDate="1/1/1917" toDate="1/10/1917"/>
+        <location name="Fayet" fromDate="1/11/1917" toDate="2/8/1917"/>
+        <location name="Artemps" fromDate="2/9/1917" toDate="3/1/1917"/>
+        <location name="Guise" fromDate="3/2/1917" toDate="5/27/1917"/>
+        <location name="Moerkerke" fromDate="5/28/1917" toDate="8/31/1917"/><!-- tJP has Montkerke, but there's no such place in Mapquest or Google -->
+        <location name="Varsenere" fromDate="9/1/1917" toDate="11/23/1917"/>
+        <location name="Guesnain" fromDate="11/24/1917" toDate="4/9/1918"/>
+        <location name="Rumbeke" fromDate="4/10/1918" toDate="6/6/1918"/>
+        <location name="Menin" fromDate="6/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="21">
+        <location name="Neuflize" fromDate="11/15/1916" toDate="7/1/1917"><notes>JP p37: Neuflize, Le Chatelet</notes></location>
+        <location name="Chassonge Ferme" fromDate="7/2/1917" toDate="12/26/1917"><notes>JP p37: Chassogne Ferme, Verdun</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="12/27/1917" toDate="1/10/1918"/>
+        <location name="St.-Mard" fromDate="1/11/1918" toDate="5/18/1918"/>
+        <location name="Sissone" fromDate="5/19/1918" toDate="6/6/1918"/>
+        <location name="Boncourt" fromDate="6/7/1918" toDate="9/23/1918"/>
+        <location name="Sissone" fromDate="9/24/1918" toDate="10/10/1918"/>
+        <location name="Plomion" fromDate="11/11/1918" toDate="11/11/1918"><notes>JP p37: sic; was fromDate transcribed incorrectly from 10/11/1918?</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="22">
+        <location name="Riencourt-les-Cagnicourt" fromDate="12/1/1916" toDate="5/15/1917"><notes>JP p37: Riencourt, Arras</notes></location>
+        <location name="Mont" fromDate="5/16/1917" toDate="6/15/1917" toDateCertainty="estimated"><notes>JP p37: Mont, Verdun</notes></location>
+        <location name="Vivaise" fromDate="6/16/1917" toDate="9/15/1917" fromDateCertainty="estimated" toDateCertainty="estimated"/>
+        <location name="Mont" fromDate="9/16/1917" toDate="11/15/1917" fromDateCertainty="estimated" toDateCertainty="estimated"><notes>JP p37: Mont, Verdun</notes></location>
+        <location name="Near Soissons" fromDate="11/16/1917" toDate="3/19/1918" fromDateCertainty="estimated"/>
+        <location name="La Ferté Ferme" fromDate="3/20/1918" toDate="3/23/1918"/>
+        <location name="Mont-d'Origny" fromDate="3/23/1918" toDate="3/29/1918"/>
+        <location name="Villeselve" fromDate="3/30/1918" toDate="4/8/1918"/>
+        <location name="Ercheu" fromDate="4/9/1918" toDate="5/12/1918"><notes>JP p37: Erchu, assumed typo</notes></location>
+        <location name="Mont-St.-Martin" fromDate="5/12/1918" toDate="7/8/1918"/>
+        <location name="Bignicourt" fromDate="7/11/1918" toDate="8/8/1918"/>
+        <location name="Haubourdin" fromDate="8/8/1918" toDate="8/19/1918"><notes>JP p37: Haubourdin, Lille</notes></location>
+        <location name="Guise" fromDate="8/20/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="23">
+        <location name="Puxieux" fromDate="1/1/1917" toDate="4/14/1917"><notes>JP p38: Pusieux, Mars-la-Tour</notes></location>
+        <location name="Erlon" fromDate="4/16/1917" toDate="7/14/1917"><notes>JP p38: Erlon, Marle</notes></location>
+        <location name="Jametz" fromDate="7/20/1917" toDate="11/24/1917"/>
+        <location name="St.-Mard" fromDate="11/25/1917" toDate="2/4/1918"/>
+        <location name="Aniche" fromDate="2/6/1918" toDate="3/16/1918"/>
+        <location name="Emerchicourt" fromDate="3/17/1918" toDate="3/27/1918"/>
+        <location name="Bapaume" fromDate="3/28/1918" toDate="4/18/1918"/>
+        <location name="Epinoy" fromDate="4/19/1918" toDate="8/27/1918"/>
+        <location name="Lieu-St.-Armand" fromDate="8/28/1918" toDate="9/25/1918"/>
+        <location name="Bühl" fromDate="9/27/1918" toDate="10/8/1918"/>
+        <location name="Harmigniers" fromDate="10/13/1918" toDate="11/5/1918"/>
+        <location name="Fleurs" fromDate="11/6/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="24">
+        <location name="Mörchingen" fromDate="12/31/1916" toDate="4/15/1917"/>
+        <location name="Annelles" fromDate="4/16/1917" toDate="6/11/1917"><notes>JP p39: Annelles-Rethel</notes></location>
+        <location name="Chassonge Ferme" fromDate="6/12/1917" toDate="6/26/1917"/>
+        <location name="Heule" fromDate="6/27/1917" toDate="9/8/1917"/>
+        <location name="Harlebeke" fromDate="9/9/1917" toDate="11/22/1917"/>
+        <location name="Emerchicourt" fromDate="11/23/1917" toDate="12/27/1917"/>
+        <location name="Guise" fromDate="12/28/1917" toDate="3/20/1918"/>
+        <location name="Pleine-Selve" fromDate="3/21/1918" toDate="3/27/1918"><notes>JP p39: Pleine Selve</notes></location>
+        <location name="Villeselve" fromDate="3/28/1918" toDate="4/8/1918"/>
+        <location name="Ercheu" fromDate="4/9/1918" toDate="8/11/1918"/>
+        <location name="Guizancourt" fromDate="8/12/1918" toDate="8/15/1918"/>
+        <location name="Clastres" fromDate="8/16/1918" toDate="8/27/1918"/>
+        <location name="Chévresis-Monceau" fromDate="8/28/1918" toDate="9/5/1918"><notes>JP p39: Chevresis-Moncou, assumed typo</notes></location>
+        <location name="Guise" fromDate="9/6/1918" toDate="10/12/1918"/>
+        <location name="La Capelle" fromDate="10/13/1918" toDate="10/20/1918"><notes>JP p39: La Chapelle, assumed typo</notes></location>
+        <location name="Donstiennes" fromDate="10/21/1918" toDate="11/8/1918"/>
+        <location name="Graux" fromDate="11/9/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="25">
+        <location name="Prilip" fromDate="12/1/1916" toDate="3/13/1917"/>
+        <location name="Kanatlarci" fromDate="3/14/1917" toDate="6/1/1918"/>
+        <location name="Kalkova" fromDate="6/2/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="26">
+        <location name="Colmar Nord" fromDate="1/27/1917" toDate="3/2/1917"/>
+        <location name="Habsheim" fromDate="3/3/1917" toDate="4/12/1917"/>
+        <location name="Guise" fromDate="4/16/1917" toDate="4/23/1917"/>
+        <location name="Bohain" fromDate="4/24/1917" toDate="6/6/1917"/>
+        <location name="Iseghem" fromDate="6/8/1917" toDate="9/10/1917"/>
+        <location name="Abeele" fromDate="9/11/1917" toDate="11/1/1917"/>
+        <location name="Bavichove" fromDate="11/2/1917" toDate="2/10/1918"/>
+        <location name="Marckebeke" fromDate="2/11/1918" toDate="3/12/1918"/>
+        <location name="Erchin" fromDate="3/13/1918" toDate="4/10/1918"/>
+        <location name="Halluin" fromDate="4/11/1918" toDate="5/23/1918"/>
+        <location name="Vivaise" fromDate="5/24/1918" toDate="6/7/1918"/>
+        <location name="Mont de Soissons Ferme" fromDate="6/8/1918" toDate="7/18/1918"/>
+        <location name="Vauxcéré" fromDate="7/19/1918" toDate="7/30/1918"/>
+        <location name="Chambry" fromDate="7/31/1918" toDate="8/24/1918"/>
+        <location name="Emerchicourt" fromDate="8/25/1918" toDate="9/26/1918"/>
+        <location name="Lieu-St.-Armand" fromDate="9/27/1918" toDate="9/29/1918"/>
+        <location name="Saultain" fromDate="9/30/1918" toDate="10/12/1918"><notes>JP 41 has "Soultain"; looks like a typo</notes></location>
+        <location name="Lens" fromDate="10/13/1918" toDate="11/4/1918"><notes>JP p41: Lenz, assumed typo</notes></location>
+        <location name="Aische-en-Refail" fromDate="11/5/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="27">
+        <location name="Ghistelles" fromDate="2/5/1917" toDate="6/15/1917"/>
+        <location name="Iseghem" fromDate="6/16/1917" toDate="10/31/1917"/>
+        <location name="Bavichove" fromDate="11/1/1917" toDate="2/12/1918"/>
+        <location name="Marckebeke" fromDate="2/13/1918" toDate="4/14/1918"/>
+        <location name="Halluin" fromDate="4/15/1918" toDate="5/20/1918"/>
+        <location name="Vivaise" fromDate="5/21/1918" toDate="6/2/1918"/>
+        <location name="Mont de Soissons Ferme" fromDate="6/3/1918" toDate="7/17/1918"/>
+        <location name="Vauxcéré" fromDate="7/18/1918" toDate="7/29/1918"/>
+        <location name="Chambry" fromDate="7/30/1918" toDate="9/22/1918"/>
+        <location name="Lieu-St.-Armand" fromDate="9/23/1918" toDate="9/29/1918"/>
+        <location name="Lens" fromDate="9/30/1918" toDate="11/6/1918"><notes>JP p42: Lenz, Mons; assumed typo</notes></location>
+        <location name="Aische-en-Refail" fromDate="11/7/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="28">
+        <location name="Marcke" fromDate="2/18/1917" toDate="3/25/1917"><notes>JP p43: Marcke, Courtrai</notes></location>
+        <location name="Wasquehal" fromDate="3/26/1917" toDate="8/26/1917"/>
+        <location name="Varsenere" fromDate="8/27/1917" toDate="11/13/1917"><notes>JP p43: Varsenaere, Brügge</notes></location>
+        <location name="Jabbeke" fromDate="11/14/1917" toDate="11/25/1917"/>
+        <location name="Wynghene" fromDate="11/26/1917" toDate="12/7/1917"/>
+        <location name="Varsenere" fromDate="12/8/1917" toDate="2/5/1918"><notes>JP p43: Varsenaere, Brügge</notes></location>
+        <location name="Wynghene" fromDate="2/6/1918" toDate="3/1/1918"/>
+        <location name="Iseghem" fromDate="3/2/1918" toDate="3/21/1918"/>
+        <location name="Abeele" fromDate="3/22/1918" toDate="3/29/1918"/>
+        <location name="Iseghem" fromDate="3/30/1918" toDate="6/5/1918"/>
+        <location name="Ennemain" fromDate="6/6/1918" toDate="6/7/1918"/>
+        <location name="Neuflize" fromDate="6/8/1918" toDate="8/10/1918"/>
+        <location name="Mons-en-Chaussée" fromDate="8/11/1918" toDate="8/12/1918"/>
+        <location name="Neuflize" fromDate="8/13/1918" toDate="8/24/1918"/>
+        <location name="Cantin" fromDate="8/25/1918" toDate="9/30/1918"/>
+        <location name="Beuvry" fromDate="10/1/1918" toDate="10/12/1918"/>
+        <location name="Chièvres" fromDate="10/13/1918" toDate="11/3/1918"/>
+        <location name="Champles" fromDate="11/4/1918" toDate="11/11/1918"><notes>JP p43: Champles, Waterloo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="29">
+        <location name="Juniville" fromDate="2/15/1917" toDate="6/21/1917"><notes>JP p44: listed twice for different armies, consolidated here</notes></location>
+        <location name="Mons-en-Pévèle" fromDate="6/22/1917" toDate="6/27/1917"/>
+        <location name="Bersée" fromDate="6/28/1917" toDate="7/17/1917"/>
+        <location name="Handzaeme" fromDate="7/18/1917" toDate="7/31/1917"/>
+        <location name="Thourout" fromDate="8/1/1917" toDate="9/13/1917"/>
+        <location name="Aertrycke" fromDate="9/14/1917" toDate="11/27/1917"/>
+        <location name="Emerchicourt" fromDate="11/28/1917" toDate="12/13/1917"/>
+        <location name="Bellincamps" fromDate="12/14/1917" toDate="3/30/1918"/>
+        <location name="Phalempin" fromDate="3/31/1918" toDate="4/12/1918"/>
+        <location name="Gondecourt" fromDate="4/13/1918" toDate="8/17/1918"/>
+        <location name="Bellincamps" fromDate="8/18/1918" toDate="9/28/1918"/>
+        <location name="Kruishoutem" fromDate="9/29/1918" toDate="10/5/1918"/>
+        <location name="Aertrycke" fromDate="10/6/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="30">
+        <location name="Phalempin" fromDate="1/21/1917" toDate="8/9/1918"/>
+        <location name="Moislains" fromDate="8/10/1918" toDate="8/10/1918"/>
+        <location name="Phalempin" fromDate="8/11/1918" toDate="8/19/1918"/>
+        <location name="Avelin" fromDate="8/20/1918" toDate="9/30/1918"/>
+        <location name="Baisieux" fromDate="10/1/1918" toDate="10/15/1918"/>
+        <location name="Anvaing" fromDate="10/16/1918" toDate="11/11/1918"><notes>tJP p45 has "Avaing", presumably a typo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="31">
+        <location name="Mars-sous-Bourcq" fromDate="2/8/1917" toDate="6/23/1917"/>
+        <location name="Guesnain" fromDate="6/24/1917" toDate="7/12/1917"><notes>JP p46: Guenain, Douai</notes></location>
+        <location name="Houplin" fromDate="7/13/1917" toDate="7/15/1917"/>
+        <location name="Bavichove" fromDate="7/16/1917" toDate="9/1/1917"/>
+        <location name="Auritz" fromDate="9/20/1917" toDate="11/2/1917"><notes>tJP p46: Auritz/Veldes am See</notes></location>
+        <location name="Udine" fromDate="11/3/1917" toDate="11/14/1917"/>
+        <location name="Aviano" fromDate="11/15/1917" toDate="11/19/1917"><notes>JP p46: 14 Sep 1917, assumed typo for 14 Nov 1917</notes></location>
+        <location name="San Giacomo" fromDate="11/19/1917" toDate="1/2/1918"><notes>JP p46: San Giacomo, Vittorio</notes></location>
+        <location name="San Fior" fromDate="1/3/1918" toDate="3/13/1918"><notes>JP p46: St Flor is assumed typo for "San Fior"; "St Flor" is not otherwise referred to on the map or gazetteer, and the unit was still in Italy at that point</notes></location>
+        <location name="Bergnicourt" fromDate="3/28/1918" toDate="3/30/1918"/>
+        <location name="St.-Loup-Champagne" fromDate="3/31/1918" toDate="9/1/1918"/>
+        <location name="Guise" fromDate="9/2/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="32">
+        <location name="Destrich, Brülingen" fromDate="3/9/1917" toDate="3/15/1917" toDateCertainty="estimated"/>
+        <location name="Chéry-les-Pouilly" fromDate="3/16/1917" toDate="6/15/1917" fromDateCertainty="estimated" toDateCertainty="estimated"/>
+        <location name="Avançon" fromDate="6/16/1917" toDate="6/30/1917" fromDateCertainty="estimated"><notes>JP p47: Avanson, assumed typo</notes></location>
+        <location name="Landréville" fromDate="7/1/1917" toDate="9/21/1917"/>
+        <location name="Boulin Ferme" fromDate="9/22/1917" toDate="10/20/1917"/>
+        <location name="Chéry-les-Pouilly" fromDate="10/21/1917" toDate="2/1/1918"/>
+        <location name="Guesnain" fromDate="2/2/1918" toDate="3/28/1918"/>
+        <location name="Favreuil" fromDate="3/29/1918" toDate="4/18/1918"/>
+        <location name="Epinoy" fromDate="4/19/1918" toDate="8/8/1918"/>
+        <location name="Villers-au-Tertre" fromDate="8/9/1918" toDate="8/28/1918"/>
+        <location name="Villers-saint-amand" fromDate="8/29/1918" toDate="9/29/1918"/>
+        <location name="Bühl" fromDate="9/30/1918" toDate="10/12/1918"><notes>JP p47: 29 Aug 1918, assumed typo for 29 Sep 1918</notes></location>
+        <location name="Harmigniers" fromDate="10/13/1918" toDate="10/28/1918"/>
+        <location name="Gosselies" fromDate="10/29/1918" toDate="11/11/1918"/>
+        <location name="Trier" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="33">
+        <location name="Bühl" fromDate="3/16/1917" toDate="4/11/1917"><notes>JP p48: Bühl, Saarburg</notes></location>
+        <location name="Villers-au-Tertre" fromDate="4/12/1917" toDate="9/15/1918"/>
+        <location name="Guise" fromDate="9/19/1917" toDate="9/20/1917"/>
+        <location name="Bavichove" fromDate="9/23/1917" toDate="10/16/1917"/>
+        <location name="Wynghene" fromDate="10/17/1917" toDate="11/27/1917"/>
+        <location name="Sierenz" fromDate="12/10/1917" toDate="1/23/1918"><notes>JP p48: Sierenz-Muhlhausen</notes></location>
+        <location name="Burscheid" fromDate="2/6/1918" toDate="2/22/1918"/>
+        <location name="Bühl" fromDate="2/23/1918" toDate="3/26/1918"/>
+        <location name="Roucourt" fromDate="3/27/1918" toDate="3/31/1918"/>
+        <location name="Ascq" fromDate="4/1/1918" toDate="4/11/1918"/>
+        <location name="Lomme" fromDate="4/12/1918" toDate="4/23/1918"/>
+        <location name="Halluin" fromDate="4/24/1918" toDate="4/26/1918"/>
+        <location name="Ennemain" fromDate="4/27/1918" toDate="6/10/1918"/>
+        <location name="Ennemain" fromDate="6/11/1918" toDate="7/6/1918"/>
+        <location name="Neuflize" fromDate="7/7/1918" toDate="8/26/1918"/>
+        <location name="Cantin" fromDate="8/27/1918" toDate="9/30/1918"/>
+        <location name="Beuvry" fromDate="10/1/1918" toDate="10/13/1918"/>
+        <location name="Chièvres" fromDate="10/14/1918" toDate="11/4/1918"/>
+        <location name="Champles" fromDate="11/5/1918" toDate="11/11/1918"><notes>JP p48: Champles, Waterloo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="34">
+        <location name="Mars-la-Tour" fromDate="2/26/1917" toDate="9/5/1917"/>
+        <location name="Mont" fromDate="9/6/1917" toDate="10/13/1917"><notes>JP p49: Mont-Verdun</notes></location>
+        <location name="Cuirieux" fromDate="10/14/1917" toDate="11/22/1917"><notes>JP p49: Curieux, assumed typo</notes></location>
+        <location name="Chenois" fromDate="11/23/1917" toDate="3/15/1918"><notes>JP p49: Chenois, Virton</notes></location>
+        <location name="Le Cateau" fromDate="3/16/1918" toDate="3/27/1918"/>
+        <location name="Vraignes" fromDate="3/28/1918" toDate="4/12/1918"/>
+        <location name="Foucaucourt" fromDate="4/18/1918" toDate="7/31/1918"/>
+        <location name="St.-Christ" fromDate="8/1/1918" toDate="8/11/1918"/>
+        <location name="Hervilly" fromDate="8/12/1918" toDate="8/29/1918"/>
+        <location name="Séranvillers" fromDate="8/30/1918" toDate="9/4/1918"/>
+        <location name="Bévillers" fromDate="9/5/1918" toDate="9/30/1918"/>
+        <location name="Escarmain" fromDate="10/1/1918" toDate="10/7/1918"><notes>JP p49: Ecarmain, assumed typo</notes></location>
+        <location name="Givry" fromDate="10/8/1918" toDate="10/25/1918"/>
+        <location name="Gosselies" fromDate="10/26/1918" toDate="11/11/1918"><notes>JP p49: Gosselies, Charleroi</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="35">
+        <location name="Colmar Nord" fromDate="3/4/1917" toDate="4/12/1917"/>
+        <location name="Ensisheim" fromDate="4/13/1917" toDate="5/7/1917"/>
+        <location name="Habsheim" fromDate="5/8/1917" toDate="7/21/1917"/>
+        <location name="Ichteghem-Vyver" fromDate="7/22/1917" toDate="9/18/1917"/>
+        <location name="Aertrycke" fromDate="9/19/1917" toDate="11/30/1917"/>
+        <location name="Prémont" fromDate="12/1/1917" toDate="2/7/1918"/>
+        <location name="Emerchicourt" fromDate="2/8/1918" toDate="3/28/1918"/>
+        <location name="Favreuil" fromDate="3/29/1918" toDate="4/18/1918"><notes>JP p50: Favreuil, Bapaume</notes></location>
+        <location name="Epinoy" fromDate="4/19/1918" toDate="8/28/1918"><notes>JP p50: Epinoy, Cambrai</notes></location>
+        <location name="Lieu-St.-Armand" fromDate="8/29/1918" toDate="9/29/1918"/>
+        <location name="Bühl" fromDate="9/30/1918" toDate="10/12/1918"><notes>JP p50: Bühl, Saarburg</notes></location>
+        <location name="Givry" fromDate="10/13/1918" toDate="10/29/1918"><notes>JP p50: Givry, Mons</notes></location>
+        <location name="Gosselies" fromDate="10/30/1918" toDate="11/11/1918"><notes>JP p50: Gosselies, Charleroi</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="36">
+        <location name="Le Châtelet" fromDate="3/1/1917" toDate="4/16/1917"><notes>JP p51: Le Chatelet</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="5/4/1917" toDate="6/18/1917"/>
+        <location name="Sailly" fromDate="6/19/1917" toDate="6/25/1917"/>
+        <location name="Marckebeke" fromDate="6/26/1917" toDate="7/2/1917"/>
+        <location name="Kuerne" fromDate="7/3/1917" toDate="9/17/1917"/>
+        <location name="Houplin" fromDate="9/18/1917" toDate="9/21/1917"/>
+        <location name="Kuerne" fromDate="9/22/1917" toDate="3/13/1918"/>
+        <location name="Erchin" fromDate="3/14/1918" toDate="4/16/1918"/>
+        <location name="Halluin" fromDate="4/17/1918" toDate="5/22/1918"/>
+        <location name="Vivaise" fromDate="5/23/1918" toDate="6/6/1918"/>
+        <location name="Epitaphe Ferme" fromDate="6/7/1918" toDate="7/18/1918"/>
+        <location name="Vauxcéré" fromDate="7/19/1918" toDate="7/31/1918"/>
+        <location name="Chambry" fromDate="8/1/1918" toDate="8/7/1918"/>
+        <location name="Ercheu" fromDate="8/8/1918" toDate="8/10/1918"/>
+        <location name="Chambry" fromDate="8/11/1918" toDate="8/24/1918"/>
+        <location name="Emerchicourt" fromDate="8/25/1918" toDate="8/27/1918"/>
+        <location name="Aniche" fromDate="8/28/1918" toDate="9/27/1918"/>
+        <location name="Lieu-St.-Armand" fromDate="9/28/1918" toDate="9/30/1918"/>
+        <location name="Saultain" fromDate="10/1/1918" toDate="10/10/1918"/>
+        <location name="Lens" fromDate="10/11/1918" toDate="11/8/1918"><notes>JP p52: Lens, Mons</notes></location>
+        <location name="Liernu" fromDate="11/9/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="37">
+        <location name="Möntingen" fromDate="3/23/1917" toDate="7/18/1917"><notes>JP p52: Möntingen, Metz</notes></location>
+        <location name="Wasquehal" fromDate="7/19/1917" toDate="8/5/1917"/>
+        <location name="Phalempin" fromDate="8/6/1917" toDate="10/7/1917"/>
+        <location name="Wynghene" fromDate="10/8/1917" toDate="3/15/1918"/>
+        <location name="Le Cateau" fromDate="3/16/1918" toDate="3/25/1918"/>
+        <location name="Mons-en-Chaussée" fromDate="3/26/1918" toDate="4/11/1918"/>
+        <location name="Vraignes" fromDate="4/12/1918" toDate="4/22/1918"/>
+        <location name="Foucaucourt" fromDate="4/23/1918" toDate="7/27/1918"/>
+        <location name="St.-Christ" fromDate="7/28/1918" toDate="8/11/1918"/>
+        <location name="Vendelles" fromDate="8/12/1918" toDate="8/29/1918"/>
+        <location name="Séranvillers" fromDate="8/30/1918" toDate="9/3/1918"/>
+        <location name="Bévillers" fromDate="9/4/1918" toDate="9/30/1918"/>
+        <location name="Neuville" fromDate="10/1/1918" toDate="10/7/1918"/>
+        <location name="Escarmain" fromDate="10/8/1918" toDate="10/10/1918"><notes>JP p52: Escarmain, Capelle</notes></location>
+        <location name="Villers-sire-nicole" fromDate="10/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="38">
+        <location name="Mravinca" fromDate="6/30/1917" toDate="7/12/1917"><notes>JP p53: 12 Jul 1918, assumed typo for 1917</notes></location>
+        <location name="Hudova" fromDate="7/13/1918" toDate="4/9/1918"/>
+        <location name="Kalkova" fromDate="4/10/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="39">
+        <location name="Ensisheim" fromDate="8/26/1917" toDate="9/15/1917"/>
+        <location name="Campoformidi" fromDate="9/20/1917" toDate="11/13/1917"><notes>JP p54: Compoformidi, Italy</notes></location>
+        <location name="San Giacomo" fromDate="11/14/1917" toDate="11/16/1917"><notes>JP p54: San Giacomo, Italy</notes></location>
+        <location name="Roveredo" fromDate="11/17/1917" toDate="11/18/1917"><notes>JP p54: Roveredo, Italy</notes></location>
+        <location name="Cervada" fromDate="11/19/1917" toDate="12/11/1917"><notes>JP p54: Cervada, Italy</notes></location>
+        <location name="San Fior" fromDate="12/12/1917" toDate="3/13/1918"><notes>JP p54: San Fior, Italy</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="3/28/1918" toDate="6/27/1918"/>
+        <location name="Boncourt" fromDate="6/28/1918" toDate="8/4/1918"/>
+        <location name="Guesnain" fromDate="8/5/1918" toDate="8/13/1918"/>
+        <location name="Bapaume" fromDate="8/14/1918" toDate="8/25/1918"/>
+        <location name="Rocourt-St.-Martin" fromDate="8/26/1918" toDate="9/1/1918"/>
+        <location name="Erre" fromDate="9/2/1918" toDate="9/26/1918"><notes>JP p54: Erre-Somain</notes></location>
+        <location name="Bühl" fromDate="9/27/1918" toDate="11/11/1918"><notes>JP p54: Bühl, Saarburg</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="40">
+        <location name="Möntingen" fromDate="8/18/1917" toDate="9/14/1917"><notes>JP p55: Möntingen-Metz</notes></location>
+        <location name="Mars-la-Tour" fromDate="9/15/1917" toDate="3/15/1918"><notes>JP p55: 14 Sep 1918, assumed typo for 1917</notes></location>
+        <location name="Masny" fromDate="3/16/1918" toDate="4/6/1918"/>
+        <location name="Roubaix" fromDate="4/7/1918" toDate="5/5/1918"/>
+        <location name="Mousecron" fromDate="5/6/1918" toDate="6/6/1918"/>
+        <location name="Lomme" fromDate="6/7/1918" toDate="8/24/1918"/>
+        <location name="Halluin" fromDate="8/25/1918" toDate="9/9/1918"/>
+        <location name="Reckem" fromDate="9/10/1918" toDate="9/28/1918"/>
+        <location name="Bisseghem" fromDate="9/29/1918" toDate="10/8/1918"/>
+        <location name="Meuines" fromDate="10/9/1918" toDate="10/10/1918"><notes>JP p55: Meuines, Courtrai</notes></location>
+        <location name="Wynghene" fromDate="10/11/1918" toDate="10/22/1918"/>
+        <location name="Gontrode" fromDate="10/23/1918" toDate="11/5/1918"/>
+        <location name="Antwerp" fromDate="11/6/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="41">
+        <location name="Habsheim" fromDate="8/6/1917" toDate="3/20/1918"/>
+        <location name="Phalempin" fromDate="3/21/1918" toDate="4/13/1918"/>
+        <location name="Gondecourt" fromDate="4/14/1918" toDate="6/5/1918"/>
+        <location name="Arcy" fromDate="6/6/1918" toDate="7/5/1918"><notes>JP p55: Arcy, Rugny Ferme</notes></location>
+        <location name="Coincy" fromDate="7/6/1918" toDate="7/20/1918"/>
+        <location name="Montbanis Ferme" fromDate="7/21/1918" toDate="7/23/1918"/>
+        <location name="Sissone" fromDate="7/24/1918" toDate="8/5/1918"/>
+        <location name="Boncourt" fromDate="8/6/1918" toDate="9/22/1918"/>
+        <location name="Leffincourt" fromDate="9/23/1918" toDate="9/27/1918"/>
+        <location name="Attigny" fromDate="9/28/1918" toDate="10/8/1918"/>
+        <location name="Chéméry" fromDate="10/9/1918" toDate="10/20/1918"/>
+        <location name="Medard" fromDate="10/21/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="42">
+        <location name="Mars-la-Tour" fromDate="12/20/1917" toDate="3/23/1918"/>
+        <location name="Froidmont" fromDate="3/26/1918" toDate="4/16/1918"/>
+        <location name="Ercheu" fromDate="4/17/1918" toDate="5/29/1918"/>
+        <location name="Grécourt" fromDate="5/30/1918" toDate="8/15/1918"/>
+        <location name="Clastres" fromDate="8/16/1918" toDate="9/10/1918" toDateCertainty="estimated"/>
+        <location name="Parpeville" fromDate="9/11/1918" toDate="9/20/1918" fromDateCertainty="estimated" toDateCertainty="estimated"/>
+        <location name="Le Brûlé" fromDate="9/21/1918" toDate="10/10/1918" fromDateCertainty="estimated" toDateCertainty="estimated"><notes>tJP has "Le Brule"</notes></location>
+        <location name="Bois St Dénis" fromDate="10/11/1918" toDate="10/20/1918" fromDateCertainty="estimated" toDateCertainty="estimated"/>
+        <location name="Thuillies" fromDate="10/21/1918" toDate="11/11/1918" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="43">
+        <location name="Möntingen" fromDate="1/21/1918" toDate="3/9/1918"><notes>JP p57: listed twice for different armies, consolidated here</notes></location>
+        <location name="Mörchingen" fromDate="3/10/1918" toDate="3/29/1918"/>
+        <location name="Avelin" fromDate="4/3/1918" toDate="4/15/1918" toDateCertainty="estimated"/>
+        <location name="Gondecourt" fromDate="4/16/1918" toDate="5/20/1918" fromDateCertainty="estimated"/>
+        <location name="Haubourdin" fromDate="5/21/1918" toDate="8/22/1918"><notes>JP p57: Haubourdin, Lille</notes></location>
+        <location name="Seclin" fromDate="8/23/1918" toDate="10/8/1918"/>
+        <location name="Grandmetz" fromDate="10/9/1918" toDate="10/11/1918"/>
+        <location name="Cysoing" fromDate="10/12/1918" toDate="11/9/1918"/>
+        <location name="Berghem" fromDate="11/10/1918" toDate="11/10/1918"><notes>JP p57: Berghem, Brussels</notes></location>
+        <location name="Brussels" fromDate="11/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="44">
+        <location name="Leffincourt" fromDate="12/27/1917" toDate="3/8/1918"/>
+        <location name="Pleine-Selve" fromDate="3/9/1918" toDate="4/8/1918"/>
+        <location name="Ercheu" fromDate="4/9/1918" toDate="8/8/1918"/>
+        <location name="Foucaucourt" fromDate="8/9/1918" toDate="8/10/1918"/>
+        <location name="Flez" fromDate="8/11/1918" toDate="8/26/1918"/>
+        <location name="Faucouzy" fromDate="8/27/1918" toDate="10/9/1918"/>
+        <location name="La Chaussée" fromDate="10/10/1918" toDate="10/18/1918"/>
+        <location name="Donstiennes" fromDate="10/19/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="45">
+        <location name="Marville" fromDate="12/25/1917" toDate="3/25/1918"/>
+        <location name="Cohartville" fromDate="3/31/1918" toDate="4/18/1918"/>
+        <location name="Vivaise" fromDate="4/19/1918" toDate="5/18/1918"/>
+        <location name="Sissone" fromDate="5/19/1918" toDate="5/30/1918"/>
+        <location name="Mont-St.-Martin" fromDate="5/31/1918" toDate="6/3/1918"/>
+        <location name="Rocourt-St.-Martin" fromDate="6/4/1918" toDate="6/6/1918"><notes>JP p58: Roucourt, St Martin</notes></location>
+        <location name="Arcy" fromDate="6/7/1918" toDate="7/19/1918"/>
+        <location name="Mont-Notre-Dame" fromDate="7/20/1918" toDate="7/26/1918"/>
+        <location name="Maizy" fromDate="7/27/1918" toDate="10/11/1918"/>
+        <location name="Plomion" fromDate="10/12/1918" toDate="10/31/1918"/>
+        <location name="Bourlers" fromDate="11/1/1918" toDate="11/11/1918"><notes>JP p58: Boulers, assumed typo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="46">
+        <location name="Ascq" fromDate="12/29/1917" toDate="3/12/1918"><notes>JP p59: Ascq-Lille</notes></location>
+        <location name="Bévillers" fromDate="3/13/1918" toDate="3/23/1918"/>
+        <location name="Liéramont" fromDate="3/24/1918" toDate="7/31/1918"/>
+        <location name="Moislains" fromDate="8/1/1918" toDate="10/15/1918" toDateCertainty="estimated"/>
+        <location name="Villers-sire-nicole" fromDate="10/16/1918" toDate="11/11/1918" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="47">
+        <location name="Harlebeke" fromDate="12/26/1917" toDate="3/8/1918"/>
+        <location name="Beveren" fromDate="3/9/1918" toDate="3/28/1918"/>
+        <location name="Faches" fromDate="3/29/1918" toDate="5/4/1918"/>
+        <location name="Lomme" fromDate="5/5/1918" toDate="5/30/1918"/>
+        <location name="Faches" fromDate="5/31/1918" toDate="6/5/1918"/>
+        <location name="Ennemain" fromDate="6/6/1918" toDate="7/8/1918"/>
+        <location name="St. Marie-à-Py" fromDate="7/9/1918" toDate="10/7/1918"/>
+        <location name="Chéméry" fromDate="10/8/1918" toDate="10/22/1918"/>
+        <location name="Medard" fromDate="10/23/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="48">
+        <location name="Guise" fromDate="1/12/1918" toDate="3/20/1918"/>
+        <location name="Mont-d'Origny" fromDate="3/21/1918" toDate="3/29/1918"/>
+        <location name="Villeselve" fromDate="3/30/1918" toDate="4/7/1918"/>
+        <location name="Moyencourt" fromDate="4/8/1918" toDate="7/9/1918"/>
+        <location name="Mars-sous-Bourcq" fromDate="7/10/1918" toDate="7/25/1918"/>
+        <location name="Vivaise" fromDate="7/26/1918" toDate="9/25/1918"/>
+        <location name="Chuffilly" fromDate="9/26/1918" toDate="10/9/1918"/>
+        <location name="Malmy-Cheméry" fromDate="10/10/1918" toDate="11/3/1918"/>
+        <location name="Autrecourt" fromDate="11/4/1918" toDate="11/11/1918"><notes>JP p60: Antrecourt, Attigny</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="49">
+        <location name="Villers-campeau" fromDate="2/17/1918" toDate="4/2/1918"/>
+        <location name="Mouveaux" fromDate="4/3/1918" toDate="5/27/1918"><notes>JP p10,61 have "Monveaux", but map p5 appears to be correct</notes></location>
+        <location name="Lomme" fromDate="5/28/1918" toDate="6/5/1918"/>
+        <location name="Ennemain" fromDate="6/6/1918" toDate="7/7/1918"/>
+        <location name="Blaise" fromDate="7/8/1918" toDate="10/6/1918"/>
+        <location name="Chéméry" fromDate="10/7/1918" toDate="10/21/1918"/>
+        <location name="Medard" fromDate="10/22/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="50">
+        <location name="Autremencourt" fromDate="1/25/1918" toDate="3/14/1918"/>
+        <location name="Marchais" fromDate="3/15/1918" toDate="5/29/1918"/>
+        <location name="Mont-St.-Martin" fromDate="5/30/1918" toDate="6/7/1918"/>
+        <location name="Rocourt-St.-Martin" fromDate="6/8/1918" toDate="7/19/1918"><notes>JP p61: Roucourt, St Martin</notes></location>
+        <location name="Rugny Ferme" fromDate="7/20/1918" toDate="7/22/1918"/>
+        <location name="Montbanis Ferme" fromDate="7/23/1918" toDate="7/29/1918"/>
+        <location name="Perles" fromDate="7/30/1918" toDate="8/20/1918"/>
+        <location name="Sissone" fromDate="8/21/1918" toDate="9/22/1918"/>
+        <location name="Boncourt" fromDate="9/23/1918" toDate="9/24/1918"/>
+        <location name="Leffincourt" fromDate="9/25/1918" toDate="9/27/1918"/>
+        <location name="Attigny" fromDate="9/28/1918" toDate="10/8/1918"/>
+        <location name="Chéméry" fromDate="10/9/1918" toDate="10/16/1918"/>
+        <location name="Marville" fromDate="10/17/1918" toDate="10/26/1918"><notes>tJP p62: Morville, but looks like a typo</notes></location>
+        <location name="St.-Gérard" fromDate="10/27/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="51">
+        <location name="Aertrycke" fromDate="1/5/1918" toDate="1/10/1918"/>
+        <location name="Wynghene" fromDate="1/11/1918" toDate="2/1/1918"/>
+        <location name="Jabbeke" fromDate="2/2/1918" toDate="2/5/1918"/>
+        <location name="Aertrycke" fromDate="2/3/1918" toDate="3/1/1918"/>
+        <location name="Iseghem" fromDate="3/2/1918" toDate="3/21/1918"/>
+        <location name="Abeele" fromDate="3/22/1918" toDate="3/29/1918"/>
+        <location name="Iseghem" fromDate="3/30/1918" toDate="4/23/1918"/>
+        <location name="St.-Marguerite" fromDate="4/24/1918" toDate="6/6/1918"/>
+        <location name="Rumbeke" fromDate="6/7/1918" toDate="9/30/1918"><notes>JP p62: Rumbeke East</notes></location>
+        <location name="Menin" fromDate="9/31/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="52">
+        <location name="Pecq" fromDate="1/14/1918" toDate="2/6/1918"/>
+        <location name="Bersée" fromDate="2/7/1918" toDate="4/13/1918"/>
+        <location name="Provin" fromDate="4/14/1918" toDate="4/21/1918"/>
+        <location name="Gondecourt" fromDate="4/22/1918" toDate="8/21/1918"><notes>JP p63: Gondecourt, Lille</notes></location>
+        <location name="Bersée" fromDate="8/22/1918" toDate="9/29/1918"/>
+        <location name="Auchy" fromDate="9/30/1918" toDate="10/14/1918"/>
+        <location name="Tourpes" fromDate="10/15/1918" toDate="10/30/1918"/>
+        <location name="Hove" fromDate="10/31/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="53">
+        <location name="Attigny" fromDate="1/10/1918" toDate="3/17/1918"/>
+        <location name="Mont-d'Origny" fromDate="3/18/1918" toDate="3/28/1918"/>
+        <location name="Flavy-le-Martel" fromDate="3/29/1918" toDate="4/5/1918"/>
+        <location name="Moyencourt" fromDate="4/6/1918" toDate="7/14/1918"/>
+        <location name="Mars-sous-Bourcq" fromDate="7/15/1918" toDate="7/24/1918"/>
+        <location name="Vivaise" fromDate="7/25/1918" toDate="9/24/1918"/>
+        <location name="Chuffilly" fromDate="9/25/1918" toDate="10/8/1918"/>
+        <location name="Malmy-Cheméry" fromDate="10/9/1918" toDate="11/1/1918"><notes>JP p64: Malmy, Sedan</notes></location>
+        <location name="Autrecourt" fromDate="11/2/1918" toDate="11/11/1918"><notes>JP p64: Antrecourt, Attigny</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="54">
+        <location name="Neuvilly" fromDate="1/19/1918" toDate="4/10/1918"/>
+        <location name="Ingelmünster" fromDate="4/11/1918" toDate="5/3/1918"/>
+        <location name="Rumbeke" fromDate="5/4/1918" toDate="6/5/1918"><notes>JP p64: Rumbeke-Ost</notes></location>
+        <location name="Ennemain" fromDate="6/6/1918" toDate="6/9/1918"/>
+        <location name="Blaise" fromDate="6/10/1918" toDate="8/9/1918"><notes>JP p64: Blaise, Vouziers</notes></location>
+        <location name="Mörchingen" fromDate="8/10/1918" toDate="8/15/1918" toDateCertainty="estimated"/>
+        <location name="Wallersberg" fromDate="8/16/1918" toDate="10/5/1918" fromDateCertainty="estimated" toDateCertainty="estimated"/>
+        <location name="Ars" fromDate="10/6/1918" toDate="11/11/1918" fromDateCertainty="estimated"><notes>JP p64: Ars, Kennchen</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="55">
+        <location name="Djenin" fromDate="3/31/1918" toDate="9/20/1918"/>
+        <location name="Derra" fromDate="9/21/1918" toDate="9/22/1918"/>
+        <location name="DELETED" fromDate="9/23/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="56">
+        <location name="Neuvilly" fromDate="1/14/1918" toDate="3/25/1918"/>
+        <location name="Mons-en-Chaussée" fromDate="3/26/1918" toDate="4/10/1918"/>
+        <location name="Ingelmünster" fromDate="4/11/1918" toDate="5/4/1918"/>
+        <location name="Rumbeke" fromDate="5/5/1918" toDate="9/29/1918"/>
+        <location name="Kruishoutem" fromDate="9/30/1918" toDate="11/11/1918"/><!-- tJP has Croulshouten -->
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="57">
+        <location name="Wasquehal" fromDate="1/24/1918" toDate="4/23/1918"/>
+        <location name="Halluin" fromDate="4/24/1918" toDate="6/6/1918"><notes>JP p66: Halluin, SE Reckem</notes></location>
+        <location name="Ennemain" fromDate="6/7/1918" toDate="7/8/1918"><notes>JP p66: Ennemain, South; listed twice for different armies, consolidated here</notes></location>
+        <location name="Neuflize" fromDate="7/9/1918" toDate="8/21/1918"/>
+        <location name="Aniche" fromDate="8/22/1918" toDate="9/30/1918"/>
+        <location name="Beuvry" fromDate="10/1/1918" toDate="10/12/1918"/>
+        <location name="Chièvres" fromDate="10/13/1918" toDate="11/4/1918"/>
+        <location name="Champles" fromDate="11/5/1918" toDate="11/11/1918"><notes>JP p66: Champles, SE Waterloo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="58">
+        <location name="Emerchicourt" fromDate="1/25/1918" toDate="3/16/1918"><notes>JP p67: Emerchicourt, North; listed twice for different armies, consolidated here</notes></location>
+        <location name="Aniche" fromDate="3/17/1918" toDate="4/2/1918"><notes>JP p67: Aniche, NE</notes></location>
+        <location name="Ascq" fromDate="4/3/1918" toDate="4/22/1918"><notes>JP p67: Ascq, Lille</notes></location>
+        <location name="Lomme" fromDate="4/23/1918" toDate="4/24/1918"><notes>JP p67: Lomme, Lille</notes></location>
+        <location name="Koekhoek" fromDate="4/25/1918" toDate="6/6/1918"><notes>JP p67: Koekhoek, near Menin</notes></location>
+        <location name="Ennemain" fromDate="6/7/1918" toDate="7/7/1918"/>
+        <location name="Neuflize" fromDate="7/8/1918" toDate="8/19/1918"/>
+        <location name="Aniche" fromDate="8/20/1918" toDate="10/1/1918"/>
+        <location name="Beuvry" fromDate="10/2/1918" toDate="10/14/1918"/>
+        <location name="Chièvres" fromDate="10/15/1918" toDate="11/4/1918"/>
+        <location name="Champles" fromDate="11/5/1918" toDate="11/11/1918"><notes>JP p67: Champles, SE Waterloo</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="59">
+        <location name="Emerchicourt" fromDate="1/24/1918" toDate="3/28/1918"/>
+        <location name="Favreuil" fromDate="3/29/1918" toDate="4/18/1918"/>
+        <location name="Epinoy" fromDate="4/19/1918" toDate="8/8/1918"/>
+        <location name="Roucourt" fromDate="8/9/1918" toDate="9/1/1918"/>
+        <location name="Erre" fromDate="9/2/1918" toDate="9/26/1918"/>
+        <location name="Helesmes" fromDate="9/27/1918" toDate="10/11/1918"><notes>JP p67: Helesmes, Denain</notes></location>
+        <location name="Ghlin" fromDate="10/12/1918" toDate="10/17/1918"/>
+        <location name="Castern" fromDate="10/18/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="60">
+        <location name="Ercheu" fromDate="1/24/1918" toDate="5/27/1918"/>
+        <location name="Sissone" fromDate="5/28/1918" toDate="6/6/1918"/>
+        <location name="Boncourt" fromDate="6/7/1918" toDate="9/23/1918"/>
+        <location name="St. Marie-à-Py" fromDate="9/24/1918" toDate="10/7/1918"><notes>JP p68: St Marie</notes></location>
+        <location name="Chéméry" fromDate="10/8/1918" toDate="10/22/1918"/>
+        <location name="Medard" fromDate="10/23/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="61">
+        <location name="Voyenne" fromDate="1/23/1918" toDate="3/10/1918"><notes>JP p69: Voyenne, Marle</notes></location>
+        <location name="Vivaise" fromDate="3/11/1918" toDate="4/18/1918"/>
+        <location name="Ercheu" fromDate="4/19/1918" toDate="7/12/1918"/>
+        <location name="Mars-sous-Bourcq" fromDate="7/13/1918" toDate="7/26/1918"/>
+        <location name="Reneuil Ferme" fromDate="7/27/1918" toDate="9/25/1918"><notes>JP p69: listed twice for two different armies, consolidated here</notes></location>
+        <location name="Chuffilly" fromDate="9/26/1918" toDate="10/9/1918"/>
+        <location name="Malmy-Cheméry" fromDate="10/10/1918" toDate="11/3/1918"><notes>JP p69: Malmy-Chéméry, Sedan</notes></location>
+        <location name="Autrecourt" fromDate="11/4/1918" toDate="11/11/1918"><notes>JP p69: Antrecourt, Attigny</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="62">
+        <location name="Thugny" fromDate="1/26/1918" toDate="3/16/1918"/>
+        <location name="Bohain" fromDate="3/17/1918" toDate="3/26/1918"/>
+        <location name="Trefcon" fromDate="3/27/1918" toDate="3/29/1918"/>
+        <location name="Balâtre" fromDate="3/30/1918" toDate="7/5/1918"><notes>JP p69: Balâtre, Roye</notes></location>
+        <location name="St.-Rémy-le-Petit West" fromDate="7/6/1918" toDate="9/14/1918"><notes>JP p69: St Rémy</notes></location>
+        <location name="Preutin-Higny" fromDate="9/15/1918" toDate="11/11/1918"><notes>JP p69: Preutin-Higny, SE Longuyon</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="63">
+        <location name="Givry" fromDate="2/1/1918" toDate="3/15/1918"><notes>JP p70: Grivy, assumed typo</notes></location>
+        <location name="Hennieches Ferme" fromDate="3/16/1918" toDate="3/25/1918"/>
+        <location name="Wancourt Ferme" fromDate="3/26/1918" toDate="7/5/1918"/>
+        <location name="Bignicourt" fromDate="7/6/1918" toDate="8/11/1918"/>
+        <location name="Santes" fromDate="8/12/1918" toDate="8/18/1918"/>
+        <location name="Ennetières" fromDate="8/19/1918" toDate="9/19/1918"/>
+        <location name="Genech" fromDate="9/20/1918" toDate="10/20/1918"/>
+        <location name="Ellignies" fromDate="10/21/1918" toDate="10/30/1918"/>
+        <location name="Kruisken" fromDate="10/31/1918" toDate="11/9/1918"/>
+        <location name="Brussels" fromDate="11/10/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="64">
+        <location name="Mercy-le-Haut" fromDate="2/5/1918" toDate="3/22/1918"/>
+        <location name="Mars-la-Tour" fromDate="3/23/1918" toDate="9/14/1918"/>
+        <location name="Giraumont" fromDate="9/15/1918" toDate="10/9/1918"/>
+        <location name="Tichémont" fromDate="10/10/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="65">
+        <location name="Stenay" fromDate="2/6/1918" toDate="5/4/1918"/>
+        <location name="Mars-la-Tour" fromDate="5/6/1918" toDate="9/15/1918"/>
+        <location name="Marville" fromDate="9/16/1918" toDate="10/7/1918"/>
+        <location name="La Ferté Ferme" fromDate="10/8/1918" toDate="10/20/1918"><notes>JP p71: Le Ferté</notes></location>
+        <location name="Tichémont" fromDate="10/21/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="66">
+        <location name="St.-Gobert" fromDate="2/12/1918" toDate="3/4/1918"/>
+        <location name="Norman-le-West" fromDate="3/5/1918" toDate="5/30/1918"/>
+        <location name="Fonfry" fromDate="5/31/1918" toDate="7/19/1918"><notes>JP p72: Foulfry, assumed typo</notes></location>
+        <location name="Perles" fromDate="7/20/1918" toDate="7/29/1918"/>
+        <location name="Sissone" fromDate="7/30/1918" toDate="8/20/1918"/>
+        <location name="Boncourt" fromDate="8/21/1918" toDate="10/8/1918"/>
+        <location name="Plomion" fromDate="10/9/1918" toDate="11/3/1918"/>
+        <location name="Bourlers" fromDate="11/4/1918" toDate="11/6/1918"/>
+        <location name="Sarienne-la-Longue" fromDate="11/9/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="67">
+        <location name="Marville" fromDate="2/8/1918" toDate="10/31/1918"/>
+        <location name="Les Hayons Ferme" fromDate="11/1/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="68">
+        <location name="Délinge Ferme" fromDate="2/19/1918" toDate="3/24/1918"/>
+        <location name="Beauvois" fromDate="3/25/1918" toDate="3/27/1918"/>
+        <location name="Balâtre" fromDate="3/28/1918" toDate="7/4/1918"><notes>JP p73: Balâtre, E.Roye</notes></location>
+        <location name="St.-Rémy-le-Petit West" fromDate="7/5/1918" toDate="9/12/1918"><notes>JP p73: St Rémy, West</notes></location>
+        <location name="Semide" fromDate="9/13/1918" toDate="9/14/1918"/>
+        <location name="Preutin-Higny" fromDate="9/15/1918" toDate="11/11/1918"></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="69">
+        <location name="Guise" fromDate="2/21/1918" toDate="3/7/1918"/>
+        <location name="Origny-St.-Benoite" fromDate="3/8/1918" toDate="3/25/1918"/>
+        <location name="Villeselve" fromDate="3/26/1918" toDate="4/6/1918"/>
+        <location name="Ercheu" fromDate="4/7/1918" toDate="5/18/1918"/>
+        <location name="Balâtre" fromDate="5/19/1918" toDate="7/6/1918"/>
+        <location name="Alincourt-Juniville" fromDate="7/7/1918" toDate="8/19/1918"><notes>JP p74: Allincourt-Juniville; assumed typo</notes></location>
+        <location name="Habsheim" fromDate="8/20/1918" toDate="8/25/1918"/>
+        <location name="Sierenz" fromDate="8/26/1918" toDate="9/17/1918"/>
+        <location name="Habsheim" fromDate="9/18/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="70">
+        <location name="Bühl" fromDate="2/22/1918" toDate="8/25/1918"><notes>JP p75: Bühl by Saarburg</notes></location>
+        <location name="Stotzheim" fromDate="8/26/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="71">
+        <location name="Colmar Sud" fromDate="2/21/1918" toDate="3/27/1918"><notes>JP p75: Colmar South</notes></location>
+        <location name="Habsheim" fromDate="3/28/1918" toDate="6/3/1918"/>
+        <location name="Sierenz" fromDate="6/4/1918" toDate="6/24/1918"/>
+        <location name="Habsheim" fromDate="6/25/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="72">
+        <location name="Blaise" fromDate="3/2/1918" toDate="3/8/1918"/>
+        <location name="Leffincourt" fromDate="3/9/1918" toDate="3/28/1918"/>
+        <location name="Carrépuis" fromDate="3/29/1918" toDate="7/7/1918"/>
+        <location name="Bergnicourt" fromDate="7/8/1918" toDate="10/10/1918"><notes>JP p76: Bergnicourt, Rethel</notes></location>
+        <location name="Thin-le-Moutier" fromDate="10/11/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="73">
+        <location name="Mars-sous-Bourcq" fromDate="3/9/1918" toDate="5/21/1918"/>
+        <location name="St.-Rémy-le-Petit West" fromDate="5/22/1918" toDate="9/14/1918"><notes>JP p76: St Rémy-le-Petit</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="9/15/1918" toDate="10/11/1918"><notes>JP p76: St Loup-en-Champagne</notes></location>
+        <location name="Thin-le-Moutier" fromDate="10/12/1918" toDate="11/6/1918"/>
+        <location name="Halma" fromDate="11/8/1918" toDate="11/11/1918"><notes>JP p76: Halma, Rochefort</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="74">
+        <location name="Bergnicourt" fromDate="3/5/1918" toDate="3/29/1918"><notes>JP p77: Bergnicourt, Rethel</notes></location>
+        <location name="St.-Loup-Champagne" fromDate="3/30/1918" toDate="7/14/1918"><notes>JP p77: St Loup-en-Champagne</notes></location>
+        <location name="Pontfaverger-Moronvilliers" fromDate="7/15/1918" toDate="7/16/1918"/>
+        <location name="St.-Loup-Champagne" fromDate="7/17/1918" toDate="9/14/1918"><notes>JP p77: St Loup-en-Champagne</notes></location>
+        <location name="Preutin-Higny" fromDate="9/15/1918" toDate="11/11/1918"></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="75">
+        <location name="Habsheim" fromDate="2/25/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="76">
+        <location name="Habsheim" fromDate="11/4/1917" toDate="3/18/1918"/>
+        <location name="Liéramont" fromDate="3/19/1918" toDate="4/15/1918"/>
+        <location name="Suzanne" fromDate="4/16/1918" toDate="7/10/1918"/>
+        <location name="Bignicourt" fromDate="7/11/1918" toDate="8/19/1918"/>
+        <location name="Habsheim" fromDate="8/20/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="77">
+        <location name="Habsheim" fromDate="12/2/1917" toDate="3/27/1918"/>
+        <location name="Le Cateau" fromDate="3/28/1918" toDate="4/2/1918"/>
+        <location name="Vraignes" fromDate="4/3/1918" toDate="4/23/1918"/>
+        <location name="Foucaucourt" fromDate="4/24/1918" toDate="7/9/1918"/>
+        <location name="St. Marie-à-Py" fromDate="7/10/1918" toDate="8/9/1918"><notes>JP p79: St Marie, Vouziers</notes></location>
+        <location name="Ars" fromDate="8/10/1918" toDate="9/14/1918"/>
+        <location name="Marville" fromDate="9/15/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="78">
+        <location name="Mars-la-Tour" fromDate="12/17/1917" toDate="1/28/1918"><notes>JP p79: Mars-la-Tour(?); 1928 Jan 1918 assumed typo for 28 Jan 1918</notes></location>
+        <location name="Burscheid" fromDate="1/29/1918" toDate="3/28/1918"><notes>JP p79: 1928 Mar 1918 assumed typo for 28 Mar 1918</notes></location>
+        <location name="Bühl" fromDate="3/28/1918" toDate="11/11/1918"><notes>JP p79: Bühl, Saarburg; 1911 Nov 1918 assumed typo for 11 Nov 1918</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="79">
+        <location name="Thugny" fromDate="2/2/1918" toDate="3/13/1918"><notes>JP p80: Thugny, Rethel</notes></location>
+        <location name="Villers-le-Sec" fromDate="3/14/1918" toDate="3/24/1918"/>
+        <location name="Villeselve" fromDate="3/25/1918" toDate="8/9/1918"/>
+        <location name="Flez" fromDate="8/10/1918" toDate="8/16/1918"/>
+        <location name="Castres" fromDate="8/17/1918" toDate="8/25/1918"/>
+        <location name="Chévresis-Monceau" fromDate="8/26/1918" toDate="9/5/1918"/>
+        <location name="Guise" fromDate="9/6/1918" toDate="10/8/1918"><notes>JP p80: Guise, East</notes></location>
+        <location name="La Capelle" fromDate="10/9/1918" toDate="10/28/1918"/>
+        <location name="Thuillies" fromDate="10/29/1918" toDate="11/8/1918"/>
+        <location name="Graux" fromDate="11/9/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="80">
+        <location name="Morsberg" fromDate="2/27/1918" toDate="11/11/1918"><notes>JP p80: 11 Feb 1918 assumed typo for 11 Nov 1918</notes></location>
+    </squadron>
+    <squadron nation="GE" type="Jasta" num="81">
+        <location name="Mitau" fromDate="9/24/1917" toDate="3/30/1918"/>
+        <location name="Liesse" fromDate="3/31/1918" toDate="5/30/1918"/>
+        <location name="Mont-St.-Martin" fromDate="5/31/1918" toDate="6/27/1918"/>
+        <location name="Magneux" fromDate="6/28/1918" toDate="7/28/1918"/>
+        <location name="Dhuizel" fromDate="7/29/1918" toDate="7/30/1918"/>
+        <location name="Boncourt" fromDate="7/31/1918" toDate="8/16/1918"/>
+        <location name="Moislains" fromDate="8/20/1918" toDate="8/26/1918"/>
+        <location name="Séranvillers" fromDate="8/27/1918" toDate="8/28/1918"/>
+        <location name="Boncourt" fromDate="8/29/1918" toDate="9/24/1918"/>
+        <location name="Leffincourt" fromDate="9/25/1918" toDate="9/28/1918"/>
+        <location name="Beaumont Ferme" fromDate="9/29/1918" toDate="10/9/1918"/>
+        <location name="Malmy-Cheméry" fromDate="10/11/1918" toDate="10/19/1918"/>
+        <location name="Merville" fromDate="10/21/1918" toDate="10/26/1918"/>
+        <location name="St.-Gérard Maison" fromDate="10/27/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="MFJ" num="I">
+        <location name="Neumünster" fromDate="2/1/1917"  toDate="4/15/1917"/>
+        <location name="Aertrycke"  fromDate="4/16/1917" toDate="9/10/1917"/>
+        <location name="Coolkerke"  fromDate="9/11/1917" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="MFJ" num="II">
+        <location name="Coolkerke"  fromDate="10/6/1917" toDate="4/3/1918"/>
+        <location name="Jabbeke"  fromDate="4/4/1917" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="MFJ" num="III">
+        <location name="Jabbeke"  fromDate="6/23/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="MFJ" num="IV">
+        <location name="Jabbeke"  fromDate="9/1/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="MFJ" num="V">
+        <location name="Neumünster"  fromDate="9/1/1918" toDate="11/11/1918"/>
+    </squadron>
+    <squadron nation="GE" type="SEE" num="II">
+        <location name="Neumünster"  fromDate="10/1/1917" toDate="8/31/1918"/>
+    </squadron>
+</squadrons>

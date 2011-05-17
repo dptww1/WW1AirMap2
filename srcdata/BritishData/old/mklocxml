@@ -1,0 +1,51 @@
+# -*- perl -*-
+
+use strict;
+
+my %uniqueCountries = ();
+my %uniqueServices = ();
+my %uniqueLocations = ();
+
+open(IN, "<squadron_location.txt") or die "can't open squadron_location.txt: $!\n";
+open(BROUT, ">squadrons-british.xml") or die "can't open squadrons-british.xml: $!\n";
+print BROUT "<?xml version='1.0' encoding='iso-8859-1'?>\n\n";
+print BROUT "<!-- \$Id: \$ -->\n\n";
+print BROUT "<squadrons>\n";
+
+my $curSquadron = undef;
+
+my ($unused) = scalar(<IN>);  # discard header
+$unused = scalar(<IN>); # discard label
+$unused = scalar(<IN>); # discard column headers
+while (<IN>) {
+    my ($country, $service, $squadron, $base, $day, $month, $year, $calc, $notes) = split /\t/;
+
+    next if $country != "Britain";  # TODO: handle AFC
+    
+    if ($curSquadron != $squadron) {
+        print BROUT "    </squadron>\n" if $curSquadron;
+        print BROUT "    <squadron nation=\"BR\" type=\"$service\" num=\"$squadron\">\n";
+    }
+
+    $curSquadron = $squadron;
+    
+
+#   print "$day $month $year\n";
+    $uniqueCountries{$country} = 1;
+    $uniqueServices{$service} = 1;
+    $uniqueLocations{$base} = 1;
+#   print "$.: $_" if $notes =~ /\S/;
+}
+close IN;
+
+print BROUT "    </squadron>\n" if $curSquadron;
+print BROUT "</squadrons>\n";
+
+#print "Unique Countries:\n", join("\n", keys %uniqueCountries), "\n";  # => Australia, Britain
+#print "Unique Services:\n", join("\n", keys %uniqueServices), "\n";  # => RAF, AFC, RFC, RNAS
+
+open (G, ">gazetteer.xml") or die "can't oppen gazetteer.xml: $!\n";
+foreach my $base (sort keys %uniqueLocations) {
+    print G "    <location name=\"", $base, "\"></location>\n";
+}
+close G;

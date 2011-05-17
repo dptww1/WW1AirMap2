@@ -1,0 +1,234 @@
+# -*- perl -*-
+#
+# $Id: $
+#
+
+$| = 1;
+
+use strict;
+use XML::DOM;
+use Date::Simple;
+
+my $debug = 1;
+my %aerodromes = ();
+
+my $parser = new XML::DOM::Parser;
+
+# Read aerodrome names and make a record in %aerodromes for each
+my $doc = $parser->parsefile("gazetteer.xml");
+my $f;
+my @locs = $doc->getElementsByTagName("location");
+for (my $i = 0; $i <= $#locs; ++$i) {
+    my $loc = $locs[$i];
+    my $name = $loc->getAttribute("name");
+    $name = regexp2latin1($name); # fix bogosity in XML::DOM/Expat/Parser
+    $aerodromes{$name} = { dates => [] };
+}
+
+# Read squadron data
+$doc = $parser->parsefile("jastas.xml");
+my @jastas = $doc->getElementsByTagName("jasta");
+for (my $j = 0; $j <= $#jastas; ++$j) {
+    my $jasta = $jastas[$j];
+    my $id = $jasta->getAttribute("id");
+    my @locs = $jasta->getElementsByTagName("location");
+    for (my $i = 0; $i <= $#locs; ++$i) {
+        my $loc = $locs[$i];
+        my $locName  = regexp2latin1($loc->getAttribute("name"));
+        my $fromDate = formatDate($loc->getAttribute("fromDate"));
+        my $toDate   = formatDate($loc->getAttribute("toDate"));
+        addRecordData($locName, $id, $fromDate, $toDate);
+    }
+}
+
+# Write out the calendar info
+open(F, ">aerodromeCalendar.js") or die "can't open aerodromeCalendar.js: $!\n";
+print F "// Created by mkaerocal from gazetteer.xml and jastas.xml on " . `date` . "\n";
+print F "var aerodromeCalendar = {\n";
+
+my @locNames = sort keys %aerodromes;
+foreach my $loc (@locNames) {
+    print F "  \"$loc\" : [\n      ";
+    my @dateList = @{$aerodromes{$loc}{dates}};
+    foreach my $i (0..$#dateList) {
+        my $dateRec = $dateList[$i];
+        print F "[$dateRec->[0],$dateRec->[1],";
+        print F "[", join(",", map { "\"$_\"" } @{$dateRec->[2]}), "]";
+        print F "]";
+        print F "," if $i != $#dateList;
+    }
+    print F "\n    ]";
+    print F "," if $loc ne $locNames[-1];
+    print F "\n";
+}
+
+print F "}\n";
+close F;
+
+#========================================================================
+sub addRecordData {
+    my ($loc, $id, $from, $to) = @_;
+    my $a = \@{$aerodromes{$loc}{dates}}; # convenience var
+
+    # Trivial case: inserting into empty record list?
+    if ($#{$a} == -1) {
+        push @{$a}, [$from, $to, [$id]];
+        print "Initialized $loc with [$from, $to, [$id]]\n" if $debug;
+        return;
+    } 
+
+    if ($debug) {
+        print "*** $loc is currently:\n";
+        foreach my $rec (@{$a}) {
+            print "[$rec->[0],$rec->[1],";
+            print "[", join(",", map { "\"$_\"" } @{$rec->[2]}), "]";
+            print "]\n";
+        }
+        print "...and [$from, $to, [$id]] will be added\n";
+    }
+
+    # Trivial case: new record's end date is before first start date in list
+    if ($to < $a->[0][0]) {
+        unshift @{$a}, [$from, $to, [$id]];
+        print "Trivially added to beginning\n" if $debug;
+        return;
+    }
+   
+    # Trivial case: new record's start date is after last end date in list
+    if ($from > $a->[-1][1]) {
+        push @{$a}, [$from, $to, [$id]];
+        print "Trivially added to end\n" if $debug;
+        return;
+    }
+
+    # OK, there's some date overlapping.  Find the insertion point for the new
+    # record's start date.  This will be the earliest record with either a start
+    # or end date >= new start date.
+    my $s;
+    for ($s = 0; $s <= $#{$a}; ++$s) { 
+        last if $a->[$s][0] >= $from 
+             || $a->[$s][1] >= $from;
+    }
+    # ASSERT $s <= $#{$a}
+
+    print "  s is $s\n" if $debug;
+
+    # If the start date is not equal to the start date at the insertion point,
+    # then we need to construct a new record accounting for the period between
+    # the insertion point's starting date and the new record's starting date
+    if ($from > $a->[$s][0]) {
+        splice @{$a}, $s, 0, [$a->[$s][0], decrDate($from), [@{$a->[$s][2]}]];
+        ++$s; # make sure $s points to original insertion point
+        print "  s bumped to $s\n" if $debug;
+        # Now patch insertion point's start date
+        $a->[$s][0] = $from;
+        if ($debug) {
+            print "Spliced in new record based on > start date; (", $#{$a} + 1, " recs) now\n";
+            foreach my $rec (@{$a}) {
+                print "[$rec->[0],$rec->[1],";
+                print "[", join(",", map { "\"$_\"" } @{$rec->[2]}), "]";
+                print "]\n";
+            }
+        }
+    } elsif ($from < $a->[$s][0]) {
+        splice @{$a}, $s, 0, [$from, decrDate($a->[$s][0]), []];
+        if ($debug) {
+            print "Spliced in new record based on < start date (", scalar(@{$a}), " recs) now\n";
+            foreach my $rec (@{$a}) {
+                print "[$rec->[0],$rec->[1],";
+                print "[", join(",", map { "\"$_\"" } @{$rec->[2]}), "]";
+                print "]\n";
+            }
+        }
+    }
+
+    # Now find range containing end date
+    my $e;
+    for ($e = $s; $e <= $#{$a}; ++$e) { 
+        last if $a->[$e][0] >= $to 
+             || $a->[$e][1] >= $to;
+    }
+
+    print "  e is $e, aref $#{$a} ", ref $a, "\n" if $debug;
+
+    # Need to handle running off the end of the list as a special case
+    if ($e > $#{$a}) {
+        push @{$a}, [incrDate($a->[-1][1]), $to, []];  # empty unit list filled in later
+        # Leave $e as is -- it now is the index of the last record
+    } elsif ($to != $a->[$e][1]) {
+        # Otherwise we need to split the end segment
+        splice @{$a}, $e, 0, [$to - $a->[$e][0] > 0 ? $a->[$e][0] : $to, $to, [@{$a->[$e][2]}]];
+        $a->[$e + 1][0] = incrDate($to);
+    }
+
+    print "  e is finally $e\n" if $debug;
+
+    if ($debug) {
+        print "now before adding id (", $#{$a} + 1, " recs)\n";
+        foreach my $rec (@{$a}) {
+            print "[$rec->[0],$rec->[1],";
+            print "[", join(",", map { "\"$_\"" } @{$rec->[2]}), "]";
+            print "]\n";
+        }
+    }
+
+    # Now, all records between $s and $e have to have $id added to them
+    for (my $i = $s; $i <= $e; ++$i) {
+        push @{$a->[$i][2]}, $id;
+    }
+    
+    print "Now loc $loc is (", $#{$a} + 1, " recs)\n";
+    foreach my $rec (@{$a}) {
+        print "[$rec->[0],$rec->[1],";
+        print "[", join(",", map { "\"$_\"" } @{$rec->[2]}), "]";
+        print "]\n";
+    }
+}
+
+#========================================================================
+sub makeCmpDate {
+    my ($val) = @_;
+    my ($year, $month, $day) = unpack("A4A2A2", $val);
+
+    # Computers hate dates before 1970.  Turns out that 1916 has the same "shape" as 1972, so let's play pretend.
+    $year = $year - 1916 + 1972;
+
+    return Date::Simple->new(join('-', $year, $month, $day));
+}
+
+#========================================================================
+sub incrDate {
+    my ($d) = @_;
+    $d = makeCmpDate($d);
+    $d += 1;
+    # $end = $endDate->format("%YYYY%m%d");  // doesn't seem to work on my Windows box
+    return sprintf("%04d%02d%02d", $d->year - 1972 + 1916, $d->month, $d->day);
+}
+
+#========================================================================
+sub decrDate {
+    my ($d) = @_;
+    $d = makeCmpDate($d);
+    $d -= 1;
+    # $end = $endDate->format("%YYYY%m%d");  // doesn't seem to work on my Windows box
+    return sprintf("%04d%02d%02d", $d->year - 1972 + 1916, $d->month, $d->day);
+}
+
+#========================================================================
+sub formatDate {
+    my ($dateStr) = @_;
+    my ($mon, $day, $year) = ($dateStr =~ m<^(\d{1,2})/(\d{1,2})/(\d{4})$>);
+    return sprintf "%4.4d%02d%02d", $year, $mon, $day if ($year);
+    return 0;
+}
+
+#========================================================================
+sub regexp2latin1 {
+    my $text=shift;
+    $text=~s{([\xc0-\xc3])(.)}{ my $hi = ord($1);
+                                my $lo = ord($2);
+                                chr((($hi & 0x03) << 6) | ($lo & 0x3F))
+                              }ge;
+    return $text;
+}
+

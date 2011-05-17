@@ -1,0 +1,58 @@
+# -*- perl -*-
+#
+# $Id: jastasxmltojs,v 1.2 2002/08/20 01:20:10 Administrator Exp $
+#
+
+use strict;
+use XML::DOM;
+
+my $parser = new XML::DOM::Parser;
+my $doc = $parser->parsefile("jastas.xml");
+
+my $f;
+open ($f, ">jastas.js") or die "can't open jastas.js: $!\n";
+print $f "var jastas = [ \n";
+
+my @jastas = $doc->getElementsByTagName("jasta");
+for (my $j = 0; $j <= $#jastas; ++$j) {
+    my $jasta = $jastas[$j];
+    my $id = $jasta->getAttribute("id");
+    print $f "    { nation:'GE', type:'Jasta', id:$id, locs: [\n";
+    my @locs = $jasta->getElementsByTagName("location");
+    for (my $i = 0; $i <= $#locs; ++$i) {
+        my $loc = $locs[$i];
+        print $f
+            "        [\"",
+            regexp2latin1($loc->getAttribute("name")),
+            "\",", 
+            formatDate($loc->getAttribute("fromDate")), 
+            ", ", 
+            formatDate($loc->getAttribute("toDate")), 
+            "]";
+        print $f "," if $i != $#locs;
+        print $f "\n";
+    }
+    print $f "    ]}";
+    print $f "," if $j != $#jastas;
+    print $f "\n";
+}
+print $f "];\n";
+
+#========================================================================
+sub formatDate {
+    my ($dateStr) = @_;
+    my ($mon, $day, $year) = ($dateStr =~ m<^(\d{1,2})/(\d{1,2})/(\d{4})$>);
+    return sprintf "%4.4d%02d%02d", $year, $mon, $day if ($year);
+    return 0;
+}
+
+#========================================================================
+sub regexp2latin1 {
+    my $text=shift;
+    $text=~s{([\xc0-\xc3])(.)}{ my $hi = ord($1);
+                                my $lo = ord($2);
+                                chr((($hi & 0x03) << 6) | ($lo & 0x3F))
+                              }ge;
+    return $text;
+}
+

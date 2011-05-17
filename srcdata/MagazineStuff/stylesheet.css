@@ -1,0 +1,25 @@
+/* $Id: $ */
+
+BODY {
+	background-color: #E5E0D1
+}
+
+.articleTitle {
+	font: 10pt Palatino, serif;
+}
+
+.authorName {
+	font: 9pt Palatino, serif;
+	font-style: italic;
+}
+
+.journalTitle {
+	font: bold 12pt Verdana, sans-serif;
+}
+
+.volumeName {
+	background-color: #484848;
+	color: #F5F0E1;
+	font: bold 12pt Verdana, sans-serif;
+	padding: 0.25em 0.25em;
+}

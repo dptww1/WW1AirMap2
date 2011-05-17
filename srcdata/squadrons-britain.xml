@@ -1,0 +1,1449 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<!-- $Id: $ -->
+
+<squadrons>
+    <squadron nation='BR' type='RFC' num='1'>
+        <location name="Netheravon" fromDate='11/13/1914' toDate='3/6/1915'/>
+        <location name="St.-Omer" fromDate='3/7/1915' toDate='3/28/1915'/><!-- added period -->
+        <location name="Bailleul" fromDate='3/29/1915' toDate='3/28/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='3/29/1918' toDate='4/12/1918'/><!-- added period -->
+        <location name="Clairmarais South" fromDate='4/13/1918' toDate='8/4/1918'/>
+        <location name="Fienvillers" fromDate='8/5/1918' toDate='10/5/1918'/>
+        <location name="Senlis-le-Sec" fromDate='10/6/1918' toDate='10/25/1918'/>
+        <location name="Bouvincourt" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='2'>
+        <location name="Swingate Down" fromDate='8/12/1914' toDate='8/12/1914'/>
+        <location name="Amiens" fromDate='8/13/1914' toDate='8/15/1914'/>
+        <location name="Maubeuge" fromDate='8/16/1914' toDate='8/23/1914'/>
+        <location name="Berlaimont" fromDate='8/24/1914' toDate='8/24/1914'/><!-- corrected from Berliamont -->
+        <location name="Le Cateau" fromDate='8/25/1914' toDate='8/24/1914'/>
+        <location name="St.-Quentin" fromDate='8/25/1914' toDate='8/25/1914'/>
+        <location name="La Fère" fromDate='8/26/1914' toDate='8/27/1914'/>
+        <location name="Compiègne" fromDate='8/28/1914' toDate='8/29/1914'/>
+        <location name="Senlis" fromDate='8/30/1914' toDate='8/30/1914'/>
+        <location name="Juilly" fromDate='8/31/1914' toDate='9/1/1914'/>
+        <location name="Serris" fromDate='9/2/1914' toDate='9/2/1914'/><!-- corrected from Serries -->
+        <location name="Touquin" fromDate='9/3/1914' toDate='9/3/1914'/>
+        <location name="Melun" fromDate='9/4/1914' toDate='9/6/1914'/>
+        <location name="Touquin" fromDate='9/7/1914' toDate='9/8/1914'/>
+        <location name="Coulommiers" fromDate='9/9/1914' toDate='9/11/1914'/>
+        <location name="Fère-en-Tardenois" fromDate='9/12/1914' toDate='10/16/1914'/><!-- corrected from Fee-en Tardenois -->
+        <location name="St.-Omer" fromDate='10/17/1914' toDate='11/26/1914'/>
+        <location name="Merville" fromDate='11/27/1914' toDate='6/29/1915'/>
+        <location name="Hesdigneul" fromDate='6/30/1915' toDate='6/8/1918'/>
+        <location name="Floringhem" fromDate='6/9/1918' toDate='10/19/1918'/><!-- corrected from Floringham -->
+        <location name="Mazingarbe" fromDate='10/20/1918' toDate='10/25/1918'/>
+        <location name="Genech" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='3'>
+        <location name="Swingate Down" fromDate='8/12/1914' toDate='8/12/1914'/>
+        <location name="Amiens" fromDate='8/13/1914' toDate='8/15/1914'/>
+        <location name="Maubeuge" fromDate='8/16/1914' toDate='8/23/1914'/>
+        <location name="Le Cateau" fromDate='8/24/1914' toDate='8/24/1914'/>
+        <location name="St.-Quentin" fromDate='8/25/1914' toDate='8/25/1914'/>
+        <location name="La Fère" fromDate='8/26/1914' toDate='8/27/1914'/>
+        <location name="Compiègne" fromDate='8/28/1914' toDate='8/29/1914'/>
+        <location name="Senlis" fromDate='8/30/1914' toDate='8/30/1914'/>
+        <location name="Juilly" fromDate='8/31/1914' toDate='9/1/1914'/>
+        <location name="Serris" fromDate='9/2/1914' toDate='9/2/1914'/>
+        <location name="Touquin" fromDate='9/3/1914' toDate='9/3/1914'/>
+        <location name="Melun" fromDate='9/4/1914' toDate='9/6/1914'/>
+        <location name="Touquin" fromDate='9/7/1914' toDate='9/8/1914'/>
+        <location name="Coulommiers" fromDate='9/9/1914' toDate='9/11/1914'/>
+        <location name="Fère-en-Tardenois" fromDate='9/12/1914' toDate='10/4/1914'/><!-- added accent -->
+        <location name="Amiens" fromDate='10/5/1914' toDate='10/7/1914'/>
+        <location name="Abbeville" fromDate='10/8/1914' toDate='10/8/1914'/>
+        <location name="Moyenneville" fromDate='10/9/1914' toDate='10/11/1914'/>
+        <location name="St.-Omer" fromDate='10/12/1914' toDate='11/23/1914'/>
+        <location name="Gonnehem" fromDate='11/24/1914' toDate='5/31/1915'/><!-- corrected from Gonneham -->
+        <location name="Lozinghem" fromDate='6/1/1915' toDate='3/15/1916'/>
+        <location name="Bruay" fromDate='3/16/1916' toDate='3/31/1916'/>
+        <location name="Bertangles" fromDate='4/1/1916' toDate='4/9/1916'/>
+        <location name="Lahoussoye" fromDate='4/10/1916' toDate='1/22/1917'/>
+        <location name="Laviéville" fromDate='1/23/1917' toDate='7/14/1917'/>
+        <location name="Longavesnes" fromDate='7/15/1917' toDate='8/23/1917'/>
+        <location name="Léchelle" fromDate='8/24/1917' toDate='10/9/1917'/><!-- added the accent -->
+        <location name="Warloy" fromDate='10/10/1917' toDate='3/24/1918'/>
+        <location name="Vert Galand" fromDate='3/25/1918' toDate='3/25/1918'/>
+        <location name="Valheureux" fromDate='3/26/1918' toDate='10/14/1918'/>
+        <location name="Léchelle" fromDate='10/15/1918' toDate='11/3/1918'/><!-- added the accent -->
+        <location name="Inchy" fromDate='11/4/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='4'>
+        <location name="Netheravon" fromDate='8/1/1914' toDate='8/12/1914'/>
+        <location name="Amiens" fromDate='8/13/1914' toDate='7/31/1914'/>
+        <location name="Swingate" fromDate='8/1/1914' toDate='8/15/1914'/>
+        <location name="Maubeuge" fromDate='8/16/1914' toDate='8/23/1914'/>
+        <location name="Le Cateau" fromDate='8/24/1914' toDate='8/24/1914'/>
+        <location name="St.-Quentin" fromDate='8/25/1914' toDate='8/25/1914'/>
+        <location name="La Fère" fromDate='8/26/1914' toDate='8/27/1914'/>
+        <location name="Compiègne" fromDate='8/28/1914' toDate='8/29/1914'/>
+        <location name="Senlis" fromDate='8/30/1914' toDate='8/30/1914'/>
+        <location name="Juilly" fromDate='8/31/1914' toDate='9/1/1914'/>
+        <location name="Serris" fromDate='9/2/1914' toDate='9/2/1914'/>
+        <location name="Touquin" fromDate='9/3/1914' toDate='9/3/1914'/>
+        <location name="Melun" fromDate='9/4/1914' toDate='9/6/1914'/>
+        <location name="Touquin" fromDate='9/7/1914' toDate='9/8/1914'/>
+        <location name="Coulommiers" fromDate='9/9/1914' toDate='9/11/1914'/>
+        <location name="Fère-en-Tardenois" fromDate='9/12/1914' toDate='10/5/1914'/><!-- added accent -->
+        <location name="Amiens" fromDate='10/6/1914' toDate='10/7/1914'/>
+        <location name="Abbeville" fromDate='10/8/1914' toDate='10/8/1914'/>
+        <location name="Moyenneville" fromDate='10/9/1914' toDate='10/11/1914'/>
+        <location name="St.-Omer" fromDate='10/12/1914' toDate='4/20/1915'/>
+        <location name="Bailleul" fromDate='4/21/1915' toDate='7/19/1915'/>
+        <location name="Vert Galand" fromDate='7/20/1915' toDate='8/4/1915'/>
+        <location name="Baizieux" fromDate='8/5/1915' toDate='11/6/1915'/>
+        <location name="Allonville" fromDate='11/7/1915' toDate='1/31/1916'/>
+        <location name="Baizieux" fromDate='2/1/1916' toDate='1/31/1916'/>
+        <location name="Marieux" fromDate='2/1/1916' toDate='3/26/1916'/>
+        <location name="Baizieux" fromDate='3/27/1916' toDate='2/27/1917'/>
+        <location name="Warloy" fromDate='2/28/1917' toDate='5/29/1917'/>
+        <location name="Abeele" fromDate='5/30/1917' toDate='11/17/1917'/>
+        <location name="Chocques" fromDate='11/18/1917' toDate='4/7/1918'/>
+        <location name="Treizennes" fromDate='4/8/1918' toDate='4/15/1918'/>
+        <location name="St.-Omer" fromDate='4/16/1918' toDate='9/17/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='9/18/1918' toDate='10/20/1918'/><!-- added period -->
+        <location name="Linselles" fromDate='10/21/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='5'>
+        <location name="Swingate Down" fromDate='8/14/1914' toDate='8/14/1914'/>
+        <location name="Amiens" fromDate='8/15/1914' toDate='8/17/1914'/>
+        <location name="Maubeuge" fromDate='8/18/1914' toDate='8/23/1914'/>
+        <location name="Le Cateau" fromDate='8/24/1914' toDate='8/24/1914'/>
+        <location name="St.-Quentin" fromDate='8/25/1914' toDate='8/25/1914'/>
+        <location name="La Fère" fromDate='8/26/1914' toDate='8/27/1914'/>
+        <location name="Compiègne" fromDate='8/28/1914' toDate='8/29/1914'/>
+        <location name="Senlis" fromDate='8/30/1914' toDate='8/30/1914'/>
+        <location name="Juilly" fromDate='8/31/1914' toDate='9/1/1914'/>
+        <location name="Serris" fromDate='9/2/1914' toDate='9/2/1914'/>
+        <location name="Pezarche" fromDate='9/3/1914' toDate='9/3/1914'/>
+        <location name="Melun" fromDate='9/4/1914' toDate='9/5/1914'/>
+        <location name="La Boiserotte" fromDate='9/6/1914' toDate='9/6/1914'/>
+        <location name="Touquin" fromDate='9/7/1914' toDate='9/7/1914'/>
+        <location name="Rebais" fromDate='9/8/1914' toDate='9/8/1914'/>
+        <location name="Coulommiers" fromDate='9/9/1914' toDate='9/11/1914'/>
+        <location name="Fère-en-Tardenois" fromDate='9/12/1914' toDate='9/29/1914'/><!-- added accent and dash -->
+        <location name="Amiens" fromDate='9/30/1914' toDate='10/7/1914'/>
+        <location name="Abbeville" fromDate='10/8/1914' toDate='10/8/1914'/>
+        <location name="Moyenneville" fromDate='10/9/1914' toDate='10/11/1914'/>
+        <location name="St.-Omer" fromDate='10/12/1914' toDate='10/1/1914'/>
+        <location name="Bailleul" fromDate='10/2/1914' toDate='4/26/1915'/><!-- (Town ground) -->
+        <location name="Abeele" fromDate='4/27/1915' toDate='3/10/1916'/>
+        <location name="Droglandt" fromDate='3/11/1916' toDate='10/1/1916'/>
+        <location name="Marieux" fromDate='10/2/1916' toDate='3/23/1917'/>
+        <location name="La Gorgue" fromDate='3/24/1917' toDate='4/6/1917'/>
+        <location name="Savy" fromDate='4/7/1917' toDate='6/1/1917'/>
+        <location name="Acq" fromDate='6/2/1917' toDate='5/24/1918'/>
+        <location name="Le Hameau" fromDate='5/25/1918' toDate='8/3/1918'/>
+        <location name="Bovelles" fromDate='8/4/1918' toDate='8/23/1918'/>
+        <location name="Le Hameau" fromDate='8/24/1918' toDate='10/13/1918'/>
+        <location name="Pronville" fromDate='10/14/1918' toDate='10/23/1918'/>
+        <location name="Emerchicourt" fromDate='10/24/1918' toDate='11/7/1918'/>
+        <location name="Aulnoy" fromDate='11/8/1918' toDate='11/11/1918'/><!-- Looks out of place; maybe Aulnoye? -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='6'>
+        <location name="Dover" fromDate='10/6/1914' toDate='10/6/1914'/>
+        <location name="Brugge" fromDate='10/7/1914' toDate='10/7/1914'/>
+        <location name="Ostend" fromDate='10/8/1914' toDate='10/12/1914'/>
+        <location name="St.-Pol" fromDate='10/13/1914' toDate='10/19/1914'/><!-- repunctuated -->
+        <location name="Poperinghe" fromDate='10/20/1914' toDate='10/20/1914'/>
+        <location name="St.-Omer" fromDate='10/21/1914' toDate='11/17/1914'/>
+        <location name="Bailleul" fromDate='11/18/1914' toDate='3/7/1915'/>
+        <location name="Poperinghe" fromDate='3/8/1915' toDate='4/23/1915'/>
+        <location name="Abeele" fromDate='4/24/1915' toDate='10/1/1916'/>
+        <location name="Droglandt" fromDate='10/2/1916' toDate='11/2/1916'/>
+        <location name="Abeele" fromDate='11/3/1916' toDate='11/11/1917'/>
+        <location name="Bertangles" fromDate='11/12/1917' toDate='3/22/1918'/>
+        <location name="St.-André-au-Bois" fromDate='3/23/1918' toDate='3/25/1918'/><!-- inferred from St.Andre -->
+        <location name="Le Crotoy" fromDate='3/26/1918' toDate='7/16/1918'/>
+        <location name="Fienvillers" fromDate='7/17/1918' toDate='8/4/1918'/>
+        <location name="Bovelles" fromDate='8/5/1918' toDate='8/16/1918'/>
+        <location name="Auxi-le-Château" fromDate='8/17/1918' toDate='8/26/1918'/><!-- repunctuated -->
+        <location name="Ascq" fromDate='8/27/1918' toDate='9/26/1918'/>
+        <location name="Moislains" fromDate='9/27/1918' toDate='10/5/1918'/><!-- corrected from Moislans -->
+        <location name="Longavesnes" fromDate='10/6/1918' toDate='10/18/1918'/>
+        <location name="Bertry" fromDate='10/19/1918' toDate='10/19/1918'/>
+        <location name="Maretz" fromDate='10/20/1918' toDate='11/8/1918'/>
+        <location name="Gondecourt" fromDate='11/9/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='7'>
+        <location name="Swingate Down" fromDate='9/29/1914' toDate='10/23/1914'/>
+        <location name="Netheravon" fromDate='10/24/1914' toDate='4/7/1915'/>
+        <location name="St.-Omer" fromDate='4/8/1915' toDate='9/10/1915'/>
+        <location name="Droglandt" fromDate='9/11/1915' toDate='12/11/1915'/>
+        <location name="Bailleul" fromDate='12/12/1915' toDate='7/29/1916'/>
+        <location name="Warloy" fromDate='7/30/1916' toDate='2/5/1917'/>
+        <location name="Moreuil" fromDate='2/6/1917' toDate='4/14/1917'/>
+        <location name="Matigny" fromDate='4/15/1917' toDate='5/22/1917'/>
+        <location name="Proven" fromDate='5/23/1917' toDate='4/12/1918'/>
+        <location name="Droglandt" fromDate='4/13/1918' toDate='9/2/1918'/>
+        <location name="Proven" fromDate='9/3/1918' toDate='10/21/1918'/>
+        <location name="Bisseghem" fromDate='10/22/1918' toDate='10/31/1918'/>
+        <location name="Staceghem" fromDate='11/1/1918' toDate='11/4/1918'/><!-- was Stacegham -->
+        <location name="Menin" fromDate='11/5/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='8'>
+        <location name="Brooklands" fromDate='1/1/1915' toDate='1/5/1915'/>
+        <location name="Gosport" fromDate='1/6/1915' toDate='4/14/1915'/>
+        <location name="St.-Omer" fromDate='4/15/1915' toDate='4/29/1915'/>
+        <location name="Abeele" fromDate='4/30/1915' toDate='4/30/1915'/><!-- munged dates a bit here to make it work with the map -->
+        <location name="Oxelaëre" fromDate='5/1/1915' toDate='7/23/1915'/>
+        <location name="Vert Galand" fromDate='7/24/1915' toDate='7/31/1915'/>
+        <location name="Marieux" fromDate='8/1/1915' toDate='2/19/1916'/>
+        <location name="La Bellevue" fromDate='2/20/1916' toDate='2/2/1917'/>
+        <location name="Soncamp" fromDate='2/3/1917' toDate='5/8/1917'/>
+        <location name="Boiry-St-Martin" fromDate='5/9/1917' toDate='10/17/1917'/>
+        <location name="Longavesnes" fromDate='10/18/1917' toDate='10/31/1918'/>
+        <location name="Nurlu" fromDate='11/1/1918' toDate='3/21/1918'/>
+        <location name="Chipilly" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Poulainville" fromDate='3/24/1918' toDate='3/27/1918'/>
+        <location name="Vert Galand" fromDate='3/28/1918' toDate='4/11/1918'/>
+        <location name="Auxi-le-Château" fromDate='4/12/1918' toDate='8/4/1918'/><!-- repunctuated -->
+        <location name="Vignacourt" fromDate='8/5/1918' toDate='8/17/1918'/>
+        <location name="La Bellevue" fromDate='8/18/1918' toDate='9/21/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='9/22/1918' toDate='10/7/1918'/><!-- was Estress-en-Chausee -->
+        <location name="Hervilly" fromDate='10/8/1918' toDate='10/17/1918'/>
+        <location name="Malincourt" fromDate='10/18/1918' toDate='10/31/1918'/>
+        <location name="La Bellevue" fromDate='11/1/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='9'>
+        <location name="St.-Omer" fromDate='12/8/1914' toDate='3/21/1915'/>
+        <location name="Brooklands" fromDate='3/22/1915' toDate='7/22/1915'/>
+        <location name="Swingate Down" fromDate='7/23/1915' toDate='12/11/1915'/>
+        <location name="St.-Omer" fromDate='12/12/1915' toDate='12/23/1915'/>
+        <location name="Bertangles" fromDate='12/24/1915' toDate='3/25/1916'/>
+        <location name="Allonville" fromDate='3/26/1916' toDate='7/14/1916'/>
+        <location name="Chipilly" fromDate='7/15/1916' toDate='9/2/1916'/>
+        <location name="Morlancourt" fromDate='9/3/1916' toDate='5/15/1917'/>
+        <location name="Estrées-en-Chaussée" fromDate='5/16/1917' toDate='6/9/1917'/><!-- repunctuated -->
+        <location name="Proven" fromDate='6/10/1917' toDate='4/10/1918'/>
+        <location name="Calais" fromDate='4/11/1918' toDate='6/5/1918'/>
+        <location name="Agenvillers" fromDate='6/6/1918' toDate='7/16/1918'/>
+        <location name="Quevauvillers" fromDate='7/17/1918' toDate='8/14/1918'/>
+        <location name="Amiens" fromDate='8/15/1918' toDate='9/6/1918'/>
+        <location name="Proyart" fromDate='9/7/1918' toDate='8/14/1918'/>
+        <location name="Athies" fromDate='8/15/1918' toDate='10/5/1918'/>
+        <location name="Montigny Ferme" fromDate='10/6/1918' toDate='10/17/1918'/><!-- was Montigny Farm, changed to match Jastas -->
+        <location name="Prémont" fromDate='10/18/1918' toDate='10/28/1918'/><!-- was Premont Farm -->
+        <location name="Tarcienne" fromDate='10/29/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='10'>
+        <location name="Farnborough" fromDate='1/1/1915' toDate='1/7/1915'/>
+        <location name="Brooklands" fromDate='1/8/1915' toDate='3/31/1915'/>
+        <location name="Hounslow" fromDate='4/1/1915' toDate='4/6/1915'/>
+        <location name="Netheravon" fromDate='4/7/1915' toDate='7/26/1915'/>
+        <location name="St.-Omer" fromDate='7/27/1915' toDate='7/29/1915'/>
+        <location name="Aire" fromDate='7/30/1915' toDate='8/6/1915'/>
+        <location name="Chocques" fromDate='8/7/1915' toDate='11/17/1917'/>
+        <location name="Abeele" fromDate='11/18/1917' toDate='4/11/1918'/>
+        <location name="Droglandt" fromDate='4/12/1918' toDate='9/21/1918'/><!-- was Droglandy, assumed to be typo -->
+        <location name="Abeele" fromDate='9/22/1918' toDate='10/20/1918'/>
+        <location name="Menin" fromDate='10/21/1918' toDate='11/4/1918'/>
+        <location name="Staceghem" fromDate='11/5/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='11'>
+        <location name="Netheravon" fromDate='2/14/1915' toDate='7/24/1915'/>
+        <location name="St.-Omer" fromDate='7/25/1915' toDate='7/28/1915'/>
+        <location name="Vert Galand" fromDate='7/29/1915' toDate='9/19/1915'/>
+        <location name="Villers-Bretonneux" fromDate='9/20/1915' toDate='10/26/1915'/>
+        <location name="Bertangles" fromDate='10/27/1915' toDate='12/31/1915'/>
+        <location name="Savy" fromDate='1/1/1916' toDate='7/31/1916'/>
+        <location name="Izel-le-Hameau" fromDate='8/1/1916' toDate='5/31/1917'/>
+        <location name="La Bellevue" fromDate='6/1/1917' toDate='3/26/1918'/>
+        <location name="Fienvillers" fromDate='3/27/1918' toDate='4/15/1918'/>
+        <location name="Remaisnil" fromDate='4/16/1918' toDate='7/6/1918'/>
+        <location name="Le Quesnoy" fromDate='7/7/1918' toDate='9/18/1918'/>
+        <location name="Vert Galand" fromDate='9/19/1918' toDate='10/14/1918'/>
+        <location name="Mory" fromDate='10/15/1918' toDate='10/31/1918'/>
+        <location name="Béthencourt" fromDate='11/1/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='12'>
+        <location name="Netheravon" fromDate='2/14/1915' toDate='9/5/1915'/>
+        <location name="St.-Omer" fromDate='9/6/1915' toDate='3/2/1916'/>
+        <location name="Avesnes-le-Comte" fromDate='3/3/1916' toDate='5/8/1917'/>
+        <location name="Wagnonlieu" fromDate='5/9/1917' toDate='7/6/1917'/>
+        <location name="Ablainzevelle" fromDate='7/7/1917' toDate='7/31/1917'/>
+        <location name="Courcelles-le-Comte" fromDate='8/1/1917' toDate='12/15/1917'/>
+        <location name="Boiry-St-Martin" fromDate='12/16/1917' toDate='3/21/1918'/>
+        <location name="Soncamp" fromDate='3/22/1918' toDate='9/16/1918'/>
+        <location name="Mory" fromDate='9/17/1918' toDate='10/13/1918'/>
+        <location name="Estourmel" fromDate='10/14/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='13'>
+        <location name="Gosport" fromDate='1/10/1915' toDate='10/18/1915'/>
+        <location name="St.-Omer" fromDate='10/19/1915' toDate='10/20/1915'/>
+        <location name="Vert Galand" fromDate='10/21/1915' toDate='12/14/1916'/>
+        <location name="Le Hameau" fromDate='12/15/1916' toDate='3/17/1916'/>
+        <location name="Savy" fromDate='3/18/1916' toDate='5/8/1917'/>
+        <location name="Etrun" fromDate='5/9/1917' toDate='3/21/1918'/>
+        <location name="Le Hameau" fromDate='3/22/1918' toDate='9/21/1918'/>
+        <location name="Mory" fromDate='9/22/1918' toDate='10/18/1918'/>
+        <location name="Carnières" fromDate='10/19/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='15'>
+        <location name="South Farnborough" fromDate='3/1/1915' toDate='4/12/1915'/>
+        <location name="Hounslow" fromDate='4/13/1915' toDate='5/10/1915'/>
+        <location name="Swingate Down" fromDate='5/11/1915' toDate='1/22/1915'/>
+        <location name="St.-Omer" fromDate='1/23/1915' toDate='1/4/1916'/>
+        <location name="Droglandt" fromDate='1/5/1916' toDate='3/7/1916'/>
+        <location name="Vert Galand" fromDate='3/8/1916' toDate='3/26/1916'/>
+        <location name="Marieux" fromDate='3/27/1916' toDate='10/1/1916'/>
+        <location name="Léalvillers" fromDate='10/2/1916' toDate='6/5/1917'/><!-- was Lealvillers (Clairfaye Farm) -->
+        <location name="Courcelles-le-Comte" fromDate='6/6/1917' toDate='7/6/1917'/>
+        <location name="La Gorgue" fromDate='7/7/1917' toDate='8/17/1917'/>
+        <location name="Savy" fromDate='8/18/1917' toDate='8/29/1917'/>
+        <location name="Longavesnes" fromDate='8/30/1917' toDate='10/7/1917'/>
+        <location name="Léchelle" fromDate='10/8/1917' toDate='11/29/1917'/><!-- added the accent -->
+        <location name="Bapaume" fromDate='11/30/1917' toDate='12/4/1917'/>
+        <location name="Léchelle" fromDate='12/5/1917' toDate='3/21/1918'/><!-- added the accent -->
+        <location name="Laviéville" fromDate='3/22/1918' toDate='3/24/1918'/><!-- added the accent -->
+        <location name="Lahoussoye" fromDate='3/25/1918' toDate='3/25/1918'/>
+        <location name="Fienvillers" fromDate='3/26/1918' toDate='4/9/1918'/>
+        <location name="Vert Galand" fromDate='4/10/1918' toDate='9/13/1918'/>
+        <location name="Senlis-le-Sec" fromDate='9/14/1918' toDate='10/1/1918'/>
+        <location name="Léchelle" fromDate='10/2/1918' toDate='10/14/1918'/><!-- added the accent, removed "(Quatre Vents Farm)" -->
+        <location name="Selvigny" fromDate='10/15/1918' toDate='11/11/1918'/><!-- removed "(Ferme Guillemin)"-->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='16'>
+        <location name="St.-Omer" fromDate='2/10/1915' toDate='2/28/1915'/>
+        <location name="La Gorgue" fromDate='3/1/1915' toDate='5/31/1915'/><!-- removed trailing space -->
+        <location name="Chocques" fromDate='6/1/1915' toDate='7/17/1915'/>
+        <location name="Merville" fromDate='7/18/1915' toDate='12/11/1915'/>
+        <location name="La Gorgue" fromDate='12/12/1915' toDate='8/30/1916'/>
+        <location name="Bruay" fromDate='8/31/1916' toDate='5/24/1917'/>
+        <location name="Camblain-l'Abbé" fromDate='5/25/1917' toDate='10/20/1918'/><!-- added punctuation -->
+        <location name="La Brayelles" fromDate='10/21/1918' toDate='10/24/1918'/><!-- was La Brayelle -->
+        <location name="Auchy" fromDate='10/25/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='18'>
+        <location name="Northolt" fromDate='5/11/1915' toDate='8/15/1915'/>
+        <location name="Mousehold Heath" fromDate='8/16/1915' toDate='11/17/1915'/>
+        <location name="St.-Omer" fromDate='11/18/1915' toDate='11/24/1915'/>
+        <location name="Treizennes" fromDate='11/25/1915' toDate='2/11/1916'/>
+        <location name="Auchel" fromDate='2/12/1916' toDate='3/31/1916'/>
+        <location name="Bruay" fromDate='4/1/1916' toDate='7/21/1916'/><!-- was Bruary, assumed typo -->
+        <location name="Treizennes" fromDate='7/22/1916' toDate='8/1/1916'/>
+        <location name="Bruay" fromDate='8/2/1916' toDate='9/5/1916'/><!-- was Bruary, assumed typo -->
+        <location name="Laviéville" fromDate='9/6/1916' toDate='12/9/1916'/><!-- added the accent -->
+        <location name="St.-Léger-lès-Authie" fromDate='12/10/1916' toDate='1/26/1917'/><!-- repunctuated -->
+        <location name="Bertangles" fromDate='1/27/1917' toDate='5/24/1917'/>
+        <location name="Baizieux" fromDate='5/25/1917' toDate='7/9/1917'/>
+        <location name="La Bellevue" fromDate='7/10/1917' toDate='10/10/1917'/>
+        <location name="Auchel" fromDate='10/11/1917' toDate='2/1/1918'/>
+        <location name="Treizennes" fromDate='2/2/1918' toDate='4/8/1918'/><!-- was Treziennes, assumed typo -->
+        <location name="Serny" fromDate='4/9/1918' toDate='8/16/1918'/>
+        <location name="Maisoncelle" fromDate='8/17/1918' toDate='10/12/1918'/>
+        <location name="Le Hameau" fromDate='10/13/1918' toDate='10/26/1918'/>
+        <location name="La Brayelles" fromDate='10/27/1918' toDate='11/11/1918'/><!-- was La Brayelle -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='19'>
+        <location name="Castle Bromwich" fromDate='9/1/1915' toDate='1/30/1916'/>
+        <location name="Netheravon" fromDate='1/31/1916' toDate='2/28/1916'/><!-- was toDate='3/28/1916' -->
+        <location name="Filton" fromDate='2/29/1916' toDate='3/28/1916'/><!-- was fromDate='2/29/1916' -->
+        <location name="St.-Omer" fromDate='3/29/1916' toDate='7/31/1916'/>
+        <location name="Fienvillers" fromDate='8/1/1916' toDate='4/1/1917'/>
+        <location name="Vert Galand" fromDate='4/2/1917' toDate='5/30/1917'/>
+        <location name="Liettres" fromDate='5/31/1917' toDate='8/13/1917'/>
+        <location name="Poperinghe" fromDate='8/14/1917' toDate='9/4/1917'/>
+        <location name="Bailleul" fromDate='9/5/1917' toDate='12/24/1917'/><!-- removed "(Asylum Ground)" -->
+        <location name="Ste.-Marie-Cappel" fromDate='12/25/1917' toDate='2/12/1918'/><!-- added period -->
+        <location name="Bailleul" fromDate='2/13/1918' toDate='3/22/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='3/23/1918' toDate='3/30/1918'/><!-- added period -->
+        <location name="Savy" fromDate='3/31/1918' toDate='8/16/1918'/>
+        <location name="Cappelle" fromDate='8/17/1918' toDate='9/22/1918'/>
+        <location name="Savy" fromDate='9/23/1918' toDate='10/23/1918'/>
+        <location name="Abscon" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='20'>
+        <location name="Netheravon" fromDate='9/1/1915' toDate='12/14/1915'/>
+        <location name="Filton" fromDate='12/15/1915' toDate='1/15/1916'/>
+        <location name="St.-Omer" fromDate='1/16/1916' toDate='1/22/1916'/>
+        <location name="Clairmarais" fromDate='1/23/1916' toDate='1/17/1917'/>
+        <location name="Boisdinghem" fromDate='1/18/1917' toDate='4/14/1917'/>
+        <location name="Ste.-Marie-Cappel" fromDate='4/15/1917' toDate='4/12/1918'/><!-- was "Ste-Marie-Chappel" -->
+        <location name="Boisdinghem" fromDate='4/13/1918' toDate='8/25/1918'/>
+        <location name="Vignacourt" fromDate='8/26/1918' toDate='9/15/1918'/>
+        <location name="Suzanne" fromDate='9/16/1918' toDate='8/23/1918'/>
+        <location name="Proyart" fromDate='8/24/1918' toDate='10/6/1918'/>
+        <location name="Moislains" fromDate='10/7/1918' toDate='10/24/1918'/>
+        <location name="Iris Farm" fromDate='10/25/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='21'>
+        <location name="Netheravon" fromDate='7/23/1915' toDate='1/22/1916'/>
+        <location name="Boisdinghem" fromDate='1/23/1916' toDate='4/1/1916'/>
+        <location name="St.-André-au-Bois" fromDate='4/2/1916' toDate='6/18/1916'/><!-- was St Andre aux Bois -->
+        <location name="Fienvillers" fromDate='6/19/1916' toDate='7/27/1916'/>
+        <location name="Boisdinghem" fromDate='7/28/1916' toDate='8/24/1916'/>
+        <location name="Bertangles" fromDate='8/25/1916' toDate='2/15/1917'/>
+        <location name="Boisdinghem" fromDate='2/16/1917' toDate='3/23/1917'/>
+        <location name="Droglandt" fromDate='3/24/1917' toDate='5/18/1917'/>
+        <location name="Lalovie" fromDate='5/19/1917' toDate='4/12/1918'/><!-- was La Lovie -->
+        <location name="St. Inglevert" fromDate='4/13/1918' toDate='4/21/1918'/><!-- was St-Inglevert -->
+        <location name="Floringhem" fromDate='4/22/1918' toDate='10/18/1918'/>
+        <location name="Hesdigneul" fromDate='10/19/1918' toDate='10/21/1918'/>
+        <location name="Seclin" fromDate='10/22/1918' toDate='11/10/1918'/>
+        <location name="Froidmont" fromDate='11/11/1918' toDate='11/11/1918'/><!-- was Froidment, assumed typo -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='22'>
+        <location name="Gosport" fromDate='9/1/1915' toDate='3/31/1916'/>
+        <location name="St.-Omer" fromDate='4/1/1916' toDate='3/31/1916'/>
+        <location name="Vert Galand" fromDate='4/1/1916' toDate='4/15/1916'/>
+        <location name="Bertangles" fromDate='4/16/1916' toDate='4/26/1917'/>
+        <location name="Chipilly" fromDate='4/27/1917' toDate='4/30/1917'/>
+        <location name="Flez" fromDate='5/1/1917' toDate='7/4/1917'/>
+        <location name="Warloy" fromDate='7/5/1917' toDate='7/4/1917'/>
+        <location name="Izel-le-Hameau" fromDate='7/5/1917' toDate='7/13/1917'/>
+        <location name="Boisdinghem" fromDate='7/14/1917' toDate='9/9/1917'/>
+        <location name="Estrée-Blanche" fromDate='9/10/1917' toDate='1/21/1918'/><!-- added accent -->
+        <location name="Auchel" fromDate='1/22/1918' toDate='2/1/1918'/>
+        <location name="Treizennes" fromDate='2/2/1918' toDate='3/20/1918'/>
+        <location name="Serny" fromDate='3/21/1918' toDate='3/22/1918'/>
+        <location name="Vert Galand" fromDate='3/23/1918' toDate='4/8/1918'/>
+        <location name="Serny" fromDate='4/9/1918' toDate='7/29/1918'/>
+        <location name="Maisoncelle" fromDate='7/30/1918' toDate='10/21/1918'/><!-- was Masioncelle, assumed typo -->
+        <location name="Izel-le-Hameau" fromDate='10/22/1918' toDate='10/25/1918'/>
+        <location name="Aniche" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='23'>
+        <location name="Gosport" fromDate='9/1/1915' toDate='3/14/1916'/>
+        <location name="St.-Omer" fromDate='3/15/1916' toDate='3/15/1916'/>
+        <location name="Fienvillers" fromDate='3/16/1916' toDate='3/17/1916'/>
+        <location name="Le Hameau" fromDate='3/18/1916' toDate='8/31/1916'/>
+        <location name="Fienvillers" fromDate='9/1/1916' toDate='9/4/1916'/>
+        <location name="Vert Galand" fromDate='9/5/1916' toDate='9/4/1916'/>
+        <location name="Baizieux" fromDate='9/5/1916' toDate='5/22/1917'/>
+        <location name="Auchel" fromDate='5/23/1917' toDate='5/28/1917'/>
+        <location name="Bruay" fromDate='5/29/1917' toDate='6/12/1917'/>
+        <location name="Lalovie" fromDate='6/13/1917' toDate='2/15/1918'/><!-- was La Lovie -->
+        <location name="Matigny" fromDate='2/16/1918' toDate='3/21/1918'/>
+        <location name="Moreuil" fromDate='3/22/1918' toDate='3/27/1918'/>
+        <location name="Bertangles" fromDate='3/28/1918' toDate='4/28/1918'/>
+        <location name="St.-Omer" fromDate='4/29/1918' toDate='5/15/1918'/>
+        <location name="Bertangles" fromDate='5/16/1918' toDate='9/12/1918'/>
+        <location name="Cappy" fromDate='9/13/1918' toDate='10/10/1918'/>
+        <location name="Hancourt" fromDate='10/11/1918' toDate='10/24/1918'/>
+        <location name="Bertry" fromDate='10/25/1918' toDate='11/11/1918'/><!-- was Bertry East -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='24'>
+        <location name="Hounslow" fromDate='9/1/1915' toDate='2/6/1916'/>
+        <location name="St.-Omer" fromDate='2/7/1916' toDate='2/9/1916'/>
+        <location name="Bertangles" fromDate='2/10/1916' toDate='12/16/1916'/><!-- toDate was 116, assumed typo -->
+        <location name="Chipilly" fromDate='12/17/1916' toDate='4/16/1917'/><!-- fromDate was 116, assumed typo -->
+        <location name="Flez" fromDate='4/17/1917' toDate='7/9/1917'/>
+        <location name="Baizieux" fromDate='7/10/1917' toDate='9/22/1917'/>
+        <location name="Téteghem" fromDate='9/23/1917' toDate='11/23/1917'/><!-- added accent -->
+        <location name="Marieux" fromDate='11/24/1917' toDate='12/29/1917'/>
+        <location name="Villers-Bretonneux" fromDate='12/30/1917' toDate='1/25/1918'/>
+        <location name="Matigny" fromDate='1/26/1918' toDate='3/21/1918'/>
+        <location name="Moreuil" fromDate='3/22/1918' toDate='3/25/1918'/>
+        <location name="Bertangles" fromDate='3/26/1918' toDate='3/27/1918'/>
+        <location name="Conteville" fromDate='3/28/1918' toDate='8/13/1918'/>
+        <location name="Bertangles" fromDate='8/14/1918' toDate='9/7/1918'/>
+        <location name="Cappy" fromDate='9/8/1918' toDate='10/5/1918'/>
+        <location name="Athies" fromDate='10/6/1918' toDate='10/26/1918'/>
+        <location name="Busigny" fromDate='10/27/1918' toDate='11/10/1918'/>
+        <location name="Bisseghem" fromDate='11/11/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='25'>
+        <location name="Montrose" fromDate='9/25/1915' toDate='12/30/1915'/>
+        <location name="Thetford" fromDate='12/31/1915' toDate='2/18/1916'/>
+        <location name="Folkestone" fromDate='2/19/1916' toDate='2/19/1916'/>
+        <location name="St.-Omer" fromDate='2/20/1916' toDate='3/31/1916'/>
+        <location name="Lozinghem" fromDate='4/1/1916' toDate='10/10/1917'/>
+        <location name="Boisdinghem" fromDate='10/11/1917' toDate='2/2/1918'/>
+        <location name="Serny" fromDate='2/3/1918' toDate='3/5/1918'/>
+        <location name="Villers-Bretonneux" fromDate='3/6/1918' toDate='3/23/1918'/>
+        <location name="Beauvois" fromDate='3/24/1918' toDate='3/28/1918'/>
+        <location name="Ruisseauville" fromDate='3/29/1918' toDate='10/26/1918'/>
+        <location name="La Brayelles" fromDate='10/27/1918' toDate='11/11/1918'/><!-- was La Brayelle -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='27'>
+        <location name="Hounslow" fromDate='11/5/1915' toDate='2/9/1915'/>
+        <location name="Swingate Down" fromDate='2/10/1915' toDate='2/29/1916'/>
+        <location name="St.-Omer" fromDate='3/1/1916' toDate='3/1/1916'/>
+        <location name="Treizennes" fromDate='3/2/1916' toDate='6/6/1916'/>
+        <location name="St.-André-au-Bois" fromDate='6/7/1916' toDate='6/18/1916'/><!-- was St Andre aux Bois -->
+        <location name="Fienvillers" fromDate='6/19/1916' toDate='4/30/1917'/>
+        <location name="Clairmarais North" fromDate='5/1/1917' toDate='10/11/1917'/>
+        <location name="Serny" fromDate='10/12/1917' toDate='7/14/1918'/>
+        <location name="Villers-Bretonneux" fromDate='7/15/1918' toDate='3/23/1918'/>
+        <location name="Beauvois" fromDate='3/24/1918' toDate='3/28/1918'/>
+        <location name="Ruisseauville" fromDate='3/29/1918' toDate='4/20/1918'/>
+        <location name="Fourneuil" fromDate='4/21/1918' toDate='7/14/1918'/>
+        <location name="Chailly" fromDate='7/15/1918' toDate='8/6/1918'/>
+        <location name="Beauvois" fromDate='8/7/1918' toDate='10/28/1918'/>
+        <location name="Villers-lès-Cagnicourt" fromDate='10/29/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='28'>
+        <location name="St.-Omer" fromDate='10/8/1917' toDate='10/9/1917'/>
+        <location name="Droglandt" fromDate='10/10/1917' toDate='10/28/1917'/>
+        <location name="Candas" fromDate='10/29/1917' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='29'>
+        <location name="Gosport" fromDate='11/7/1915' toDate='3/24/1916'/>
+        <location name="St.-Omer" fromDate='3/25/1916' toDate='4/14/1916'/>
+        <location name="Abeele" fromDate='4/15/1916' toDate='10/22/1916'/>
+        <location name="Le Hameau" fromDate='10/23/1916' toDate='7/4/1917'/>
+        <location name="Poperinghe" fromDate='7/5/1917' toDate='3/15/1918'/>
+        <location name="Lalovie" fromDate='3/16/1918' toDate='4/10/1918'/><!-- was La Lovie -->
+        <location name="Téteghem" fromDate='4/11/1918' toDate='4/21/1918'/><!-- was Tetegham -->
+        <location name="St.-Omer" fromDate='4/22/1918' toDate='7/31/1918'/>
+        <location name="Hoog Huis" fromDate='8/1/1918' toDate='10/22/1918'/>
+        <location name="Marcke" fromDate='10/23/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='32'>
+        <location name="Netheravon" fromDate='1/12/1916' toDate='5/27/1916'/>
+        <location name="St.-Omer" fromDate='5/28/1916' toDate='6/3/1916'/>
+        <location name="Auchel" fromDate='6/4/1916' toDate='6/6/1916'/>
+        <location name="Treizennes" fromDate='6/7/1916' toDate='7/20/1916'/>
+        <location name="Vert Galand" fromDate='7/21/1916' toDate='10/24/1916'/>
+        <location name="Léalvillers" fromDate='10/25/1916' toDate='7/2/1917'/><!-- added accent -->
+        <location name="Abeele" fromDate='7/3/1917' toDate='7/7/1917'/><!-- toDate was 7/7/197, assumed typo -->
+        <location name="Droglandt" fromDate='7/8/1917' toDate='3/4/1918'/>
+        <location name="Bailleul" fromDate='3/5/1918' toDate='3/26/1918'/>
+        <location name="Belleville Farm" fromDate='3/27/1918' toDate='3/28/1918'/>
+        <location name="Beauvois" fromDate='3/29/1918' toDate='6/2/1918'/>
+        <location name="Fouquerolles" fromDate='6/3/1918' toDate='6/20/1918'/>
+        <location name="Ruisseauville" fromDate='6/21/1918' toDate='7/17/1918'/>
+        <location name="Touquin" fromDate='7/18/1918' toDate='8/2/1918'/>
+        <location name="La Bellevue" fromDate='8/3/1918' toDate='10/26/1918'/>
+        <location name="Pronville" fromDate='10/27/1918' toDate='10/31/1918'/>
+        <location name="La Brayelles" fromDate='11/1/1918' toDate='11/11/1918'/><!-- was La Brayelle -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='34'>
+        <location name="Castle Bromwich" fromDate='1/12/1916' toDate='6/14/1916'/>
+        <location name="Lilbourne" fromDate='6/15/1916' toDate='7/15/1916'/>
+        <location name="Allonville" fromDate='7/16/1916' toDate='1/31/1917'/>
+        <location name="Villers-Bretonneux" fromDate='2/1/1917' toDate='4/17/1917'/>
+        <location name="Estrées-en-Chaussée" fromDate='4/18/1917' toDate='5/15/1917'/><!-- repunctuated -->
+        <location name="Nurlu" fromDate='5/16/1917' toDate='5/25/1917'/>
+        <location name="Villers-Bretonneux" fromDate='5/26/1917' toDate='6/9/1917'/>
+        <location name="Estrées-en-Chaussée" fromDate='6/10/1917' toDate='6/28/1917'/><!-- repunctuated -->
+        <location name="Bray-Dunes" fromDate='6/29/1917' toDate='10/31/1917'/>
+        <location name="Candas" fromDate='11/1/1917' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='35'>
+        <location name="Thetford" fromDate='2/1/1916' toDate='6/15/1916'/>
+        <location name="Narborough" fromDate='6/16/1916' toDate='1/25/1917'/>
+        <location name="St.-Omer" fromDate='1/26/1917' toDate='2/3/1917'/>
+        <location name="St.-André-au-Bois" fromDate='2/4/1917' toDate='4/4/1917'/><!-- was St Andre aux Bois -->
+        <location name="Savy" fromDate='4/5/1917' toDate='5/12/1917'/>
+        <location name="Villers-Bretonneux" fromDate='5/13/1917' toDate='5/22/1917'/>
+        <location name="Mons-en-Chaussée" fromDate='5/23/1917' toDate='7/12/1917'/><!-- added accent -->
+        <location name="Savy" fromDate='7/13/1917' toDate='7/18/1917'/>
+        <location name="La Gorgue" fromDate='7/19/1917' toDate='10/4/1917'/>
+        <location name="Lalovie" fromDate='10/5/1917' toDate='10/16/1917'/><!-- was La Lovie -->
+        <location name="Bruay" fromDate='10/17/1917' toDate='11/6/1917'/>
+        <location name="Estrées-en-Chaussée" fromDate='11/7/1917' toDate='3/21/1918'/><!-- repunctuated -->
+        <location name="Chipilly" fromDate='3/22/1918' toDate='4/4/1918'/>
+        <location name="Poulainville" fromDate='4/5/1918' toDate='5/1/1918'/>
+        <location name="Flesselles" fromDate='5/2/1918' toDate='9/6/1918'/>
+        <location name="Suzanne" fromDate='9/7/1918' toDate='9/14/1918'/>
+        <location name="Moislains" fromDate='9/15/1918' toDate='10/7/1918'/>
+        <location name="Longavesnes" fromDate='10/8/1918' toDate='10/16/1918'/>
+        <location name="Elincourt" fromDate='10/17/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='40'>
+        <location name="Gosport" fromDate='2/26/1916' toDate='8/18/1916'/>
+        <location name="St.-Omer" fromDate='8/19/1916' toDate='8/24/1916'/>
+        <location name="Treizennes" fromDate='8/25/1916' toDate='4/24/1917'/>
+        <location name="Auchel" fromDate='4/25/1917' toDate='4/28/1917'/>
+        <location name="Bruay" fromDate='4/29/1917' toDate='6/3/1918'/>
+        <location name="Bryas" fromDate='6/4/1918' toDate='10/23/1918'/>
+        <location name="Aniche" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='41'>
+        <location name="Gosport" fromDate='4/15/1916' toDate='5/21/1916'/>
+        <location name="Gosport" fromDate='5/22/1916' toDate='7/13/1916'/>
+        <location name="Gosport" fromDate='7/14/1916' toDate='10/14/1916'/>
+        <location name="St.-Omer" fromDate='10/15/1916' toDate='10/20/1916'/>
+        <location name="Abeele" fromDate='10/21/1916' toDate='5/23/1917'/>
+        <location name="Hondschoote" fromDate='5/24/1917' toDate='6/14/1917'/>
+        <location name="Abeele" fromDate='6/15/1917' toDate='7/2/1917'/>
+        <location name="Léalvillers" fromDate='7/3/1917' toDate='3/21/1918'/><!-- added accent -->
+        <location name="Marieux" fromDate='3/22/1918' toDate='3/26/1918'/>
+        <location name="Fienvillers" fromDate='3/27/1918' toDate='3/28/1918'/>
+        <location name="Alquines" fromDate='3/29/1918' toDate='4/8/1918'/>
+        <location name="Savy" fromDate='4/9/1918' toDate='4/10/1918'/>
+        <location name="Serny" fromDate='4/11/1918' toDate='5/18/1918'/>
+        <location name="Estrée-Blanche" fromDate='5/19/1918' toDate='5/31/1918'/><!-- added accent -->
+        <location name="Conteville" fromDate='6/1/1918' toDate='8/13/1918'/>
+        <location name="St.-Omer" fromDate='8/14/1918' toDate='9/19/1918'/>
+        <location name="Droglandt" fromDate='9/20/1918' toDate='10/22/1918'/>
+        <location name="Halluin" fromDate='10/23/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='42'>
+        <location name="Netheravon" fromDate='2/26/1916' toDate='3/31/1916'/>
+        <location name="Filton" fromDate='4/1/1916' toDate='8/7/1916'/>
+        <location name="St.-Omer" fromDate='8/8/1916' toDate='8/14/1916'/>
+        <location name="Bailleul" fromDate='8/15/1916' toDate='8/31/1916'/><!-- removed "(Town ground)" -->
+        <location name="La Gorgue" fromDate='9/1/1916' toDate='11/7/1916'/>
+        <location name="Bailleul" fromDate='11/8/1916' toDate='11/15/1917'/><!-- removed "(Town ground)" -->
+        <location name="Fienvillers" fromDate='11/16/1917' toDate='11/15/1917'/>
+        <location name="Candas" fromDate='11/16/1917' toDate='4/8/1918'/>
+        <location name="?" fromDate='4/9/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='43'>
+        <location name="Montrose" fromDate='4/15/1916' toDate='4/18/1916'/>
+        <location name="Stirling" fromDate='4/19/1916' toDate='8/29/1916'/>
+        <location name="Netheravon" fromDate='8/30/1916' toDate='12/8/1916'/>
+        <location name="Northolt" fromDate='12/9/1916' toDate='1/16/1917'/>
+        <location name="St.-Omer" fromDate='1/17/1917' toDate='1/24/1917'/>
+        <location name="Treizennes" fromDate='1/25/1917' toDate='5/29/1917'/>
+        <location name="Lozinghem" fromDate='5/30/1917' toDate='1/14/1918'/>
+        <location name="La Gorgue" fromDate='1/15/1918' toDate='3/21/1918'/>
+        <location name="Avesnes-le-Comte" fromDate='3/22/1918' toDate='6/2/1918'/>
+        <location name="Fouquerolles" fromDate='6/3/1918' toDate='6/20/1918'/>
+        <location name="Estrée-Blanche" fromDate='6/21/1918' toDate='7/11/1918'/><!-- added accent -->
+        <location name="Touquin" fromDate='7/12/1918' toDate='7/1/1918'/>
+        <location name="Fienvillers" fromDate='7/2/1918' toDate='10/5/1918'/>
+        <location name="Senlis-le-Sec" fromDate='10/6/1918' toDate='10/30/1918'/>
+        <location name="Bouvincourt" fromDate='10/31/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='44'>
+        <location name="Hainault Farm" fromDate='7/24/1917' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='45'>
+        <location name="Gosport" fromDate='3/1/1916' toDate='3/2/1916'/>
+        <location name="Thetford" fromDate='3/3/1916' toDate='5/20/1916'/>
+        <location name="Sedgeford" fromDate='5/21/1916' toDate='10/11/1916'/>
+        <location name="St.-Omer" fromDate='10/12/1916' toDate='10/14/1916'/>
+        <location name="Fienvillers" fromDate='10/15/1916' toDate='12/3/1916'/>
+        <location name="Ste.-Marie-Cappel" fromDate='12/4/1916' toDate='11/15/1917'/><!-- added period -->
+        <location name="Fienvillers" fromDate='11/16/1917' toDate='12/15/1917'/>
+        <location name="Candas" fromDate='12/16/1917' toDate='9/21/1918'/>
+        <location name="Bettoncourt" fromDate='9/22/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='46'>
+        <location name="Brooklands" fromDate='4/19/1916' toDate='4/19/1916'/>
+        <location name="Wyton" fromDate='4/20/1916' toDate='10/19/1916'/>
+        <location name="St.-Omer" fromDate='10/20/1916' toDate='10/25/1916'/>
+        <location name="Droglandt" fromDate='10/26/1916' toDate='4/24/1917'/>
+        <location name="Boisdinghem" fromDate='4/25/1917' toDate='5/11/1917'/>
+        <location name="La Gorgue" fromDate='5/12/1917' toDate='7/5/1917'/>
+        <location name="Bruay" fromDate='7/6/1917' toDate='7/9/1917'/>
+        <location name="Suttons Farm" fromDate='7/10/1917' toDate='7/29/1917'/>
+        <location name="Ste.-Marie-Cappel" fromDate='7/30/1917' toDate='9/6/1917'/><!-- added period -->
+        <location name="Filescamp Farm" fromDate='9/7/1917' toDate='5/15/1918'/>
+        <location name="Liettres" fromDate='5/16/1918' toDate='6/16/1918'/>
+        <location name="Serny" fromDate='6/17/1918' toDate='8/13/1918'/>
+        <location name="Poulainville" fromDate='8/14/1918' toDate='9/4/1918'/>
+        <location name="Cappy" fromDate='9/5/1918' toDate='10/5/1918'/>
+        <location name="Athies" fromDate='10/6/1918' toDate='10/26/1918'/>
+        <location name="Busigny" fromDate='10/27/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='48'>
+        <location name="Netheravon" fromDate='3/15/1916' toDate='6/7/1916'/>
+        <location name="Rendcomb" fromDate='6/8/1916' toDate='3/7/1917'/>
+        <location name="La Bellevue" fromDate='3/8/1917' toDate='7/9/1917'/>
+        <location name="Bray-Dunes" fromDate='7/10/1917' toDate='9/14/1917'/>
+        <location name="Leffrinckhoucke" fromDate='9/15/1917' toDate='12/21/1917'/>
+        <location name="Flez" fromDate='12/22/1917' toDate='3/21/1918'/>
+        <location name="Champien" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Bertangles" fromDate='3/24/1918' toDate='3/27/1918'/>
+        <location name="Conteville" fromDate='3/28/1918' toDate='3/2/1918'/>
+        <location name="Bertangles" fromDate='3/3/1918' toDate='8/25/1918'/>
+        <location name="Boisdinghem" fromDate='8/26/1918' toDate='9/29/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='9/30/1918' toDate='10/28/1918'/><!-- added period -->
+        <location name="Reckem" fromDate='10/29/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='49'>
+        <location name="Swingate Down" fromDate='3/15/1916' toDate='11/11/1917'/>
+        <location name="La Bellevue" fromDate='11/12/1917' toDate='3/25/1917'/>
+        <location name="Les Eauvis" fromDate='3/26/1917' toDate='3/28/1917'/>
+        <location name="Boisdinghem" fromDate='3/29/1917' toDate='3/29/1917'/>
+        <location name="Petite-Synthe" fromDate='3/30/1917' toDate='5/2/1918'/><!-- added dash -->
+        <location name="Conteville" fromDate='5/3/1918' toDate='6/1/1918'/>
+        <location name="Fourneuil" fromDate='6/2/1918' toDate='6/20/1918'/>
+        <location name="Beauvois" fromDate='6/21/1918' toDate='7/14/1918'/>
+        <location name="Rozay-en-Brie" fromDate='7/15/1918' toDate='8/3/1918'/>
+        <location name="Beauvois" fromDate='8/4/1918' toDate='10/28/1918'/>
+        <location name="Villers-lès-Cagnicourt" fromDate='10/29/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='52'>
+        <location name="Hounslow" fromDate='5/15/1916' toDate='11/16/1916'/>
+        <location name="St.-Omer" fromDate='11/17/1916' toDate='11/17/1916'/>
+        <location name="Bertangles" fromDate='11/18/1916' toDate='12/14/1916'/>
+        <location name="Chipilly" fromDate='12/15/1916' toDate='1/24/1917'/>
+        <location name="Méaulte" fromDate='1/25/1917' toDate='3/28/1917'/><!-- added accent -->
+        <location name="Longavesnes" fromDate='3/29/1917' toDate='6/14/1917'/>
+        <location name="Bray-Dunes" fromDate='6/15/1917' toDate='12/5/1917'/>
+        <location name="Izel-le-Hameau" fromDate='12/6/1917' toDate='1/3/1918'/>
+        <location name="Lahoussoye" fromDate='1/4/1918' toDate='1/11/1918'/>
+        <location name="Matigny" fromDate='1/12/1918' toDate='1/22/1918'/>
+        <location name="Bonneuil Ferme" fromDate='1/23/1918' toDate='3/21/1918'/><!-- was Golancourt, same airfield -->
+        <location name="Catigny" fromDate='3/22/1918' toDate='3/24/1918'/>
+        <location name="Lahoussoye" fromDate='3/25/1918' toDate='3/24/1918'/>
+        <location name="Poulainville" fromDate='3/25/1918' toDate='3/27/1918'/>
+        <location name="Abbeville" fromDate='3/28/1918' toDate='5/2/1918'/>
+        <location name="Mont de Soissons Ferme" fromDate='5/3/1918' toDate='5/4/1918'/><!-- was Mont-de-Soissons -->
+        <location name="Fismes" fromDate='5/5/1918' toDate='5/26/1918'/>
+        <location name="Camaille" fromDate='5/27/1918' toDate='5/27/1918'/>
+        <location name="La Ferte" fromDate='5/28/1918' toDate='5/28/1918'/>
+        <location name="Trécon" fromDate='5/29/1918' toDate='6/29/1918'/>
+        <location name="Auxi-le-Château" fromDate='6/30/1918' toDate='8/3/1918'/><!-- repunctuated -->
+        <location name="Izel-le-Hameau" fromDate='8/4/1918' toDate='8/23/1918'/>
+        <location name="Savy" fromDate='8/24/1918' toDate='10/18/1918'/>
+        <location name="Bourlon" fromDate='10/19/1918' toDate='10/20/1918'/>
+        <location name="Escaudoeuvres" fromDate='10/21/1918' toDate='10/24/1918'/><!-- was Escadoeuvres -->
+        <location name="Avesnes-le-Sec" fromDate='10/25/1918' toDate='11/9/1918'/>
+        <location name="Aulnoy" fromDate='11/10/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='53'>
+        <location name="Catterick" fromDate='5/15/1916' toDate='12/10/1916'/>
+        <location name="Farnborough" fromDate='12/11/1916' toDate='12/25/1916'/>
+        <location name="St.-Omer" fromDate='12/26/1916' toDate='1/3/1917'/>
+        <location name="Bailleul" fromDate='1/4/1917' toDate='1/31/1918'/><!-- removed "(Town)" -->
+        <location name="Abeele" fromDate='2/1/1918' toDate='2/20/1918'/>
+        <location name="Villeselve" fromDate='2/21/1918' toDate='3/22/1918'/>
+        <location name="Allonville" fromDate='3/23/1918' toDate='3/23/1918'/>
+        <location name="Fienvillers" fromDate='3/24/1918' toDate='3/25/1918'/>
+        <location name="Boisdinghem" fromDate='3/26/1918' toDate='4/5/1918'/>
+        <location name="Abeele" fromDate='4/6/1918' toDate='4/11/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='4/12/1918' toDate='4/11/1918'/><!-- added period -->
+        <location name="Clairmarais South" fromDate='4/12/1918' toDate='9/20/1918'/>
+        <location name="Abeele" fromDate='9/21/1918' toDate='10/20/1918'/>
+        <location name="Coucou" fromDate='10/21/1918' toDate='11/5/1918'/>
+        <location name="Zweveghem" fromDate='11/6/1918' toDate='11/11/1918'/><!-- was Sweveghem, assumed typo -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='54'>
+        <location name="Castle Bromwich" fromDate='5/15/1916' toDate='12/21/1916'/>
+        <location name="London Colney" fromDate='12/22/1916' toDate='12/23/1916'/>
+        <location name="St.-Omer" fromDate='12/24/1916' toDate='12/25/1916'/>
+        <location name="Bertangles" fromDate='12/26/1916' toDate='1/10/1917'/>
+        <location name="Chipilly" fromDate='1/11/1917' toDate='4/17/1917'/>
+        <location name="Flez" fromDate='4/18/1917' toDate='6/17/1917'/>
+        <location name="Bray-Dunes" fromDate='6/18/1917' toDate='7/15/1917'/>
+        <location name="Leffrinckhoucke" fromDate='7/16/1917' toDate='9/7/1917'/>
+        <location name="Téteghem" fromDate='9/8/1917' toDate='12/5/1917'/><!-- added accent, "ham" => "hem"  -->
+        <location name="Bruay" fromDate='12/6/1917' toDate='12/17/1917'/>
+        <location name="Lahoussoye" fromDate='12/18/1917' toDate='12/31/1917'/>
+        <location name="Flez" fromDate='1/1/1918' toDate='3/21/1918'/>
+        <location name="Champien" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Bertangles" fromDate='3/24/1918' toDate='3/27/1918'/>
+        <location name="Conteville" fromDate='3/28/1918' toDate='3/6/1918'/>
+        <location name="Clairmarais North" fromDate='3/7/1918' toDate='3/28/1918'/>
+        <location name="Caffiers" fromDate='3/29/1918' toDate='5/31/1918'/>
+        <location name="St.-Omer" fromDate='6/1/1918' toDate='6/10/1918'/>
+        <location name="Vignacourt" fromDate='6/11/1918' toDate='6/15/1918'/>
+        <location name="Boisdinghem" fromDate='6/16/1918' toDate='6/29/1918'/>
+        <location name="Liettres" fromDate='6/30/1918' toDate='7/13/1918'/>
+        <location name="Touquin" fromDate='7/14/1918' toDate='8/3/1918'/>
+        <location name="Fienvillers" fromDate='8/4/1918' toDate='8/24/1918'/>
+        <location name="Avesnes-le-Comte" fromDate='8/25/1918' toDate='10/16/1918'/>
+        <location name="Rely" fromDate='10/17/1918' toDate='10/23/1918'/>
+        <location name="Merchin" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='55'>
+        <location name="Castle Bromwich" fromDate='6/8/1916' toDate='6/9/1916'/>
+        <location name="Lilbourne" fromDate='6/10/1916' toDate='3/4/1917'/>
+        <location name="Fienvillers" fromDate='3/5/1917' toDate='3/30/1917'/>
+        <location name="Boisdinghem" fromDate='3/31/1917' toDate='10/10/1917'/>
+        <location name="Ochey" fromDate='10/11/1917' toDate='11/6/1917'/>
+        <location name="Tantonville" fromDate='11/7/1917' toDate='6/4/1918'/>
+        <location name="Azelot" fromDate='6/5/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='56'>
+        <location name="Gosport" fromDate='6/8/1916' toDate='7/13/1916'/>
+        <location name="London Colney" fromDate='7/14/1916' toDate='4/4/1917'/>
+        <location name="St.-Omer" fromDate='4/5/1917' toDate='4/6/1917'/>
+        <location name="Vert Galand" fromDate='4/7/1917' toDate='5/30/1917'/>
+        <location name="Liettres" fromDate='5/31/1917' toDate='6/20/1917'/>
+        <location name="Bekesbourne" fromDate='6/21/1917' toDate='7/4/1917'/>
+        <location name="Estrée-Blanche" fromDate='7/5/1917' toDate='11/19/1917'/><!-- added accent -->
+        <location name="Laviéville" fromDate='11/20/1917' toDate='1/20/1918'/><!-- added the accent -->
+        <location name="Baizieux" fromDate='1/21/1918' toDate='3/24/1918'/>
+        <location name="Valheureux" fromDate='3/25/1918' toDate='10/15/1918'/>
+        <location name="Léchelle" fromDate='10/16/1918' toDate='10/26/1918'/><!-- added the accent -->
+        <location name="Esnes" fromDate='10/27/1918' toDate='10/28/1918'/>
+        <location name="La Targette" fromDate='10/29/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='57'>
+        <location name="Companthorpe" fromDate='6/8/1916' toDate='8/19/1916'/>
+        <location name="Tadcaster" fromDate='8/20/1916' toDate='12/15/1916'/>
+        <location name="St.-André-au-Bois" fromDate='12/16/1916' toDate='1/21/1917'/><!-- was St Andre aux Bois -->
+        <location name="Fienvillers" fromDate='1/22/1917' toDate='6/10/1917'/>
+        <location name="Droglandt" fromDate='6/11/1917' toDate='6/26/1917'/>
+        <location name="Boisdinghem" fromDate='6/27/1917' toDate='11/22/1917'/>
+        <location name="Ste.-Marie-Cappel" fromDate='11/23/1917' toDate='3/28/1918'/><!-- added period -->
+        <location name="Le Quesnoy" fromDate='3/29/1918' toDate='9/18/1918'/>
+        <location name="Vert Galand" fromDate='9/19/1918' toDate='10/21/1918'/>
+        <location name="Mory" fromDate='10/22/1918' toDate='11/8/1918'/>
+        <location name="Beauvois" fromDate='11/9/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='58'>
+        <location name="Cramlington" fromDate='6/8/1916' toDate='12/21/1917'/>
+        <location name="Dover" fromDate='12/22/1917' toDate='1/9/1918'/>
+        <location name="St.-Omer" fromDate='1/10/1918' toDate='1/12/1918'/>
+        <location name="Treizennes" fromDate='1/13/1918' toDate='1/31/1918'/>
+        <location name="Clairmarais" fromDate='2/1/1918' toDate='3/24/1918'/>
+        <location name="Auchel" fromDate='3/25/1918' toDate='4/22/1918'/>
+        <location name="Fauquembergues" fromDate='4/23/1918' toDate='8/30/1918'/>
+        <location name="Alquines" fromDate='8/31/1918' toDate='10/26/1918'/>
+        <location name="Provin" fromDate='10/27/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='59'>
+        <location name="Narborough" fromDate='6/21/1916' toDate='3/12/1917'/>
+        <location name="St.-Omer" fromDate='3/13/1917' toDate='2/22/1917'/>
+        <location name="La Bellevue" fromDate='2/23/1917' toDate='5/31/1917'/>
+        <location name="Le Hameau" fromDate='6/1/1917' toDate='6/14/1917'/>
+        <location name="Longavesnes" fromDate='6/15/1917' toDate='7/14/1917'/>
+        <location name="Mons-en-Chaussée" fromDate='7/15/1917' toDate='10/28/1917'/>
+        <location name="Longavesnes" fromDate='10/29/1917' toDate='11/29/1917'/>
+        <location name="Estrées-en-Chaussée" fromDate='11/30/1917' toDate='12/15/1917'/><!-- repunctuated -->
+        <location name="Courcelles-le-Comte" fromDate='12/16/1917' toDate='3/21/1918'/><!-- downcased "Le" -->
+        <location name="Léalvillers" fromDate='3/22/1918' toDate='3/25/1918'/><!-- added accent -->
+        <location name="Fienvillers" fromDate='3/26/1918' toDate='4/11/1918'/>
+        <location name="Vert Galand" fromDate='4/12/1918' toDate='9/16/1918'/>
+        <location name="Beugnâtre" fromDate='9/17/1918' toDate='10/13/1918'/><!-- added accent -->
+        <location name="Caudry" fromDate='10/14/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='60'>
+        <location name="Gosport" fromDate='5/15/1916' toDate='5/27/1916'/>
+        <location name="St.-Omer" fromDate='5/28/1916' toDate='5/30/1916'/>
+        <location name="Boisdinghem" fromDate='5/31/1916' toDate='6/15/1916'/>
+        <location name="Vert Galand" fromDate='6/16/1916' toDate='8/2/1916'/>
+        <location name="St.-André-au-Bois" fromDate='8/3/1916' toDate='8/22/1916'/><!-- was St Andre aux Bois -->
+        <location name="Le Hameau" fromDate='8/23/1916' toDate='8/31/1916'/>
+        <location name="Savy" fromDate='9/1/1916' toDate='1/17/1917'/>
+        <location name="Filescamp Farm" fromDate='1/18/1917' toDate='9/4/1917'/>
+        <location name="Ste.-Marie-Cappel" fromDate='9/5/1917' toDate='3/7/1918'/><!-- added period -->
+        <location name="Bailleul" fromDate='3/8/1918' toDate='3/22/1918'/><!-- was Balleul, assumed typo -->
+        <location name="La Bellevue" fromDate='3/23/1918' toDate='3/26/1918'/>
+        <location name="Fienvillers" fromDate='3/27/1918' toDate='4/11/1918'/>
+        <location name="Boffles" fromDate='4/12/1918' toDate='9/16/1918'/>
+        <location name="Baizieux" fromDate='9/17/1918' toDate='10/13/1918'/>
+        <location name="Beugnâtre" fromDate='10/14/1918' toDate='10/30/1918'/><!-- added accent -->
+        <location name="Quiévy" fromDate='10/31/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='62'>
+        <location name="Netheravon" fromDate='7/28/1916' toDate='8/7/1916'/>
+        <location name="Filton" fromDate='8/8/1916' toDate='7/17/1917'/>
+        <location name="Rendcomb" fromDate='7/18/1917' toDate='1/22/1918'/>
+        <location name="St.-Omer" fromDate='1/23/1918' toDate='1/29/1918'/>
+        <location name="Serny" fromDate='1/30/1918' toDate='3/7/1918'/>
+        <location name="Cachy" fromDate='3/8/1918' toDate='3/23/1918'/>
+        <location name="Remaisnil" fromDate='3/24/1918' toDate='3/28/1918'/>
+        <location name="Planques" fromDate='3/29/1918' toDate='8/6/1918'/>
+        <location name="Croisette" fromDate='8/7/1918' toDate='9/25/1918'/><!-- was Croisettes, assumed typo -->
+        <location name="La Bellevue" fromDate='9/26/1918' toDate='10/28/1918'/>
+        <location name="Villers-lès-Cagnicourt" fromDate='10/29/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='64'>
+        <location name="Sedgeford" fromDate='8/1/1916' toDate='10/13/1917'/>
+        <location name="St.-Omer" fromDate='10/14/1917' toDate='10/14/1917'/><!-- toDate was 1017, assumed typo -->
+        <location name="Le Hameau" fromDate='10/15/1917' toDate='10/23/1918'/><!-- fromDate was 1017, assumed typo -->
+        <location name="Aniche" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='65'>
+        <location name="Wyton" fromDate='8/1/1916' toDate='5/28/1917'/>
+        <location name="Wye" fromDate='5/29/1917' toDate='10/23/1917'/>
+        <location name="Lalovie" fromDate='10/24/1917' toDate='11/3/1917'/><!-- was La Lovie -->
+        <location name="Bailleul" fromDate='11/4/1917' toDate='2/16/1918'/><!-- removed "(Asylum Ground)" -->
+        <location name="Poperinghe" fromDate='2/17/1918' toDate='3/20/1918'/>
+        <location name="Droglandt" fromDate='3/21/1918' toDate='3/23/1918'/>
+        <location name="Clairmarais" fromDate='3/24/1918' toDate='3/25/1918'/>
+        <location name="Conteville" fromDate='3/26/1918' toDate='4/5/1918'/>
+        <location name="Bertangles" fromDate='4/6/1918' toDate='8/11/1918'/>
+        <location name="Cappelle" fromDate='8/12/1918' toDate='8/15/1918'/>
+        <location name="Bray-Dunes" fromDate='8/16/1918' toDate='9/18/1918'/>
+        <location name="Petite-Synthe" fromDate='9/19/1918' toDate='10/24/1918'/><!-- added dash -->
+        <location name="Bisseghem" fromDate='10/25/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='66'>
+        <location name="Filton" fromDate='6/24/1916' toDate='7/1/1916'/>
+        <location name="Netheravon" fromDate='7/2/1916' toDate='7/26/1916'/>
+        <location name="Filton" fromDate='7/27/1916' toDate='3/2/1917'/>
+        <location name="St.-Omer" fromDate='3/3/1917' toDate='3/17/1917'/>
+        <location name="Vert Galand" fromDate='3/18/1917' toDate='5/30/1917'/>
+        <location name="Liettres" fromDate='5/31/1917' toDate='6/19/1917'/>
+        <location name="Calais" fromDate='6/20/1917' toDate='7/5/1917'/>
+        <location name="Estrée-Blanche" fromDate='7/6/1917' toDate='11/10/1917'/><!-- added accent -->
+        <location name="Candas" fromDate='11/11/1917' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='68'>
+        <location name="Harlaxton" fromDate='1/20/1917' toDate='9/20/1917'/>
+        <location name="Baizieux" fromDate='9/21/1917' toDate='1/18/1918'/>
+        <location name="DB - renumbered 2 Sqn, AFC" fromDate='1/19/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='69'>
+        <location name="South Carlton" fromDate='12/28/1916' toDate='8/23/1917'/>
+        <location name="Lympne" fromDate='8/24/1917' toDate='9/8/1917'/>
+        <location name="St.-Omer" fromDate='9/9/1917' toDate='9/9/1917'/>
+        <location name="Savy" fromDate='9/10/1917' toDate='11/8/1917'/>
+        <location name="Bailleul" fromDate='11/9/1917' toDate='1/18/1918'/><!-- removed "(Town)" -->
+        <location name="DB - renumbered 3 Sqn, AFC" fromDate='1/19/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='70'>
+        <location name="South Farnborough" fromDate='4/22/1916' toDate='5/30/1916'/>
+        <location name="Fienvillers" fromDate='5/31/1916' toDate='12/15/1916'/>
+        <location name="Auchel" fromDate='12/16/1916' toDate='3/1/1917'/>
+        <location name="Vert Galand" fromDate='3/2/1917' toDate='4/1/1917'/>
+        <location name="Fienvillers" fromDate='4/2/1917' toDate='5/13/1917'/>
+        <location name="Boisdinghem" fromDate='5/14/1917' toDate='6/26/1917'/>
+        <location name="Liettres" fromDate='6/27/1917' toDate='9/7/1917'/>
+        <location name="Poperinghe" fromDate='9/8/1917' toDate='3/13/1918'/>
+        <location name="Marieux" fromDate='3/14/1918' toDate='3/27/1918'/>
+        <location name="Fienvillers" fromDate='3/28/1918' toDate='4/15/1918'/>
+        <location name="Remaisnil" fromDate='4/16/1918' toDate='7/7/1918'/>
+        <location name="Boisdinghem" fromDate='7/8/1918' toDate='7/31/1918'/>
+        <location name="Esquerdes" fromDate='8/1/1918' toDate='9/21/1918'/>
+        <location name="Droglandt" fromDate='9/22/1918' toDate='10/22/1918'/>
+        <location name="Menin" fromDate='10/23/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='71'>
+        <location name="Castle Bromwich" fromDate='3/27/1917' toDate='12/17/1917'/>
+        <location name="St.-Omer" fromDate='12/18/1917' toDate='12/21/1917'/>
+        <location name="Bruay" fromDate='12/22/1917' toDate='1/18/1918'/>
+        <location name="DB - renumbered 4 Sqn, AFC" fromDate='1/19/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='73'>
+        <location name="Upavon" fromDate='7/2/1917' toDate='1/8/1918'/>
+        <location name="St.-Omer" fromDate='1/9/1918' toDate='1/11/1918'/>
+        <location name="Liettres" fromDate='1/12/1918' toDate='3/4/1918'/>
+        <location name="Champien" fromDate='3/5/1918' toDate='3/22/1918'/>
+        <location name="Cachy" fromDate='3/23/1918' toDate='3/23/1918'/>
+        <location name="Remaisnil" fromDate='3/24/1918' toDate='3/29/1918'/>
+        <location name="Beauvois" fromDate='3/30/1918' toDate='6/2/1918'/>
+        <location name="Fouquerolles" fromDate='6/3/1918' toDate='6/11/1918'/>
+        <location name="Planques" fromDate='6/12/1918' toDate='7/13/1918'/>
+        <location name="Touquin" fromDate='7/14/1918' toDate='8/3/1918'/>
+        <location name="La Bellevue" fromDate='8/4/1918' toDate='9/15/1918'/>
+        <location name="Foucaucourt" fromDate='9/16/1918' toDate='9/22/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='9/23/1918' toDate='10/7/1918'/><!-- repunctuated -->
+        <location name="Hervilly" fromDate='10/8/1918' toDate='10/16/1918'/>
+        <location name="Malincourt" fromDate='10/17/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='74'>
+        <location name="Northolt" fromDate='7/1/1917' toDate='7/9/1917'/>
+        <location name="London Colney" fromDate='7/10/1917' toDate='3/24/1918'/>
+        <location name="Goldhanger" fromDate='3/25/1918' toDate='3/29/1918'/>
+        <location name="St.-Omer" fromDate='3/30/1918' toDate='4/1/1918'/>
+        <location name="Téteghem" fromDate='4/2/1918' toDate='4/8/1918'/><!-- was Tetegham -->
+        <location name="Lalovie" fromDate='4/9/1918' toDate='4/10/1918'/><!-- was La Lovie -->
+        <location name="Clairmarais North" fromDate='4/11/1918' toDate='8/6/1918'/>
+        <location name="Clairmarais South" fromDate='8/7/1918' toDate='9/27/1918'/>
+        <location name="Lalovie" fromDate='9/28/1918' toDate='10/2/1918'/><!-- was La Lovie -->
+        <location name="Clairmarais South" fromDate='10/3/1918' toDate='10/22/1918'/>
+        <location name="Marcke" fromDate='10/23/1918' toDate='10/31/1918'/>
+        <location name="Cuerne" fromDate='11/1/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='79'>
+        <location name="Gosport" fromDate='8/1/1917' toDate='8/7/1917'/>
+        <location name="Beaulieu" fromDate='8/8/1917' toDate='2/19/1918'/>
+        <location name="St.-Omer" fromDate='2/20/1918' toDate='3/21/1918'/>
+        <location name="Estrée-Blanche" fromDate='3/22/1918' toDate='3/4/1918'/><!-- added accent -->
+        <location name="Champien" fromDate='3/5/1918' toDate='3/21/1918'/>
+        <location name="Cachy" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Beauvois" fromDate='3/24/1918' toDate='5/15/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='5/16/1918' toDate='10/21/1918'/><!-- added period -->
+        <location name="Reckem" fromDate='10/22/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='80'>
+        <location name="Thetford" fromDate='8/1/1917' toDate='8/9/1917'/>
+        <location name="Montrose" fromDate='8/10/1917' toDate='11/16/1917'/>
+        <location name="Beverley" fromDate='11/17/1917' toDate='1/26/1918'/>
+        <location name="Boisdinghem" fromDate='1/27/1918' toDate='2/26/1918'/>
+        <location name="Serny" fromDate='2/27/1918' toDate='3/4/1918'/>
+        <location name="Champien" fromDate='3/5/1918' toDate='3/21/1918'/>
+        <location name="Cachy" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Remaisnil" fromDate='3/24/1918' toDate='3/28/1918'/>
+        <location name="Wamin" fromDate='3/29/1918' toDate='3/29/1918'/>
+        <location name="Belleville Farm" fromDate='3/30/1918' toDate='4/3/1918'/>
+        <location name="La Bellevue" fromDate='4/4/1918' toDate='6/2/1918'/>
+        <location name="Fouquerolles" fromDate='6/3/1918' toDate='6/20/1918'/>
+        <location name="Liettres" fromDate='6/21/1918' toDate='7/13/1918'/>
+        <location name="Touquin" fromDate='7/14/1918' toDate='8/3/1918'/>
+        <location name="Vignacourt" fromDate='8/4/1918' toDate='8/30/1918'/>
+        <location name="Allonville" fromDate='8/31/1918' toDate='8/7/1918'/>
+        <location name="Assevillers" fromDate='8/8/1918' toDate='10/7/1918'/>
+        <location name="Bouvincourt" fromDate='10/8/1918' toDate='10/26/1918'/>
+        <location name="Bertry" fromDate='10/27/1918' toDate='11/9/1918'/><!-- was Bertry West -->
+        <location name="Flaumont" fromDate='11/10/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='82'>
+        <location name="Doncaster" fromDate='1/7/1917' toDate='2/5/1917'/>
+        <location name="Beverley" fromDate='2/6/1917' toDate='3/29/1917'/>
+        <location name="Waddington" fromDate='3/30/1917' toDate='11/16/1917'/>
+        <location name="St.-Omer" fromDate='11/17/1917' toDate='11/19/1917'/>
+        <location name="Savy" fromDate='11/20/1917' toDate='1/21/1918'/>
+        <location name="Bonneuil Ferme" fromDate='1/22/1918' toDate='3/21/1918'/><!-- was Golancourt, same airfield -->
+        <location name="Catigny" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Allonville" fromDate='3/24/1918' toDate='3/26/1918'/>
+        <location name="Bertangles" fromDate='3/27/1918' toDate='3/27/1918'/>
+        <location name="Agenvillers" fromDate='3/28/1918' toDate='6/6/1918'/>
+        <location name="Quevauvillers" fromDate='6/7/1918' toDate='7/14/1918'/>
+        <location name="Haussimont" fromDate='7/15/1918' toDate='8/1/1918'/>
+        <location name="Quelmes" fromDate='8/2/1918' toDate='9/2/1918'/>
+        <location name="Droglandt" fromDate='9/3/1918' toDate='9/19/1918'/>
+        <location name="Proven" fromDate='9/20/1918' toDate='10/21/1918'/>
+        <location name="Bisseghem" fromDate='10/22/1918' toDate='11/5/1918'/>
+        <location name="Menin" fromDate='11/6/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='83'>
+        <location name="Montrose" fromDate='1/7/1917' toDate='1/14/1917'/>
+        <location name="Spittlegate" fromDate='1/15/1917' toDate='9/14/1917'/>
+        <location name="Wyton" fromDate='9/15/1917' toDate='12/11/1917'/>
+        <location name="Narborough" fromDate='12/12/1917' toDate='3/5/1918'/>
+        <location name="St.-Omer" fromDate='3/6/1918' toDate='3/6/1918'/>
+        <location name="Auchel" fromDate='3/7/1918' toDate='5/1/1918'/>
+        <location name="Franqueville" fromDate='5/2/1918' toDate='10/8/1918'/>
+        <location name="Lahoussoye" fromDate='10/9/1918' toDate='10/25/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='10/26/1918' toDate='11/11/1918'/><!-- repunctuated -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='84'>
+        <location name="Beaulieu" fromDate='1/7/1917' toDate='3/21/1917'/>
+        <location name="Lilbourne" fromDate='3/22/1917' toDate='9/22/1917'/>
+        <location name="Liettres" fromDate='9/23/1917' toDate='11/11/1917'/>
+        <location name="Le Hameau" fromDate='11/12/1917' toDate='12/28/1917'/>
+        <location name="Flez" fromDate='12/29/1917' toDate='3/21/1918'/>
+        <location name="Champien" fromDate='3/22/1918' toDate='3/22/1918'/>
+        <location name="Vert Galand" fromDate='3/23/1918' toDate='3/27/1918'/>
+        <location name="Conteville" fromDate='3/28/1918' toDate='4/3/1918'/>
+        <location name="Bertangles" fromDate='4/4/1918' toDate='9/7/1918'/>
+        <location name="Assevillers" fromDate='9/8/1918' toDate='10/7/1918'/>
+        <location name="Bouvincourt" fromDate='10/8/1918' toDate='10/24/1918'/>
+        <location name="Bertry" fromDate='10/25/1918' toDate='11/11/1918'/><!-- was Bertry West -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='85'>
+        <location name="Upavon" fromDate='8/1/1917' toDate='8/9/1917'/>
+        <location name="Norwich" fromDate='8/10/1917' toDate='11/26/1917'/>
+        <location name="Hounslow" fromDate='11/27/1917' toDate='5/21/1918'/>
+        <location name="Marquise" fromDate='5/22/1918' toDate='5/24/1918'/>
+        <location name="Petite-Synthe" fromDate='5/25/1918' toDate='6/10/1918'/><!-- added dash -->
+        <location name="St.-Omer" fromDate='6/11/1918' toDate='8/12/1918'/>
+        <location name="Bertangles" fromDate='8/13/1918' toDate='9/4/1918'/>
+        <location name="Savy" fromDate='9/5/1918' toDate='9/22/1918'/>
+        <location name="Foucaucourt" fromDate='9/23/1918' toDate='10/8/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='10/9/1918' toDate='10/26/1918'/><!-- repunctuated -->
+        <location name="Escaufourt" fromDate='10/27/1918' toDate='1/8/1918'/>
+        <location name="Phalempin" fromDate='1/9/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='87'>
+        <location name="Upavon" fromDate='9/1/1917' toDate='9/14/1917'/>
+        <location name="Sedgeford" fromDate='9/15/1917' toDate='12/18/1917'/>
+        <location name="Hounslow" fromDate='12/19/1917' toDate='4/23/1918'/>
+        <location name="St.-Omer" fromDate='4/24/1918' toDate='4/26/1918'/>
+        <location name="Petite-Synthe" fromDate='4/27/1918' toDate='5/26/1918'/><!-- added dash -->
+        <location name="Estrées-en-Chaussée" fromDate='5/27/1918' toDate='6/28/1918'/><!-- repunctuated -->
+        <location name="Rougefay" fromDate='6/29/1918' toDate='9/18/1918'/>
+        <location name="Soncamp" fromDate='9/19/1918' toDate='11/3/1918'/>
+        <location name="Boussières" fromDate='11/4/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='88'>
+        <location name="Gosport" fromDate='7/24/1917' toDate='8/1/1917'/>
+        <location name="Harling Road" fromDate='8/2/1917' toDate='4/1/1918'/>
+        <location name="Kenley" fromDate='4/2/1918' toDate='4/15/1918'/>
+        <location name="Cappelle" fromDate='4/16/1918' toDate='7/18/1918'/>
+        <location name="Drionville" fromDate='7/19/1918' toDate='8/1/1918'/>
+        <location name="Serny" fromDate='8/2/1918' toDate='10/20/1918'/>
+        <location name="Floringhem" fromDate='10/21/1918' toDate='10/22/1918'/>
+        <location name="Ascq" fromDate='10/23/1918' toDate='10/25/1918'/>
+        <location name="Gondecourt" fromDate='10/26/1918' toDate='10/27/1918'/>
+        <location name="Bersée" fromDate='10/28/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='92'>
+        <location name="London Colney" fromDate='9/1/1917' toDate='9/13/1917'/>
+        <location name="Chattis Hill" fromDate='9/14/1917' toDate='3/16/1917'/>
+        <location name="Tangmere" fromDate='3/17/1917' toDate='7/1/1918'/>
+        <location name="Bray-Dunes" fromDate='7/2/1918' toDate='7/18/1918'/>
+        <location name="Drionville" fromDate='7/19/1918' toDate='8/1/1918'/>
+        <location name="Serny" fromDate='8/2/1918' toDate='9/26/1918'/>
+        <location name="Proyart" fromDate='9/27/1918' toDate='10/8/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='10/9/1918' toDate='10/24/1918'/><!-- was Estrees en Chausee -->
+        <location name="Bertry" fromDate='10/25/1918' toDate='11/11/1918'/><!-- was Bertry East -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='94'>
+        <location name="Gosport" fromDate='7/30/1918' toDate='8/1/1918'/>
+        <location name="Harling Road" fromDate='8/2/1918' toDate='7/26/1918'/>
+        <location name="Shoreham" fromDate='7/27/1918' toDate='8/18/1918'/>
+        <location name="Upper Heyford" fromDate='8/19/1918' toDate='10/30/1918'/>
+        <location name="Senlis-le-Sec" fromDate='10/31/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='97'>
+        <location name="Waddington" fromDate='12/1/1917' toDate='1/20/1918'/>
+        <location name="Stonehenge" fromDate='1/21/1918' toDate='3/30/1918'/>
+        <location name="Netheravon" fromDate='3/31/1918' toDate='8/2/1918'/>
+        <location name="Xaffévillers" fromDate='8/3/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='98'>
+        <location name="Harlaxton" fromDate='8/15/1917' toDate='8/29/1917'/>
+        <location name="Old Sarum" fromDate='8/30/1917' toDate='2/28/1918'/>
+        <location name="Lympne" fromDate='3/1/1918' toDate='3/31/1918'/>
+        <location name="St.-Omer" fromDate='4/1/1918' toDate='3/31/1918'/>
+        <location name="Clairmarais" fromDate='4/1/1918' toDate='4/11/1918'/>
+        <location name="Alquines" fromDate='4/12/1918' toDate='5/24/1918'/>
+        <location name="Coudekerque" fromDate='5/25/1918' toDate='6/5/1918'/>
+        <location name="Ruisseauville" fromDate='6/6/1918' toDate='6/20/1918'/>
+        <location name="Drionville" fromDate='6/21/1918' toDate='7/12/1918'/>
+        <location name="Chailly" fromDate='7/13/1918' toDate='8/2/1918'/>
+        <location name="Blangermont" fromDate='8/3/1918' toDate='10/26/1918'/>
+        <location name="Abscon" fromDate='10/27/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='99'>
+        <location name="Yatesbury" fromDate='8/15/1917' toDate='8/29/1917'/>
+        <location name="Ford Farm" fromDate='8/30/1917' toDate='4/24/1918'/>
+        <location name="St.-Omer" fromDate='4/25/1918' toDate='5/3/1918'/>
+        <location name="Tantonville" fromDate='5/4/1918' toDate='6/4/1918'/>
+        <location name="Azelot" fromDate='6/5/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='100'>
+        <location name="Hingham" fromDate='2/11/1917' toDate='2/22/1917'/>
+        <location name="Farnborough" fromDate='2/23/1917' toDate='3/20/1917'/>
+        <location name="St.-André-au-Bois" fromDate='3/21/1917' toDate='3/31/1917'/><!-- was St Andre aux Bois -->
+        <location name="Izel-le-Hameau" fromDate='4/1/1917' toDate='5/15/1917'/>
+        <location name="Treizennes" fromDate='5/16/1917' toDate='10/4/1917'/>
+        <location name="Ochey" fromDate='10/5/1917' toDate='4/2/1918'/>
+        <location name="Villeseneux" fromDate='4/3/1918' toDate='5/8/1918'/><!-- Villesneux is assumed typo for OtF6.1's Villesnaux, which is Google's Villeseneux -->
+        <location name="Ochey" fromDate='5/9/1918' toDate='8/9/1918'/>
+        <location name="Xaffévillers" fromDate='8/10/1918' toDate='11/11/1918'/><!-- added punctuation -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='101'>
+        <location name="Farnborough" fromDate='7/12/1917' toDate='7/24/1917'/>
+        <location name="St.-André-au-Bois" fromDate='7/25/1917' toDate='8/6/1918'/><!-- was St Andre aux Bois -->
+        <location name="Le Hameau" fromDate='8/7/1918' toDate='8/30/1918'/>
+        <location name="Clairmarais South" fromDate='8/31/1918' toDate='2/1/1918'/>
+        <location name="Auchel" fromDate='2/2/1918' toDate='2/15/1918'/>
+        <location name="Catigny" fromDate='2/16/1918' toDate='3/23/1918'/>
+        <location name="Fienvillers" fromDate='3/24/1918' toDate='3/24/1918'/>
+        <location name="Haute Vissee" fromDate='3/25/1918' toDate='4/6/1918'/>
+        <location name="Famechon" fromDate='4/7/1918' toDate='8/7/1918'/>
+        <location name="Lahoussoye" fromDate='8/8/1918' toDate='10/7/1918'/>
+        <location name="Proyart" fromDate='10/8/1918' toDate='10/24/1918'/><!-- was Proyart East -->
+        <location name="Hancourt" fromDate='10/25/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='102'>
+        <location name="Hingham" fromDate='8/9/1917' toDate='9/23/1917'/>
+        <location name="St.-André-au-Bois" fromDate='9/24/1917' toDate='8/27/1917'/><!-- was St Andre aux Bois -->
+        <location name="Le Hameau" fromDate='8/28/1917' toDate='10/2/1917'/>
+        <location name="Treizennes" fromDate='10/3/1917' toDate='3/4/1918'/>
+        <location name="Le Hameau" fromDate='3/5/1918' toDate='4/9/1918'/>
+        <location name="Surcamps" fromDate='4/10/1918' toDate='9/18/1918'/>
+        <location name="Famechon" fromDate='9/19/1918' toDate='10/18/1918'/>
+        <location name="Hurtebise Farm" fromDate='10/19/1918' toDate='10/22/1918'/>
+        <location name="La Targette" fromDate='10/23/1918' toDate='10/26/1918'/>
+        <location name="Bévillers" fromDate='10/27/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='103'>
+        <location name="Beaulieu" fromDate='9/1/1917' toDate='9/7/1917'/>
+        <location name="Old Sarum" fromDate='9/8/1917' toDate='5/11/1918'/>
+        <location name="Serny" fromDate='5/12/1918' toDate='6/2/1918'/>
+        <location name="Fourneuil" fromDate='6/3/1918' toDate='6/20/1918'/>
+        <location name="Serny" fromDate='6/21/1918' toDate='10/20/1918'/>
+        <location name="Floringhem" fromDate='10/21/1918' toDate='10/25/1918'/>
+        <location name="Ronchin" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='104'>
+        <location name="Wyton" fromDate='9/1/1917' toDate='9/15/1917'/>
+        <location name="Andover" fromDate='9/16/1917' toDate='5/18/1918'/>
+        <location name="St.-Omer" fromDate='5/19/1918' toDate='5/19/1918'/>
+        <location name="Azelot" fromDate='5/20/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='107'>
+        <location name="Catterick" fromDate='10/8/1917' toDate='10/17/1917'/>
+        <location name="Stonehenge" fromDate='10/18/1917' toDate='12/1/1917'/>
+        <location name="Lake Down" fromDate='12/2/1917' toDate='6/4/1918'/>
+        <location name="Le Quesnoy" fromDate='6/5/1918' toDate='6/24/1918'/>
+        <location name="Drionville" fromDate='6/25/1918' toDate='7/14/1918'/>
+        <location name="Chailly" fromDate='7/15/1918' toDate='8/2/1918'/>
+        <location name="Ecoivres" fromDate='8/3/1918' toDate='10/25/1918'/>
+        <location name="Moislains" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='108'>
+        <location name="Montrose" fromDate='11/1/1917' toDate='11/11/1917'/>
+        <location name="Stonehenge" fromDate='11/12/1917' toDate='12/1/1917'/>
+        <location name="Lake Down" fromDate='12/2/1917' toDate='6/13/1918'/>
+        <location name="Kenley" fromDate='6/14/1918' toDate='7/21/1918'/>
+        <location name="Cappelle" fromDate='7/22/1918' toDate='10/26/1918'/>
+        <location name="Bisseghem" fromDate='10/27/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='110'>
+        <location name="Rendcomb" fromDate='11/1/1917' toDate='11/11/1917'/>
+        <location name="Dover" fromDate='11/12/1917' toDate='11/25/1917'/>
+        <location name="Sedgeford" fromDate='11/26/1917' toDate='6/14/1918'/>
+        <location name="Kenley" fromDate='6/15/1918' toDate='8/31/1918'/>
+        <location name="Bettoncourt" fromDate='9/1/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='115'>
+        <location name="Catterick" fromDate='12/1/1917' toDate='4/14/1918'/>
+        <location name="Netheravon" fromDate='4/15/1918' toDate='7/16/1918'/>
+        <location name="Castle Bromwich" fromDate='7/17/1918' toDate='9/28/1918'/>
+        <location name="Roville-aux-Chênes" fromDate='9/29/1918' toDate='10/31/1918'/><!-- added accent -->
+        <location name="St. Inglevert" fromDate='11/1/1918' toDate='11/11/1918'/><!-- was St-Inglevert -->
+    </squadron>
+    <squadron nation='BR' type='RFC' num='148'>
+        <location name="Andover" fromDate='2/10/1918' toDate='2/28/1918'/>
+        <location name="Ford Junction" fromDate='3/1/1918' toDate='4/24/1918'/>
+        <location name="Auchel" fromDate='4/25/1918' toDate='5/2/1918'/>
+        <location name="Sains-lès-Pernes" fromDate='5/3/1918' toDate='10/21/1918'/><!-- addded accent -->
+        <location name="Camblain-l'Abbé" fromDate='10/22/1918' toDate='10/30/1918'/><!-- added punctuation -->
+        <location name="Erre" fromDate='10/31/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RFC' num='149'>
+        <location name="Ford Junction" fromDate='3/1/1918' toDate='6/1/1918'/>
+        <location name="Marquise" fromDate='6/2/1918' toDate='6/3/1918'/>
+        <location name="Quilen" fromDate='6/4/1918' toDate='6/15/1918'/>
+        <location name="Alquines" fromDate='6/16/1918' toDate='9/15/1918'/>
+        <location name="Clairmarais North" fromDate='9/16/1918' toDate='10/24/1918'/>
+        <location name="St.-Marguerite" fromDate='10/25/1918' toDate='11/11/1918'/><!-- was Ste-Margarite, assumed typo -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='151'>
+        <location name="Hainault Farm" fromDate='6/12/1918' toDate='6/18/1918'/>
+        <location name="Marquise" fromDate='6/19/1918' toDate='6/22/1918'/>
+        <location name="Fontaine-sur-May" fromDate='6/23/1918' toDate='9/7/1918'/>
+        <location name="Vignacourt" fromDate='9/8/1918' toDate='10/7/1918'/>
+        <location name="Bancourt" fromDate='10/8/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='152'>
+        <location name="Rochford" fromDate='10/1/1918' toDate='10/17/1918'/>
+        <location name="Carvin" fromDate='10/18/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='1(N)'>
+        <location name="Fort Grange" fromDate='10/17/1914' toDate='2/27/1915'/>
+        <location name="France?" fromDate='2/28/1915' toDate='12/2/1916'/>
+        <location name="Furnes" fromDate='12/3/1916' toDate='2/14/1917'/>
+        <location name="Chipilly" fromDate='2/15/1917' toDate='4/10/1917'/>
+        <location name="La Bellevue" fromDate='4/11/1917' toDate='5/31/1917'/>
+        <location name="Bailleul" fromDate='6/1/1917' toDate='11/1/1917'/><!-- removed " (Asylum Ground)" -->
+        <location name="Middle Aerodrome" fromDate='11/2/1917' toDate='12/9/1917'/>
+        <location name="Dover" fromDate='12/10/1917' toDate='2/15/1918'/>
+        <location name="Téteghem" fromDate='2/16/1918' toDate='3/26/1918'/><!-- added accent -->
+        <location name="Ste.-Marie-Cappel" fromDate='3/27/1918' toDate='3/27/1918'/><!-- added period -->
+        <location name="Fienvillers" fromDate='3/28/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='201'>
+        <location name="Fienvillers" fromDate='4/1/1918' toDate='4/11/1918'/>
+        <location name="Noeux-lès-Auxi" fromDate='4/12/1918' toDate='7/26/1918'/><!-- was Nouex-les-Auxi, assumed typo -->
+        <location name="Ste.-Marie-Cappel" fromDate='7/27/1918' toDate='8/5/1918'/><!-- added period -->
+        <location name="Poulainville" fromDate='8/6/1918' toDate='8/13/1918'/>
+        <location name="Noeux-lès-Auxi" fromDate='8/14/1918' toDate='9/18/1918'/><!-- was Nouex-les-Auxi, assumed typo -->
+        <location name="Baizieux" fromDate='9/19/1918' toDate='10/13/1918'/>
+        <location name="Beugnâtre" fromDate='10/14/1918' toDate='10/26/1918'/><!-- added accent -->
+        <location name="La Targette" fromDate='10/27/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='2(N)'>
+        <location name="Eastchurch" fromDate='10/17/1914' toDate='8/1/1915'/>
+        <location name="France?" fromDate='8/2/1915' toDate='8/11/1915'/>
+        <location name="Dover" fromDate='8/12/1915' toDate='11/4/1916'/>
+        <location name="St.-Pol" fromDate='11/5/1916' toDate='1/25/1918'/><!-- repunctuated -->
+        <location name="Bergues" fromDate='1/26/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='202'>
+        <!--location name="Bergues" fromDate='4/1/1918' toDate='3/31/1918'/> removed, spurious date range -->
+        <location name="Bergues" fromDate='4/1/1918' toDate='11/11/1918'/><!-- suspicious -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='3(N)'>
+        <location name="Eastchurch" fromDate='5/15/1914' toDate='8/26/1914'/>
+        <location name="Ostend" fromDate='8/27/1914' toDate='8/31/1914'/>
+        <location name="St.-Pol" fromDate='9/1/1914' toDate='2/25/1915'/><!-- repunctuated -->
+        <location name="Dover" fromDate='2/26/1915' toDate='11/4/1916'/>
+        <location name="St.-Pol" fromDate='11/5/1916' toDate='1/31/1917'/><!-- repunctuated -->
+        <location name="Vert Galand" fromDate='2/1/1917' toDate='2/27/1917'/>
+        <location name="Bertangles" fromDate='2/28/1917' toDate='3/25/1917'/>
+        <location name="Marieux" fromDate='3/26/1917' toDate='6/14/1917'/>
+        <location name="Furnes" fromDate='6/15/1917' toDate='9/5/1917'/>
+        <location name="Bray-Dunes" fromDate='9/6/1917' toDate='10/31/1917'/>
+        <location name="Walmer" fromDate='11/1/1917' toDate='1/1/1918'/>
+        <location name="Bray-Dunes" fromDate='1/2/1918' toDate='3/10/1918'/>
+        <location name="St-Eloi" fromDate='3/11/1918' toDate='3/25/1918'/>
+        <location name="Treizennes" fromDate='3/26/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='203'>
+        <location name="Treizennes" fromDate='4/1/1918' toDate='4/8/1918'/>
+        <location name="Liettres" fromDate='4/9/1918' toDate='5/5/1918'/>
+        <location name="Filescamp Farm" fromDate='5/6/1918' toDate='8/13/1918'/>
+        <location name="Allonville" fromDate='8/14/1918' toDate='9/5/1918'/>
+        <location name="Filescamp Farm" fromDate='9/6/1918' toDate='9/22/1918'/>
+        <location name="Le Hameau" fromDate='9/23/1918' toDate='10/23/1918'/>
+        <location name="Bruille" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='4(N)'>
+        <location name="Dover" fromDate='3/29/1915' toDate='8/2/1915'/>
+        <location name="Eastchurch" fromDate='8/3/1915' toDate='12/30/1916'/>
+        <location name="Coudekerque" fromDate='12/31/1916' toDate='3/31/1917'/>
+        <location name="Bray-Dunes" fromDate='4/1/1917' toDate='1/1/1918'/>
+        <location name="Walmer" fromDate='1/2/1918' toDate='3/5/1918'/>
+        <location name="Bray-Dunes" fromDate='3/6/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='204'>
+        <location name="Bray-Dunes" fromDate='4/1/1918' toDate='4/12/1918'/>
+        <location name="Téteghem" fromDate='4/13/1918' toDate='4/29/1918'/><!-- added accent -->
+        <location name="Cappelle" fromDate='4/30/1918' toDate='5/8/1918'/>
+        <location name="Téteghem" fromDate='5/9/1918' toDate='10/23/1918'/><!-- added accent -->
+        <location name="Heule" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='5(N)'>
+        <location name="Coudekerque" fromDate='12/31/1916' toDate='3/31/1917'/>
+        <location name="Petite-Synthe" fromDate='4/1/1917' toDate='3/5/1918'/><!-- added punctuation -->
+        <location name="Villers-Bretonneux" fromDate='3/6/1918' toDate='3/10/1918'/>
+        <location name="Mons-en-Chaussée" fromDate='3/11/1918' toDate='3/21/1918'/><!-- added accent -->
+        <location name="Champien" fromDate='3/22/1918' toDate='3/23/1918'/>
+        <location name="Bertangles" fromDate='3/24/1918' toDate='3/27/1918'/>
+        <location name="Bois-de-Roche" fromDate='3/28/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='205'>
+        <location name="Bois-de-Roche" fromDate='4/1/1918' toDate='8/24/1918'/>
+        <location name="Bovelles" fromDate='8/25/1918' toDate='8/15/1918'/>
+        <location name="Proyart" fromDate='8/16/1918' toDate='10/6/1918'/><!-- was Proyart East -->
+        <location name="Moislains" fromDate='10/7/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='6(N)'>
+        <location name="?" fromDate='11/1/1916' toDate='8/14/1917'/>
+        <location name="DB" fromDate='8/15/1917' toDate='10/31/1917'/>
+        <location name="Dover" fromDate='11/1/1917' toDate='1/13/1918'/>
+        <location name="Petite-Synthe" fromDate='1/14/1918' toDate='3/30/1918'/><!-- added punctuation -->
+        <location name="Ste.-Marie-Cappel" fromDate='3/31/1918' toDate='3/31/1918'/><!-- added period -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='206'>
+        <location name="Ste.-Marie-Cappel" fromDate='4/1/1918' toDate='4/10/1918'/><!-- added period -->
+        <location name="Boisdinghem" fromDate='4/11/1918' toDate='6/4/1918'/>
+        <location name="Alquines" fromDate='6/5/1918' toDate='10/4/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='10/5/1918' toDate='10/23/1918'/><!-- added period -->
+        <location name="Linselles" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='7(N)'>
+        <location name="Petite-Synthe" fromDate='11/1/1916' toDate='4/1/1917'/><!-- added punctuation -->
+        <location name="Coudekerque" fromDate='4/2/1917' toDate='7/27/1917'/>
+        <location name="Coudekerque" fromDate='7/28/1917' toDate='3/31/1918'/><!-- suspicious -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='207'>
+        <location name="Coudekerque" fromDate='4/1/1918' toDate='4/21/1918'/>
+        <location name="Netheravon" fromDate='4/22/1918' toDate='5/12/1918'/>
+        <location name="Andover" fromDate='5/13/1918' toDate='6/6/1918'/>
+        <location name="Ligescourt" fromDate='6/7/1918' toDate='10/24/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='10/25/1918' toDate='11/11/1918'/><!-- repunctuated -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='8(N)'>
+        <location name="St.-Pol" fromDate='10/25/1916' toDate='10/25/1916'/><!-- repunctuated -->
+        <location name="Vert Galand" fromDate='10/26/1916' toDate='2/6/1917'/>
+        <location name="Furnes" fromDate='2/7/1917' toDate='3/27/1917'/>
+        <location name="Auchel" fromDate='3/28/1917' toDate='5/15/1917'/>
+        <location name="St-Eloi" fromDate='5/16/1917' toDate='2/27/1918'/>
+        <location name="Bray-Dunes" fromDate='2/28/1918' toDate='2/28/1918'/>
+        <location name="Walmer" fromDate='3/1/1918' toDate='3/28/1918'/>
+        <location name="Téteghem" fromDate='3/29/1918' toDate='3/31/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='208'>
+        <location name="Téteghem" fromDate='4/1/1918' toDate='4/1/1918'/><!-- added accent -->
+        <location name="La Gorgue" fromDate='4/2/1918' toDate='4/7/1918'/>
+        <location name="Serny" fromDate='4/8/1918' toDate='7/29/1918'/>
+        <location name="Tramecourt" fromDate='7/30/1918' toDate='9/21/1918'/>
+        <location name="Foucaucourt" fromDate='9/22/1918' toDate='10/8/1918'/>
+        <location name="Estrées-en-Chaussée" fromDate='10/9/1918' toDate='10/25/1918'/><!-- repunctuated -->
+        <location name="Maretz" fromDate='10/26/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='9(N)'>
+        <location name="St.-Pol" fromDate='2/1/1917' toDate='5/14/1917'/><!-- repunctuated -->
+        <location name="Furnes" fromDate='5/15/1917' toDate='6/14/1917'/>
+        <location name="Flez" fromDate='6/15/1917' toDate='7/4/1917'/>
+        <location name="Le Hameau" fromDate='7/5/1917' toDate='7/9/1917'/>
+        <location name="Frontier Aerodrome" fromDate='7/10/1917' toDate='7/24/1917'/>
+        <location name="Leffrinckhoucke" fromDate='7/25/1917' toDate='9/30/1917'/>
+        <location name="Frontier Aerodrome" fromDate='10/1/1917' toDate='10/9/1917'/>
+        <location name="Middle Aerodrome" fromDate='10/10/1917' toDate='2/15/1918'/>
+        <location name="Dover" fromDate='2/16/1918' toDate='3/19/1918'/>
+        <location name="Middle Aerodrome" fromDate='3/20/1918' toDate='3/20/1918'/>
+        <location name="Téteghem" fromDate='3/21/1918' toDate='3/20/1918'/><!-- added accent -->
+        <location name="Bray-Dunes" fromDate='3/21/1918' toDate='3/22/1918'/>
+        <location name="Cappelle" fromDate='3/23/1918' toDate='3/26/1918'/>
+        <location name="Bailleul" fromDate='3/27/1918' toDate='3/28/1918'/>
+        <location name="Clairmarais" fromDate='3/29/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='209'>
+        <location name="Clairmarais" fromDate='4/1/1918' toDate='4/6/1918'/>
+        <location name="Bertangles" fromDate='4/7/1918' toDate='7/19/1918'/>
+        <location name="Quelmes" fromDate='7/20/1918' toDate='8/5/1918'/>
+        <location name="Bertangles" fromDate='8/6/1918' toDate='8/13/1918'/>
+        <location name="Le Hameau" fromDate='8/14/1918' toDate='10/23/1918'/>
+        <location name="Bruille" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='10(N)'>
+        <location name="St.-Pol" fromDate='2/12/1917' toDate='3/24/1917'/><!-- repunctuated -->
+        <location name="Furnes" fromDate='3/25/1917' toDate='5/14/1917'/>
+        <location name="Droglandt" fromDate='5/15/1917' toDate='10/3/1917'/>
+        <location name="Leffrinckhoucke" fromDate='10/4/1917' toDate='11/26/1917'/>
+        <location name="Téteghem" fromDate='11/27/1917' toDate='3/31/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='210'>
+        <location name="Treizennes" fromDate='4/1/1918' toDate='4/8/1918'/>
+        <location name="Liettres" fromDate='4/9/1918' toDate='4/26/1918'/>
+        <location name="St.-Omer" fromDate='4/27/1918' toDate='5/29/1918'/>
+        <location name="Ste.-Marie-Cappel" fromDate='5/30/1918' toDate='7/8/1918'/><!-- added period -->
+        <location name="Téteghem" fromDate='7/9/1918' toDate='7/21/1918'/><!-- added accent -->
+        <location name="Eringhem" fromDate='7/22/1918' toDate='10/22/1918'/>
+        <location name="Boussières" fromDate='10/23/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='11(N)'>
+        <location name="Dunkerque" fromDate='3/8/1917' toDate='7/10/1917'/>
+        <location name="Hondschoote" fromDate='7/11/1917' toDate='8/26/1917'/>
+        <location name="Hondschoote" fromDate='8/27/1917' toDate='3/9/1918'/><!-- suspicious -->
+        <location name="Petite-Synthe" fromDate='3/10/1918' toDate='3/31/1918'/><!-- added punctuation -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='211'>
+        <location name="Petite-Synthe" fromDate='4/1/1918' toDate='10/23/1918'/><!-- added punctuation -->
+        <location name="Iris Farm" fromDate='10/24/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='12(N)'><!-- was 12N -->
+        <location name="Petite-Synthe" fromDate='7/1/1917' toDate='3/31/1918'/><!-- added punctuation -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='212'><!-- changeover omitted from Constable data -->
+        <location name="Petite-Synthe" fromDate='4/1/1918' toDate='11/11/1918'/><!-- added punctuation -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='13(N)'>
+        <location name="St.-Pol" fromDate='1/15/1918' toDate='1/24/1918'/><!-- repunctuated -->
+        <location name="Bergues" fromDate='1/25/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='213'>
+        <location name="Bergues" fromDate='4/1/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='14(N)'>
+        <location name="Coudekerque" fromDate='12/8/1917' toDate='3/9/1918'/>
+        <location name="Alquines" fromDate='3/10/1918' toDate='3/25/1918'/>
+        <location name="Coudekerque" fromDate='3/26/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='214'>
+        <location name="Coudekerque" fromDate='4/1/1918' toDate='6/28/1918'/>
+        <location name="St. Inglevert" fromDate='6/29/1918' toDate='10/23/1918'/><!-- was St-Inglevert -->
+        <location name="Quilen" fromDate='10/24/1918' toDate='10/29/1918'/>
+        <location name="Chemy" fromDate='10/30/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='15(N)'>
+        <location name="Coudekerque" fromDate='3/10/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='215'>
+        <location name="Coudekerque" fromDate='4/1/1918' toDate='4/22/1918'/>
+        <location name="Netheravon" fromDate='4/23/1918' toDate='5/12/1918'/>
+        <location name="Andover" fromDate='5/13/1918' toDate='7/3/1918'/>
+        <location name="Alquines" fromDate='7/4/1918' toDate='8/18/1918'/>
+        <location name="Xaffévillers" fromDate='8/19/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='16(N)'>
+        <location name="Ochey" fromDate='1/8/1918' toDate='3/29/1918'/>
+        <location name="Villeseneux" fromDate='3/30/1918' toDate='3/31/1918'/><!-- was Villesneux -->
+    </squadron>
+    <squadron nation='BR' type='RAF' num='216'>
+        <location name="Villeseneux" fromDate='4/1/1918' toDate='5/8/1918'/><!-- was Villesneux -->
+        <location name="Ochey" fromDate='5/9/1918' toDate='8/25/1918'/>
+        <location name="Autreville" fromDate='8/26/1918' toDate='9/27/1918'/>
+        <location name="Roville-aux-Chênes" fromDate='9/28/1918' toDate='11/11/1918'/><!-- added accent -->
+    </squadron>
+    <squadron nation='BR' type='RNAS' num='17(N)'>
+        <!-- location name="Bergues" fromDate='1/23/1918' toDate='1/31/1918'   was Bierne 1/23-1/31, which OtF6.1 notes is same as Bergues -->
+        <location name="Bergues" fromDate='1/23/1918' toDate='3/31/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='217'>
+        <location name="Bergues" fromDate='4/1/1918' toDate='7/9/1918'/>
+        <location name="Crochte" fromDate='7/10/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='218'>
+        <location name="Dover" fromDate='4/24/1918' toDate='5/22/1918'/>
+        <location name="Petite-Synthe" fromDate='5/23/1918' toDate='7/6/1918'/><!-- added punctuation -->
+        <location name="Fréthun" fromDate='7/7/1918' toDate='10/24/1918'/><!-- added accent -->
+        <location name="Reumont" fromDate='10/25/1918' toDate='11/11/1918'/>
+    </squadron>
+    <squadron nation='BR' type='RAF' num='233'>
+        <location name='Walmer' fromDate='8/15/1918' toDate='11/11/1918'/><!-- fromDate estimated, no day in Constable data -->
+    </squadron>
+</squadrons>

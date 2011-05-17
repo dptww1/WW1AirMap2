@@ -1,0 +1,132 @@
+# $Id: $
+
+grammar {
+   start = Sources
+
+   Sources = element sources { Journal* }
+
+   Journal = element journal { 
+      attribute name { text },
+      attribute abbrevName { text },
+      Issue*
+   }
+
+   Issue = element issue {
+      attribute volume   { text },
+      attribute number   { text },
+      attribute year     { text },
+      attribute season   { text }?,
+      Article*
+   }
+
+   Article = element article {
+      # ID is in format A_B_C_D, where
+      #     A=Journal abbrev
+      #     B=Vol #
+      #     C=issue #
+      #     D=index number of article w/in volume, or "IFC", "OFC", "IRC", "ORC" for Inside/Outside Front/Rear Cover
+      attribute id       { xsd:ID },
+      attribute title    { text },
+      attribute subtitle { text }?,
+      attribute part     { text }?,
+      attribute pages    { text },
+      MetaData*
+   }
+
+   MetaData = (
+      Ask 
+    | Author
+    | Editor
+    | Comments
+    | Interview
+    | Review 
+    | Supplement
+    | Unit
+    | UnitHistory
+   )
+
+   Ask = element ask {
+      attribute lastName { text },
+      attribute firstName { text },
+      attribute middleName { text }*,
+      attribute suffix { text }?,
+      AskElements
+   }
+
+   AskElements = (Person)
+
+   Author = element author {
+      attribute lastName { text },
+      attribute firstName { text },
+      attribute middleName { text }*,
+      attribute suffix { text }?,
+      empty
+   }
+
+   Editor = element editor {
+      attribute lastName { text },
+      attribute firstName { text },
+      attribute middleName { text }*,
+      attribute suffix { text }?,
+      empty
+   }
+
+   Comments = element comments { text }
+
+   Interview = element interview {
+      external "country-attribs.rnc",
+      attribute lastName { text },
+      attribute firstName { text },
+      attribute middleName { text }*,
+      empty
+   }
+ 
+   Person = element person {
+      attribute lastName { text }?,
+      attribute firstName { text }?,
+      attribute middleName { text }*,
+      attribute rank { text }?,
+      external "country-attribs.rnc" ?
+   }
+
+   # Review of a book, magazine, film, etc.
+   Review = element review {
+      Author,  # author of the review
+      ReviewSubject
+   }
+
+   ReviewSubject = element reviewSubject {
+      attribute title { text },
+      attribute lastName { text }?,
+      attribute firstName { text }?,
+      attribute middleName { text }*,
+      attribute suffix { text }?,
+      empty
+   }
+
+   # Errata/Addenda for a previously-published article
+   Supplement = element supplement {
+      attribute articleId { xsd:ID },  # TBD or a valid article's id (TBD: should this be IDREF?)
+      attribute lastName { text },
+      attribute firstName { text }?,
+      attribute middleName { text }*,
+      attribute suffix { text }?,  # Jr, III, etc.
+      attribute pages { text },
+      empty
+   }
+
+   Unit = element unit {
+      external "country-attribs.rnc",
+      attribute unitName { text },
+      empty
+   }
+
+   UnitHistory = element unitHistory {
+      external "country-attribs.rnc",
+      attribute unitName { text },
+      attribute personnelList { xsd:boolean }*, # default: false
+      attribute victoryList   { xsd:boolean }*, # default: false
+      attribute airfieldsList { xsd:boolean }*, # default: false
+      empty
+   }
+}

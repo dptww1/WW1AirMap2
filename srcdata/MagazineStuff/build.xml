@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<project default="makeHtml2">
+<!--
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask">
+    <classpath>
+      <pathelement path="${classpath}"/>
+      <pathelement location="/jing-20030619/bin/jing.jar"/>
+      <pathelement location="/jing-20030619/bin/xercesImpl.jar"/>
+      <pathelement location="/jing-20030619/bin/xml-apis.jar"/>
+      <pathelement location="/jing-20030619/bin/saxon.jar"/>
+      <pathelement location="/jing-20030619/bin/isorelax.jar"/>
+    </classpath>
+  </taskdef>
+
+  <target name="makeHtml">
+    <jing rngfile="orderofbattle.rnc" compactsyntax="true">
+      <fileset dir="." includes="*oob.xml"/>
+    </jing>
+  </target>
+-->
+  <target name="makeHtml2">
+    <xslt style="byissue.xslt" in="sources.xml" out="sources.html"/>
+  </target>
+</project>

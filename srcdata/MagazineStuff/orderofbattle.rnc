@@ -1,0 +1,54 @@
+# $Id: $
+
+grammar {
+   start = OrderOfBattle
+
+   OrderOfBattle = element orderofbattle {
+      external "country-attribs.rnc",
+      Unit*
+   }
+
+   Unit = element unit {
+      attribute id { xsd:ID },
+      attribute name { text },
+      attribute size { text },
+      Event*
+   }
+
+   Event = (Formed | NewLocation | NewIdentity | NewParent)
+
+   Formed = element formed {
+      attribute date { text },
+      external "country-attribs.rnc" ?,
+      attribute location { text },
+      attribute parentId { xsd:IDREF },
+      Footnote,
+      Comments?
+   }
+
+   NewLocation = element newLocation {
+      attribute date { text },
+      external "country-attribs.rnc" ?,
+      attribute location { text },
+      Footnote,
+      Comments?
+   }
+
+   NewIdentity = element newIdentity {
+      attribute date { text },
+      attribute newId { xsd:IDREF },
+      Footnote,
+      Comments?
+   }
+
+   NewParent = element newParent {
+      attribute date { text },
+      attribute newParentId { xsd:IDREF },
+      Footnote,
+      Comments?
+   }
+
+   Footnote = element footnote { text }
+
+   Comments = element comments { text }
+}

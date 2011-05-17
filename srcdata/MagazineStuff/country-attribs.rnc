@@ -1,0 +1,18 @@
+# $Id: $
+
+start = CountryAttrib
+CountryAttrib = attribute country {
+   "Australia"       |
+   "Austria-Hungary" |
+   "Belgium"         |
+   "Britain"         |
+   "Bulgaria"        |
+   "Canada"          |
+   "France"          |
+   "Germany"         | 
+   "Romania"         |
+   "Russia"          |
+   "Serbia"          |
+   "Turkey"          |
+   "United States" 
+ }

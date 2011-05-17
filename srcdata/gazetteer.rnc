@@ -1,0 +1,23 @@
+# $Id: $
+
+grammar {
+    start = Gazetteer
+
+    Gazetteer = element gazetteer { Location* }
+
+    Location = element location {
+       attribute name    { text },
+       attribute country { text }?,
+       attribute historicalCountry { text }?,
+       MapLoc?,
+       Notes?
+    }
+
+    MapLoc = element mapLoc {
+       attribute refPt  { text },
+       attribute xDist  { text },
+       attribute yDist  { text }
+    }
+
+    Notes = element notes { text }
+}

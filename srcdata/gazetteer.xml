@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<!-- $Id: gazetteer.xml,v 1.6 2004/05/17 01:12:47 DaveT Exp DaveT $ -->
+
+<gazetteer>
+    <location name="Abbeville" country="France"><mapLoc refPt="Amiens" xDist="-20.9" yDist="-16.0"/></location>
+    <location name="Abeele" country="France"><mapLoc refPt="Lille" xDist="-12.00" yDist="-12.86"/><notes>There are two "Abeele"s, one in Belgium, one in France; tJP p.6 indicates the one in France</notes></location>
+    <location name="Ablainzevelle" country="France"><mapLoc refPt="Arras" xDist="-1.78" yDist="8.00"/></location>
+    <location name="Abscon" country="France"><mapLoc refPt="Cambrai" xDist="2.67" yDist="-8.89"/></location>
+    <location name="Acq" country="France"><mapLoc refPt="Arras" xDist="-5.8" yDist="-4.0"/></location>
+    <location name="Aertrycke" country="Belgium"><mapLoc refPt="Lille" xDist="1.33" yDist="-24.33"/><notes>Modern Aartrijke</notes></location>
+    <location name="Agenvillers" country="France"><mapLoc refPt="Amiens" xDist="-17.3" yDist="-20.5"/></location>
+    <location name="Aire" country="France"><mapLoc refPt="Lille" xDist="-30.9" yDist="-1.0"/><notes>OtF6.1 has this corresponding to Google's Aire-sur-la-Lys, used here</notes></location>
+    <location name="Aische-en-Refail" country="Belgium"><mapLoc refPt="Brussels" xDist="21.78" yDist="14.67"/><notes>tJP has "Aiche en Befail" (map) and "Aische-en-Befail" (gazetteer), but these appear to be typos.  tJP map has this just outside Douai, but it's unlikely that Jastas 26+27 were there at the end of the war; this location in Belgium makes more sense.</notes></location>
+    <location name="Aincreville" country="France"><mapLoc refPt="Verdun" xDist="-11.33" yDist="-11.56"/><notes>tJP has Aincrevillers and Ancrevillers, but Mapquest and calle.com have no such names</notes></location>
+    <location name="Alincourt-Juniville" country="France"><mapLoc refPt="Reims" xDist="16.25" yDist="-10.00"/></location>
+    <location name="Allonville" country="France"><mapLoc refPt="Amiens" xDist="3.1" yDist="-3.1"/></location>
+    <location name="Amiens" country="France"><mapLoc refPt="Amiens" xDist="0" yDist="0"/></location>
+    <location name="Andover" country="Britain"/>
+    <location name="Aniche" country="France"><mapLoc refPt="Lille" xDist="8.00" yDist="15.67"/></location>
+    <location name="Annelles" country="France"><mapLoc refPt="Reims" xDist="17.14" yDist="-10.00"/></location>
+    <location name="Antwerp" country="Belgium"><mapLoc refPt="Antwerp" xDist="0.00" yDist="0.00"/></location>
+    <location name="Anvaing" country="Belgium"><mapLoc refPt="Lille" xDist="22.22" yDist="-3.56"/></location>
+    <location name="Alquines" country="France"><mapLoc refPt="Arras" xDist="-35.9" yDist="-32.3"/></location>
+    <location name="Arcy" country="France"><mapLoc refPt="Soissons" xDist="6.22" yDist="7.33"/><notes>Apparently same as Arcy-sainte-restitue in Mapquest</notes></location>
+    <location name="Ars" country="France"><mapLoc refPt="Metz" xDist="-4.22" yDist="2.22"/><notes>Apparently the same as Ars-sur-Moselle.  calle.com gazetteer has numerous "Ars", but only this one looks plausible</notes></location>
+    <location name="Artemps" country="France"><mapLoc refPt="Laon" xDist="-18.67" yDist="-10.67"/><notes>Omitted from tJP map and gazetteer, but listed in the Jasta 20 airfields list</notes></location>
+    <location name="Ascq" country="France"><mapLoc refPt="Lille" xDist="4.55" yDist="0.91"/></location>
+    <location name="Assevillers" country="France"><mapLoc refPt="Amiens" xDist="24.5" yDist="-0.5"/></location>
+    <location name="Athies" country="France"><mapLoc refPt="Cambrai" xDist="-11.3" yDist="22.2"/><notes>OtF6.1 has this as Athies, Somme, Picardie, France -- not the Athies just northeast of Arras</notes></location>
+    <location name="Attigny" country="France"><mapLoc refPt="Reims" xDist="27.50" yDist="-13.50"/><notes>Mapquest reports another Attigny in Lorraine</notes></location>
+    <location name="Auchel" country="France"><mapLoc refPt="Arras" xDist="-13.6" yDist="-15.1"/></location>
+    <location name="Auchy" country="France"><mapLoc refPt="Lille" xDist="6.00" yDist="7.67"/><notes>Modern Auchy-lez-Orchies; Mapquest reports five matches</notes></location>
+    <location name="Aulnoy" country="France"><mapLoc refPt="Paris" xDist="33.6" yDist="0.9"/></location>
+    <location name="Aulnoye" country="France"><mapLoc refPt="Cambrai" xDist="30.00" yDist="-1.00"/><notes>tJP gazetteer lists this as a 6th Army location, but the p.4 map matches this location, Aulnoye-Aymeries in Google</notes></location>
+    <location name="Auritz" country="Italy"><notes>Probably in Austria, actually</notes></location>
+    <location name="Autrecourt" country="France"><mapLoc refPt="Reims" xDist="45.5" yDist="-25.0"/><notes>Autrecourt-et-Pourron.  tJP consistently calls this "Antrecourt", but OtF19.2 lists "Autrecourt near Mouzon" (=Autrecourt-et-Pourron) where tJP has "Antrecourt"</notes></location>
+    <location name="Autremencourt" country="France"><mapLoc refPt="Laon" xDist="7.56" yDist="-8.89"/><notes>Apparently missing from tJP map, but this location matches the 7th Army location listed in the gazetteer</notes></location>
+    <location name="Autreville" country="France"><mapLoc refPt="Laon" xDist="-17.3" yDist="-1.1"/></location>
+    <location name="Auxi-le-Château" country="France"><mapLoc refPt="Amiens" xDist="-9.7" yDist="-23.1"/></location>
+    <location name="Avançon" country="France"><mapLoc refPt="Reims" xDist="11.25" yDist="-14.00"/></location>
+    <location name="Avelin" country="France"><mapLoc refPt="Lille" xDist="0.50" yDist="6.00"/></location>
+    <location name="Avesnes-le-Comte" country="France"><mapLoc refPt="Arras" xDist="-11.1" yDist="0.9"/></location>
+    <location name="Avesnes-le-Sec" country="France"><mapLoc refPt="Cambrai" xDist="6.36" yDist="-4.09"/></location>
+    <location name="Aviano" country="Italy"></location>
+    <location name="Awoingt" country="France"><mapLoc refPt="Cambrai" xDist="2.00" yDist="1.26"/></location>
+    <location name="Azelot" country="France"><mapLoc refPt="Metz" xDist="2.7" yDist="36.8"/></location>
+    <location name="Baisieux" country="France"><mapLoc refPt="Lille" xDist="7.73" yDist="0.91"/><notes>tJP gazetteer lists this as "W Albert" but Jasta 30 was there near the end of the war; Google lists "Baizieux" there, but surely this location is more likely?</notes></location>
+    <location name="Baizieux" country="France"><mapLoc refPt="Amiens" xDist="10.0" yDist="-6.9"/></location>
+    <location name="Balâtre" country="France"><mapLoc refPt="Amiens" xDist="25.71" yDist="10.00"/></location>
+    <location name="Bailleul" country="France"><mapLoc refPt="Lille" xDist="-15.7" yDist="-7.1"/><notes>For some reason Google comes up with the location NW Amiens, but this location is clearly marked on their map and is correct per OtF6.1</notes></location>
+    <location name="Bancourt" country="France"><mapLoc refPt="Arras" xDist="4.7" yDist="13.3"/></location>
+    <location name="Bapaume" country="France"><mapLoc refPt="Lille" xDist="-8.57" yDist="31.43"/></location>
+    <location name="Bavichove" country="Belgium"><mapLoc refPt="Lille" xDist="10.00" yDist="-13.18"/></location>
+    <location name="Bazoches" country="France"><mapLoc refPt="Soissons" xDist="13.33" yDist="4.00"/><notes>calle.com gazetteer has many Bazoches, but only Bazoches-sur-Vesle is in the right location</notes></location>
+    <location name="Beaulieu" country="France"><mapLoc refPt="Soissons" xDist="-18.6" yDist="-19.5"/><notes>Not listed in OtF6.1, but this location, Beaulieu-les-Fontaines, is plausible</notes></location>
+    <location name="Beaumont Ferme" country="France"><mapLoc refPt="Verdun" xDist="-4.44" yDist="-6.67"/><notes>calle.com has dozens of "Beaumont"s. Only Beaumont-en-Argonne is close to the position on tJP map</notes></location>
+    <location name="Beauvois" country="France"><mapLoc refPt="Cambrai" xDist="6.44" yDist="2.22"/><notes>calle.com has a few "Beauvois" entries; tJP gazetter has "Beauvois E Cambrai", which appears to be Beauvois-en-Cambrésis</notes></location>
+    <location name="Béchamps" country="France"><mapLoc refPt="Metz" xDist="-18.41" yDist="-5.0"/><notes>Listed as "Bechamp" in tJP</notes></location>
+    <location name="Bekesbourne" country="Britain"/>
+    <location name="Bellevue" country="France"><mapLoc refPt="Laon" xDist="-5.6" yDist="-7.6"/><notes>OtF6.1 has this location (apparently different than Bellevue) about at the location of Google's Monceau-lès-Leups</notes></location>
+    <location name="Bellevue Ferme" country="France"><mapLoc refPt="Verdun" xDist="12.4" yDist="-7.8"/><notes>Location given in Albatros Publication's Jagdstaffel 5, volume 1</notes></location>
+    <location name="Bellincamps" country="France"><notes>Apparently a chateau near Thumeries</notes></location>
+    <!-- location name="Bensdorf" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="25.45" yDist="11.82"/><notes>tJP gazetteer lists this as a J80 location, but it isn't included on the J80 list on page 80</notes></location -->
+    <location name="Berghem" country="Belgium"><mapLoc refPt="Brussels" xDist="-11.82" yDist="4.55"/></location>
+    <location name="Bergnicourt" country="France"><mapLoc refPt="Reims" xDist="10.23" yDist="-9.09"/></location>
+    <location name="Bergues" country="France"><mapLoc refPt="Lille" xDist="-28.6" yDist="-24.1"/></location>
+    <location name="Berlaimont" country="France"><mapLoc refPt="Cambrai" xDist="26.8" yDist="-2.3"/></location>
+    <location name="Bernes" country="France"><mapLoc refPt="Cambrai" xDist="-5.45" yDist="15.00"/></location>
+    <location name="Bersée" country="France"><mapLoc refPt="Lille" xDist="2.33" yDist="7.67"/></location>
+    <location name="Bertangles" country="France"><mapLoc refPt="Amiens" xDist="0.2" yDist="-3.4"/></location>
+    <location name="Bertincourt" country="France"><mapLoc refPt="Lille" xDist="-2.86" yDist="31.43"/></location>
+    <location name="Bertry" country="France"><mapLoc refPt="Arras" xDist="31.5" yDist="14.5"/></location>
+    <location name="Besny-Soisy" country="France"><mapLoc refPt="Laon" xDist="-1.90" yDist="-2.00"/><notes>"Besny et Soisy" in tJP map, assumed equivalent to "Besny-et-Loizy" in Google; apparently missing from tJP map</notes></location>
+    <location name="Béthencourt" country="France"><mapLoc refPt="Cambrai" xDist="8.7" yDist="2.7"/><notes>OtF6.1 indicates the location SE of Cambrai</notes></location>
+    <location name="Bettoncourt" country="France"><mapLoc refPt="Metz" xDist="0.9" yDist="51.3"/></location>
+    <location name="Beugnâtre" country="France"><mapLoc refPt="Arras" xDist="4.2" yDist="11.3"/></location>
+    <location name="Beugneux" country="France"><mapLoc refPt="Soissons" xDist="4.09" yDist="8.64"/></location>
+    <location name="Beuvry" country="France"><mapLoc refPt="Lille" xDist="9.33" yDist="10.22"/><notes>Appears to be Beuvry-Nord, aka Beuvry-les-Orehies</notes></location>
+    <location name="Beveren" country="Belgium"><mapLoc refPt="Lille" xDist="3.67" yDist="-17.00"/><notes>Mapquest has four "Beveren"s in Flanders, three of which are in West Flanders: 1) NE of Courtrai; 2) Between Ypres and Dunkirk; 3) NE Roeselare, equidistant from Ypres and Courtrai (which most closely corresponds to the tJP map)</notes></location>
+    <location name="Beverley" country="Britain"/>
+    <location name="Bévillers" country="France"><mapLoc refPt="Cambrai" xDist="6.82" yDist="0.91"/></location>
+    <location name="Bignicourt" country="France"><mapLoc refPt="Reims" xDist="18.18" yDist="-8.18"/></location>
+    <location name="Bisseghem" country="Belgium"><mapLoc refPt="Lille" xDist="7.00" yDist="-9.67"/><notes>Google's Bissegem</notes></location>
+    <location name="Blaise" country="France"><mapLoc refPt="Reims" xDist="26.15" yDist="-6.15"/><notes>Mapquest has two "Blaise"s in Champagne-Ardenne, but only the northern one's location is reasonable.</notes></location>
+    <location name="Blangermont" country="France"><mapLoc refPt="Amiens" xDist="-2.7" yDist="-32.7"/><notes>Google's Blangerval-Blangermont</notes></location>
+    <location name="Boffles" country="France"><mapLoc refPt="Amiens" xDist="-4.1" yDist="-25.9"/></location>
+    <location name="Bohain" country="France"><mapLoc refPt="Cambrai" xDist="9.55" yDist="10.45"/><notes>Mapquest's "Bohain-en-vermandois"</notes></location>
+    <location name="Boiry-St-Martin" country="France"><mapLoc refPt="Arras" xDist="-0.9" yDist="6.7"/></location>
+    <location name="Boisdinghem" country="France"><mapLoc refPt="Lille" xDist="-43.6" yDist="-8.2"/></location>
+    <location name="Boistrancourt" country="France"><mapLoc refPt="Cambrai" xDist="4.00" yDist="1.33"/><notes>Airfields &amp; Airmen: Cambrai, p. 76, notes this is same as Estourmel</notes></location>
+    <location name="Boncourt" country="France"><mapLoc refPt="Reims" xDist="-3.18" yDist="-19.09"/><notes>Mapquest has four "Boncourt"s, none of which match the tJP map location; the choice seemed between Picardy and Lorraine, of which the former better matches the 7th Army location</notes></location>
+    <location name="Bonneuil Ferme" country="France"><mapLoc refPt="Cambrai" xDist="-8.5" yDist="27.2"/><notes>Same as Golancourt according to OtF6.1</notes></location>
+    <location name="Bouchain" country="France"><mapLoc refPt="Cambrai" xDist="3.63" yDist="-5.91"/></location>
+    <location name="Boulin Ferme" country="France"></location>
+    <location name="Bourlers" country="Belgium"><mapLoc refPt="Charleroi" xDist="-4.09" yDist="22.27"/><notes>tJP map shows this in France, but Mapquest reports no "Bourlers" in France, and this Belgian town is in the right Army sector.</notes></location>
+    <location name="Bourlon" country="France"><mapLoc refPt="Cambrai" xDist="-0.2" yDist="-5.3"/></location>
+    <location name="Boussières" country="France"><mapLoc refPt="Cambrai" xDist="5.5" yDist="0.6"/><notes>Google's Boussières-en-Cambrésis</notes></location>
+    <location name="Bouvincourt" country="France"><mapLoc refPt="Amiens" xDist="34.1" yDist="0.0"/><notes>Bouvincourt-en-Vermandois</notes></location>
+    <location name="Bovelles" country="France"><mapLoc refPt="Amiens" xDist="-6.7" yDist="0.9"/></location>
+    <location name="Bray-Dunes" country="France"><mapLoc refPt="Brugge" xDist="-30.5" yDist="10.5"/></location>
+    <!-- "Brayelles" => "La Brayelles" -->
+    <location name="Briastre" country="France"><mapLoc refPt="Cambrai" xDist="10.91" yDist="0.91"/></location>
+    <location name="Brooklands" country="Britain"></location>
+    <location name="Bruay" country="France"><mapLoc refPt="Arras" xDist="-10.7" yDist="-13.3"/><notes>Bruary-la-Buissière</notes></location>
+    <location name="Brugge" country="Belgium"><mapLoc refPt="Brugge" xDist="0.0" yDist="0.0"/></location>
+    <location name="Bruille" country="France"><mapLoc refPt="Cambrai" xDist="0.00" yDist="-10.45"/><notes>Mapquest has both Bruille-lez-Marchiennes and Bruille-Saint-Amand in Nord-Pas-de-Calais; tJP p. 6 and the map seem to be the former</notes></location>
+    <location name="Brussels" country="Belgium"><mapLoc refPt="Brussels" xDist="0.00" yDist="0.00"/></location>
+    <location name="Bryas" country="France"><mapLoc refPt="Arras" xDist="-18.0" yDist="-8.2"/><notes>OtF6.1 agrees with this spelling; corresponds with Google's "Brias"</notes></location>
+    <location name="Bühl" country="France" historicalCountry="German"><mapLoc refPt="Metz" xDist="41.43" yDist="22.86"/><notes>There are two in Lorraine; Mapquest's "Bühl-Lorraine" corresponds with tJP map and p.7</notes></location>
+    <location name="Burscheid"></location>
+    <location name="Busigny" country="France"><mapLoc refPt="Cambrai" xDist="10.45" yDist="8.18"/></location>
+    <location name="Cachy" country="France"><mapLoc refPt="Amiens" xDist="8.4" yDist="2.9"/></location>
+    <location name="Caffiers" country="France"><mapLoc refPt="Arras" xDist="-44.1" yDist="-39.5"/></location>
+    <location name="Calais" country="France"><mapLoc refPt="Lille" xDist="-52.2" yDist="-23.5"/></location>
+    <location name="Camblain-l'Abbé" country="France"><mapLoc refPt="Arras" xDist="-6.4" yDist="-5.8"/></location>
+    <location name="Cambrai" country="France"><mapLoc refPt="Cambrai" xDist="0.00" yDist="0.00"/></location>
+    <location name="Campoformidi" country="Italy"></location>
+    <location name="Candas" country="France"><mapLoc refPt="Amiens" xDist="-1.6" yDist="-15.1"/></location>
+    <location name="Cantin" country="France"><mapLoc refPt="Lille" xDist="2.73" yDist="18.64"/></location>
+    <location name="Cappelle" country="France"><mapLoc refPt="Cambrai" xDist="14.0" yDist="-4.4"/></location>
+    <location name="Cappy" country="France"><mapLoc refPt="Amiens" xDist="21.43" yDist="-2.86"/></location>
+    <location name="Carignan" country="France"><mapLoc refPt="Luxembourg" xDist="-44.29" yDist="1.43"/><notes>tJP map apparently has two 59's, one east of Arras, the other southeast of Sedan, neither corresponding very well to Mapquest's location</notes></location>
+    <location name="Carnières" country="France"><mapLoc refPt="Cambrai" xDist="4.70" yDist="0.40"/></location>
+    <location name="Carrépuis" country="France"><mapLoc refPt="Amiens" xDist="22.86" yDist="10.00"/><notes>tJP omits the accent over the "e", but I went with Mapquest's version</notes></location>
+    <location name="Carvin" country="France"><mapLoc refPt="Lille" xDist="-4.9" yDist="10.2"/></location>
+    <location name="Castern" country="Belgium"><mapLoc refPt="Lille" xDist="19.09" yDist="-10.00"/><notes>Mapquest has no "Castern" in DE, FR, BE, or LU; but there's a "Kaster" in Belgium that appears plausible; that's what I've used here</notes></location>
+    <location name="Castle Bromwich" country="Britain"></location>
+    <location name="Castres" country="France"><mapLoc refPt="Soissons" xDist="-2.86" yDist="-25.00"/><notes>Apparently omitted from tJP map</notes></location>
+    <location name="Catigny" country="France"><mapLoc refPt="Soissons" xDist="-17.7" yDist="-18.2"/></location>
+    <location name="Catterick" country="Britain"/>
+    <location name="Caudry" country="France"><mapLoc refPt="Cambrai" xDist="7.8" yDist="3.6"/></location>
+    <location name="Cervada" country="Italy"></location>
+    <location name="Ceune" country="Belgium"><mapLoc refPt="Lille" xDist="9.55" yDist="-12.73"/><notes>Appears to correspond with Mapquest's "Kuurne"</notes></location>
+    <location name="Chambry" country="France"><mapLoc refPt="Laon" xDist="1.10" yDist="-1.60"/></location>
+    <location name="Champien" country="France"><mapLoc refPt="Arras" xDist="3.6" yDist="42.3"/></location>
+    <location name="Champles" country="Belgium"><mapLoc refPt="Brussels" xDist="10.00" yDist="7.14"/></location>
+    <location name="Charmois" country="France"><mapLoc refPt="Verdun" xDist="-8.67" yDist="-17.67"/><notes>Mapquest has two "Charmois", one even in Lorraine, but neither near where tJP map places it in the 5th Army area.  calle.com has a Charmois at 49N 5E which looks to be correct, but it's not in Mapquest.  Since tJP gazetteer says "Charmois, S Stenay", I've arbitrarily located this 1mi south of Stenay</notes></location>
+    <location name="Chassonge Ferme" country="France"><mapLoc refPt="Metz" xDist="-60.46" yDist="-6.15"/><notes>tJP has "Chassogne Ferme", but OtF6.1 has "Chassonge Ferme" at this location</notes></location>
+    <location name="Château-Porcien" country="France"><mapLoc refPt="Reims" xDist="9.33" yDist="-14.67"/></location>
+    <location name="Chattis Hill" country="Britain"/>
+    <location name="Chéméry" country="France"><mapLoc refPt="Reims" xDist="38.57" yDist="-18.57"/><notes>calle.com has several "Chémery"s, but from the tJP map, this is Chémery-sur-Bar.</notes></location>
+    <location name="Chemy" country="France"><mapLoc refPt="Lille" xDist="-3.3" yDist="7.6"/></location>
+    <location name="Chenois" country="Belgium"><mapLoc refPt="Luxembourg" xDist="-25.8" yDist="3.6"/></location>
+    <location name="Chéry-les-Pouilly" country="France"><mapLoc refPt="Laon" xDist="-1.20" yDist="-5.10"/><notes>Mapquest omits the accent in "Chéry"</notes></location>
+    <location name="Chévresis-Monceau" country="France"><mapLoc refPt="Laon" xDist="-1.82" yDist="-10.91"/><notes>Mapquest omits the accent in "Chévresis"</notes></location>
+    <location name="Chièvres" country="Belgium"><mapLoc refPt="Brussels" xDist="-24.29" yDist="14.29"/></location>
+    <location name="Chipilly" country="France"><mapLoc refPt="Amiens" xDist="15.8" yDist="-1.1"/></location>
+    <location name="Chocques" country="France"><mapLoc refPt="Arras" xDist="-9.3" yDist="-17.3"/></location>
+    <location name="Chuffilly" country="France"><mapLoc refPt="Reims" xDist="27.14" yDist="-11.43"/><notes>Corresponds to Mapquest Chuffilly-Roche?  The position is a little off compared to tJP map</notes></location>
+    <location name="Clairmarais" country="France"><mapLoc refPt="Lille" xDist="-34.5" yDist="-9.5"/> </location>
+    <location name="Clairmarais North" country="France"><mapLoc refPt="Lille" xDist="-34.5" yDist="-9.0"/> </location>
+    <location name="Clairmarais South" country="France"><mapLoc refPt="Lille" xDist="-34.5" yDist="-10.0"/> </location>
+    <location name="Clastres" country="France"><mapLoc refPt="Cambrai" xDist="0.00" yDist="25.71"/></location>
+    <location name="Cohartville" country="France"><mapLoc refPt="Laon" xDist="6.36" yDist="-6.82"/><notes>Mapquest has no "Cohartville", but does have "Froidmont-Cohartille" in approximately the right location ... that's what I used</notes></location>
+    <location name="Coincy" country="France"><mapLoc refPt="Reims" xDist="-26.67" yDist="5.33"/></location>
+    <location name="Colmar Nord" country="France" historicalCountry="Germany"><mapLoc refPt="Strasbourg" xDist="-17.7" yDist="33.1"/></location>
+    <location name="Colmar Sud" country="France" historicalCountry="Germany"><mapLoc refPt="Strasbourg" xDist="-16.1" yDist="37.9"/></location>
+    <location name="Companthorpe" country="Britain"/>
+    <location name="Compiègne" country="France"><mapLoc refPt="Compiègne" xDist="0.0" yDist="0.0"/><notes>The actual airfield was unlikely to be in the center of town (shown on the map) but OtF6.1 indicated no nearby airfield</notes></location>
+    <location name="Conteville" country="France"><mapLoc refPt="Arras" xDist="-20.9" yDist="-10.0"/><notes>Google's Conteville-en-Temois</notes></location>
+    <location name="Coolkerke" country="Belgium"><mapLoc refPt="Brugge" xDist="1.10" yDist="-2.30"/></location>
+    <location name="Coucou" country="France"><mapLoc refPt="Lille" xDist="-1.1" yDist="-10.7"/></location>
+    <location name="Coudekerque" country="France"><mapLoc refPt="Lille" xDist="-29.5" yDist="-25.9"/></location>
+    <location name="Coulommiers" country="France"><mapLoc refPt="Paris" xDist="33.2" yDist="3.2"/></location>
+    <location name="Courcelles-le-Comte" country="France"><mapLoc refPt="Arras" xDist="-0.5" yDist="9.1"/></location>
+    <location name="Coxyde" country="Belgium"><mapLoc refPt="Brugge" xDist="-26.22" yDist="7.78"/><notes>Modern Koksijde</notes></location>
+    <location name="Cramlington" country="Britain"/>
+    <location name="Crochte" country="France"><mapLoc refPt="Lille" xDist="-30.9" yDist="-21.8"/></location>
+    <location name="Croisette" country="France"><mapLoc refPt="Arras" xDist="-23.3" yDist="-4.2"/></location>
+    <!-- location name="Croulshouten" country="Belgium"><mapLoc refPt="Lille" xDist="21.67" yDist="-14.00"/></location SAME AS Kruishoutem -->
+    <location name="Cuerne" country="Belgium"><mapLoc refPt="Lille" xDist="10.0" yDist="15.1"/><notes>Google's Kuurne</notes></location>
+    <location name="Cuirieux" country="France"><mapLoc refPt="Laon" xDist="9.09" yDist="-6.82"/></location>
+    <location name="Cysoing" country="France"><mapLoc refPt="Lille" xDist="6.67" yDist="4.00"/></location>
+    <location name="Délinge Ferme"><notes>No reference in Mapquest, Google, or OtF6.1</notes></location>
+    <location name="Derra" country="Turkey"></location>
+    <location name="Dhuizel" country="France"><mapLoc refPt="Soissons" xDist="13.18" yDist="0.91"/></location>
+    <location name="Djenin" country="Turkey"></location>
+    <location name="Doncaster" country="Britain"/>
+    <location name="Doncourt" country="France"><mapLoc refPt="Verdun" xDist="14.55" yDist="5.91"/><notes>Mapquest has four "Doncourt"s, three in Lorraine.  Doncourt-aux-Templiers seems to best match the tJP map</notes></location>
+    <location name="Donstiennes" country="Belgium"><mapLoc refPt="Brussels" xDist="-1.43" yDist="32.86"/></location>
+    <location name="Douai" country="France"><mapLoc refPt="Lille" xDist="0.67" yDist="13.33"/></location>
+    <location name="Douilly" country="France"><mapLoc refPt="Cambrai" xDist="-7.27" yDist="21.82"/></location>
+    <location name="Dover" country="Britain"></location>
+    <location name="Drionville" country="France"><mapLoc refPt="Amiens" xDist="-33.2" yDist="-25.5"/></location>
+    <location name="Droglandt" country="France"><mapLoc refPt="Lille" xDist="-22.3" yDist="-15.5"/><notes>Google's Droogland</notes></location>
+    <location name="Dunkerque" country="France"><mapLoc refPt="Lille" xDist="-31.4" yDist="-28.6"/></location>
+    <location name="Eastchurch" country="Britain"/>
+    <location name="Ecoivres" country="France"><mapLoc refPt="Arras" xDist="-22.0" yDist="-2.2"/></location>
+    <location name="Elincourt" country="France"><mapLoc refPt="Cambrai" xDist="6.2" yDist="9.3"/></location>
+    <location name="Ellignies" country="Belgium"><mapLoc refPt="Lille" xDist="27.14" yDist="4.29"/><notes>Mapquest has "Ellignies-Sainte-Anne"</notes></location>
+    <location name="Emerchicourt" country="France"><mapLoc refPt="Lille" xDist="8.83" yDist="16.33"/></location>
+    <location name="Ennemain" country="France"><mapLoc refPt="Amiens" xDist="29.29" yDist="2.86"/></location>
+    <location name="Ennemain-Falvy Rd" country="France"><mapLoc refPt="Amiens" xDist="29.29" yDist="3.15"/><notes>Falvy road leads south out of Ennemain; I've guessed that the aerodrome was 1/3rd mile south of Ennemain</notes></location>
+    <location name="Ennetières" country="France"><mapLoc refPt="Lille" xDist="-5.23" yDist="0.00"/></location>
+    <location name="Ensisheim" country="France" historicalCountry="Germany"><mapLoc refPt="Mulhouse" xDist="1.14" yDist="-7.27"/></location>
+    <location name="Epinoy" country="France"><mapLoc refPt="Cambrai" xDist="-3.18" yDist="-3.18"/></location>
+    <location name="Epitaphe Ferme" country="France"></location>
+    <location name="Ercheu" country="France"><mapLoc refPt="Amiens" xDist="30.00" yDist="11.43"/></location>
+    <location name="Erchin" country="France"><mapLoc refPt="Cambrai" xDist="-2.73" yDist="-7.73"/></location>
+    <location name="Eringhem" country="France"><mapLoc refPt="Lille" xDist="-32.7" yDist="-18.6"/></location>
+    <location name="Erkeghem" country="Belgium"><mapLoc refPt="Brugge" xDist="1.82" yDist="4.09"/></location>
+    <location name="Erlon" country="France"><mapLoc refPt="Laon" xDist="4.09" yDist="-9.55"/></location>
+    <location name="Erre" country="France"><mapLoc refPt="Cambrai" xDist="3.64" yDist="-10.45"/></location>
+    <location name="Escarmain" country="France"><mapLoc refPt="Cambrai" xDist="14.09" yDist="-3.18"/></location>
+    <location name="Escaudoeuvres" country="France"><mapLoc refPt="Cambrai" xDist="1.3" yDist="-1.3"/></location>
+    <location name="Escaufourt" country="France"><mapLoc refPt="Cambrai" xDist="11.33" yDist="7.11"/><notes>tJP consistently uses "Escaufort", but that's evidently a typo</notes></location>
+    <location name="Esnes" country="France"><mapLoc refPt="Cambrai" xDist="3.3" yDist="5.1"/></location>
+    <location name="Esquerdes" country="France"><mapLoc refPt="Lille" xDist="-40.0" yDist="-5.0"/></location>
+    <location name="Essigny-le-Petit" country="France"><mapLoc refPt="Cambrai" xDist="5.45" yDist="15.91"/></location>
+    <location name="Estourmel" country="France"><mapLoc refPt="Cambrai" xDist="4.0" yDist="1.8"/></location>
+    <location name="Estrée-Blanche" country="France"><mapLoc refPt="Arras" xDist="-20.9" yDist="-21.4"/></location>
+    <location name="Estrées-en-Chaussée" country="France"><mapLoc refPt="Cambrai" xDist="-8.9" yDist="20.4"/><notes>OtF6.1 has "Estrees-en-Chausle" (which appears to be a typo for "Estrées-en-Chausée") in the index ... but the map has no reference.  This location is Google's Estrées-Mons, which appears to be the correct location.</notes></location>
+    <location name="Eswars" country="France"><mapLoc refPt="Cambrai" xDist="1.30" yDist="-2.40"/></location>
+    <location name="Etrun" country="France"><mapLoc refPt="Arras" xDist="-3.6" yDist="-1.4"/></location>
+    <location name="Etreux" country="France"><mapLoc refPt="Cambrai" xDist="20.00" yDist="10.00"/></location>
+    <location name="Faches" country="France"><mapLoc refPt="Lille" xDist="0.10" yDist="1.70"/><notes>Mapquest has Faches-Thumesnil</notes></location>
+    <location name="Falvy" country="France"><mapLoc refPt="Cambrai" xDist="-12.27" yDist="20.45"/></location>
+    <location name="Famechon" country="France"><mapLoc refPt="Amiens" xDist="7.8" yDist="-17.3"/><notes>Google has three Famechons, but OtF6.1 indicates this location in Nord-Pas-de-Calais</notes></location>
+    <location name="Fauquembergues" country="France"><mapLoc refPt="Arras" xDist="-31.4" yDist="-22.3"/></location>
+    <location name="Farnborough" country="Britain"></location>
+    <location name="Faucouzy" country="France"><mapLoc refPt="Soissons" xDist="14.29" yDist="-23.57"/></location>
+    <location name="Favreuil" country="France"><mapLoc refPt="Arras" xDist="3.18" yDist="9.55"/></location>
+    <location name="Fayet" country="France"><mapLoc refPt="Cambrai" xDist="0.68" yDist="18.18"/></location>
+    <location name="Fère-en-Tardenois" country="France"><mapLoc refPt="Soissons" xDist="8.6" yDist="7.3"/></location>
+    <location name="Fienvillers" country="France"><mapLoc refPt="Amiens" xDist="-2.7" yDist="-15.3"/></location>
+    <location name="Filescamp Farm" country="France"><mapLoc refPt="Arras" xDist="-8.8" yDist="-2.1"/></location>
+    <location name="Filton" country="Britain"></location>
+    <location name="Fismes" country="France"><mapLoc refPt="Reims" xDist="-16.4" yDist="-3.3"/></location>
+    <location name="Flaumont" country="France"><mapLoc refPt="Charleroi" xDist="-21.8" yDist="20.5"/><notes>Google's Flaumont-Waudrechies</notes></location>
+    <location name="Flavy-le-Martel" country="France"><mapLoc refPt="Cambrai" xDist="-1.43" yDist="33.57"/></location>
+    <location name="Flesselles" country="France"><mapLoc refPt="Amiens" xDist="-1.6" yDist="-7.3"/></location>
+    <location name="Fleurs" country="Belgium"><mapLoc refPt="Brussels" xDist="8.57" yDist="21.42"/><notes>Assumed the same as Mapquest's "Fleurus"</notes></location>
+    <location name="Flez" country="France"><mapLoc refPt="Cambrai" xDist="-13.78" yDist="0.89"/><notes>tJP has "Flez-Suisaucourt"; is this a typo for Flez-Guizancourt?  Mapquest and calle.com don't have that, either ... but Airfields &amp; Airmen: Cambrai (and Google) locates it west of Saint-Quentin at the intersection of A29 and the D937</notes></location>
+    <location name="Florenville" country="Belgium"><mapLoc refPt="Luxembourg" xDist="-37.14" yDist="-4.29"/></location>
+    <location name="Floringhem" country="France"><mapLoc refPt="Arras" xDist="-15.6" yDist="-14.2"/></location>
+    <location name="Folkestone" country="Britain"/>
+    <!-- location name="Fonsommes"></location; tJP has "Fonfommes", "Fonsomme" -->
+    <location name="Fonfry" country="France"><mapLoc refPt="Reims" xDist="-22.22" yDist="2.11"/><notes>Nothing close to "Fonfry" or "Foufry" in Mapquest or calle.com; since tJP gazetteer calls it "Fonfry, N Fère-en-Tardenois", I've arbitrarily chosen a location a mile north of Fère-en-Tardenois</notes></location>
+    <location name="Fontaine Notre Dame" country="France"><mapLoc refPt="Cambrai" xDist="8.57" yDist="17.14"/><notes>Mapquest has two in the area, one WSW of Cambrai, and one ENE of St Quentin.  tJP map uses the latter</notes></location>
+    <location name="Fontaine-sur-May" country="France"><mapLoc refPt="Amiens" xDist="-16.8" yDist="-24.5"/><notes>Constable data and OtF6.1 agree on this spelling, but this is Google's "Fontaine-sur-Maye" (with the "e" on the end)</notes></location>
+    <location name="Fontaine-Uterte" country="France"><mapLoc refPt="Cambrai" xDist="6.36" yDist="14.77"/></location>
+    <location name="Ford Farm" country="Britain"><notes>Ten of these about in the UK</notes></location>
+    <location name="Foreste" country="France"><mapLoc refPt="Cambrai" xDist="-5.91" yDist="21.36"/></location>
+    <location name="Foucaucourt" country="France"><mapLoc refPt="Amiens" xDist="21.59" yDist="1.14"/><notes>Mapquest has two "Foucaucourt"s in Picardy: "Foucaucourt-en-Santerre" and "Foucaucourt-hors-Nesle".  The former is closer to the tJP location</notes></location>
+    <location name="Fouquerolles" country="France"><mapLoc refPt="Amiens" xDist="-3.6" yDist="30.5"/></location>
+    <location name="Fourneuil" country="France"><mapLoc refPt="Amiens" xDist="-8.2" yDist="28.2"/></location>
+    <location name="Franqueville" country="France"><mapLoc refPt="Reims" xDist="-10.0" yDist="-38.6"/></location>
+    <location name="Fréthun" country="France"><mapLoc refPt="Brugge" xDist="-60.9" yDist="20.9"/></location>
+    <location name="Froidmont" country="France"><mapLoc refPt="Laon" xDist="3.64" yDist="-7.05"/><notes>Mapquest's "Froidmont-cohartille"; tJP gazetteer has "Froidemont", but this looks like a typo</notes></location>
+    <location name="Furnes" country="Belgium"><mapLoc refPt="Brugge" xDist="-24.5" yDist="10.5"/><notes>Google's Veurne</notes></location>
+    <location name="Genech" country="France"><mapLoc refPt="Lille" xDist="6.59" yDist="5.91"/></location>
+    <location name="Ghistelles" country="Belgium"><mapLoc refPt="Brugge" xDist="-12.27" yDist="2.27"/></location>
+    <location name="Ghlin" country="Belgium"><mapLoc refPt="Brussels" xDist="-18.57" yDist="22.86"/></location>
+    <location name="Giraumont" country="France"><mapLoc refPt="Verdun" xDist="23.64" yDist="0.00"/></location>
+    <location name="Givry" country="Belgium"><mapLoc refPt="Brussels" xDist="-14.29" yDist="27.14"/></location>
+    <!-- Golancourt - OtF6.1 has this the same as Bonneuil Ferme -->
+    <location name="Goldhanger" country="Britain"/>
+    <location name="Gondecourt" country="France"><mapLoc refPt="Lille" xDist="-3.33" yDist="3.83"/></location>
+    <location name="Gonnehem" country="France"><mapLoc refPt="Lille" xDist="-21.8" yDist="5.1"/></location>
+    <location name="Gonnelieu" country="France"><mapLoc refPt="Cambrai" xDist="-3.64" yDist="6.82"/></location>
+    <location name="Gontrode" country="Belgium"><mapLoc refPt="Gent" xDist="3.18" yDist="4.09"/></location>
+    <location name="Gosselies" country="Belgium"><mapLoc refPt="Brussels" xDist="3.64" yDist="22.27"/></location>
+    <location name="Gosport" country="Britain"></location>
+    <location name="Grandmetz" country="Belgium"><mapLoc refPt="Lille" xDist="24.89" yDist="0.67"/><notes>tJP has "Grand Metz", but Mapquest and calle.com have it as one word</notes></location>
+    <location name="Graux" country="Belgium"><mapLoc refPt="Brussels" xDist="16.36" yDist="30.45"/></location>
+    <location name="Grécourt" country="France"><mapLoc refPt="Compiègne" xDist="7.04" yDist="-17.27"/></location>
+    <location name="Gross-Tanchen" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="24.89" yDist="8.00"/><notes>As noted on tJP map, modern "Grostenquin"</notes></location>
+    <location name="Guesnain" country="France"><mapLoc refPt="Lille" xDist="3.67" yDist="14.33"/></location>
+    <location name="Guise" country="France"><mapLoc refPt="Laon" xDist="0.00" yDist="-18.57"/></location>
+    <location name="Guisecourt" country="France"><mapLoc refPt="Compiègne" xDist="9.33" yDist="-12.44"/><notes>No town by this name in Mapquest or calle.com.  Since this aerodrome was only used by Jastas 12, 13, 15, 19 for a few days during the Kaiserschlact, and all were previously at Roupy and afterwards at Balâtre, I think this corresponds to "Guiscard", which is between those two locations and has a name phonetically similar to "Guisecourt".</notes></location>
+    <location name="Guizancourt" country="France"><mapLoc refPt="Amiens" xDist="30.50" yDist="3.75"/><notes>Mapquest has two "Guizancourt"s in Picardy, but this one best matches the tJP map</notes></location>
+    <location name="Habsheim" country="France" historicalCountry="Germany"><mapLoc refPt="Mulhouse" xDist="3.41" yDist="1.36"/></location>
+    <location name="Halluin" country="Belgium"><mapLoc refPt="Lille" xDist="-8.22" yDist="-8.44"/><notes>Mapquest has "Heuvelland" in same place; I've assumed they're equivalent</notes></location>
+    <location name="Halma" country="Belgium"><mapLoc refPt="Luxembourg" xDist="-44.29" yDist="-26.43"/></location>
+    <location name="Hancourt" country="France"><mapLoc refPt="Amiens" xDist="35.5" yDist="-0.5"/></location>
+    <location name="Handzaeme" country="Belgium"><mapLoc refPt="Lille" xDist="-2.00" yDist="-18.67"/></location>
+    <location name="Harbonnières" country="France"><mapLoc refPt="Amiens" xDist="17.04" yDist="8.57"/></location>
+    <location name="Harlaxton" country="Britain"/>
+    <location name="Harlebeke" country="Belgium"><mapLoc refPt="Lille" xDist="10.67" yDist="-11.33"/></location>
+    <location name="Harling Road" country="Britain"/>
+    <location name="Harmigniers" country="Belgium"><mapLoc refPt="Brussels" xDist="-14.29" yDist="26.43"/><notes>Mapquest has "Harmignies"</notes></location>
+    <location name="Haubourdin" country="France"><mapLoc refPt="Lille" xDist="-3.41" yDist="1.36"/></location>
+    <location name="Haussimont" country="France"><mapLoc refPt="Reims" xDist="6.4" yDist="35.5"/></location>
+    <!-- location name="Heerlingen"><notes>on tJP as base for J12, but not in J12 list; p.8 likewise</notes></location -->
+    <location name="Helesmes" country="France"><mapLoc refPt="Lille" xDist="13.18" yDist="15.45"/></location>
+    <location name="Hennieches Ferme" country="France"><notes>tJP map spells it "Hennechies Ferme", but Mapquest has neither</notes></location>
+    <location name="Hermies" country="France"><mapLoc refPt="Cambrai" xDist="-8.18" yDist="3.64"/></location>
+    <location name="Hervilly" country="France"><mapLoc refPt="Cambrai" xDist="-5.45" yDist="14.09"/></location>
+    <location name="Hesdigneul" country="France"><mapLoc refPt="Arras" xDist="-8.0" yDist="-14.67"/><notes>Google's Hesdigneul-lès-Béthune</notes></location>
+    <location name="Heule" country="Belgium"><mapLoc refPt="Lille" xDist="7.73" yDist="-12.27"/></location>
+    <location name="Hingham" country="Britain"/>
+    <location name="Hondschoote" country="France"><mapLoc refPt="Brugge" xDist="-28.1" yDist="16.8"/></location>
+    <location name="Hoog Huis" country="France"><mapLoc refPt="Lille" xDist="-33.2" yDist="-13.2"/><notes>Based on OtF6.1, seems to be Google's Point du Jour</notes></location>
+    <location name="Hounslow" country="Britain"></location>
+    <location name="Houplin" country="France"><mapLoc refPt="Lille" xDist="-2.95" yDist="4.09"/><notes>Mapquest has "Houplin-Ancoisne"</notes></location>
+    <location name="Hove" country="Belgium"><mapLoc refPt="Brussels" xDist="-13.64" yDist="10.45"/><notes>Mapquest has another "Hove", but it's off near Antwerp</notes></location>
+    <location name="Hudova" country="Macedonia"></location>
+    <location name="Ichteghem-Vyver" country="Belgium"><mapLoc refPt="Brugge" xDist="-10.00" yDist="5.91"/></location>
+    <location name="Inchy" country="France"><mapLoc refPt="Cambrai" xDist="10.2" yDist="3.6"/><notes>Not to be confused with Inchy-en-Artois, which is what comes up by default on Google; this location confirmed by OtF6.1</notes></location>
+    <location name="Ingelmünster" country="Belgium"><mapLoc refPt="Lille" xDist="8.18" yDist="-18.18"/><notes>Mapquest omits the umlaut over the "u"</notes></location>
+    <location name="Iris Farm" country="France"><mapLoc refPt="Cambrai" xDist="6.3" yDist="8.0"/></location>
+    <location name="Iseghem" country="Belgium"><mapLoc refPt="Lille" xDist="6.33" yDist="-14.67"/></location>
+    <location name="Iwuy" country="France"><mapLoc refPt="Lille" xDist="11.43" yDist="24.29"/><notes>missing from tJP map + gazetteer</notes></location>
+    <location name="Izel-le-Hameau" country="France"><mapLoc refPt="Arras" xDist="-10.4" yDist="-1.6"/><notes>Google's Izel-les-Hameux, but OtF has the singular form of the name</notes></location>
+    <location name="Jabbeke" country="Belgium"><mapLoc refPt="Brugge" xDist="-5.45" yDist="1.36"/></location>
+    <location name="Jametz" country="France"><mapLoc refPt="Verdun" xDist="0.00" yDist="-15.45"/></location>
+    <location name="Juilly" country="France"><mapLoc refPt="Soissons" xDist="-21.8" yDist="25.4"/></location>
+    <location name="Juniville" country="France"><mapLoc refPt="Reims" xDist="15.71" yDist="-7.14"/></location>
+    <location name="Kalkova" country="Macedonia"></location>
+    <location name="Kanatlarci" country="Macedonia"></location>
+    <location name="Kenley" country="Britain"/>
+    <location name="Koekhoek" country="Belgium"><mapLoc refPt="Lille" xDist="3.07" yDist="-12.30"/><notes>tJP gazetteer has "Koekhoek, nr Menin"; phonetically this is close to OtF6.1's Coucou near Menin, which location I have used for this</notes></location>
+    <location name="Kruishoutem" country="Belgium"><mapLoc refPt="Gent" xDist="-8.44" yDist="8.44"/><notes>tJP has "Kroishouten" (gazetteer), "Kroishausen" (map), but this is almost certainly "Kruihoutem"</notes></location>
+    <location name="Kruisken" country="Belgium"><mapLoc refPt="Gent" xDist="-2.22" yDist="-2.89"/></location>
+    <location name="Kuerne" country="Belgium"><mapLoc refPt="Lille" xDist="9.77" yDist="-12.73"/><notes>Mapquest has "Kuurne"</notes></location>
+    <location name="La Bellevue" country="France"><mapLoc refPt="Arras" xDist="-13.7" yDist="7.1"/></location>
+    <location name="La Bonne Maison Ferme" country="France"><mapLoc refPt="Soissons" xDist="24.23" yDist="9.23"/><notes>OtF6.1 has "Bonne Maison Ferme"</notes></location>
+    <location name="La Brayelles" country="France"><mapLoc refPt="Arras" xDist="15.50" yDist="-8.30"/><notes>on tJP map (as Brayelles) but nowhere in Mapquest or Google; OtF6.1 lists its location as "W Douai?" so estimated here</notes></location>
+    <location name="La Capelle" country="France"><mapLoc refPt="Laon" xDist="12.86" yDist="-22.86"/><notes>Mapquest finds six La Capelles, but the others are in southern France</notes></location>
+    <location name="La Chaussée"><notes>between Laon and Mezieres on tJP map, but no such location in OtF6.1, Google, or Mapquest </notes></location>
+    <location name="La Fère" country="France"><mapLoc refPt="Soissons" xDist="1.8" yDist="-20"/></location>
+    <location name="La Ferté Ferme" country="France"><mapLoc refPt="Laon" xDist="-3.85" yDist="-15.38"/><notes>I assumed this is the same as OtF6.1's "La Ferté Chevresis"</notes></location>
+    <location name="La Gorgue" country="France"><mapLoc refPt="Lille" xDist="-15.6" yDist="0"/></location>
+    <location name="La Jolly Ferme" country="France"><mapLoc refPt="Verdun" xDist="-10.77" yDist="-30.77"/><notes>listed in OtF6.1 index, but no corresponding location; tJP gazetteer has "La Jolly Ferme, Stenay", so I used Stenay's location</notes></location>
+    <location name="La Neuville" country="France"><mapLoc refPt="Verdun" xDist="-2.67" yDist="-4.17"/><notes>Position on tJP map seems to match Mapquest's "Neuville",  used here</notes></location>
+    <location name="La Panne" country="Belgium"><mapLoc refPt="Brugge" xDist="-28.67" yDist="7.56"/><notes>Modern De Panne</notes></location>
+    <location name="La Petrie" country="France"><mapLoc refPt="Lille" xDist="0.67" yDist="9.33"/></location>
+    <location name="La Selve" country="France"><mapLoc refPt="Laon" xDist="15.91" yDist="-0.23"/></location>
+    <location name="La Targette" country="France"><mapLoc refPt="Arras" xDist="-1.7" yDist="-4.2"/></location>
+    <location name="Lagnicourt-Marcel" country="France"><mapLoc refPt="Cambrai" xDist="-12.22" yDist="1.11"/><notes>tJP has "Lagnicourt", but Mapquest and calle.com agree on "Lagnicourt-Marcel"</notes></location>
+    <location name="Lahoussoye" country="France"><mapLoc refPt="Amiens" xDist="8.0" yDist="-3.7"/></location>
+    <location name="Lake Down" country="Britain"/>
+    <location name="Lalovie" country="Belgium"><mapLoc refPt="Lille" xDist="-16.2" yDist="-17.3"/><notes>Constable data has this consistently as "La Lovie"; it's in OtF6.1 w/o the space</notes></location>
+    <location name="Landréville" country="France"><mapLoc refPt="Metz" xDist="-67.00" yDist="-6.00"/></location>
+    <location name="Laviéville" country="France"><mapLoc refPt="Amiens" xDist="12.7" yDist="-3.6"/></location>
+    <location name="Le Brûlé" country="France"><mapLoc refPt="Cambrai" xDist="22.67" yDist="18.44"/></location>
+    <!-- location name="Le Folie Ferme"><notes>same as Spincourt according to JP map</notes></location -->
+    <location name="Le Cateau" country="France"><mapLoc refPt="Cambrai" xDist="14.44" yDist="4.0"/></location>
+    <location name="Le Catelet" country="France"><mapLoc refPt="Amiens" xDist="42.67" yDist="-7.33"/></location>
+    <location name="Le Châtelet"><notes>no such place in Google, Mapquest, or OtF6.1</notes></location>
+    <location name="Le Clos Ferme"><notes>tJP gazetteer lists as "Le Clos Ferme, Boncourt"</notes></location>
+    <location name="Le Crotoy" country="France"><mapLoc refPt="Amiens" xDist="-30.5" yDist="-22.7"/></location>
+    <location name="Le Hameau" country="France"><mapLoc refPt="Arras" xDist="-10.7" yDist="-1.3"/><notes>no OTF6.1 reference, but this location from Google seems plausible</notes></location>
+    <location name="Le Mesnil, Nesle" country="France"><mapLoc refPt="Amiens" xDist="16.00" yDist="2.67"/><notes>Location is Nesle in the Somme region from Mapquest</notes></location>
+    <location name="Le Quesnoy" country="France"><mapLoc refPt="Cambrai" xDist="18.2" yDist="-5.5"/><notes>OtF6.1 shows this location to be correct of several "Le Quesnoy"s</notes></location>
+    <location name="Léalvillers" country="France"><mapLoc refPt="Amiens" xDist="9.6" yDist="-11.8"/></location>
+    <location name="Léchelle" country="France"><mapLoc refPt="Cambrai" xDist="-11.11" yDist="6.67"/><notes>There are two, but one is too far to the south</notes></location>
+    <location name="Leffincourt" country="France"><mapLoc refPt="Reims" xDist="23.11" yDist="6.67"/></location>
+    <location name="Leffrinckhoucke" country="France"><mapLoc refPt="Brugge" xDist="-34.5" yDist="11.8"/><notes>Google's Leffrinckoucke</notes></location>
+    <location name="Lens" country="Belgium"><mapLoc refPt="Lille" xDist="35.38" yDist="4.62"/></location>
+    <location name="Les Eauvis" country="France"><mapLoc refPt="Amiens" xDist="-10.5" yDist="-30.9"/></location>
+    <location name="Les Hayons Ferme"></location>
+    <location name="Les Moeres" country="Belgium"><mapLoc refPt="Brugge" xDist="-28.44" yDist="12.44"/></location>
+    <location name="Liéramont" country="France"><mapLoc refPt="Cambrai" xDist="7.56" yDist="10.22"/></location>
+    <location name="Liesse" country="France"><mapLoc refPt="Laon" xDist="8.00" yDist="-2.22"/></location>
+    <location name="Liettres" country="France"><mapLoc refPt="Arras" xDist="-20.5" yDist="-27.7"/></location>
+    <location name="Lieu-St.-Armand" country="France"><mapLoc refPt="Cambrai" xDist="4.67" yDist="-5.33"/><notes>tJP omits the dashes</notes></location>
+    <location name="Liernu" country="Belgium"><mapLoc refPt="Brussels" xDist="21.78" yDist="15.56"/><notes>tJP has "Lirm" and "Lierm", but there's no location by that name in Mapquest or calle.com.  I've assumed that this is a typo for "Liernu".</notes></location>
+    <location name="Ligescourt" country="France"><mapLoc refPt="Amiens" xDist="-18.6" yDist="-28.2"/></location>
+    <location name="Lilbourne" country="Britain"/>
+    <location name="Linselles" country="France"><mapLoc refPt="Lille" xDist="0.7" yDist="-7.1"/></location>
+    <location name="Lomme" country="France"><mapLoc refPt="Lille" xDist="-2.21" yDist="-0.33"/></location>
+    <location name="London Colney" country="Britain"/>
+    <location name="Longavesnes" country="France"><mapLoc refPt="Cambrai" xDist="-7.8" yDist="14.0"/></location>
+    <location name="Longchamps" country="France"><mapLoc refPt="Cambrai" xDist="15.75" yDist="15.75"/></location>
+    <!-- location name="Lothringen"></location !--><!-- JP p.9 claims for J32, but not in list on p. 47 -->
+    <location name="Lozinghem" country="France"><mapLoc refPt="Arras" xDist="-12.7" yDist="-15.8"/></location>
+    <location name="Lympne" country="Britain"/>
+    <location name="Magneux" country="France"><mapLoc refPt="Reims" xDist="-13.77" yDist="-2.67"/><notes>tJP has "Magneuse-Villete" for J1, "Magneux" for J81; Mapquest and calle.com agree on "Magneux".  tJP map location seems to be on the wrong side of Reims</notes></location>
+    <location name="Maisoncelle" country="France"><mapLoc refPt="Arras" xDist="-28.6" yDist="-11.4"/><notes>OtF6.1 has this as "Maisoncelles"</notes></location>
+    <location name="Maizy" country="France"><mapLoc refPt="Reims" xDist="-12.89" yDist="-6.22"/></location>
+    <location name="Malincourt" country="France"><mapLoc refPt="Cambrai" xDist="4.0" yDist="8.9"/></location>
+    <location name="Malmy-Cheméry" country="France"><mapLoc refPt="Reims" xDist="35.00" yDist="7.00"/><notes>Google's "Malmy"</notes></location>
+    <location name="Marchais" country="France"><mapLoc refPt="Laon" xDist="8.64" yDist="-0.91"/></location>
+    <location name="Marcke" country="Belgium"><mapLoc refPt="Lille" xDist="6.67" yDist="-9.33"/></location>
+    <location name="Marckebeke" country="Belgium"><mapLoc refPt="Lille" xDist="6.8" yDist="-9.6"/></location>
+    <location name="Maretz" country="France"><mapLoc refPt="Arras" xDist="29.1" yDist="17.3"/></location>
+    <location name="Marieux" country="France"><mapLoc refPt="Amiens" xDist="6.4" yDist="-14.7"/></location>
+    <location name="Marle" country="France"><mapLoc refPt="Laon" xDist="6.67" yDist="-9.78"/><notes>tJP map+gazetteer: Marle-Autremencourt.  calle.com shows two "Marle"s; this one is aka Marle-et-Behaine</notes></location>
+    <location name="Marquise" country="France"><mapLoc refPt="Arras" xDist="-49.1" yDist="-37.3"/></location>
+    <location name="Mars-la-Tour" country="France"><mapLoc refPt="Metz" xDist="-12.44" yDist="0.89"/></location>
+    <location name="Mars-sous-Bourcq" country="France"><mapLoc refPt="Reims" xDist="29.74" yDist="-7.88"/></location>
+    <location name="Martincourt-sur-Meuse" country="France"><mapLoc refPt="Verdun" xDist="-9.33" yDist="-20.89"/><notes>JP has "Martincourt"; this is the one (of three) that matches the map</notes></location>
+    <location name="Marville" country="France"><mapLoc refPt="Metz" xDist="-32.86" yDist="-18.57"/></location>
+    <location name="Masny" country="France"><mapLoc refPt="Cambrai" xDist="-1.33" yDist="-9.33"/></location>
+    <location name="Matigny" country="France"><mapLoc refPt="Arras" xDist="10.4" yDist="35.0"/></location>
+    <location name="Maubeuge" country="France"><mapLoc refPt="Cambrai" xDist="34.1" yDist="-7.3"/></location>
+    <location name="Mazingarbe" country="France"><mapLoc refPt="Arras" xDist="-2.7" yDist="-12.4"/></location>
+    <location name="Medard" country="Germany"><mapLoc refPt="Metz" xDist="65.71" yDist="-31.42"/></location>
+    <location name="Méaulte" country="France"><mapLoc refPt="Amiens" xDist="16.4" yDist="-6.2"/></location>
+    <location name="Melun" country="France"><mapLoc refPt="Paris" xDist="14.1" yDist="21.8"/></location>
+    <location name="Menin" country="Belgium"><mapLoc refPt="Lille" xDist="2.67" yDist="-8.33"/></location>
+    <location name="Merchin" country="France"><mapLoc refPt="Lille" xDist="3.8" yDist="2.9"/><notes>In OtF6.1 but not Google; appears to be overrun by Lille urban area, at the intersection of the A27 and the A23.</notes></location>
+    <location name="Mercy-le-Haut" country="France"><mapLoc refPt="Luxembourg" xDist="-12.89" yDist="13.78"/><notes>tJP has "Mercy-le-Haute", but Mapquest and calle.com agree on "Mercy-le-Haut"</notes></location>
+    <location name="Merville" country="France"><mapLoc refPt="Lille" xDist="-19.11" yDist="-1.00"/><notes>Mapquest has three in France, but only one is near the front, its location agreeing with OtF6.1.</notes></location>
+    <location name="Mesnil-Bruntel" country="France"><mapLoc refPt="Cambrai" xDist="-11.56" yDist="15.56"/></location>
+    <location name="Metz-Frescaty" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="-2.0" yDist="2.32"/><notes>Mapquest and calle.com have no town of this name; is it the location of the modern airport?  If so, tJP map location is almost 20mi off the real location</notes></location>
+    <location name="Meuines" country="Belgium"><mapLoc refPt="Lille" xDist="14.22" yDist="-7.11"/><notes>Nothing like "Meuines" in Mapquest or Google.  tJP gazetteer has "Meuines, Courtrai"; "Moen" is phonetically close to this and in the Courtrai area, so that's what I've used here</notes></location>
+    <location name="Mitau" country="Austria"><notes>No idea where this is, other than eastern front</notes></location>
+    <location name="Moerkerke" country="Belgium"><mapLoc refPt="Brugge" xDist="5.33" yDist="-1.78"/></location>
+    <location name="Moislains" country="France"><mapLoc refPt="Cambrai" xDist="-11.56" yDist="10.67"/></location>
+    <location name="Monceau-le-Waast" country="France"><mapLoc refPt="Laon" xDist="3.64" yDist="-2.73"/><notes>tJP map has "Monceau le Wast"; p23 has "Montceau-le-Wast"; Mapquest has the given spelling</notes></location>
+    <!-- name="Moncheaux" country="France" mapLoc refPt="Lille" xDist="0.67" yDist="9.78" === JP map for Jasta37 but not listed on p.52 -->
+    <location name="Mons-en-Chaussée" country="France"><mapLoc refPt="Cambrai" xDist="-9.78" yDist="16.44"/></location>
+    <location name="Mons-en-Pévèle" country="France"><mapLoc refPt="Lille" xDist="1.33" yDist="8.44"/><notes>tJP gazetteer and text have this as "Mons en Pevelle", but the map is apparently correct; calle.com notes "Mons-en-Peyele", "Mons-en-Puelle" (and others) as aliases</notes></location>
+    <location name="Mont" country="France"><mapLoc refPt="Verdun" xDist="-2.89" yDist="-4.44"/><notes>There are dozens of "Mont"s in France.  tJP gazetteer calls this "Mont, NE Verdun", but none of the "Mont"s are there; I've used "Mont-devant-Sassey" here because even though it's NW of Verdun, it's in about the right area given the skewed tJP map.</notes></location>
+    <location name="Mont de Soissons Ferme" country="France"><mapLoc refPt="Soissons" xDist="7.88" yDist="5.25"/><notes>tJP gazetteer and Jasta listings have "Mont Soissons Ferme", but the map and OtF6.1 agree that the name includes "de"</notes></location>
+    <location name="Mont-d'Origny" country="France"><mapLoc refPt="Laon" xDist="-5.33" yDist="-15.56"/><notes>tJP omits the dash in the name</notes></location>
+    <location name="Mont-Notre-Dame" country="France"><mapLoc refPt="Soissons" xDist="11.56" yDist="4.44"/><notes>tJP omits the dashes</notes></location>
+    <location name="Mont-St.-Martin" country="France"><mapLoc refPt="Reims" xDist="-17.33" yDist="-0.88"/><notes>tJP omits the dashes in the name.  There are four "Mont-Saint-Martin"s in France; one in the south, which can be ignored for these purposes, one near the France/Belgium/Luxembourg border, one east of Reims, and one west of Reims.  From comparing dates, the front line, and Jasta positions before and after being stationed here, it appears that the town west of Reims is the aerodrome.</notes></location>
+    <location name="Montbanis Ferme"></location>
+    <location name="Monthussart Ferme"></location>
+    <location name="Montigny Ferme"><notes>listed in OtF6.1 but with no location; Google has ten Montignys, many in plausible areas</notes></location>
+    <location name="Möntingen" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="4.44" yDist="0.00"/><notes>A note on the tJP map says "Möntingen is modern Montoy; this is Montoy-Flanville in Mapquest; it seems to be missing from calle.com</notes></location>
+    <location name="Montrose" country="Britain"/>
+    <location name="Mörchingen" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="20.44" yDist="11.33"/><notes>per note on tJP map, modern day "Morhange"</notes></location>
+    <location name="Moreuil" country="Belgium"><mapLoc refPt="Amiens" xDist="8.4" yDist="8.4"/></location>
+    <location name="Morlancourt" country="France"><mapLoc refPt="Amiens" xDist="15.5" yDist="-4.1"/></location>
+    <location name="Morsberg" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="31.43" yDist="-2.86"/><notes>No such city as "Morsberg" in Mapquest or calle.com in France, Germany, Belgium, or Luxembourg.  Is this "Morsbach", whose location I've used here?</notes></location>
+    <location name="Mory" country="France"><mapLoc refPt="Arras" xDist="3.2" yDist="9.3"/></location>
+    <location name="Mousecron" country="Belgium"><mapLoc refPt="Lille" xDist="6.67" yDist="-5.67"/><notes>Mapquest has Mouscron</notes></location>
+    <location name="Mousehold Heath" country="Britain"></location>
+    <location name="Mouveaux" country="France"><mapLoc refPt="Lille" xDist="2.9" yDist="-3.8"/></location>
+    <location name="Moyencourt" country="France"><mapLoc refPt="Compiègne" xDist="5.33" yDist="-16.89"/><notes>There's also Moyencourt-lès-Poix, but this is the correct one</notes></location>
+    <location name="Moyenneville" country="France"><mapLoc refPt="Amiens" xDist="-25.0" yDist="-12.7"/></location>
+    <location name="Mravinca" country="Macedonia"></location>
+    <location name="Narborough" country="Britain"/>
+    <location name="Netheravon" country="Britain"><mapLoc refPt="London" xDist="-72.2" yDist="18.3"/></location>
+    <location name="Neuflize" country="France"><mapLoc refPt="Laon" xDist="30.91" yDist="9.09"/></location>
+    <location name="Neumünster" country="Belgium"><mapLoc refPt="Brugge" xDist="-5.78" yDist="-5.33"/><notes>Modern Nieuwmunster</notes></location>
+    <location name="Neuville" country="France"><mapLoc refPt="Cambrai" xDist="15.11" yDist="0.89"/><notes>There are dozens of "Neuville"s in France, several not far from this location, but this seems to match the tJP map most closely</notes></location>
+    <location name="Neuvilly" country="France"><mapLoc refPt="Cambrai" xDist="12.00" yDist="1.78"/><notes>There are at least two in France, but this most closely matches the position on the tJP map</notes></location>
+    <location name="Noeux-lès-Auxi" country="France"><mapLoc refPt="Amiens" xDist="-5.1" yDist="-23.8"/></location>
+    <location name="Norman-le-West"><notes>Nothing close in calle.com; listed in OtF6.1 but without coordinates</notes></location>
+    <location name="Northolt" country="Britain"><mapLoc refPt="London" xDist="-11.1" yDist="-3.1"/></location>
+    <location name="Norwich" country="Britain"/>
+    <location name="Nurlu" country="France"><mapLoc refPt="Cambrai" xDist="-9.11" yDist="9.78"/></location>
+    <location name="Ochey" country="France"><mapLoc refPt="Metz" xDist="-10.5" yDist="37.3"/></location>
+    <location name="Old Sarum" country="Britain"/>
+    <location name="Origny-St.-Benoite" country="France"><mapLoc refPt="Laon" xDist="-4.89" yDist="-15.11"/><notes>tJP omits the dashes</notes></location>
+    <location name="Ostend" country="France"><mapLoc refPt="Brugge" xDist="-14.0" yDist="-0.9"/><notes>Modern Oostende</notes></location>
+    <location name="Oxelaëre" country="France"><mapLoc refPt="Lille" xDist="-26.7" yDist="-10.9"/></location>
+    <location name="Parpeville" country="France"><mapLoc refPt="Laon" xDist="-3.5" yDist="-13.5"/></location>
+    <!-- JP map lists Paux for J12, but J12 list does not include -->
+    <location name="Pecq" country="Belgium"><mapLoc refPt="Lille" xDist="12.00" yDist="-2.22"/></location>
+    <location name="Perles" country="France"><mapLoc refPt="Reims" xDist="-16.44" yDist="-3.56"/></location>
+    <!-- location name="Péronne" country="France"><mapLoc refPt="Cambrai" xDist="-12.88" yDist="13.77"/></location -->
+    <location name="Petite-Synthe" country="France"><mapLoc refPt="Brugge" xDist="-38.6" yDist="14.1"/></location>
+    <location name="Pezarche" country="France"><mapLoc refPt="Paris" xDist="30.0" yDist="8.2"/><notes>OtF6.1 note: same as Touquin</notes></location>
+    <location name="Phalempin" country="France"><mapLoc refPt="Lille" xDist="-2.22" yDist="6.67"/></location>
+    <location name="Planques" country="France"><mapLoc refPt="Amiens" xDist="-9.5" yDist="-40.5"/></location>
+    <location name="Pleine-Selve" country="France"><mapLoc refPt="Laon" xDist="-2.86" yDist="-12.86"/></location>
+    <location name="Plomion" country="France"><mapLoc refPt="Laon" xDist="17.33" yDist="-13.33"/></location>
+    <location name="Pont-à-Marcq" country="France"><mapLoc refPt="Lille" xDist="2.2" yDist="8.0"/></location>
+    <location name="Pontfaverger-Moronvilliers" country="France"><mapLoc refPt="Reims" xDist="13.33" yDist="-1.78"/><notes>tJP lists as "Pont Faverger", but Mapquest and calle.com agree on "Pontfaverger-Moronvilliers"</notes></location>
+    <location name="Poperinghe" country="Belgium"><mapLoc refPt="Lille" xDist="-20.6" yDist="-16.0"/><notes>Modern Poperinge</notes></location>
+    <location name="Possanerlo" country="Italy"></location>
+    <location name="Poulainville" country="France"><mapLoc refPt="Amiens" xDist="0.9" yDist="-3.8"/></location>
+    <location name="Prémont" country="France"><mapLoc refPt="Cambrai" xDist="7.11" yDist="9.33"/><notes>tJP has "Premont"</notes></location>
+    <location name="Preutin-Higny" country="France"><mapLoc refPt="Metz" xDist="-16.44" yDist="12.89"/><notes>tJP map has it correct, but the gazetteer and Jasta lists have "Prentin-Higny"; looks like a typo</notes></location>
+    <location name="Prilip" country="Macedonia"></location>
+    <location name="Procher"><notes>tJP can't decide whether this is in 4 Army area (gazetteer) or 5 Army area (p21).  No such name or anything phonetically close that I could find in Belgium, France, Luxembourg, or Germany; not listed in OtF6.1</notes></location>
+    <location name="Pronville" country="France"><mapLoc refPt="Cambrai" xDist="-10.22" yDist="0.00"/></location>
+    <location name="Proville" country="France"><mapLoc refPt="Cambrai" xDist="-0.88" yDist="0.67"/></location>
+    <location name="Proven" country="Belgium"><mapLoc refPt="Lille" xDist="-18.1" yDist="-18.1"/></location>
+    <location name="Provin" country="France"><mapLoc refPt="Lille" xDist="-6.67" yDist="6.67"/></location>
+    <location name="Proyart" country="France"><mapLoc refPt="Amiens" xDist="18.6" yDist="0.5"/></location>
+    <location name="Puisieux Ferme" country="France"><mapLoc refPt="Laon" xDist="3.00" yDist="-3.75"/><notes>from OtF6.1</notes></location>
+    <location name="Puxieux" country="France"><mapLoc refPt="Metz" xDist="-13.45" yDist="11.00"/><notes>tJP map has "Pusieux", gazetteer has "Pusieux, Mars-la-Tour"; but OtF has "Puxieux" in that location, so I've assumed tJP is a propagated typo</notes></location>
+    <location name="Quelmes" country="France"><mapLoc refPt="Lille" xDist="-42.3" yDist="-7.3"/></location>
+    <location name="Quevauvillers" country="France"><mapLoc refPt="Amiens" xDist="-9.1" yDist="4.9"/></location>
+    <location name="Quiévy" country="France"><mapLoc refPt="Cambrai" xDist="8.7" yDist="0.7"/></location>
+    <location name="Quilen" country="France"><mapLoc refPt="Amiens" xDist="-16.8" yDist="-45.5"/></location>
+    <location name="Rebais" country="France"><mapLoc refPt="Compiègne" xDist="16.8" yDist="39.5"/></location>
+    <location name="Reckem" country="Belgium"><mapLoc refPt="Lille" xDist="4.00" yDist="-8.44"/></location>
+    <location name="Reclinghem" country="France"><mapLoc refPt="Arras" xDist="-27.7" yDist="-20.5"/></location>
+    <location name="Rely" country="France"><mapLoc refPt="Arras" xDist="-18.7" yDist="-19.6"/></location>
+    <location name="Remaisnil" country="France"><mapLoc refPt="Arras" xDist="-25.5" yDist="6.4"/></location>
+    <location name="Rendcomb" country="Britain"/>
+    <location name="Reneuil Ferme" country="France"><mapLoc refPt="Laon" xDist=".4" yDist="-4.2"/><notes>no matches in Mapquest or OtF6.1, but found "Reneuil" on Google in plausible llocation</notes></location>
+    <!--location name="Rethel" country="France"><mapLoc refPt="Reims" xDist="14.29" yDist="-14.29"/></location -->
+    <location name="Retheuil Ferme" country="France"><mapLoc refPt="Cambrai" xDist="13.50" yDist="16.50"/><notes>tJP gazetteer has this as "Retheuil Ferme, Bohain" so I used the airfield location near Bohain from OtF6.1.</notes></location>
+    <location name="Reumont" country="France"><mapLoc refPt="Cambrai" xDist="10.9" yDist="6.7"/></location>
+    <location name="Riencourt-les-Cagnicourt" country="France"><mapLoc refPt="Arras" xDist="7.56" yDist="4.89"/><notes>tJP uses "Riencourt" or "Rienncourt, Arras"; of the several "Riencourt"s in France, this appears to be the correct one</notes></location>
+    <location name="Rochford" country="Britain"/>
+    <location name="Rocourt-St.-Martin" country="France"><mapLoc refPt="Soissons" xDist="2.67" yDist="12.89"/><notes>tJP omits the dashes</notes></location>
+    <location name="Ronchin" country="France"><mapLoc refPt="Lille" xDist="0.7" yDist="2.2"/></location>
+    <location name="Ronssoy" country="France"><mapLoc refPt="Cambrai" xDist="-3.56" yDist="11.11"/></location>
+    <location name="Roubaix" country="France"><mapLoc refPt="Lille" xDist="5.00" yDist="-2.83"/></location>
+    <location name="Roucourt" country="France"><mapLoc refPt="Cambrai" xDist="-3.56" yDist="-8.44"/></location>
+    <location name="Rougefay" country="France"><mapLoc refPt="Arras" xDist="-27.7" yDist="1.4"/></location>
+    <location name="Roulers" country="Belgium"><mapLoc refPt="Lille" xDist="2.67" yDist="-15.67"/><notes>=Roeselare in Mapquest</notes></location>
+    <location name="Roupy" country="France"><mapLoc refPt="Cambrai" xDist="-2.22" yDist="20.44"/></location>
+    <location name="Roveredo" country="Italy"></location>
+    <location name="Roville-aux-Chênes" country="France"><mapLoc refPt="Mulhouse" xDist="-33.2" yDist="-38.6"/></location>
+    <location name="Rozay-en-Brie" country="France"><mapLoc refPt="Paris" xDist="27.7" yDist="11.8"/></location>
+    <location name="Rugny Ferme"></location>
+    <location name="Rumbeke" country="Belgium"><mapLoc refPt="Lille" xDist="3.56" yDist="-16.44"/></location>
+    <location name="Ruisseauville" country="France"><mapLoc refPt="Amiens" xDist="-7.7" yDist="-41.8"/></location>
+    <location name="St.-André-au-Bois" country="France"><mapLoc refPt="Amiens" xDist="-18.2" yDist="-33.6"/><notes>Modern Gouy-St-André</notes></location>
+    <location name="St.-Christ" country="France"><mapLoc refPt="Cambrai" xDist="-13.78" yDist="19.11"/><notes>tJP omits the dash</notes></location>
+    <location name="St.-Gérard" country="Belgium"><mapLoc refPt="Charleroi" xDist="13.33" yDist="4.00"/> <notes>tJP omits the dash</notes></location>
+    <location name="St.-Gérard Maison" country="Belgium"><mapLoc refPt="Charleroi" xDist="13.33" yDist="3.00"/><notes>tJP shows this as a separate airfield, but browsing the area in Mapquest gives no clue as to where this should be.  I've guessed that it's a mile north of St.Gérard</notes></location>
+    <location name="St.-Gobert" country="France"><mapLoc refPt="Laon" xDist="8.44" yDist="-12.89"/><notes>tJP omits the dash in the name</notes></location>
+    <location name="St. Inglevert" country="France"><mapLoc refPt="Arras" xDist="-45.2" yDist="-40"/></location>
+    <location name="St.-Léger-lès-Authie" country="France"><mapLoc refPt="Amiens" xDist="9.8" yDist="-16.2"/></location>
+    <location name="St.-Loup-Champagne" country="France"><mapLoc refPt="Reims" xDist="8.44" yDist="-10.22"/><notes>tJP map: "St Loup", gazetteer: "St Loup, Champagne"; calle.com as given here</notes></location>
+    <location name="St.-Mard" country="France"><mapLoc refPt="Soissons" xDist="8.89" yDist="0.00"/><notes>tJP map location can't be correct, since it's behind Allied (pre-Kaiserschlacht) lines. Mapquest appears to have an indexing bug, as searching for "Saint-Mard" turns up ten locations, none of which are near the tJP map spot.  But searching for Soissons, zooming in, and following D884 east, it's there, just west of Viel-Arcy.</notes></location>
+    <location name="St.-Marguerite" country="France"><mapLoc refPt="Lille" xDist="-4.44" yDist="-5.78"/><notes>tJP has "St. Marguerite", but calle.com and Mapquest use the dash.  Mapquest appears to have an indexing bug, as searching for "Sainte-Marguerite" turns up ten locations, none of which are at the right spot.  But by searching for Lille, zooming in, and following the D308 to the northwest, there's a Sainte-Marguerite in the proper location</notes></location>
+    <location name="St. Marie-à-Py" country="France"><mapLoc refPt="Reims" xDist="20.89" yDist="1.78"/></location>
+    <location name="St. Medard" country="Belgium"><mapLoc refPt="Luxembourg" xDist="-35.71" yDist="-11.43"/><notes>Missing from tJP map.  There are many "Saint Medard"s in France, but this location in Belgium seems most probable, given that it was in use when the German army was retreating at the end of 1918</notes></location>
+    <location name="St.-Omer" country="France"><mapLoc refPt="Lille" xDist="-35.8" yDist="-8.00"/></location>
+    <location name="St.-Pol" country="France"><mapLoc refPt="Arras" xDist="-20.5" yDist="-6.4"/><notes>St.-Pol-sur-Ternoise</notes></location>
+    <location name="St.-Quentin" country="France"><mapLoc refPt="Cambrai" xDist="2.7" yDist="22.7"/><notes>It's unlikely the airfield was at this point, in the center of town, but OtF6.1 doesn't show a nearby airfield, except those named something else</notes></location>
+    <location name="St.-Quentin-le-Petit" country="France"><mapLoc refPt="Laon" xDist="20.00" yDist="-0.67"/><notes>tJP omits the dash between "Saint" and "Quentin", but calle.com explicitly includes it</notes></location>
+    <location name="St.-Rémy-le-Petit West" country="France"><mapLoc refPt="Reims" xDist="10.67" yDist="-8.44"/><notes>tJP omits the dash between "Saint" and "Rémy", but calle.com explicitly includes it</notes></location>
+    <location name="Ste.-Marie-Cappel" country="France"><mapLoc refPt="Lille" xDist="-25.5" yDist="-10.9"/></location>
+    <location name="Sailly" country="France"><mapLoc refPt="Lille" xDist="6.44" yDist="-0.88"/><notes>calle.com has many Sailly; tJP map location most closely corresponds with Sailly-les-Lannoy, which is what I've used here</notes></location>
+    <location name="Sains-lès-Pernes" country="France"><mapLoc refPt="Arras" xDist="-18.9" yDist="-13.1"/></location>
+    <location name="San Fior" country="Italy"></location>
+    <location name="San Giacomo" country="Italy"></location>
+    <location name="Santes" country="France"><mapLoc refPt="Lille" xDist="-4.44" yDist="2.67"/><notes>tJP has "Sante Nord"; there are no "Sante"s in Mapquest or calle.com but Mapquest shows a "Santes" in about the same location as tJP map.</notes></location>
+    <location name="Sarienne-la-Longue"></location>
+    <location name="Saultain" country="France"><mapLoc refPt="Lille" xDist="23.11" yDist="16.89"/></location>
+    <location name="Savy" country="France"><mapLoc refPt="Arras" xDist="19.5" yDist="32.7"/></location>
+    <location name="Scheldewindeke" country="Belgium"><mapLoc refPt="Gent" xDist="2.67" yDist="8.00"/></location>
+    <location name="Seclin" country="France"><mapLoc refPt="Lille" xDist="-1.33" yDist="4.00"/></location>
+    <location name="Sedgeford" country="Britain"/>
+    <location name="Selvigny" country="France"><mapLoc refPt="Cambrai" xDist="5.1" yDist="6.7"/></location>
+    <location name="Semide" country="France"><mapLoc refPt="Reims" xDist="24.44" yDist="-4.00"/><notes>tJP has "Sémide", but Mapquest and calle.com gazetteer agree on "Semide"</notes></location>
+    <location name="Senlis" country="France"><mapLoc refPt="Soissons" xDist="-33.6" yDist="11.8"/></location>
+    <location name="Senlis-le-Sec"><mapLoc refPt="Amiens" xDist="12.7" yDist="-9.1"/></location>
+    <location name="Séranvillers" country="France"><mapLoc refPt="Cambrai" xDist="1.78" yDist="3.11"/><notes>tJP has "Seranvillers"</notes></location>
+    <location name="Serny" country="France"><mapLoc refPt="Arras" xDist="-21.8" yDist="-21.8"/></location>
+    <location name="Serris" country="France"><mapLoc refPt="Paris" xDist="19.3" yDist="0.9"/></location>
+    <location name="Shoreham" country="Britain"/>
+    <location name="Sierenz" country="France" historicalCountry="Germany"><mapLoc refPt="Mulhouse" xDist="4.88" yDist="5.33"/><notes>Mapquest has "Sierentz"</notes></location>
+    <location name="Sissone" country="France"><mapLoc refPt="Laon" xDist="11.82" yDist="-0.23"/></location>
+    <location name="Sivry" country="France"><mapLoc refPt="Verdun" xDist="-4.89" yDist="-8.44"/><notes>The "Sivry" in Mapquest is south of Metz and not in the 5 Army sector.  Calle.com gazetteer has six "Sivrey"s, of which "Sivry-sur-Meuse" looks to be the proper match (and so is used here)</notes></location>
+    <location name="Soncamp" country="France"><mapLoc refPt="Arras" xDist="-13.1" yDist="4.7"/></location>
+    <location name="South Carlton" country="Britain"/>
+    <location name="South Farnborough" country="Britain"></location>
+    <location name="Spincourt" country="France"><mapLoc refPt="Verdun" xDist="12.44" yDist="-9.33"/></location>
+    <location name="Spittlegate" country="Britain"/>
+    <location name="Spultier" country="Belgium"><mapLoc refPt="Brussels" xDist="12.00" yDist="7.56"/><notes>Not in Mapquest or calle.com gazetteer; since tJP has "Spultier, Wavre" (p. 11 w/transposition typo and p.16) I've used Wavre itself as the location,  </notes></location>
+    <location name="Staceghem" country="Belgium"><mapLoc refPt="Lille" xDist="11.1" yDist="-13.8"/><notes>Google's Stasegem</notes></location>
+    <location name="Stenay" country="France"><mapLoc refPt="Verdun" xDist="-8.89" yDist="-18.22"/></location>
+    <location name="Stirling" country="Britain"/>
+    <location name="Stotzheim" country="France" historicalCountry="Germany"><mapLoc refPt="Strasbourg" xDist="-10.67" yDist="-11.11"/></location>
+    <location name="Surcamps" country="Britain"><mapLoc refPt="Amiens" xDist="-9.6" yDist="-12.2"/></location>
+    <location name="Suttons Farm" country="Britain"/>
+    <location name="Suzanne" country="France"><mapLoc refPt="Amiens" xDist="21.33" yDist="-2.67"/><notes>There's another Suzanne in the Ardennes</notes></location>
+    <location name="Stonehenge" country="Britain"/>
+    <location name="Swingate" country="Britain"/>
+    <location name="Swingate Down" country="Britain"/>
+    <location name="Tadcaster" country="Britain"/>
+    <location name="Tangmere" country="Britain"/>
+    <location name="Tantonville" country="France"><mapLoc refPt="Metz" xDist="-1.8" yDist="45.0"/></location>
+    <location name="Tarcienne" country="Belgium"><mapLoc refPt="Charleroi" xDist="1.6" yDist="6.9"/></location>
+    <location name="Tellancourt" country="France" historicalCountry="Germany"><mapLoc refPt="Verdun" xDist="11.11" yDist="-19.11"/><notes>Not sure if this was German in 1914 or not</notes></location>
+    <location name="Téteghem" country="France"><mapLoc refPt="Brugge" xDist="-34.5" yDist="14.5"/></location>
+    <location name="Thetford" country="Britain"/>
+    <location name="Thin-le-Moutier" country="France"><mapLoc refPt="Reims" xDist="21.43" yDist="-25.71"/><notes>tJP gazetteer and map have "Thin le Montier", but this appears to be a typo</notes></location>
+    <location name="Thourout" country="Belgium"><mapLoc refPt="Brugge" xDist="-5.33" yDist="8.00"/><notes>Mapquest has "Torhout"</notes></location>
+    <location name="Thouroube" country="Belgium"><mapLoc refPt="Lille" xDist="4.67" yDist="-15.65"/><notes>No entry in Mapquest nor Calle.com World Index; tJP gazetteer notes it "E Roulers", so I've arbitrarily placed it two miles due E of Roulers (=Roeselare)</notes></location>
+    <location name="Thugny" country="France"><mapLoc refPt="Reims" xDist="11.43" yDist="-12.86"/></location>
+    <location name="Thuillies" country="Belgium"><mapLoc refPt="Charleroi" xDist="-4.89" yDist="6.67"/><notes>tJP has "Thuilles", but that doesn't exist in Mapquest</notes></location>
+    <location name="Tichémont" country="France"><mapLoc refPt="Verdun" xDist="22.80" yDist="-0.63"/><notes>Not in Mapquest.  Google search turns up a "Château et parc" at Giraumont, which is about its location on tJP map.  The tJP map has it SE of Giraumont, but the Mapquest Giraumont map has a "Lieu-Dit Tichemont" road (path?) intersecting the D152 NW of the city, which is where I guess it is</notes></location>
+    <location name="Toulis" country="France"><mapLoc refPt="Laon" xDist="5.33" yDist="-7.56"/></location>
+    <location name="Touquin" country="France"><mapLoc refPt="Paris" xDist="30.0" yDist="8.2"/></location>
+    <location name="Tourpes" country="Belgium"><mapLoc refPt="Lille" xDist="26.67" yDist="3.56"/></location>
+    <location name="Tramecourt" country="France"><mapLoc refPt="Arras" xDist="-28.6" yDist="-12.3"/></location>
+    <location name="Trécon" country="France"><mapLoc refPt="Reims" xDist="0.0" yDist="26.1"/></location>
+    <location name="Trefcon" country="France"><mapLoc refPt="Cambrai" xDist="-5.78" yDist="18.22"/></location>
+    <location name="Treizennes" country="France"><mapLoc refPt="Arras" xDist="-8.7" yDist="-12.4"/></location>
+    <location name="Trier" country="Germany"><mapLoc refPt="Metz" xDist="22.86" yDist="-37.14"/></location>
+    <location name="Udine" country="Italy"></location>
+    <location name="Ugny-l'Équipée" country="France"><mapLoc refPt="Cambrai" xDist="-7.56" yDist="20.44"/></location>
+    <location name="Upavon" country="Britain"/>
+    <location name="Upper Heyford" country="Britain"/>
+    <location name="Valheureux" country="France"><mapLoc refPt="Amiens" xDist="0.1" yDist="-13.1"/></location>
+    <location name="Varsenere" country="Belgium"><mapLoc refPt="Brugge" xDist="-3.56" yDist="1.33"/><notes>tJP calls it Varsenaere</notes></location>
+    <location name="Vaux" country="France"><mapLoc refPt="Amiens" xDist="24.00" yDist="-3.00"/><notes>tJP map has just "Vaux"; gazetteer has "Vaux, Somme". Assume this is Mapquest's Vaux-sur-somme</notes></location>
+    <location name="Vauxcéré" country="France"><mapLoc refPt="Laon" xDist="0.67" yDist="12.88"/><notes>tJP text uses Vaucère, but Vauxcéré (as on the p.5 map) is correct according to Mapquest</notes></location>
+    <location name="Vélu" country="France"><mapLoc refPt="Cambrai" xDist="-11.56" yDist="3.56"/></location>
+    <location name="Veldes" country="Italy"></location>
+    <location name="Vendelles" country="France"><mapLoc refPt="Cambrai" xDist="-4.44" yDist="14.67"/></location>
+    <location name="Vert Galand" country="France"><mapLoc refPt="Amiens" xDist="1.9" yDist="-16.9"/></location>
+    <location name="Vignacourt" country="France"><mapLoc refPt="Amiens" xDist="-4.2" yDist="-8.0"/></location>
+    <location name="Villers-au-Tertre" country="France"><mapLoc refPt="Cambrai" xDist="-2.22" yDist="-7.11"/></location>
+    <location name="Villers-Bretonneux" country="France"><mapLoc refPt="Amiens" xDist="9.8" yDist="1.8"/></location>
+    <location name="Villers-campeau" country="France"><mapLoc refPt="Lille" xDist="9.33" yDist="15.11"/><notes>tJP has "Schloss Villers Campeau"</notes></location>
+    <location name="Villers-le-Sec" country="France"><mapLoc refPt="Laon" xDist="-5.33" yDist="-12.00"/><notes>Mapquest has 4 Villers-le-sec; only one is in the 18th Army area.</notes></location>
+    <location name="Villers-lès-Cagnicourt" country="France"><mapLoc refPt="Arras" xDist="10.2" yDist="4.9"/></location>
+    <location name="Villers-saint-amand" country="Belgium"><mapLoc refPt="Gent" xDist="0.00" yDist="25.71"/></location>
+    <location name="Villers-sire-nicole" country="France"><mapLoc refPt="Charleroi" xDist="-19.56" yDist="4.00"/><notes>tJP text and gazetter have "Villers-sur-Nicole", though map has it correct</notes></location>
+    <location name="Villeselve" country="France"><mapLoc refPt="Laon" xDist="-23.33" yDist="-7.11"/></location>
+    <location name="Villeseneux" country="France"><mapLoc refPt="Reims" xDist="5.5" yDist="29.1"/></location>
+    <location name="Vivaise" country="France"><mapLoc refPt="Laon" xDist="-2.67" yDist="-3.11"/></location>
+    <!-- location name="Vouziers" country="France"><mapLoc refPt="Reims" xDist="31.43" yDist="-7.14"/></location -->
+    <location name="Voyenne" country="France"><mapLoc refPt="Laon" xDist="4.89" yDist="-8.89"/></location>
+    <location name="Vraignes" country="France"><mapLoc refPt="Cambrai" xDist="-7.11" yDist="16.00"/><notes>tJP map has "Vraignies".  Mapquest has two locations: Vraignes-lès-Hornoy, about 15mi west of Amiens, and Vraignes-en-Vermandois near St. Quentin, which seems to be the correct one</notes></location>
+    <location name="Waddington" country="Britain"/>
+    <location name="Wagnonlieu" country="France"><mapLoc refPt="Arras" xDist="-3.3" yDist="0"/></location>
+    <location name="Walmer" country="Britain"/>
+    <location name="Wamin" country="France"><mapLoc refPt="Arras" xDist="-17.3" yDist="1.8"/></location>
+    <location name="Wancourt Ferme" country="France"><mapLoc refPt="Arras" xDist="4.00" yDist="2.00"/><notes>Used Wancourt on Mapquest</notes></location>
+    <location name="Warloy" country="France"><mapLoc refPt="Amiens" xDist="7.1" yDist="-8.0"/><notes>Google's Warloy-Baillon</notes></location>
+    <location name="Wasquehal" country="France"><mapLoc refPt="Lille" xDist="3.11" yDist="-1.78"/></location>
+    <location name="Wassigny" country="France"><mapLoc refPt="Cambrai" xDist="17.86" yDist="10.00"/></location>
+    <location name="Wavre" country="Belgium"><mapLoc refPt="Brussels" xDist="11.56" yDist="7.56"/></location>
+    <location name="Wye" country="Britain"/>
+    <location name="Wynghene" country="Belgium"><mapLoc refPt="Brugge" xDist="1.78" yDist="7.56"/></location>
+    <location name="Wyton" country="Britain"/>
+    <location name="Xaffévillers" country="France"><mapLoc refPt="Metz" xDist="20.9" yDist="47.8"/></location>
+    <location name="Xivry-Circourt" country="France"><mapLoc refPt="Verdun" xDist="16.9" yDist="-13.3"/><notes>tJP has "Hivry-Circourt"; I'm unsure if this is a typo or the name changed after the war</notes></location>
+    <location name="Yatesbury" country="Britain"/>
+    <location name="Zweveghem" country="Belgium"><mapLoc refPt="Lille" xDist="12.0" yDist="-12.4"/><notes>Google's Zwevegem</notes></location>
+</gazetteer>

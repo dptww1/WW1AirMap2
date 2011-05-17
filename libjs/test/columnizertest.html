@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Columnizer Unit Tests</title>
+  <script src="../columnizer.js" type="text/javascript"></script>
+  <script src="../../extjs/prototype.js" type="text/javascript"></script>
+  <script src="../../extjs/unittest.js" type="text/javascript"></script>
+  <!-- other JavaScript includes -->
+  <link rel="stylesheet" href="../../extjs/test.css" type="text/css" />
+</head>
+<body>
+
+<!-- Log output -->
+<div id="testlog"> </div>
+
+<!-- here go any elements you do the testing on -->
+
+<!-- Tests -->
+<script type="text/javascript" language="javascript">
+  new Test.Unit.Runner({
+    testEmpty: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      assertEqual("<table>\n</table>", c.generate(1)); 
+                  } 
+          },
+                      
+    testOne: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("one");
+                      assertEqual("<table>\n<tr><td>one</td></tr>\n</table>", c.generate(1)); 
+                      assertEqual("<table>\n<tr><td>one</td><td>&nbsp;</td><td>&nbsp;</td></tr>\n</table>", c.generate(3)); 
+                  } 
+          },
+                      
+    testCellClassName: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("one", "smallClass");
+                      assertEqual("<table>\n<tr><td class='smallClass'>one</td></tr>\n</table>", c.generate(1)); 
+                  } 
+          },
+                      
+    testExactNumCols: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("one");
+                      c.add("two");
+                      c.add("three");
+                      c.add("four");
+                      c.add("five");
+                      c.add("six");
+                      assertEqual("<table>\n" +
+                                  "<tr><td>one</td><td>four</td></tr>\n" +
+                                  "<tr><td>two</td><td>five</td></tr>\n" +
+                                  "<tr><td>three</td><td>six</td></tr>\n" +
+                                  "</table>",
+                                  c.generate(2)); 
+                  } 
+          },
+                                  
+    testInexactNumCols: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("one");
+                      c.add("two");
+                      c.add("three");
+                      c.add("four");
+                      c.add("five");
+                      c.add("six");
+                      assertEqual("<table>\n" +
+                                  "<tr><td>one</td><td>three</td><td>five</td><td>&nbsp;</td></tr>\n" +
+                                  "<tr><td>two</td><td>four</td><td>six</td><td>&nbsp;</td></tr>\n" +
+                                  "</table>",
+                                  c.generate(4)); 
+                  } 
+          },
+                                  
+    testCols2: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("A"); c.add("B"); c.add("C"); c.add("D"); c.add("E");
+                      c.add("F"); c.add("G"); c.add("H"); c.add("I"); c.add("J");
+                      c.add("K"); c.add("L"); c.add("M"); c.add("N"); c.add("O");
+                      c.add("P"); c.add("Q"); c.add("R"); c.add("S"); c.add("T");
+                      c.add("U"); c.add("V");
+                      assertEqual("<table>\n" +
+                                  "<tr><td>A</td><td>B</td><td>I</td><td>J</td><td>Q</td><td>R</td></tr>\n" +
+                                  "<tr><td>C</td><td>D</td><td>K</td><td>L</td><td>S</td><td>T</td></tr>\n" +
+                                  "<tr><td>E</td><td>F</td><td>M</td><td>N</td><td>U</td><td>V</td></tr>\n" +
+                                  "<tr><td>G</td><td>H</td><td>O</td><td>P</td><td>&nbsp;</td><td>&nbsp;</td></tr>\n" +
+                                  "</table>",
+                                  c.generate2(3, 2)); 
+                  } 
+          },
+                                  
+    testCols2WithClassNames: function() { with(this)
+                  {
+                      var c = new Columnizer();
+                      c.add("A", "left"); c.add("B", "right"); c.add("C", "left"); c.add("D", "right");
+                      c.add("E", "left"); c.add("F", "right"); c.add("G", "left"); c.add("H", "right");
+                      c.add("I", "left"); c.add("J", "right"); c.add("K", "left"); c.add("L", "right");
+                      c.add("M", "left"); c.add("N", "right"); c.add("O", "left"); c.add("P", "right");
+                      c.add("Q", "left"); c.add("R", "right"); c.add("S", "left"); c.add("T", "right");
+                      c.add("U", "left"); c.add("V", "right");
+                      assertEqual("<table>\n" +
+                                  "<tr><td class='left'>A</td><td class='right'>B</td><td class='left'>I</td><td class='right'>J</td><td class='left'>Q</td><td class='right'>R</td></tr>\n" +
+                                  "<tr><td class='left'>C</td><td class='right'>D</td><td class='left'>K</td><td class='right'>L</td><td class='left'>S</td><td class='right'>T</td></tr>\n" +
+                                  "<tr><td class='left'>E</td><td class='right'>F</td><td class='left'>M</td><td class='right'>N</td><td class='left'>U</td><td class='right'>V</td></tr>\n" +
+                                  "<tr><td class='left'>G</td><td class='right'>H</td><td class='left'>O</td><td class='right'>P</td><td>&nbsp;</td><td>&nbsp;</td></tr>\n" +
+                                  "</table>",
+                                  c.generate2(3, 2, "left", "right")); 
+                  } 
+          },
+                      
+  });
+</script>
+</body>
+</html>
