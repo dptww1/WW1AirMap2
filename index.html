@@ -12,6 +12,7 @@
 <script type="text/javascript" src="extjs/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>
 <script type="text/javascript" src="extjs/prototype.js"></script>
 <script type="text/javascript" src="extjs/wz_jsgraphics.js"><!-- by Walter Zorn --></script>
+<script type="text/javascript" src="extjs/scriptaculous/scriptaculous.js"></script>
 
 <!-- data -->
 <script type="text/javascript" src="data/aerodromeCalendar.js"></script>
@@ -47,6 +48,7 @@
     <div id="drawCanvasDiv" class="mapLayer"></div>
 </div>
 
+<div id="resizeHandle"></div>
 <div id="emptyDiv"></div>
 
 </form>
@@ -57,7 +59,8 @@
                                       setToolBarForMode("init");
                                       makeActiveUnits();
                                       curMapState.initialize();            // order dependency -- creates aerodrome divs
-                                      new DT_Scroller("mapContainerDiv");  // order dependency -- manipulates aerodrome divs
+                                      var scroller = new DT_Scroller("mapContainerDiv");  // order dependency -- manipulates aerodrome divs
+                                      new Resizer(scroller);
                                   }
                   );
 </script>

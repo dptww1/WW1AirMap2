@@ -6,14 +6,14 @@ function DT_Scroller(divId, propertyHash) {
         this.mx = ev.clientX;
         this.my = ev.clientY;
 
-        preventDefault(ev);
+        ev.preventDefault();
 
         return false;
     };
 
     this.endScroll = function(ev) {
         if (this.isScrolling) {
-            preventDefault(ev);
+            ev.preventDefault();
 
             this.isScrolling = false;
         }
@@ -30,7 +30,7 @@ function DT_Scroller(divId, propertyHash) {
 
     this.doScroll = function(ev) {
         if (this.isScrolling) {
-            preventDefault(ev);
+            ev.preventDefault();
 
             var dx = ev.clientX - this.mx;
             var dy = ev.clientY - this.my;
@@ -41,7 +41,7 @@ function DT_Scroller(divId, propertyHash) {
             dy = xyObj.y - this.scrollPosY;
 
             if (dx || dy) {
-                // Repositioning the "position: relative" element apparently resets all contained 
+                // Repositioning the "position: relative" element apparently resets all contained
                 // "position: absolute" elements to zero.  How convenient!
                 this.scrollDivAbsolutes.each(
                     function(absoluteDiv) {
@@ -70,7 +70,7 @@ function DT_Scroller(divId, propertyHash) {
 
         this.diffX = dimImg.width  - dimDiv.width;
         this.diffY = dimImg.height - dimDiv.height;
-        
+
         return true;
     };
 
@@ -78,11 +78,11 @@ function DT_Scroller(divId, propertyHash) {
         this.isScrolling = true;
 
         // We want xy in the center of the visible area, if possible.
-        var target = { 
+        var target = {
                        x : this.scrollDiv.width / 2,
-                       y : this.scrollDiv.height / 2 
+                       y : this.scrollDiv.height / 2
         };
-        
+
         this.isScrolling = false;
     };
 
@@ -96,10 +96,10 @@ function DT_Scroller(divId, propertyHash) {
     this.scrollDivAbsolutes = this.scrollDiv.getElementsBySelector("div");
     this.scrollDivAbsolutes.each(function(d) {
                                      if (d.getStyle("position") == "absolute") {
-                                         d.addClassName("absolute"); 
+                                         d.addClassName("absolute");
                                          if (typeof(d.posX) == "undefined") {
-                                             d.posX = 0; 
-                                             d.posY = 0; 
+                                             d.posX = 0;
+                                             d.posY = 0;
                                          }
                                      }
                                  });

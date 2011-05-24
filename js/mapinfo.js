@@ -1,3 +1,5 @@
+/*global $, Element, gazetteer, nd, strToLegalId */
+
 var refPts = {
     Amiens     : [ 220, 398 ],
     Antwerp    : [ 550,  72 ],
@@ -44,30 +46,24 @@ function createAerodromeDivs() {
             var locationX = refPts[gazetteerData[0]][0] + Math.round(gazetteerData[1] / horizMilesPerPixel);
             var locationY = refPts[gazetteerData[0]][1] + Math.round(gazetteerData[2] / vertMilesPerPixel);
             if (refPts[gazetteerData[0]] && refPts[gazetteerData[0]].length > 0 && locationX > 0 && locationY > 0) {
-                var newDiv = document.createElement("div");
-                Element.extend(newDiv);
-                newDiv.className = "aerodromeDiv absolute";
+                var newDiv = new Element("div", { className : "aerodromeDiv absolute",
+                                                  id        : gazetteer[locationName].id })
+                             .update("<img src='images/reddot.png' border='0' width='3' height='3'>");
                 newDiv.style.top      = locationY;
                 newDiv.style.left     = locationX;
-                newDiv.innerHTML      = "<img src='images/reddot.png' border='0' width='3' height='3'>";
                 newDiv.onmouseout     = function() { return nd(); };
                 newDiv.posX           = locationX; // internal housekeeping to avoid parseInt()s
                 newDiv.posY           = locationY;
 
-                // Make sure non-chars are squeezed out of location name for the id
-                newDiv.id = strToLegalId(locationName);
                 mapContainerDiv.appendChild(newDiv);
             }
         }
     }
 
     // create the highlight div, too
-    var hiDiv = document.createElement("div");
-    Element.extend(hiDiv);
+    var hiDiv = new Element("div", { className: "mapLayer" })
+                .update('<img src="images/dothilite.png" height="5" width="5" border="0">');
+
     hiDiv.id        = "aerodromeHighlightDiv";
-    hiDiv.className = "mapLayer";
-    hiDiv.innerHTML = '<img src="images/dothilite.png" height="5" width="5" border="0">';
-    hiDiv.posX      = 0;
-    hiDiv.posY      = 0;
     mapContainerDiv.appendChild(hiDiv);
 }

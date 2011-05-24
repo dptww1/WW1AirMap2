@@ -86,15 +86,8 @@ function UnitCollection()
         for (var i = 0; i < typeList.length; ++i) {
             var curType = typeList[i];
 
-            // beware squadron numbers like "5(N)" and "I"
-            var idList = typeMap.get(curType).keys().sort(function(a,b){ 
-                                                              a = "" + a;
-                                                              b = "" + b;
-                                                              if (a < b) return -1;
-                                                              if (b < a) return 1;
-                                                              return 0;
-                                                           });
-            
+            var idList = typeMap.get(curType).keys().sort(UnitCollection.sort);
+
             byTypeArray.push(UnitCollection.formatShort(curType, idList));
         }
         return byTypeArray.join("; ");
@@ -102,11 +95,10 @@ function UnitCollection()
 }
 
 //========================================================================
-UnitCollection.formatShort = function(type, idList)
-{
+UnitCollection.formatShort = function(type, idList) {
     var typeStrPre  = "";
     var typeStrPost = "";
-    switch (type) 
+    switch (type)
     {
     case "Chasse": typeStrPost = " Esc de Chasse";                               break;
     case "Jasta" : typeStrPre  = idList.length > 1 ? "Jastas " : "Jasta ";       break;
@@ -117,7 +109,30 @@ UnitCollection.formatShort = function(type, idList)
     case "RFC"   : typeStrPost = idList.length > 1 ? " Squadrons" : " Squadron"; break;
     case "SEE"   : typeStrPre  = "SEE ";                                         break;  // Seefrontstaffel
     case "Sqdn"  : typeStrPost = idList.length > 1 ? " Sqdns"  : " Sqdn";        break;  // not actually used
-    default:      alert("UnitCollection: unrecognized type '" + type + "'"); 
+    default:      alert("UnitCollection: unrecognized type '" + type + "'");
     }
     return typeStrPre + idList.join(",") + typeStrPost;
 };
+
+//========================================================================
+UnitCollection.sort = function(a, b) {
+    var intA = parseInt(a, 10);
+    var intB = parseInt(b, 10);
+
+    if (isNaN(intA))
+        intA = 0;
+    if (isNaN(intB))
+        intB = 0;
+
+    if (intA !== intB)
+        return intA - intB;
+
+    a += "";
+    b += "";
+
+    if (a < b)
+        return -1;
+    if (a > b)
+        return 1;
+    return 0;
+}

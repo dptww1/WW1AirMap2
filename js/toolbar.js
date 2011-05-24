@@ -38,7 +38,9 @@ function makeActiveUnits() {
     while (selElt.length > 0) {
         selElt.remove(0);
     }
-    selElt.insert(new Element("option").update("-- Select Squadron --"));
+    // Prototype's selElt.add() was failing with a "type mismatch" error, so I'm doing it manually
+    var opt = selElt.options;
+    opt[opt.length] = new Option("-- Select Squadron --", ""); // leave an option even if everything is turned off
 
     // ...in with the new.
     for (var i = 0; i < squadrons.length; ++i) {
@@ -48,7 +50,7 @@ function makeActiveUnits() {
 
             activeUnits.push(curUnit);
 
-            selElt.insert(new Element("option", {value:i}).update(curUnitName));
+            opt[opt.length] = new Option(curUnitName, i); // Prototype's selElt.add() was failing with a "type mismatch"
         }
     }
 }
@@ -79,7 +81,7 @@ function toggleBelgianInfo(newState) {
 
 function toggleBritishInfo(newState) {
     nationInfo.BR.show = !nationInfo.BR.show;
-    nationInfo.AU.show = !nationInfo.AU.show; // handle the other Commonwealth country, too 
+    nationInfo.AU.show = !nationInfo.AU.show; // handle the other Commonwealth country, too
     makeActiveUnits();
     curMapState.initialize();
     return true;
@@ -87,7 +89,7 @@ function toggleBritishInfo(newState) {
 
 function toggleCityNames(newState) {
     newState == "off" ? $("cityNamesDiv").hide() : $("cityNamesDiv").show();
-    return true; 
+    return true;
 }
 
 function toggleGermanInfo(newState) {
@@ -97,9 +99,16 @@ function toggleGermanInfo(newState) {
     return true;
 }
 
+function toggleUSInfo(newState) {
+    nationInfo.US.show = !nationInfo.US.show;
+    makeActiveUnits();
+    curMapState.initialize();
+    return true;
+}
+
 function toggleRivers(newState) {
     newState == "off" ? $("riversDiv").hide() : $("riversDiv").show();
-    return true; 
+    return true;
 }
 
 function changedType()
@@ -152,6 +161,7 @@ function prevDay() {
 }
 
 function nextDay() {
+    var dateStr;
     var d = $F("dateSelect");
     var m = $F("monthSelect");
     var y = $F("yearSelect");
@@ -170,7 +180,7 @@ function nextDay() {
 function choseAerodrome() {
     var newAerodrome = $F("aerodromeSelect");
     if (newAerodrome) {
-        curMapState.selectAerodrome(strToLegalId(newAerodrome));
+        curMapState.selectAerodrome(gazetteer[newAerodrome].id);
     }
 }
 
@@ -187,8 +197,8 @@ var displayType = "init";
 var daysArray = [];  for (var i = 1; i <= 31; ++i) { daysArray.push("" + i); }
 var monthsArray = ["Jan=1", "Feb=2", "Mar=3", "Apr=4",  "May=5",  "Jun=6",
                    "Jul=7", "Aug=8", "Sep=9", "Oct=10", "Nov=11", "Dec=12"];
-var displayTypeOptionsArray = ["-- Display type --=init", 
-                               "By Aerodrome=byAerodrome", 
+var displayTypeOptionsArray = ["-- Display type --=init",
+                               "By Aerodrome=byAerodrome",
                                "By Date=byDate",
                                "By Squadron=bySquadron"];
 var aerodromeNamesArray = [ "-- Select Aerodrome --=" ];
@@ -214,11 +224,11 @@ toolBar.add(new DT_ToggleButton("showAerodromes", "images/aerodromes_on.png", "i
                                 toggleAerodromes, "Toggle Unselected Aerodromes", "byAerodrome"));
 
 // byDate controls
-toolBar.add(new DT_PushButton("prevday", "images/prevday_on.png", prevDay, "Previous Day with Changes", "byDate"));
+toolBar.add(new DT_PushButton("prevday", "images/prevday_on.png", "prevDay", "Previous Day with Changes", "byDate"));
 toolBar.add(new DT_Select("dateSelect", daysArray, "2", changedDate, "byDate"));
 toolBar.add(new DT_Select("monthSelect", monthsArray, "4", changedMonth, "byDate"));
 toolBar.add(new DT_Select("yearSelect", ["1916", "1917", "1918"], "1917", changedYear, "byDate"));
-toolBar.add(new DT_PushButton("nextday", "images/nextday_on.png", nextDay, "Next Day with Changes", "byDate"));
+toolBar.add(new DT_PushButton("nextday", "images/nextday_on.png", "nextDay", "Next Day with Changes", "byDate"));
 
 // bySquadron controls
 toolBar.add(new DT_Select("squadronSelect", squadronNamesArray, "", choseSquadron, "bySquadron"));
@@ -228,6 +238,7 @@ toolBar.add(new DT_Spacer(12, allModesClassName));
 toolBar.add(new DT_ToggleButton("be", "images/be_on.png", "images/be_off.png", toggleBelgianInfo, "Toggle Belgian Info", allModesClassName));
 toolBar.add(new DT_ToggleButton("br", "images/br_on.png", "images/br_off.png", toggleBritishInfo, "Toggle British Info", allModesClassName));
 toolBar.add(new DT_ToggleButton("ge", "images/ge_on.png", "images/ge_off.png", toggleGermanInfo, "Toggle German Info", allModesClassName));
+//toolBar.add(new DT_ToggleButton("us", "images/us_on.png", "images/us_off.png", toggleUSInfo, "Toggle U.S. Info", allModesClassName));
 
 // map controls
 toolBar.add(new DT_Spacer(12, allModesClassName));

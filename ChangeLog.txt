@@ -1,9 +1,31 @@
 16-May-2011
 * Fixed Treizennes location (thanks Ian)
 
-27-Feb-2008
+01-Jul-2009
 -----------
-* IE7 works ... slowly
+* FF 3.5 compatibility (mapContainerDiv needed left:0px)
+
+04-Jun-2009
+-----------
+* IE Compatibility restored (though resizeHandle div still too tall)
+
+24-Jan-2009
+-----------
+* Found location: Montigny Ferme
+
+09-May-2008
+-----------
+* Found locations: Epitaphe Ferme, Hennechies Ferme, Monthussart Ferme, Niederum, Sarienne la Longue
+* Fixed problem in gazetteer tool which omitted some aerodrome notes
+* removed .innerHTML references
+* mkgazetteer writes gazetteer .id field so it doesn't have to be recomputed
+* Added sources to help.html
+
+19-Apr-2008
+-----------
+* Abeele France vs Abeele Germany untangled
+* Burscheid located
+* text area at bottom is resizable
 
 25-Feb-2008
 -----------
@@ -59,3 +81,4 @@
 * Data converters now in Ruby instead of Perl updated to help with next item
 * Squadron internals no longer hardwired to assume Jastas, or Germans for that matter
 * Reorganized javascript files into /data (old data/ is now srcdata/), extjs/, libjs/, and js/
+

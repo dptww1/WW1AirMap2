@@ -15,7 +15,7 @@ all:
 	mv *.js ../data
 
 missing: 
-	grep location gazetteer.xml | grep -v mapLoc | grep -v Macedonia | grep -v Italy | grep -v Turkey | grep -v Austria
+	grep location gazetteer.xml | grep -v mapLoc | grep -v Macedonia | grep -v Italy | grep -v Turkey | grep -v Austria | grep -v Britain
 
 reconcile:
 	$(RUBY) reconcile.rb squadrons-*.xml

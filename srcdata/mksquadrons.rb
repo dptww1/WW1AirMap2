@@ -25,8 +25,7 @@ end
 def processFile(outf, infname)
     inf = File.new(infname, "r")
     doc = Document.new inf
-    doc.elements.each('squadrons/squadron') {
-        |sq| 
+    doc.elements.each('squadrons/squadron') do |sq| 
         nation = sq.attributes['nation']
         type   = sq.attributes['type']
         n      = sq.attributes['num']
@@ -34,26 +33,21 @@ def processFile(outf, infname)
         outf.puts(@first ? "" : ",")
         @first = false
 
-        outf.puts("    { nation:'#{nation}', type:'#{type}', n:'#{n}', locs: [")
+        outf.puts("  { nation:'#{nation}', type:'#{type}', n:'#{n}', locs: [")
 
 #    outf.print '"', @cvt.iconv(sq.attributes['name']), '": '
 
-        firstLoc = true
-        sq.elements.each('location') { 
-            |loc|
-            if !firstLoc
-                outf.puts(",")
-            end
-            firstLoc = false
-            a = Array.new(3)
-            a[0] = '"' + @cvt.iconv(loc.attributes['name']) + '"'
-            a[1] = canonicalizeDateStr(loc.attributes['fromDate'])
-            a[2] = canonicalizeDateStr(loc.attributes['toDate'])
-            outf.print '        [' + a.join(',') + ']'
-        }
-        outf.puts
-        outf.print('      ]}')
-    }
+        loc_array = []
+        sq.elements.each('location') do |loc|
+            a = []
+            a.push('"' + @cvt.iconv(loc.attributes['name']) + '"')
+            a.push(canonicalizeDateStr(loc.attributes['fromDate']))
+            a.push(canonicalizeDateStr(loc.attributes['toDate']))
+            loc_array.push("   [#{a.join(',')}]")
+        end
+        outf.puts("  #{loc_array.join(",\n  ")}")
+        outf.print('    ]}')
+    end
 
     inf.close
 end
@@ -67,7 +61,7 @@ outf = File.new('squadrons.js', 'w')
 outf.puts("// Created by mksquadrons.rb from\n//    #{ARGV.sort.join("\n//    ")}\n// on " + `date` + "\n")
 outf.print("var squadrons = [")
 
-ARGV.each do |filename| processFile(outf, filename) end
+ARGV.each { |filename| processFile(outf, filename) }
 
 outf.puts
 outf.puts("];")

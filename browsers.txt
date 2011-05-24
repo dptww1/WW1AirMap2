@@ -1,0 +1,4 @@
+GLOBAL
+ resizeHandle   IE8: height too big
+ dropdown menus FF3.5: wrong font
+

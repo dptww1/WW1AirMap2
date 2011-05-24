@@ -976,11 +976,12 @@
         <location name="Agenvillers" fromDate='3/28/1918' toDate='6/6/1918'/>
         <location name="Quevauvillers" fromDate='6/7/1918' toDate='7/14/1918'/>
         <location name="Haussimont" fromDate='7/15/1918' toDate='8/1/1918'/>
+        <!-- GG(GB) v32#2 p.77: Trecon 7/20/1918 - 8/2/1918 -->
         <location name="Quelmes" fromDate='8/2/1918' toDate='9/2/1918'/>
         <location name="Droglandt" fromDate='9/3/1918' toDate='9/19/1918'/>
         <location name="Proven" fromDate='9/20/1918' toDate='10/21/1918'/>
         <location name="Bisseghem" fromDate='10/22/1918' toDate='11/5/1918'/>
-        <location name="Menin" fromDate='11/6/1918' toDate='11/11/1918'/>
+        <location name="Menin" fromDate='11/6/1918' toDate='11/11/1918'/><!-- CC(GB) v32#2 p.77: Coucou -->
     </squadron>
     <squadron nation='BR' type='RFC' num='83'>
         <location name="Montrose" fromDate='1/7/1917' toDate='1/14/1917'/>

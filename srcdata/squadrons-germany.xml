@@ -464,7 +464,7 @@
         <location name="Guise" fromDate="4/16/1917" toDate="4/23/1917"/>
         <location name="Bohain" fromDate="4/24/1917" toDate="6/6/1917"/>
         <location name="Iseghem" fromDate="6/8/1917" toDate="9/10/1917"/>
-        <location name="Abeele" fromDate="9/11/1917" toDate="11/1/1917"/>
+        <location name="Abeele (BE)" fromDate="9/11/1917" toDate="11/1/1917"/>
         <location name="Bavichove" fromDate="11/2/1917" toDate="2/10/1918"/>
         <location name="Marckebeke" fromDate="2/11/1918" toDate="3/12/1918"/>
         <location name="Erchin" fromDate="3/13/1918" toDate="4/10/1918"/>
@@ -502,7 +502,7 @@
         <location name="Varsenere" fromDate="12/8/1917" toDate="2/5/1918"><notes>JP p43: Varsenaere, Brügge</notes></location>
         <location name="Wynghene" fromDate="2/6/1918" toDate="3/1/1918"/>
         <location name="Iseghem" fromDate="3/2/1918" toDate="3/21/1918"/>
-        <location name="Abeele" fromDate="3/22/1918" toDate="3/29/1918"/>
+        <location name="Abeele (BE)" fromDate="3/22/1918" toDate="3/29/1918"/>
         <location name="Iseghem" fromDate="3/30/1918" toDate="6/5/1918"/>
         <location name="Ennemain" fromDate="6/6/1918" toDate="6/7/1918"/>
         <location name="Neuflize" fromDate="6/8/1918" toDate="8/10/1918"/>
@@ -814,7 +814,7 @@
         <location name="Jabbeke" fromDate="2/2/1918" toDate="2/5/1918"/>
         <location name="Aertrycke" fromDate="2/3/1918" toDate="3/1/1918"/>
         <location name="Iseghem" fromDate="3/2/1918" toDate="3/21/1918"/>
-        <location name="Abeele" fromDate="3/22/1918" toDate="3/29/1918"/>
+        <location name="Abeele (BE)" fromDate="3/22/1918" toDate="3/29/1918"/>
         <location name="Iseghem" fromDate="3/30/1918" toDate="4/23/1918"/>
         <location name="St.-Marguerite" fromDate="4/24/1918" toDate="6/6/1918"/>
         <location name="Rumbeke" fromDate="6/7/1918" toDate="9/30/1918"><notes>JP p62: Rumbeke East</notes></location>
@@ -924,7 +924,7 @@
     </squadron>
     <squadron nation="GE" type="Jasta" num="63">
         <location name="Givry" fromDate="2/1/1918" toDate="3/15/1918"><notes>JP p70: Grivy, assumed typo</notes></location>
-        <location name="Hennieches Ferme" fromDate="3/16/1918" toDate="3/25/1918"/>
+        <location name="Hennechies Ferme" fromDate="3/16/1918" toDate="3/25/1918"/>
         <location name="Wancourt Ferme" fromDate="3/26/1918" toDate="7/5/1918"/>
         <location name="Bignicourt" fromDate="7/6/1918" toDate="8/11/1918"/>
         <location name="Santes" fromDate="8/12/1918" toDate="8/18/1918"/>

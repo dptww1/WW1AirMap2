@@ -34,12 +34,12 @@ function wordWrap(str, approxLen, breakStr) {
             end = start + approxLen;
 
         } else { // text contains word longer than approxLen ... punt
-            alert("wordWrap: string contains word longer than line length " + approxLen + "\n" + str);
+            //alert("wordWrap: string contains word longer than line length " + approxLen + "\n" + str);
             return str;
         }
     }
     lines.push(str.substring(start)); // remember the remnant!
-        
+
     return lines.join(breakStr);
 }
 // }}}
@@ -53,7 +53,7 @@ function wordWrap(str, approxLen, breakStr) {
  * Parameters:
  *     funcObj - the function to get the name of
  *
- * Returns: 
+ * Returns:
  *     The name of the function.
  */
 function getFunctionName(funcObj) {
@@ -63,26 +63,6 @@ function getFunctionName(funcObj) {
         /^function (\S+)\(/.exec(funcObj.toString());
         return RegExp.$1;
     }
-}
-// }}}
-// {{{ strToLegalId
-/*
- * Function: strToLegalId
- *
- * Converts a string to a legal identifier, converting all non-alphanumeric characters
- * to "_".  Caller is responsible for ensuring string doesn't begin with a number.
- *
- * Parameters:
- *      s - the string to convert
- *
- * See Also:
- *      http://www.w3.org/TR/html4/types.html#h-6.2
- *
- * To Do:
- *      Should probably move this to a String method (like prototype.js does)   
- */
-function strToLegalId(s) {
-    return s.replace(/[^A-Za-z0-9]/g, "_");
 }
 // }}}
 // {{{ setOpacity
@@ -136,10 +116,10 @@ function makeOverlibCompatibleStr(str) {
  *      An array in [yyyy, m, d] format.
  */
 function splitDate(d)
-{   
+{
     d = parseInt(d, 10);
 
-    // Doing this mathematically is better than string manipulation to avoid problems with 19160209 (e.g.) 
+    // Doing this mathematically is better than string manipulation to avoid problems with 19160209 (e.g.)
     // causing parse problems because of octal.
     return [
             Math.floor(d / 10000),
@@ -190,26 +170,28 @@ function formatDate(dateAsInt) {
     return dateAsStr.substr(0, 4) + "-" + dateAsStr.substr(4, 2) + "-" + dateAsStr.substr(6, 2);
 }
 // }}}
-// {{{ preventDefault
-/*
- * Function: preventDefault
- *
- * Prevents default event handling from occurring.
- *
- * Parameters:
- *      ev - the event to cancel bubbling for
- *
- * From FORK Lib
- */
-function preventDefault(ev) {
-    if (ev.preventDefault) {
-      ev.preventDefault();
-      return true;
-    }
-    if (ev.cancelBubble !== undefined) { // can't test returnValue directly?
-      ev.returnValue = false;
-      return true;
-    }
-    return false;
+// {{{ Resizer
+function Resizer(scroller)
+{
+    this.map          = $("mapContainerDiv");
+    this.resizeHandle = $("resizeHandle");
+    this.empty        = $("emptyDiv");
+
+    // Ordering seems to be very important here
+    this.empty.absolutize();
+    this.resizeHandle.absolutize();
+    this.map.absolutize();
+
+    this.resize = function() {
+                      var handlePos = parseInt(this.resizeHandle.getStyle("top"));
+                      this.empty.setStyle({top : handlePos + 3});
+                      this.map.setStyle({height: handlePos - parseInt(this.map.getStyle("top"))});
+                      scroller.recomputeBounds();
+                  };
+
+    new Draggable(this.resizeHandle, {constraint : "vertical",
+                                      onDrag     : this.resize.bind(this),
+                                      onEnd      : this.resize.bind(this)});
+
 }
 // }}}

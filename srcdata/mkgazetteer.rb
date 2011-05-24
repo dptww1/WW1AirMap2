@@ -39,10 +39,12 @@ doc.elements.each('gazetteer/location') {
         end
 
         notes = loc.elements['notes']
-        if notes
-            txt = notes.text.gsub!(/"/, "&quot;")
+        if notes and not notes.text.empty?
+            txt = notes.text.gsub(/"/, "&quot;")
             attrs.push("notes:\"#{cvt.iconv(txt)}\"")
         end
+
+        attrs.push("id:\"#{cvt.iconv(loc.attributes['name']).gsub(/[^A-Za-z0-9]/, "_")}\"")
 
         outf.print("{#{attrs.join(",")}}")
 

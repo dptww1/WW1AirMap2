@@ -1,3 +1,8 @@
+/*global $, $$, Columnizer, JSGraphics, UnitCollection,
+         aerodromeCalendar, createAerodromeDivs,
+         activeUnits, curMapState, formatDate, gazetteer, jsGraphics,
+         makeOverlibCompatibleStr, nationInfo,
+         overlib, setOpacity, squadrons, unitList, wordWrap */
 // Dependencies:
 //      prototype.js
 //      unitcollection.js
@@ -78,7 +83,7 @@ function MapStateBySquadron() {
         createAerodromeDivs();
         $$("div.aerodromeDiv").each( function(x) { x.hide(); setOpacity(x, 1.0); });
         if (!this.jsCanvas) {
-            this.jsCanvas = new jsGraphics("drawCanvasDiv");
+            this.jsCanvas = new JSGraphics("drawCanvasDiv");
         }
     };
 
@@ -101,14 +106,16 @@ function MapStateBySquadron() {
         if (places) {
             var prevX = null, prevY = null;
             for (var i = 0; i < places.length; ++i) {
-                s += "<tr>";    
+                s += "<tr>";
                 s += "<td class='squadronDate'>" + formatDate(places[i][1]) + " - " + formatDate(places[i][2]) + "</td>";
                 s += "<td class='squadronLoc";
                 var gazetteerName = gazetteer[places[i][0]];
+                var id            = gazetteer[gazetteerName];
                 if (gazetteerName && typeof(gazetteerName) != "string") {
-                    s += " " + strToLegalId(places[i][0]) + "Name'";
-                    s += " onmouseover='highlightAerodromeName(  \"" + strToLegalId(places[i][0]) + "\")'";
-                    s += " onmouseout ='unhighlightAerodromeName(\"" + strToLegalId(places[i][0]) + "\")";
+                    id = gazetteerName.id;
+                    s += " " + id + "Name'";
+                    s += " onmouseover='highlightAerodromeName(  \"" + id + "\")'";
+                    s += " onmouseout ='unhighlightAerodromeName(\"" + id + "\")";
                 }
                 s += "'>" + places[i][0];
                 if (!gazetteerName) {
@@ -120,7 +127,6 @@ function MapStateBySquadron() {
                 s += "</td>";
                 s += "</tr>";
 
-                var id = strToLegalId(places[i][0]);
                 var aerodromeDiv = $(id);
                 if (aerodromeDiv) {
                     aerodromeDiv.down().src = curNationInfo.aerodrome_image;
@@ -128,7 +134,7 @@ function MapStateBySquadron() {
                     var thisX = parseInt(aerodromeDiv.style.left, 10) + (aerodromeDiv.style.width / 2);
                     var thisY = parseInt(aerodromeDiv.style.top,  10) + (aerodromeDiv.style.height / 2);
 
-                    // Need to account for the mapDiv's scroll offset 
+                    // Need to account for the mapDiv's scroll offset
                     var mapDiv = $("mapDiv");
                     thisX -= mapDiv.offsetLeft;
                     thisY -= mapDiv.offsetTop;
@@ -165,11 +171,11 @@ function MapStateBySquadron() {
                 }
             }
         }
-        
+
         this.jsCanvas.paint();
 
         s += "</table>";
-        $("emptyDiv").innerHTML = s;
+        $("emptyDiv").update(s);
     };
 
     this.jsCanvas = null;
@@ -196,16 +202,16 @@ function MapStateByDate() {
         for (i = 0; i < activeUnits.length; ++i) {  // TODO: .each()?
             curUnit = activeUnits[i];
             loc = this.findLocationAtDate(curUnit.locs, newDate);
-            if (loc && $(strToLegalId(loc))) {
+            if (loc && gazetteer[loc] && gazetteer[loc].id) {
                 if (!unitLists[loc]) /*then*/ { unitLists[loc] = new UnitCollection(); }
                 unitLists[loc].add(curUnit.nation, curUnit.type, curUnit.n);
             }
         }
 
         // Now set the tooltips and visibility for the used locations
-        for (loc in unitLists) {
+        for (loc in unitLists) if (unitLists.hasOwnProperty(loc)) {
             var div;
-            if ((div = $(strToLegalId(loc))) !== null) {
+            if ((div = $(gazetteer[loc].id)) !== null) {
                 // Make location name safe to enclose in single quotes
                 var toolTipHtml = "<center><b>" + loc + "</b></center>";
 
@@ -230,16 +236,16 @@ function MapStateByDate() {
             curUnit = activeUnits[i];
             loc = this.findLocationAtDate(curUnit.locs, newDate);
             if (loc) {
-                locAsId = strToLegalId(loc);
-                locClassName = locAsId + "Name";
+                var locAsId = gazetteer[loc] ? gazetteer[loc].id : "_";
+                var locClassName = locAsId + "Name";
                 columnizer.add(UnitCollection.formatShort(curUnit.type, [ curUnit.n ]), "squadronName");
-                columnizer.add(loc, 
+                columnizer.add(loc,
                                "squadronLoc " + locClassName + "'" +
                                " onmouseover='highlightAerodromeName(  \"" + locAsId + "\")'" +
                                " onmouseout ='unhighlightAerodromeName(\"" + locAsId + "\")");
             }
         }
-        $("emptyDiv").innerHTML = columnizer.generate2(5, 2);
+        $("emptyDiv").update(columnizer.generate2(5, 2));
     };
 
     this.findLocationAtDate = function(locsArray, inDate) {
@@ -263,17 +269,17 @@ var mapStateByDate = new MapStateByDate();
 // }}}
 // {{{ MapStateByAerodrome
 //========================================================================
-function MapStateByAerodrome() { 
+function MapStateByAerodrome() {
     this.initialize = function() {
         createAerodromeDivs();
         this.curSelectedAerodromeDiv = null;
 
         var columnizer = new Columnizer();
-        for (var locationName in gazetteer) {
+        for (var locationName in gazetteer) if (gazetteer.hasOwnProperty(locationName)) {
 
-            locAsId = strToLegalId(locationName);
+            var locAsId = gazetteer[locationName].id;
 
-            var div = $(strToLegalId(locationName));
+            var div = $(locAsId);
             var locationObj = gazetteer[locationName];
             if (div) { // make sure we know about this aerodrome location
                 div.hide(); // hide it until we've proved there's at least one active squadron there
@@ -300,10 +306,10 @@ function MapStateByAerodrome() {
                                 allDatesUnitCollection.add(thisUnit[0], thisUnit[1], thisUnit[2]);
                             }
                         }
-                        toolTipHtml += formatDate(locCalendar[i][0]) 
-                                    + " -- " 
-                                    + formatDate(locCalendar[i][1]) 
-                                    + "&nbsp;&nbsp;&nbsp;&nbsp;" 
+                        toolTipHtml += formatDate(locCalendar[i][0])
+                                    + " -- "
+                                    + formatDate(locCalendar[i][1])
+                                    + "&nbsp;&nbsp;&nbsp;&nbsp;"
                                     + unitCollection.getListShort("; ")
                                     + "<br>";
                     }
@@ -312,7 +318,7 @@ function MapStateByAerodrome() {
                         div.down().src  = nationInfo[allDatesUnitCollection.getPreferredNation("GE")].aerodrome_image;
                         div.onmouseover = tooltipClosure(makeOverlibCompatibleStr(toolTipHtml));
                         div.show();
-                        columnizer.add(locationName, 
+                        columnizer.add(locationName,
                                        "squadronName " + locAsId + "Name'" +
                                        " onmouseover='highlightAerodromeName(  \"" + locAsId + "\")'" +
                                        " onmouseout ='unhighlightAerodromeName(\"" + locAsId + "\")");
@@ -322,10 +328,10 @@ function MapStateByAerodrome() {
                 }
             }
         }
-        $("emptyDiv").innerHTML = columnizer.generate2(3, 2);
+        $("emptyDiv").update(columnizer.generate2(3, 2));
     };
 
-    this.cleanup = function() { 
+    this.cleanup = function() {
         $("aerodromeHighlightDiv").hide();
     };
 
@@ -334,7 +340,7 @@ function MapStateByAerodrome() {
 
         // Unhighlight old selected aerodrome, if any
         if (this.curSelectedAerodromeDiv) {
-            this.curSelectedAerodromeDiv.removeClassName("selectedAerodrome"); 
+            this.curSelectedAerodromeDiv.removeClassName("selectedAerodrome");
             setOpacity(this.curSelectedAerodromeDiv, UNSELECTED_AERODROME_OPACITY);
             this.curSelectedAerodromeDiv.style.visibility = this.curUnselectedAerodromeVisibilityStr;
             hideHighlightForDiv(aerodromeName);
@@ -345,12 +351,12 @@ function MapStateByAerodrome() {
         if (hilightDiv && this.curSelectedAerodromeDiv) {
             setOpacity(this.curSelectedAerodromeDiv, 1.0);
             this.curSelectedAerodromeDiv.show();
-            this.curSelectedAerodromeDiv.addClassName("selectedAerodrome"); 
+            this.curSelectedAerodromeDiv.addClassName("selectedAerodrome");
             showHighlightForDiv(aerodromeName);
         }
     };
 
-    this.toggleUnselectedAerodromes = function(onOff) { 
+    this.toggleUnselectedAerodromes = function(onOff) {
         var isSelectedAerodrome = function(elt) { return elt.hasClassName("selectedAerodrome"); };
         $$("div.aerodromeDiv").reject(isSelectedAerodrome).invoke(onOff == "on" ? "show" : "hide");
 

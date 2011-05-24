@@ -1,7 +1,5 @@
 -*- outline -*-
 
-* js/unitcollection
-** getNationListShort()'s sort routine is really inadequate: 1, 23, 3 (etc)
 * libjs/dt_toolbar
 ** see if prototype.js functions can replace ugly callback thunk stuff
 
@@ -21,9 +19,8 @@
 
 * General
 ** Use prototype.js/Template for heavy-duty HTML-generation stuff
-** make divs resizeable (Jack Slocum.org/extjs.com)
 ** aerodrome notes need spell checking
-** Resize handling is broken (if window is especially wide)
+** window Resize handling is broken (if window is especially wide)
 ** Complete docs per Natural Docs
 
 * Art
@@ -31,11 +28,12 @@
 ** front lines?
 ** aerodrome notes control button?
 
-* Data
-** What's going on with Touquin - 19180712-19180701 is empty -- bad data somewhere
-** "Abeele" note says it's in France, map says it's in Belgium
+* Tools
 ** change standard date format in XML from m/d/y to YYYYMMDD, which is a little harder to read but is unambiguous and
    requires no further processing (except to YYYY-MM-DD for display).  Requires mk*.rb to be rewritten, though.
+
+* Data
+** What's going on with Touquin - 19180712-19180701 is empty -- bad data in RFC 43 Squadron data
 ** Problems in Miles Constable data:
 *** RFC 13 @ Le Hameau had empty day -- I used 15
 *** RFC 18 @ La Brayelle had month 0 -- I used 10
@@ -47,30 +45,28 @@
 *** RAF 233 @ Walmer has no day
 *** RFC 2 has "Floringham" => "Floringhem", Berliamont => Berlaimont, Serries => Serris
 ** Remaining Jasta squadron problems:       OTF9.3 (JGII), OTF9.4 (pt2)
-*** 4  Monthussart Ferme
-*** 6  Monthussart Ferme
-*** 7  Bellevue Ferme, Procher
-*** 10 Monthussart Ferme, Rugny Ferme
-*** 11 Monthussart Ferme, Montigny Ferme
-*** 12 Niederum
-*** 13 ?, Le Close Ferme, Reneuil Ferme
+*** 7  Bellevue Ferme, Procher  (http://www.lesroutesducomte.com/pages.php?idMenu=41&idSsMenu=0&idPage=118&langue=2&direct=1  ?? Or "Procher" is typo for "Porcher"?)
+*** 10 Rugny Ferme
+*** 13 ?, Le Close Ferme
 *** 15 Le Close Ferme
 *** 16 ?                                    
 *** 22 Near Soissons                       
 *** 29 Bellincamps (?Bellinchamps)
 *** 32 Boulin Ferme, Destrich-Brülingen
-*** 33 Burscheid
-*** 36 Epitaphe Ferme, Le Château
+*** 36 Le Château
 *** 41 Montbanis Ferme
 *** 42 Bois St Denis
 *** 44 La Chaussée
 *** 50 Montbanis Ferme, Rugny Ferme
-*** 54 Wallersberg
-*** 61 Reneuil Ferme
-*** 63 Hennieches Ferme
-*** 66 Norman-le-Wast, Sarienne-la-Longue
+*** 66 Norman-le-Wast
 *** 67 Les Hayons Ferme
 *** 68 Délinge Ferme
-*** 78 Burscheid
 
-* Bug Fixes
+* Bugs
+** Multi-nationality aerodromes (e.g. Cappy & Suzanne, E of Amiens) show blanks when one nationality is turned off
+
+* Profiling
+** initial state change to By Aerodrome
+2193 ms
+2062 ms
+1956 ms

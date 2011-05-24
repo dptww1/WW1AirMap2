@@ -4,7 +4,8 @@
 
 <gazetteer>
     <location name="Abbeville" country="France"><mapLoc refPt="Amiens" xDist="-20.9" yDist="-16.0"/></location>
-    <location name="Abeele" country="France"><mapLoc refPt="Lille" xDist="-12.00" yDist="-12.86"/><notes>There are two "Abeele"s, one in Belgium, one in France; tJP p.6 indicates the one in France</notes></location>
+    <location name="Abeele (BE)" country="Belgium"><mapLoc refPt="Lille" xDist="11.8" yDist="-12.4"/><notes>tJP seems to indicate the Abeele in France as a Jasta location, but a thread on The Aerodrome forum indicates this location in Belgium is correct.</notes></location>
+    <location name="Abeele" country="France"><mapLoc refPt="Lille" xDist="-17.3" yDist="-12.7"/></location>
     <location name="Ablainzevelle" country="France"><mapLoc refPt="Arras" xDist="-1.78" yDist="8.00"/></location>
     <location name="Abscon" country="France"><mapLoc refPt="Cambrai" xDist="2.67" yDist="-8.89"/></location>
     <location name="Acq" country="France"><mapLoc refPt="Arras" xDist="-5.8" yDist="-4.0"/></location>
@@ -108,7 +109,7 @@
     <location name="Brussels" country="Belgium"><mapLoc refPt="Brussels" xDist="0.00" yDist="0.00"/></location>
     <location name="Bryas" country="France"><mapLoc refPt="Arras" xDist="-18.0" yDist="-8.2"/><notes>OtF6.1 agrees with this spelling; corresponds with Google's "Brias"</notes></location>
     <location name="Bühl" country="France" historicalCountry="German"><mapLoc refPt="Metz" xDist="41.43" yDist="22.86"/><notes>There are two in Lorraine; Mapquest's "Bühl-Lorraine" corresponds with tJP map and p.7</notes></location>
-    <location name="Burscheid"></location>
+    <location name="Burscheid" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="46.4" yDist="24.1"/><notes>Modern Bourscheid, per thread on The Aerodrome forums</notes></location>
     <location name="Busigny" country="France"><mapLoc refPt="Cambrai" xDist="10.45" yDist="8.18"/></location>
     <location name="Cachy" country="France"><mapLoc refPt="Amiens" xDist="8.4" yDist="2.9"/></location>
     <location name="Caffiers" country="France"><mapLoc refPt="Arras" xDist="-44.1" yDist="-39.5"/></location>
@@ -195,7 +196,7 @@
     <location name="Ennetières" country="France"><mapLoc refPt="Lille" xDist="-5.23" yDist="0.00"/></location>
     <location name="Ensisheim" country="France" historicalCountry="Germany"><mapLoc refPt="Mulhouse" xDist="1.14" yDist="-7.27"/></location>
     <location name="Epinoy" country="France"><mapLoc refPt="Cambrai" xDist="-3.18" yDist="-3.18"/></location>
-    <location name="Epitaphe Ferme" country="France"></location>
+    <location name="Epitaphe Ferme" country="France"><mapLoc refPt="Soissons" xDist="4.9" yDist="5.1"/><notes>Location is Epitaphe, located in the right vicinity according to tJP map</notes></location>
     <location name="Ercheu" country="France"><mapLoc refPt="Amiens" xDist="30.00" yDist="11.43"/></location>
     <location name="Erchin" country="France"><mapLoc refPt="Cambrai" xDist="-2.73" yDist="-7.73"/></location>
     <location name="Eringhem" country="France"><mapLoc refPt="Lille" xDist="-32.7" yDist="-18.6"/></location>
@@ -284,7 +285,7 @@
     <location name="Haussimont" country="France"><mapLoc refPt="Reims" xDist="6.4" yDist="35.5"/></location>
     <!-- location name="Heerlingen"><notes>on tJP as base for J12, but not in J12 list; p.8 likewise</notes></location -->
     <location name="Helesmes" country="France"><mapLoc refPt="Lille" xDist="13.18" yDist="15.45"/></location>
-    <location name="Hennieches Ferme" country="France"><notes>tJP map spells it "Hennechies Ferme", but Mapquest has neither</notes></location>
+    <location name="Hennechies Ferme" country="France"><mapLoc refPt="Cambrai" xDist="12.0" yDist="14.7"/><notes>Found in Google maps. tJP Jasta 63 list spells it "Hennieches", but that looks like a typo</notes></location>
     <location name="Hermies" country="France"><mapLoc refPt="Cambrai" xDist="-8.18" yDist="3.64"/></location>
     <location name="Hervilly" country="France"><mapLoc refPt="Cambrai" xDist="-5.45" yDist="14.09"/></location>
     <location name="Hesdigneul" country="France"><mapLoc refPt="Arras" xDist="-8.0" yDist="-14.67"/><notes>Google's Hesdigneul-lès-Béthune</notes></location>
@@ -410,8 +411,8 @@
     <location name="Mont-Notre-Dame" country="France"><mapLoc refPt="Soissons" xDist="11.56" yDist="4.44"/><notes>tJP omits the dashes</notes></location>
     <location name="Mont-St.-Martin" country="France"><mapLoc refPt="Reims" xDist="-17.33" yDist="-0.88"/><notes>tJP omits the dashes in the name.  There are four "Mont-Saint-Martin"s in France; one in the south, which can be ignored for these purposes, one near the France/Belgium/Luxembourg border, one east of Reims, and one west of Reims.  From comparing dates, the front line, and Jasta positions before and after being stationed here, it appears that the town west of Reims is the aerodrome.</notes></location>
     <location name="Montbanis Ferme"></location>
-    <location name="Monthussart Ferme"></location>
-    <location name="Montigny Ferme"><notes>listed in OtF6.1 but with no location; Google has ten Montignys, many in plausible areas</notes></location>
+    <location name="Monthussart Ferme" country="France"><mapLoc refPt="Soissons" xDist="10.7" yDist="2.0"/><notes>Located by http://www.theaerodrome.com/forum/other-wwi-aviation/22065-monthussart-ferme.html</notes></location>
+    <location name="Montigny Ferme" country="France"><mapLoc refPt="Cambrai" xDist="-3.4" yDist="11.2"/><notes>Located by http://www.sim-outhouse.com/sohforums/showthread.php?t=8637, using online trench map at http://lt1.mcmaster.ca/ww1/wrz4mp.php?grid=62c&amp;map_id=83&amp;view</notes></location>
     <location name="Möntingen" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="4.44" yDist="0.00"/><notes>A note on the tJP map says "Möntingen is modern Montoy; this is Montoy-Flanville in Mapquest; it seems to be missing from calle.com</notes></location>
     <location name="Montrose" country="Britain"/>
     <location name="Mörchingen" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="20.44" yDist="11.33"/><notes>per note on tJP map, modern day "Morhange"</notes></location>
@@ -431,6 +432,7 @@
     <location name="Neumünster" country="Belgium"><mapLoc refPt="Brugge" xDist="-5.78" yDist="-5.33"/><notes>Modern Nieuwmunster</notes></location>
     <location name="Neuville" country="France"><mapLoc refPt="Cambrai" xDist="15.11" yDist="0.89"/><notes>There are dozens of "Neuville"s in France, several not far from this location, but this seems to match the tJP map most closely</notes></location>
     <location name="Neuvilly" country="France"><mapLoc refPt="Cambrai" xDist="12.00" yDist="1.78"/><notes>There are at least two in France, but this most closely matches the position on the tJP map</notes></location>
+    <location name="Niederum" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="15.6" yDist="8.0"/><notes>http://en.wikipedia.org/wiki/German_exonyms_(Moselle) says this is the same as Many, given here.</notes></location>
     <location name="Noeux-lès-Auxi" country="France"><mapLoc refPt="Amiens" xDist="-5.1" yDist="-23.8"/></location>
     <location name="Norman-le-West"><notes>Nothing close in calle.com; listed in OtF6.1 but without coordinates</notes></location>
     <location name="Northolt" country="Britain"><mapLoc refPt="London" xDist="-11.1" yDist="-3.1"/></location>
@@ -478,7 +480,7 @@
     <location name="Rely" country="France"><mapLoc refPt="Arras" xDist="-18.7" yDist="-19.6"/></location>
     <location name="Remaisnil" country="France"><mapLoc refPt="Arras" xDist="-25.5" yDist="6.4"/></location>
     <location name="Rendcomb" country="Britain"/>
-    <location name="Reneuil Ferme" country="France"><mapLoc refPt="Laon" xDist=".4" yDist="-4.2"/><notes>no matches in Mapquest or OtF6.1, but found "Reneuil" on Google in plausible llocation</notes></location>
+    <location name="Reneuil Ferme" country="France"><mapLoc refPt="Laon" xDist=".4" yDist="-4.2"/><notes>no matches in Mapquest or OtF6.1, but found "Reneuil" on Google in plausible location</notes></location>
     <!--location name="Rethel" country="France"><mapLoc refPt="Reims" xDist="14.29" yDist="-14.29"/></location -->
     <location name="Retheuil Ferme" country="France"><mapLoc refPt="Cambrai" xDist="13.50" yDist="16.50"/><notes>tJP gazetteer has this as "Retheuil Ferme, Bohain" so I used the airfield location near Bohain from OtF6.1.</notes></location>
     <location name="Reumont" country="France"><mapLoc refPt="Cambrai" xDist="10.9" yDist="6.7"/></location>
@@ -521,7 +523,7 @@
     <location name="San Fior" country="Italy"></location>
     <location name="San Giacomo" country="Italy"></location>
     <location name="Santes" country="France"><mapLoc refPt="Lille" xDist="-4.44" yDist="2.67"/><notes>tJP has "Sante Nord"; there are no "Sante"s in Mapquest or calle.com but Mapquest shows a "Santes" in about the same location as tJP map.</notes></location>
-    <location name="Sarienne-la-Longue"></location>
+    <location name="Sarienne-la-Longue"><mapLoc refPt="Brussels" xDist="30.0" yDist="31.8"/><notes>Old name for Sorinne la Longue (location given here)?  Or just a tJP typo?</notes></location>
     <location name="Saultain" country="France"><mapLoc refPt="Lille" xDist="23.11" yDist="16.89"/></location>
     <location name="Savy" country="France"><mapLoc refPt="Arras" xDist="19.5" yDist="32.7"/></location>
     <location name="Scheldewindeke" country="Belgium"><mapLoc refPt="Gent" xDist="2.67" yDist="8.00"/></location>
@@ -603,6 +605,7 @@
     <location name="Vraignes" country="France"><mapLoc refPt="Cambrai" xDist="-7.11" yDist="16.00"/><notes>tJP map has "Vraignies".  Mapquest has two locations: Vraignes-lès-Hornoy, about 15mi west of Amiens, and Vraignes-en-Vermandois near St. Quentin, which seems to be the correct one</notes></location>
     <location name="Waddington" country="Britain"/>
     <location name="Wagnonlieu" country="France"><mapLoc refPt="Arras" xDist="-3.3" yDist="0"/></location>
+    <location name="Wallersberg" country="France" historicalCountry="Germany"><mapLoc refPt="Metz" xDist="12.9" yDist="9.6"/><notes>According to http://en.wikipedia.org/wiki/German_exonyms_(Moselle), corresponds with modern Vatimont</notes></location>
     <location name="Walmer" country="Britain"/>
     <location name="Wamin" country="France"><mapLoc refPt="Arras" xDist="-17.3" yDist="1.8"/></location>
     <location name="Wancourt Ferme" country="France"><mapLoc refPt="Arras" xDist="4.00" yDist="2.00"/><notes>Used Wancourt on Mapquest</notes></location>

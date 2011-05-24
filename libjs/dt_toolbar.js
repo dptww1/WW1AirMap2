@@ -31,7 +31,7 @@ function DT_Toolbar(highlightColor, normalColor) {
     /**
      * Here's some documentation for add().
      */
-    this.add = function(component) { 
+    this.add = function(component) {
         this._components.push(component);
         component._highlightColor = this._highlightColor;
         component._normalColor    = this._normalColor;
@@ -59,7 +59,7 @@ function DT_Link(label, url, className) {
 function DT_Spacer(pxWidth, className) {
     this._width = pxWidth;
     this.generate = function() {
-        return "<img src='images/spacer.png' height='1' width='" + pxWidth + "' border='0'" + 
+        return "<img src='images/spacer.png' height='1' width='" + pxWidth + "' border='0'" +
                (className ? "class='" + className + "'" : "") +
                ">";
     };
@@ -95,14 +95,14 @@ function DT_Select(eltId, options, selectedVal, callbackFn, className) {
     };
 }
 
-function DT_PushButton(eltId, imgUrlBase, callbackFunction, title, className) {
+function DT_PushButton(eltId, imgUrlBase, callbackFnName, title, className) {
     this._title = title;
 
     this.generate = function() {
         var s = "<img id='" + eltId + "' src='" + imgUrlBase + "' height='32' width='32' border='0'" +
-            " onmouseover='DT_borderIt(this, \"" + this._highlightColor + "\")'" + 
-            " onmouseout='DT_borderIt(this, \"" + this._normalColor + "\")'" + 
-            " onclick='" + callbackFunction.name + "(this)'";
+            " onmouseover='DT_borderIt(this, \"" + this._highlightColor + "\")'" +
+            " onmouseout='DT_borderIt(this, \"" + this._normalColor + "\")'" +
+            " onclick='" + callbackFnName + "(this)'";
         if (this._title) {
             s += " title='" + this._title + "'";
         }
@@ -116,7 +116,7 @@ function DT_ToggleButton(eltId, onStateImgUrl, offStateImgUrl, callBackFunction,
     DT_ToggleButton._createdObjHash[eltId] = this;
     DT_ToggleButton._imageUrls.push(onStateImgUrl);
     DT_ToggleButton._imageUrls.push(offStateImgUrl);
-   
+
     this._name              = eltId;
     this._onStateImgUrl     = onStateImgUrl;
     this._offStateImgUrl    = offStateImgUrl;
@@ -126,8 +126,8 @@ function DT_ToggleButton(eltId, onStateImgUrl, offStateImgUrl, callBackFunction,
 
     this.generate = function() {
         var s = "<img src='" + onStateImgUrl + "' height='32' width='32' border='0'" +
-                " onmouseover='DT_borderIt(this, \"" + this._highlightColor + "\")'" + 
-                " onmouseout='DT_borderIt(this, \"" + this._normalColor + "\")'" + 
+                " onmouseover='DT_borderIt(this, \"" + this._highlightColor + "\")'" +
+                " onmouseout='DT_borderIt(this, \"" + this._normalColor + "\")'" +
                 " onclick='DT_ToggleButton._callBackThunk(\"" + this._name + "\", this)'";
         if (this._title) {
             s += " title='" + this._title + "'";
@@ -140,7 +140,7 @@ function DT_ToggleButton(eltId, onStateImgUrl, offStateImgUrl, callBackFunction,
 
 DT_ToggleButton._imageUrls      = [];    // list of all image names passed into ctor
 DT_ToggleButton._createdObjHash = {};    // key=name, value=obj created w/that name
-   
+
 DT_ToggleButton._callBackThunk = function(eltId, imgObj) {
     var btnObj = DT_ToggleButton._createdObjHash[eltId];
     var newState = imgObj.src.indexOf(btnObj._onStateImgUrl) >= 0 ? "off" : "on";

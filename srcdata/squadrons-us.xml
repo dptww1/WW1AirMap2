@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+    All data from Hudson's "Hostile Skies", unless otherwise noted.
+  -->
+
+<!--
+    Aerodromes:
+        Amanty                  - nr Gondrecourt
+        Chailly-en-Brie
+        Coincy                  - 5 mi SW Fére-en-Tardenois
+        Epiez                   - only place in France doesn't look right, as it's too near Sedan
+        Ferme-de-Graves         - 5 mi SE Chateau-Thierry
+        Flin                    - near Vathemenil, SE Luneville in Baccarat sector
+        Francheville            - NW Coulommiers
+        Gondreville-sur-Moselle - 3 mi E Toul
+        Luxeuil-les-Bains       - 60 mi S Nancy
+        May-en-Multien          - N Meaux
+        Morass Farm             - ?
+        Ourches                 - 12 mi SW Toul
+        Saints                  - NW Tonquin
+        Tonquin                 - 25 mi SW Chateau Thierry
+        Toul                    - Gengault, 2 mi NE Toul
+        Vaucouleurs             - 12mi SW Toul
+  -->
+
+<squadrons>
+    <squadron nation="US" type="Aero" num="1"><!-- part of First Corps Observation Group -->
+        <location name="Ourches" fromDate="4/11/1918" toDate="6/28/1918"/>
+        <location name="Saints" fromDate="6/29/1918" toDate="7/5/1918"/>
+        <location name="Francheville" fromDate="7/6/1918" toDate=""/><!-- fromDate on p. 94 -->
+        <location name="Morass farm" fromDate="7/2/1918" toDate=""/><!-- fromDate on p 110 -->
+        <location name="May-en-Multien" fromDate="8/2/1918" toDate="8/9/1918"/>
+        <location name="Coincy" fromDate="8/10/1918" toDate="8/11/1918"/>
+        <location name="Chailly-en-Brie" fromDate="8/12/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="9"><!-- part of First Army Observation Group; Night Observation -->
+        <location name="Gondreville-sur-Moselle" fromDate="9/4/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="12"><!-- part of First Corps Observation Group -->
+        <location name="Ourches" fromDate="5/3/1918" toDate="6/12/1918"/>
+        <location name="Flin" fromDate="6/13/1918" toDate="6/28/1918"/>
+        <location name="Saints" fromDate="6/29/1918" toDate="7/5/1918"/>
+        <location name="Francheville" fromDate="7/6/1918" toDate=""/><!-- fromDate on p. 94 -->
+        <location name="Morass farm" fromDate="7/2/1918" toDate=""/><!-- fromDate on p 110 -->
+        <location name="May-en-Multien" fromDate="8/2/1918" toDate="8/9/1918"/>
+        <location name="Coincy" fromDate="8/10/1918" toDate="8/11/1918"/>
+        <location name="Chailly-en-Brie" fromDate="8/12/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="13"><!-- part of Second Pursuit Group -->
+        <location name="Toul" fromDate="8/15/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="22"><!-- part of Second Pursuit Group -->
+        <location name="Toul" fromDate="8/21/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="24"><!-- part of First Army Observation Group -->
+        <location name="Gondreville-sur-Moselle" fromDate="9/12/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="27"><!-- part of First Pursuit Group -->
+        <location name="Toul" fromDate="6/2/1918" toDate="6/28/1918" fromDateCertainty="estimated"/>
+        <location name="Tonquin" fromDate="6/29/1918" toDate="7/6/1918"/>
+        <location name="Saints" fromDate="7/7/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="28"><!-- part of Third Pursuit Group -->
+        <location name="Vaulcouleurs" fromDate="9/2/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="49"><!-- part of Second Pursuit Group -->
+        <location name="Toul" fromDate="8/16/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="88">
+        <location name="Ourches" fromDate="5/3/1918" toDate="6/28/1918" fromDateCertainty="estimated"/>
+        <location name="Saints" fromDate="6/29/1918" toDate="7/5/1918"/>
+        <location name="Francheville" fromDate="7/6/1918" toDate="8/2/1918"/><!-- joins First Corps Observation Group -->
+        <location name="Ferme-de-Graves" fromDate="8/3/1918" toDate=""/><!-- nucleus of Third Corps Observation Group -->
+    </squadron>
+    <squadron nation="US" type="Aero" num="90"><!-- corps obs -->
+        <location name="Ourches" fromDate="6/16/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="91"><!-- army obs -->
+        <location name="Gondreville-sur-Moselle" fromDate="6/7/1918" toDate=""/>
+        <!-- part of First Army Observation Group as of 1st week Sep -->
+    </squadron>
+    <squadron nation="US" type="Aero" num="93"><!-- part of Third Pursuit Group -->
+        <location name="Vaulcouleurs" fromDate="8/11/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="94"><!-- part of First Pursuit Group -->
+        <location name="Toul" fromDate="4/7/1918" toDate="6/28/1918"/>
+        <location name="Tonquin" fromDate="6/29/1918" toDate="7/6/1918"/>
+        <location name="Saints" fromDate="7/7/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="95"><!-- part of First Pursuit Group -->
+        <location name="Epiez" fromDate="4/25/1918" toDate="5/3/1918" fromDateCertainty="estimated"/>
+        <location name="Toul" fromDate="5/4/1918" toDate="6/28/1918"/>
+        <location name="Tonquin" fromDate="6/29/1918" toDate="7/6/1918"/>
+        <location name="Saints" fromDate="7/7/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="96"><!-- day bombardment -->
+        <location name="Amanty" fromDate="6/12/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="99"><!-- corps obs -->
+        <location name="Amanty" fromDate="6/22/1918" toDate="6/30/1918"/>
+        <location name="Luxeuil-les-Bains" fromDate="7/1/1918" toDate="6/30/1918"/>
+        <!-- 5-Jul-1918: one flight detached nr Epinal until end August -->
+    </squadron>
+    <squadron nation="US" type="Aero" num="103"><!-- part of Third Pursuit Group; ex-Lafayette Escadrille -->
+        <location name="Vaulcouleurs" fromDate="8/15/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="139"><!-- part of Second Pursuit Group -->
+        <location name="Toul" fromDate="6/30/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="147"><!-- part of First Pursuit Group -->
+        <location name="Toul" fromDate="6/2/1918" toDate="6/28/1918"/>
+        <location name="Tonquin" fromDate="6/29/1918" toDate="7/6/1918"/>
+        <location name="Saints" fromDate="7/7/1918" toDate=""/>
+    </squadron>
+    <squadron nation="US" type="Aero" num="213"><!-- part of Third Pursuit Group -->
+        <location name="Vaulcouleurs" fromDate="8/14/1918" toDate="" fromDateCertainty="estimated"/>
+    </squadron>
+</squadrons>

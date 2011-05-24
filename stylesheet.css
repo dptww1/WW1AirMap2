@@ -20,7 +20,11 @@ body.help {
 #}
 
 select {
-    font: 9pt Lucida Console, Courier New, Courier, fixed;
+    font: 9pt Courier New, Courier, fixed;
+}
+
+td.help {
+    font: 10pt Verdana, sans-serif;
 }
 
 .aerodromeDiv {
@@ -32,6 +36,7 @@ select {
 }
 
 .selectedAerodrome {
+#    background: url("images/dothilite.png.bak") yellow 0% no-repeat fixed
 }
 
 .borderedImage {
@@ -116,6 +121,17 @@ select {
     position: relative;
     height: 600px;
     overflow: scroll;
+    left: 0;
+}
+
+#resizeHandle {
+    margin:           0px;
+    padding:          0px;
+    position:         relative;
+    height:           3px;
+    width:            100%;
+    background-color: #999;
+    cursor:           move;
 }
 
 #toolBarDiv {
