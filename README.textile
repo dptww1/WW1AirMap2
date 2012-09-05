@@ -1,0 +1,27 @@
+h1. WW1 Aero Squadron Maps
+
+A tool for exploring the locations of aero squadrons during World War 1.
+
+The widgets above the map control what you see.
+
+The basic views are:
+
+* _By_ _Aerodrome_, which lets you select an aerodrome to see its location and what was stationed there when
+* _By_ _Date_, which lets you see where each squadron was on a given date
+* _By_ _Squadron_, which lets you see all the locations where a given squadron was stationed during the war
+
+The national insignia buttons let you filter out squadrons of that nationality.
+
+The cities and rivers buttons let you toggle off those geographical features on the map, which is sometimes useful for seeing the (rather small) aerodrome dots.
+
+Hover your mouse over an aerodrome to see more information about it.
+
+h1. Technical Notes
+
+See "WW1AirMap2":http://www.patriot.net/~townsend/WW1AirMap2 for a usable version.
+
+Implemented entirely in client-side JavaScript using Prototype, wz_dragdrop.js, and wz_jsgraphics.js.
+
+The JS data is constructed from XML source by some custom Ruby scripts in the srcData directory.  They used to be Perl scripts, but the Ruby versions are much cleaner.
+
+This page hasn't been updated to handle wide screens cleanly.  If your browser window is smaller than than the map, you can click and drag the map around a la Google Maps.
