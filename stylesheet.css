@@ -20,6 +20,7 @@ body.help {
 #}
 
 select {
+    border: 1px solid #a4a4a4;
     font: 9pt Courier New, Courier, fixed;
 }
 
