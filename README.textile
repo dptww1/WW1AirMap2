@@ -20,8 +20,8 @@ h1. Technical Notes
 
 See "WW1AirMap2":http://www.patriot.net/~townsend/WW1AirMap2 for a usable version.
 
-Implemented entirely in client-side JavaScript using PrototypeJS.
+Implemented entirely in client-side JavaScript using jQuery (with some plugins) and Overlib.
 
 The JS data is constructed from XML source by some custom Ruby scripts in the srcData directory.  They used to be Perl scripts, but the Ruby versions are much cleaner.
 
-This page hasn't been updated to handle wide screens cleanly.  If your browser window is smaller than than the map, you can click and drag the map around a la Google Maps.
+If your browser window is smaller than than the map, you can click and drag the map around a la Google Maps.
