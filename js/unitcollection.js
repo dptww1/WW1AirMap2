@@ -1,10 +1,12 @@
-// Requires prototype.js
+// Requires jquery.js
 
-function UnitCollection()
-{
-    this._map = $H(); // keys => nationality ID
-                      // values => { keys unit type
-                      //             values => { id1 => 1, id2 => 1, ... ] }
+function UnitCollection() {
+
+    this._map = {}; // keys => nationality ID
+                    // values => {
+                    //     keys  => unit type
+                    //     values => { id1 => 1, id2 => 1, ... }
+                    // }
 
     //========================================================================
     this.add = function(nationalityID, unitType, id, mouseOverFn) {
@@ -12,20 +14,20 @@ function UnitCollection()
             unitType = "RFC";
         }
 
-        if (!this._map.get(nationalityID)) {
-            this._map.set(nationalityID, $H());
+        if (!this._map[nationalityID]) {
+            this._map[nationalityID] = {};
         }
 
-        if (!this._map.get(nationalityID).get(unitType)) {
-            this._map.get(nationalityID).set(unitType, $H());
+        if (!this._map[nationalityID][unitType]) {
+            this._map[nationalityID][unitType] = {};
         }
 
-        this._map.get(nationalityID).get(unitType).set(id, mouseOverFn);
+        this._map[nationalityID][unitType][id] = mouseOverFn;
     };
 
     //========================================================================
     this.getListShort = function(lineSeparator) {
-        var nationIDs = this._map.keys();
+        var nationIDs = _.keys(this._map);
 
         if (nationIDs.length === 0) {
             return "";
@@ -36,7 +38,7 @@ function UnitCollection()
 
         } else { // 2 or more nations in list
             var lines = [];
-            var nationList = this._map.keys().sort();
+            var nationList = _.keys(this._map).sort();
             for (var i = 0; i < nationList.length; ++i) {
                 var nationId = nationList[i];
                 lines.push(nationId + ": " + this._getNationListShort(nationId));
@@ -47,7 +49,7 @@ function UnitCollection()
 
     //========================================================================
     this.getNations = function() {
-        return this._map.keys().sort();
+        return _.keys(this._map).sort();
     };
 
     //========================================================================
@@ -57,36 +59,36 @@ function UnitCollection()
     this.getPreferredNation = function(defaultVal) {
         var maxNation = defaultVal;
         var maxSize = -1;
-        this._map.each(
-                       function(nationTypesPair) {
-                           var nationSum = 0;
-                           nationTypesPair.value.each(
-                                                      function(typeUnitPair) {
-                                                          nationSum += typeUnitPair.value.keys().length;
-                                                      });
-                           if (nationSum > maxSize) {
-                               maxNation = nationTypesPair.key;
-                               maxSize = nationSum;
-                           }
-                       });
+        $.each(this._map,
+               function(nationId, nationTypes) {
+                   var nationSum = 0;
+                   $.each(nationTypes,
+                          function(_type, unitIds) {
+                              nationSum += _.keys(unitIds.keys).length;
+                          });
+                   if (nationSum > maxSize) {
+                       maxNation = nationId;
+                       maxSize = nationSum;
+                   }
+               });
         return maxNation;
     };
 
     //========================================================================
     this.isEmpty = function() {
-        return this._map.keys().length === 0;
+        return _.keys(this._map).length === 0;
     };
 
     //========================================================================
     this._getNationListShort = function(nationId) {
         var byTypeArray = [];
 
-        var typeMap = this._map.get(nationId);
-        var typeList = typeMap.keys().sort();
+        var typeMap = this._map[nationId];
+        var typeList = _.keys(typeMap).sort();
         for (var i = 0; i < typeList.length; ++i) {
             var curType = typeList[i];
 
-            var idList = typeMap.get(curType).keys().sort(UnitCollection.sort);
+            var idList = _.keys(typeMap[curType]).sort(UnitCollection.sort);
 
             byTypeArray.push(UnitCollection.formatShort(curType, idList));
         }

@@ -1,4 +1,4 @@
--*- outline -*-
+-*- org -*-
 
 * libjs/dt_toolbar
 ** see if prototype.js functions can replace ugly callback thunk stuff
@@ -6,8 +6,9 @@
 * unitcollection.js
 ** rewrite getPreferredNation to use prototype.js' max()
 
+* TODO resizeable map window
 * By Aerodrome Mode
-** scroll so that selected aerodrome is guaranteed to be shown
+** TODO scroll so that selected aerodrome is guaranteed to be shown
 
 * By Date
 ** emptydiv jasta names should click to bySquadron w/that squadron (need programmatic way to change SELECTs)
@@ -15,14 +16,18 @@
 ** next/prev should respect nationality changes, i.e. if only BE selected, go to next date when BE changed (regardless of GE data)
 
 * By Squadron
-** what to do when user leaves mode and then comes back?  squadron is still selected but no rendering occurs
+** TODO squadron dropdown list sorting is suspect (turn off BE, GE, then check)
+   (notes: just shows in order in squadrons.js; should sort at build time)
+** TODO what to do when user leaves mode and then comes back?  squadron is still selected but no rendering occurs
 
+   (notes: need to either reset squadron dropdown, or don't erase canvas (but hide it...)
 * General
+** TODO implement HTML manifest for offline use (and test...)
+** TODO remove Prototype references
 ** Use prototype.js/Template for heavy-duty HTML-generation stuff
 ** aerodrome notes need spell checking
 ** window Resize handling is broken (if window is especially wide)
 ** Complete docs per Natural Docs
-
 * Art
 ** label countries (and pushbutton to turn on/off)
 ** front lines?
@@ -49,8 +54,8 @@
 *** 10 Rugny Ferme
 *** 13 ?, Le Close Ferme
 *** 15 Le Close Ferme
-*** 16 ?                                    
-*** 22 Near Soissons                       
+*** 16 ?
+*** 22 Near Soissons
 *** 29 Bellincamps (?Bellinchamps)
 *** 32 Boulin Ferme, Destrich-Brülingen
 *** 36 Le Château

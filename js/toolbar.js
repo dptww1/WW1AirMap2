@@ -5,11 +5,12 @@
 //    squadrons.js
 //    activeUnits.js
 
-// {{{ Utility functions
+// === Utility functions ===
+
 function adjustDate(numDays) {
-    var d = $F("dateSelect");
-    var m = $F("monthSelect");
-    var y = $F("yearSelect");
+    var d = $("#dateSelect").val();
+    var m = $("#monthSelect").val();
+    var y = $("#yearSelect").val();
 
     // Javascript doesn't allow dates before 1970.  But it turns out that 1972 and 1916 have the same
     // "shape", so we'll map 1916 <=> 1972, 1917 <=> 1973, etc.
@@ -34,11 +35,11 @@ function makeActiveUnits() {
     // Out with the old...
     activeUnits.length = 0;
 
-    var selElt = $("squadronSelect");
+    var selElt = $("#squadronSelect")[0];
     while (selElt.length > 0) {
         selElt.remove(0);
     }
-    // Prototype's selElt.add() was failing with a "type mismatch" error, so I'm doing it manually
+
     var opt = selElt.options;
     opt[opt.length] = new Option("-- Select Squadron --", ""); // leave an option even if everything is turned off
 
@@ -50,7 +51,7 @@ function makeActiveUnits() {
 
             activeUnits.push(curUnit);
 
-            opt[opt.length] = new Option(curUnitName, i); // Prototype's selElt.add() was failing with a "type mismatch"
+            opt[opt.length] = new Option(curUnitName, i);
         }
     }
 }
@@ -65,8 +66,9 @@ function setDate(y, m, d) {
     document.f.dateSelect.selectedIndex  = d - 1;
     curMapState.changeDate(y * 10000 + m * 100 + d);
 }
-// }}}
-// {{{ Callbacks
+
+// === Callbacks ===
+
 function toggleAerodromes(newState) {
     curMapState.toggleUnselectedAerodromes(newState);
     return true;
@@ -88,7 +90,7 @@ function toggleBritishInfo(newState) {
 }
 
 function toggleCityNames(newState) {
-    newState == "off" ? $("cityNamesDiv").hide() : $("cityNamesDiv").show();
+    newState == "off" ? $("#cityNamesDiv").hide() : $("#cityNamesDiv").show();
     return true;
 }
 
@@ -107,19 +109,18 @@ function toggleUSInfo(newState) {
 }
 
 function toggleRivers(newState) {
-    newState == "off" ? $("riversDiv").hide() : $("riversDiv").show();
+    newState == "off" ? $("#riversDiv").hide() : $("#riversDiv").show();
     return true;
 }
 
-function changedType()
-{
-    displayType = $F("displayType");
+function changedType() {
+    displayType = $("#displayType");
 
     curMapState.cleanup();
 
-    setToolBarForMode(displayType);
+    setToolBarForMode(displayType.val());
 
-    switch (displayType) {
+    switch (displayType.val()) {
     case "byAerodrome":  curMapState = mapStateByAerodrome;  break;
     case "byDate":       curMapState = mapStateByDate;       break;
     case "bySquadron":   curMapState = mapStateBySquadron;   break;
@@ -144,9 +145,9 @@ function changedMonth()
 }
 
 function prevDay() {
-    var d = $F("dateSelect");
-    var m = $F("monthSelect");
-    var y = $F("yearSelect");
+    var d = $("#dateSelect").val();
+    var m = $("#monthSelect").val();
+    var y = $("#yearSelect").val();
     var i = endChangeDates.binarySearch(formatDateAsInt(y, m, d));
     var dateStr;
     if (i < 0) {  // current date falls between known dates
@@ -162,9 +163,9 @@ function prevDay() {
 
 function nextDay() {
     var dateStr;
-    var d = $F("dateSelect");
-    var m = $F("monthSelect");
-    var y = $F("yearSelect");
+    var d = $("#dateSelect").val();
+    var m = $("#monthSelect").val();
+    var y = $("#yearSelect").val();
     var i = startChangeDates.binarySearch(formatDateAsInt(y, m, d));
     if (i < 0) {  // current date falls between known dates
         dateStr = "" + startChangeDates[Math.abs(i)];
@@ -178,20 +179,21 @@ function nextDay() {
 }
 
 function choseAerodrome() {
-    var newAerodrome = $F("aerodromeSelect");
+    var newAerodrome = $("#aerodromeSelect").val();
     if (newAerodrome) {
         curMapState.selectAerodrome(gazetteer[newAerodrome].id);
     }
 }
 
 function choseSquadron() {
-    var squadronId = $F("squadronSelect");
+    var squadronId = $("#squadronSelect").val();
     if (squadronId) {
         curMapState.selectSquadron(squadronId);
     }
 }
-// }}}
-// {{{ Toolbar setup
+
+// === Toolbar setup ===
+
 // Dropdown data arrays
 var displayType = "init";
 var daysArray = [];  for (var i = 1; i <= 31; ++i) { daysArray.push("" + i); }
@@ -249,12 +251,14 @@ toolBar.add(new DT_Spacer(12, allModesClassName));
 toolBar.add(new DT_Link("Help", "help.html", allModesClassName + " help"));
 
 DT_ToggleButton.preloadImages();
-// }}}
-// {{{ setToolBarForMode
-function setToolBarForMode(modeName) {
-    $("toolBarDiv")
-        .getElementsBySelector("img", "select")
-        .each( function(item) { item.classNames().include(modeName) ? item.show() : item.hide(); } );
-}
-// }}}
 
+
+function setToolBarForMode(modeName) {
+    $.merge($("#toolBarDiv").find("select"),
+            $("#toolBarDiv").find("img"))
+     .each(
+         function(idx, elt) {
+             $(elt).hasClass(modeName) ? $(elt).show() : $(elt).hide();
+         }
+     );
+}

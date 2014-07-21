@@ -4,8 +4,8 @@ a.help {
 
 body {
     background-color: #B4BA76;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body.help {
@@ -15,9 +15,11 @@ body.help {
     font: 10pt Verdana, sans-serif;
 }
 
-#img {
-#    behavior: url(iepngfix.htc);
-#}
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
 select {
     border: 1px solid #a4a4a4;
@@ -29,15 +31,24 @@ td.help {
 }
 
 .aerodromeDiv {
-    position:   absolute;
-    width:      3px;
-    height:     3px;
-    margin:     0;
-    padding:    0;
+    position:       absolute;
+    width:          3px;
+    height:         3px;
+    margin:         0;
+    padding:        0;
+    z-index:        500;
+    line-height:    0;
+}
+
+/* without this styling, the aerodromeDivs are too tall (which you can only tell by watching when tooltips go on/off) */
+.aerodromeDiv img {
+    display: block;
+    vertical-align: top;
 }
 
 .selectedAerodrome {
-#    background: url("images/dothilite.png.bak") yellow 0% no-repeat fixed
+/*    background: url("images/dothilite.png.bak") yellow 0% no-repeat fixed */
+    display:    inline;
 }
 
 .borderedImage {
@@ -60,17 +71,17 @@ td.help {
 
 .faq {
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     background-color: #c0c0c0;
 }
 
 .faqa {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .mapLayer {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position: absolute;
     left: 0;
     top: 0;
@@ -83,6 +94,8 @@ td.help {
 .pageTitle {
     font: bold 14pt Courier New, fixed;
     text-align: center;
+    padding: 1em;
+    margin: 0;
 }
 
 .squadronDate {
@@ -104,10 +117,26 @@ td.help {
     width: 62px;
 }
 
+#aerodromeHighlightDiv {
+    position:    absolute;
+    width:       5px;
+    height:      5px;
+    margin:      0;
+    padding:     0;
+    z-index:     501;
+    line-height: 0;
+}
+
+/* same note as .aerodromeDiv img */
+#aerodromeHighlightDiv img {
+    display: block;
+    vertical-align: top;
+}
+
 
 #emptyDiv {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position: relative;
     font: 8pt Courier New, Courier, fixed;
 }
@@ -117,26 +146,23 @@ td.help {
 }
 
 #mapContainerDiv {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position: relative;
     height: 600px;
-    overflow: scroll;
+    overflow: hidden;
     left: 0;
 }
 
-#resizeHandle {
-    margin:           0px;
-    padding:          0px;
-    position:         relative;
-    height:           3px;
-    width:            100%;
-    background-color: #999;
-    cursor:           move;
+#drawCanvasDiv {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #toolBarDiv {
-    border-width: 1;
+    border-width: 1px;
     border-style: solid none;
     border-color: black;
     background-color: #e0e0e0;

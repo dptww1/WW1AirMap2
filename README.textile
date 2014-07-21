@@ -20,7 +20,7 @@ h1. Technical Notes
 
 See "WW1AirMap2":http://www.patriot.net/~townsend/WW1AirMap2 for a usable version.
 
-Implemented entirely in client-side JavaScript using Prototype, wz_dragdrop.js, and wz_jsgraphics.js.
+Implemented entirely in client-side JavaScript using PrototypeJS.
 
 The JS data is constructed from XML source by some custom Ruby scripts in the srcData directory.  They used to be Perl scripts, but the Ruby versions are much cleaner.
 

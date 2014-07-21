@@ -1,4 +1,4 @@
-// Dependencies: prototype.js, utils.js
+// Dependencies: jquery.js, utils.js
 
 function DT_Scroller(divId, propertyHash) {
     this.beginScroll = function(ev) {
@@ -64,12 +64,10 @@ function DT_Scroller(divId, propertyHash) {
     };
 
     this.recomputeBounds = function(ev) {
-        var img = this.scrollDiv.getElementsBySelector("img")[0];
-        var dimImg = img.getDimensions();
-        var dimDiv = this.scrollDiv.getDimensions();
+        var img = $(this.scrollDiv).find("img")[0];
 
-        this.diffX = dimImg.width  - dimDiv.width;
-        this.diffY = dimImg.height - dimDiv.height;
+        this.diffX = $(img).width()  - $(this.scrollDiv).width();
+        this.diffY = $(img).height() - $(this.scrollDiv).height();
 
         return true;
     };
@@ -92,26 +90,28 @@ function DT_Scroller(divId, propertyHash) {
     this.scrollPosX = 0;
     this.scrollPosY = 0;
 
-    this.scrollDiv = $(divId);
-    this.scrollDivAbsolutes = this.scrollDiv.getElementsBySelector("div");
-    this.scrollDivAbsolutes.each(function(d) {
-                                     if (d.getStyle("position") == "absolute") {
-                                         d.addClassName("absolute");
-                                         if (typeof(d.posX) == "undefined") {
-                                             d.posX = 0;
-                                             d.posY = 0;
-                                         }
-                                     }
-                                 });
+    this.scrollDiv = $(divId)[0];
+    this.scrollDivAbsolutes = $(this.scrollDiv).find("div");
+    this.scrollDivAbsolutes.each(
+        function(idx, d) {
+            if ($(d).css("position") === "absolute") {
+                $(d).addClass("absolute");
+                if (typeof(d.posX) == "undefined") {
+                    d.posX = 0;
+                    d.posY = 0;
+                }
+            }
+        }
+    );
 
     // Compute the bounding image
     this.recomputeBounds();
 
-    this.scrollDiv.makeClipping();
+//    this.scrollDiv.makeClipping();
 
-    Event.observe(this.scrollDiv, "mousedown", this.beginScroll.bindAsEventListener(this));
-    Event.observe(this.scrollDiv, "mouseout",  this.endScroll.bindAsEventListener(this));
-    Event.observe(this.scrollDiv, "mouseup",   this.endScroll.bindAsEventListener(this));
-    Event.observe(this.scrollDiv, "mousemove", this.doScroll.bindAsEventListener(this));
-    Event.observe(window,         "resize",    this.recomputeBounds.bindAsEventListener(this));
+    $(this.scrollDiv).on("mousedown", this.beginScroll);
+    $(this.scrollDiv).on("mouseout",  this.endScroll);
+    $(this.scrollDiv).on("mouseup",   this.endScroll);
+    $(this.scrollDiv).on("mousemove", this.doScroll);
+    $(window).resize(this.recomputeBounds);
 }

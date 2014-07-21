@@ -71,19 +71,12 @@ function getFunctionName(funcObj) {
  *
  * Browser-independent way to set opacity on an element.
  *
- * To Do:
- *     Use prototype's Element.setStyle()
- *
  * Parameters:
  *      elt - element to set opacity on
  *      opacity - floating point number in range (0.0, 100.0)
  */
 function setOpacity(elt, opacity) {
-    if (typeof(elt.style.opacity) != "undefined") {
-        elt.style.opacity = opacity;
-    } else {
-        elt.style.filter = "alpha(opacity=" + (opacity * 100) + ")";  // nukes any existing filter, though
-    }
+    $(elt).css({ "opacity": opacity });
 }
 // }}}
 // {{{ makeOverlibCompatibleStr
@@ -173,9 +166,9 @@ function formatDate(dateAsInt) {
 // {{{ Resizer
 function Resizer(scroller)
 {
-    this.map          = $("mapContainerDiv");
-    this.resizeHandle = $("resizeHandle");
-    this.empty        = $("emptyDiv");
+    this.map          = $("#mapContainerDiv")[0];
+    this.resizeHandle = $("#resizeHandle")[0];
+    this.empty        = $("#emptyDiv")[0];
 
     // Ordering seems to be very important here
     this.empty.absolutize();

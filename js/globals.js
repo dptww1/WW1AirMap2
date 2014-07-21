@@ -1,5 +1,3 @@
-// $Id: $
-
 var activeUnits = [];  // populated from squadrons[] by toolbar
 
 var nationInfo = {
@@ -10,4 +8,3 @@ var nationInfo = {
  GE : { show: true,  aerodrome_image: "images/reddot.png",    color: "#FF0000" },
  US : { show: false, aerodrome_image: "images/whitedot.png",  color: "#FFFFFF" }
 };
-
