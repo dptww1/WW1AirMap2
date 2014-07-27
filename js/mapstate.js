@@ -182,7 +182,7 @@ function MapStateBySquadron() {
         this.ctx.stroke();
 
         s += "</table>";
-        $("#emptyDiv").html(s);
+        $("#textContentDiv").html(s);
     };
 }
 MapStateBySquadron.prototype = new MapState();
@@ -251,7 +251,7 @@ function MapStateByDate() {
                                " onmouseleave ='unhighlightAerodromeName(\"" + locAsId + "\")");
             }
         }
-        $("#emptyDiv").html(columnizer.generate2(5, 2));
+        $("#textContentDiv").html(columnizer.generate2(5, 2));
     };
 
     this.findLocationAtDate = function(locsArray, inDate) {
@@ -333,7 +333,7 @@ function MapStateByAerodrome() {
                 }
             }
         }
-        $("#emptyDiv").html(columnizer.generate2(3, 2));
+        $("#textContentDiv").html(columnizer.generate2(3, 2));
     };
 
     this.cleanup = function() {

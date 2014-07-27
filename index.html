@@ -3,7 +3,6 @@
 <head>
 <title>WW1 Aeroplane Squadrons</title>
 <meta charset="iso-8859">
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 <!-- external libraries -->
 <script src="extjs/underscore.js"></script>
@@ -32,6 +31,9 @@
 <script src="js/unitcollection.js"></script>
 <script src="js/util.js"></script>
 <script src="js/toolbar.js"></script> <!-- order dependency: must be after unitcollection.js -->
+
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="extjs/css/jquery-ui.theme.css">
 </head>
 <body>
 <form name="f" action="#"><!-- this is all client side, but make sure form controls show up -->
@@ -47,7 +49,10 @@
          </canvas>
     </div>
 </div>
-<div id="emptyDiv"></div>
+<div id="emptyDiv">
+  <div id="resizeHandle" class="ui-resizable-handle ui-resizable-n"></div>
+  <div id="textContentDiv"></div>
+</div>
 </form>
 </body>
 <script>
@@ -56,26 +61,33 @@ $(document).ready(function() {
     setToolBarForMode("init");
     makeActiveUnits();
     curMapState.initialize();  // order dependency -- creates aerodrome divs
+
     $("#mapContainerDiv").overscroll();
-/*
+
     $("#mapContainerDiv").overscroll().on(
         "overscroll:dragend",
         function(ev) {
-            console.debug("overscroll:dragend: left=" + this.scrollLeft + ", top=" + this.scrollTop); }
-        );
-*/
-    $("#mapContainerDiv").resizable({ handles: 's'});
+            console.debug("overscroll:dragend: left=" + this.scrollLeft + ", top=" + this.scrollTop);
+        }
+    );
+
+    $("#emptyDiv").resizable({
+        handles: { n: "#resizeHandle" },
+        start: function() {
+            $("#mapContainerDiv").removeOverscroll();
+            $(this).data("old-height", $("#mapContainerDiv").height());
+        },
+        stop: function(ev, obj) {
+            $("#mapContainerDiv").height($(this).data("old-height") - (obj.originalPosition.top - obj.position.top));
+            $("#emptyDiv").css("top", 0);
+
+            $("#mapContainerDiv").overscroll();
+        }
+    });
+
+    $(window).resize(function() {
+        $("#mapContainerDiv").overscroll();
+    });
 });
-/*
-    Event.observe(window, "load", function() {
-                                      $("toolBarDiv").insert(toolBar.generate(), { position: "content" } );
-                                      setToolBarForMode("init");
-                                      makeActiveUnits();
-                                      curMapState.initialize();            // order dependency -- creates aerodrome divs
-                                      var scroller = new DT_Scroller("mapContainerDiv");  // order dependency -- manipulates aerodrome divs
-                                      new Resizer(scroller);
-                                  }
-                  );
-*/
 </script>
 </html>

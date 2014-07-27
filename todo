@@ -24,6 +24,7 @@
 * General
 ** TODO implement HTML manifest for offline use (and test...)
 ** TODO remove Prototype references
+** TODO switch to jQuery UI tooltip (which can use function to compute tooltip -- better than creating all of them at once)
 ** Use prototype.js/Template for heavy-duty HTML-generation stuff
 ** aerodrome notes need spell checking
 ** window Resize handling is broken (if window is especially wide)
