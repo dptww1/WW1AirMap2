@@ -80,14 +80,13 @@ $(document).ready(function() {
         stop: function(ev, obj) {
             $("#mapContainerDiv").height($(this).data("old-height") - (obj.originalPosition.top - obj.position.top));
             $("#emptyDiv").css("top", 0);
-
             $("#mapContainerDiv").overscroll();
         }
     });
 
-    $(window).resize(function() {
-        $("#mapContainerDiv").overscroll();
-    });
+    $(window).resize(
+        _.debounce(function() { $("#mapContainerDiv").overscroll() }, 500)
+    );
 });
 </script>
 </html>
