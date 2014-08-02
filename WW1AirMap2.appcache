@@ -1,0 +1,75 @@
+CACHE MANIFEST
+# v1 2014-08-02.2
+
+CACHE:
+index.html
+help.html
+
+# external libraries
+extjs/underscore.js
+extjs/binarysearch.js
+js/overliboverrides.js
+extjs/overlib.js
+extjs/jquery-2.1.1.js
+extjs/jquery.overscroll.js
+extjs/jquery-ui.js
+
+# data
+data/aerodromeCalendar.js
+data/changedates.js
+data/gazetteer.js
+data/squadrons.js
+
+# local generic libraries
+libjs/dump.js
+libjs/dt_scroller.js
+libjs/dt_toolbar.js
+libjs/columnizer.js
+
+# local libraries
+js/globals.js
+js/mapinfo.js
+js/mapstate.js
+js/unitcollection.js
+js/util.js
+js/toolbar.js
+
+# stylesheets
+css/stylesheet.css
+extjs/css/jquery-ui.theme.css
+
+# images
+images/aerodromes_off.png
+images/aerodromes_on.png
+images/be_off.png
+images/be_on.png
+images/bluedot.png
+images/br_off.png
+images/br_on.png
+images/citynames-full-n.png
+images/citynames-n0.png
+images/citynames.png
+images/citynames_off.png
+images/citynames_on.png
+images/dothilite.png
+images/ge_off.png
+images/ge_on.png
+images/map-full-n.png
+images/map-n.png
+images/map-n0.png
+images/nextday_off.png
+images/nextday_on.png
+images/notes
+images/olivedot.png
+images/prevday_off.png
+images/prevday_on.png
+images/pspbrwse.jbf
+images/reddot.png
+images/rivers-full-n.png
+images/rivers_off.png
+images/rivers_on.png
+images/spacer.png
+images/us_off.png
+images/us_on.png
+images/whitedot.png
+images/yellowdot.png
