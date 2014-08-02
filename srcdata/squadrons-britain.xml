@@ -261,7 +261,8 @@
     </squadron>
     <squadron nation='BR' type='RFC' num='12'>
         <location name="Netheravon" fromDate='2/14/1915' toDate='9/5/1915'/>
-        <location name="St.-Omer" fromDate='9/6/1915' toDate='3/2/1916'/>
+        <location name="St.-Omer" fromDate='9/6/1915' toDate='2/27/1916'/>
+        <location name="Vert Galand" fromDate='2/28/1916' toDate='3/2/1916'/>
         <location name="Avesnes-le-Comte" fromDate='3/3/1916' toDate='5/8/1917'/>
         <location name="Wagnonlieu" fromDate='5/9/1917' toDate='7/6/1917'/>
         <location name="Ablainzevelle" fromDate='7/7/1917' toDate='7/31/1917'/>

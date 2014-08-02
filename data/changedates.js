@@ -1,4 +1,4 @@
-// Created by mkaerocal.rb from jastas.xml on Tue May 24 08:25:25 EDT 2011
+// Created by mkaerocal.rb from jastas.xml on Sat Aug  2 16:18:31 EDT 2014
 
 var startChangeDates = [
     19140515,
@@ -116,6 +116,7 @@ var startChangeDates = [
     19160219,
     19160220,
     19160226,
+    19160228,
     19160229,
     19160301,
     19160302,
@@ -858,6 +859,7 @@ var endChangeDates = [
     19160211,
     19160218,
     19160219,
+    19160227,
     19160228,
     19160229,
     19160301,

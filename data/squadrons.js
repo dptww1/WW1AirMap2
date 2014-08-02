@@ -4,7 +4,7 @@
 //    squadrons-britain.xml
 //    squadrons-germany.xml
 //    squadrons-us.xml
-// on Tue May 24 08:25:25 EDT 2011
+// on Sat Aug  2 16:20:51 EDT 2014
 
 var squadrons = [
   { nation:'AU', type:'AFC', n:'2', locs: [
@@ -319,7 +319,8 @@ var squadrons = [
     ]},
   { nation:'BR', type:'RFC', n:'12', locs: [
      ["Netheravon",19150214,19150905],
-     ["St.-Omer",19150906,19160302],
+     ["St.-Omer",19150906,19160227],
+     ["Vert Galand",19160228,19160302],
      ["Avesnes-le-Comte",19160303,19170508],
      ["Wagnonlieu",19170509,19170706],
      ["Ablainzevelle",19170707,19170731],
