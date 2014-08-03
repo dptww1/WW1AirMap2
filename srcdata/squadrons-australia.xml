@@ -7,7 +7,7 @@
         <location name="Harlaxton" fromDate='1/30/1917' toDate='1/6/1918'/>
         <location name="Baizieux" fromDate='1/7/1918' toDate='1/21/1918'/><!-- was "Baixieux", but no such place; Baizieux seems more likely than Baisieux near Lille -->
         <location name="Auchel" fromDate='1/22/1918' toDate='4/1/1918'/>
-        <location name="Savy" fromDate='4/2/1918' toDate='4/3/1918'/>
+        <location name="Savy-Berlette" fromDate='4/2/1918' toDate='4/3/1918'/>
         <location name="Bertangles" fromDate='4/4/1918' toDate='6/2/1918'/>
         <location name="Bellevue" fromDate='6/3/1918' toDate='6/20/1918'/>
         <location name="Fouquerolles" fromDate='6/21/1918' toDate='6/30/1918'/><!-- was Foquorolles, which isn't in Google nor OtF6.1, assumed typo -->
@@ -18,7 +18,7 @@
     </squadron>
     <squadron nation='AU' type='AFC' num='3'>
         <location name="South Carlton" fromDate='12/28/1916' toDate='9/8/1917'/>
-        <location name="Savy" fromDate='9/9/1917' toDate='11/11/1917'/>
+        <location name="Savy-Berlette" fromDate='9/9/1917' toDate='11/11/1917'/>
         <location name="Bailleul" fromDate='11/12/1917' toDate='3/21/1918'/>
         <location name="Abeele" fromDate='3/22/1918' toDate='4/7/1918'/>
         <location name="Bertangles" fromDate='4/8/1918' toDate='5/3/1918'/>

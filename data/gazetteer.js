@@ -1,4 +1,4 @@
-// Created by mkgazetteer.rb from gazetteer.xml on Tue May 24 08:25:22 EDT 2011
+// Created by mkgazetteer.rb from gazetteer.xml on Sat Aug  2 20:01:53 EDT 2014
 
 var gazetteer = {
 "Abbeville": {loc:["Amiens",-20.9,-16.0],id:"Abbeville"},
@@ -511,7 +511,7 @@ var gazetteer = {
 "Santes": {loc:["Lille",-4.44,2.67],notes:"tJP has &quot;Sante Nord&quot;; there are no &quot;Sante&quot;s in Mapquest or calle.com but Mapquest shows a &quot;Santes&quot; in about the same location as tJP map.",id:"Santes"},
 "Sarienne-la-Longue": "",
 "Saultain": {loc:["Lille",23.11,16.89],id:"Saultain"},
-"Savy": {loc:["Arras",19.5,32.7],id:"Savy"},
+"Savy-Berlette": {loc:["Arras",-9.4,-4.4],id:"Savy_Berlette"},
 "Scheldewindeke": {loc:["Gent",2.67,8.00],id:"Scheldewindeke"},
 "Seclin": {loc:["Lille",-1.33,4.00],id:"Seclin"},
 "Sedgeford": "Britain",

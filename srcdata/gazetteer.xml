@@ -525,7 +525,7 @@
     <location name="Santes" country="France"><mapLoc refPt="Lille" xDist="-4.44" yDist="2.67"/><notes>tJP has "Sante Nord"; there are no "Sante"s in Mapquest or calle.com but Mapquest shows a "Santes" in about the same location as tJP map.</notes></location>
     <location name="Sarienne-la-Longue"><mapLoc refPt="Brussels" xDist="30.0" yDist="31.8"/><notes>Old name for Sorinne la Longue (location given here)?  Or just a tJP typo?</notes></location>
     <location name="Saultain" country="France"><mapLoc refPt="Lille" xDist="23.11" yDist="16.89"/></location>
-    <location name="Savy" country="France"><mapLoc refPt="Arras" xDist="19.5" yDist="32.7"/></location>
+    <location name="Savy-Berlette" country="France"><mapLoc refPt="Arras" xDist="-9.4" yDist="-4.4"/></location>
     <location name="Scheldewindeke" country="Belgium"><mapLoc refPt="Gent" xDist="2.67" yDist="8.00"/></location>
     <location name="Seclin" country="France"><mapLoc refPt="Lille" xDist="-1.33" yDist="4.00"/></location>
     <location name="Sedgeford" country="Britain"/>

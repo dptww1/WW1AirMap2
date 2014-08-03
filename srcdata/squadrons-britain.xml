@@ -134,7 +134,7 @@
         <location name="Droglandt" fromDate='3/11/1916' toDate='10/1/1916'/>
         <location name="Marieux" fromDate='10/2/1916' toDate='3/23/1917'/>
         <location name="La Gorgue" fromDate='3/24/1917' toDate='4/6/1917'/>
-        <location name="Savy" fromDate='4/7/1917' toDate='6/1/1917'/>
+        <location name="Savy-Berlette" fromDate='4/7/1917' toDate='6/1/1917'/>
         <location name="Acq" fromDate='6/2/1917' toDate='5/24/1918'/>
         <location name="Le Hameau" fromDate='5/25/1918' toDate='8/3/1918'/>
         <location name="Bovelles" fromDate='8/4/1918' toDate='8/23/1918'/>
@@ -249,7 +249,7 @@
         <location name="Vert Galand" fromDate='7/29/1915' toDate='9/19/1915'/>
         <location name="Villers-Bretonneux" fromDate='9/20/1915' toDate='10/26/1915'/>
         <location name="Bertangles" fromDate='10/27/1915' toDate='12/31/1915'/>
-        <location name="Savy" fromDate='1/1/1916' toDate='7/31/1916'/>
+        <location name="Savy-Berlette" fromDate='1/1/1916' toDate='7/31/1916'/>
         <location name="Izel-le-Hameau" fromDate='8/1/1916' toDate='5/31/1917'/>
         <location name="La Bellevue" fromDate='6/1/1917' toDate='3/26/1918'/>
         <location name="Fienvillers" fromDate='3/27/1918' toDate='4/15/1918'/>
@@ -277,7 +277,7 @@
         <location name="St.-Omer" fromDate='10/19/1915' toDate='10/20/1915'/>
         <location name="Vert Galand" fromDate='10/21/1915' toDate='12/14/1916'/>
         <location name="Le Hameau" fromDate='12/15/1916' toDate='3/17/1916'/>
-        <location name="Savy" fromDate='3/18/1916' toDate='5/8/1917'/>
+        <location name="Savy-Berlette" fromDate='3/18/1916' toDate='5/8/1917'/>
         <location name="Etrun" fromDate='5/9/1917' toDate='3/21/1918'/>
         <location name="Le Hameau" fromDate='3/22/1918' toDate='9/21/1918'/>
         <location name="Mory" fromDate='9/22/1918' toDate='10/18/1918'/>
@@ -294,7 +294,7 @@
         <location name="Léalvillers" fromDate='10/2/1916' toDate='6/5/1917'/><!-- was Lealvillers (Clairfaye Farm) -->
         <location name="Courcelles-le-Comte" fromDate='6/6/1917' toDate='7/6/1917'/>
         <location name="La Gorgue" fromDate='7/7/1917' toDate='8/17/1917'/>
-        <location name="Savy" fromDate='8/18/1917' toDate='8/29/1917'/>
+        <location name="Savy-Berlette" fromDate='8/18/1917' toDate='8/29/1917'/>
         <location name="Longavesnes" fromDate='8/30/1917' toDate='10/7/1917'/>
         <location name="Léchelle" fromDate='10/8/1917' toDate='11/29/1917'/><!-- added the accent -->
         <location name="Bapaume" fromDate='11/30/1917' toDate='12/4/1917'/>
@@ -352,9 +352,9 @@
         <location name="Ste.-Marie-Cappel" fromDate='12/25/1917' toDate='2/12/1918'/><!-- added period -->
         <location name="Bailleul" fromDate='2/13/1918' toDate='3/22/1918'/>
         <location name="Ste.-Marie-Cappel" fromDate='3/23/1918' toDate='3/30/1918'/><!-- added period -->
-        <location name="Savy" fromDate='3/31/1918' toDate='8/16/1918'/>
+        <location name="Savy-Berlette" fromDate='3/31/1918' toDate='8/16/1918'/>
         <location name="Cappelle" fromDate='8/17/1918' toDate='9/22/1918'/>
-        <location name="Savy" fromDate='9/23/1918' toDate='10/23/1918'/>
+        <location name="Savy-Berlette" fromDate='9/23/1918' toDate='10/23/1918'/>
         <location name="Abscon" fromDate='10/24/1918' toDate='11/11/1918'/>
     </squadron>
     <squadron nation='BR' type='RFC' num='20'>
@@ -530,10 +530,10 @@
         <location name="Narborough" fromDate='6/16/1916' toDate='1/25/1917'/>
         <location name="St.-Omer" fromDate='1/26/1917' toDate='2/3/1917'/>
         <location name="St.-André-au-Bois" fromDate='2/4/1917' toDate='4/4/1917'/><!-- was St Andre aux Bois -->
-        <location name="Savy" fromDate='4/5/1917' toDate='5/12/1917'/>
+        <location name="Savy-Berlette" fromDate='4/5/1917' toDate='5/12/1917'/>
         <location name="Villers-Bretonneux" fromDate='5/13/1917' toDate='5/22/1917'/>
         <location name="Mons-en-Chaussée" fromDate='5/23/1917' toDate='7/12/1917'/><!-- added accent -->
-        <location name="Savy" fromDate='7/13/1917' toDate='7/18/1917'/>
+        <location name="Savy-Berlette" fromDate='7/13/1917' toDate='7/18/1917'/>
         <location name="La Gorgue" fromDate='7/19/1917' toDate='10/4/1917'/>
         <location name="Lalovie" fromDate='10/5/1917' toDate='10/16/1917'/><!-- was La Lovie -->
         <location name="Bruay" fromDate='10/17/1917' toDate='11/6/1917'/>
@@ -567,7 +567,7 @@
         <location name="Marieux" fromDate='3/22/1918' toDate='3/26/1918'/>
         <location name="Fienvillers" fromDate='3/27/1918' toDate='3/28/1918'/>
         <location name="Alquines" fromDate='3/29/1918' toDate='4/8/1918'/>
-        <location name="Savy" fromDate='4/9/1918' toDate='4/10/1918'/>
+        <location name="Savy-Berlette" fromDate='4/9/1918' toDate='4/10/1918'/>
         <location name="Serny" fromDate='4/11/1918' toDate='5/18/1918'/>
         <location name="Estrée-Blanche" fromDate='5/19/1918' toDate='5/31/1918'/><!-- added accent -->
         <location name="Conteville" fromDate='6/1/1918' toDate='8/13/1918'/>
@@ -686,7 +686,7 @@
         <location name="Trécon" fromDate='5/29/1918' toDate='6/29/1918'/>
         <location name="Auxi-le-Château" fromDate='6/30/1918' toDate='8/3/1918'/><!-- repunctuated -->
         <location name="Izel-le-Hameau" fromDate='8/4/1918' toDate='8/23/1918'/>
-        <location name="Savy" fromDate='8/24/1918' toDate='10/18/1918'/>
+        <location name="Savy-Berlette" fromDate='8/24/1918' toDate='10/18/1918'/>
         <location name="Bourlon" fromDate='10/19/1918' toDate='10/20/1918'/>
         <location name="Escaudoeuvres" fromDate='10/21/1918' toDate='10/24/1918'/><!-- was Escadoeuvres -->
         <location name="Avesnes-le-Sec" fromDate='10/25/1918' toDate='11/9/1918'/>
@@ -808,7 +808,7 @@
         <location name="Vert Galand" fromDate='6/16/1916' toDate='8/2/1916'/>
         <location name="St.-André-au-Bois" fromDate='8/3/1916' toDate='8/22/1916'/><!-- was St Andre aux Bois -->
         <location name="Le Hameau" fromDate='8/23/1916' toDate='8/31/1916'/>
-        <location name="Savy" fromDate='9/1/1916' toDate='1/17/1917'/>
+        <location name="Savy-Berlette" fromDate='9/1/1916' toDate='1/17/1917'/>
         <location name="Filescamp Farm" fromDate='1/18/1917' toDate='9/4/1917'/>
         <location name="Ste.-Marie-Cappel" fromDate='9/5/1917' toDate='3/7/1918'/><!-- added period -->
         <location name="Bailleul" fromDate='3/8/1918' toDate='3/22/1918'/><!-- was Balleul, assumed typo -->
@@ -873,7 +873,7 @@
         <location name="South Carlton" fromDate='12/28/1916' toDate='8/23/1917'/>
         <location name="Lympne" fromDate='8/24/1917' toDate='9/8/1917'/>
         <location name="St.-Omer" fromDate='9/9/1917' toDate='9/9/1917'/>
-        <location name="Savy" fromDate='9/10/1917' toDate='11/8/1917'/>
+        <location name="Savy-Berlette" fromDate='9/10/1917' toDate='11/8/1917'/>
         <location name="Bailleul" fromDate='11/9/1917' toDate='1/18/1918'/><!-- removed "(Town)" -->
         <location name="DB - renumbered 3 Sqn, AFC" fromDate='1/19/1918' toDate='11/11/1918'/>
     </squadron>
@@ -969,7 +969,7 @@
         <location name="Beverley" fromDate='2/6/1917' toDate='3/29/1917'/>
         <location name="Waddington" fromDate='3/30/1917' toDate='11/16/1917'/>
         <location name="St.-Omer" fromDate='11/17/1917' toDate='11/19/1917'/>
-        <location name="Savy" fromDate='11/20/1917' toDate='1/21/1918'/>
+        <location name="Savy-Berlette" fromDate='11/20/1917' toDate='1/21/1918'/>
         <location name="Bonneuil Ferme" fromDate='1/22/1918' toDate='3/21/1918'/><!-- was Golancourt, same airfield -->
         <location name="Catigny" fromDate='3/22/1918' toDate='3/23/1918'/>
         <location name="Allonville" fromDate='3/24/1918' toDate='3/26/1918'/>
@@ -1017,7 +1017,7 @@
         <location name="Petite-Synthe" fromDate='5/25/1918' toDate='6/10/1918'/><!-- added dash -->
         <location name="St.-Omer" fromDate='6/11/1918' toDate='8/12/1918'/>
         <location name="Bertangles" fromDate='8/13/1918' toDate='9/4/1918'/>
-        <location name="Savy" fromDate='9/5/1918' toDate='9/22/1918'/>
+        <location name="Savy-Berlette" fromDate='9/5/1918' toDate='9/22/1918'/>
         <location name="Foucaucourt" fromDate='9/23/1918' toDate='10/8/1918'/>
         <location name="Estrées-en-Chaussée" fromDate='10/9/1918' toDate='10/26/1918'/><!-- repunctuated -->
         <location name="Escaufourt" fromDate='10/27/1918' toDate='1/8/1918'/>

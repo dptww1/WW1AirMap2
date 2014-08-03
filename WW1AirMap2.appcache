@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v1 2014-08-02 16:57
+# v1 2014-08-02 19:25
 
 CACHE:
 index.html
@@ -8,7 +8,7 @@ help.html
 # external libraries
 extjs/underscore.js
 extjs/binarysearch.js
-js/overliboverrides.js
+ejs/overliboverrides.js
 extjs/overlib.js
 extjs/jquery-2.1.1.js
 extjs/jquery.overscroll.js

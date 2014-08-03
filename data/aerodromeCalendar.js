@@ -1,4 +1,4 @@
-// Created by mkaerocal.rb from jastas.xml and gazetteer.xml on Sat Aug  2 16:18:31 EDT 2014
+// Created by mkaerocal.rb from jastas.xml and gazetteer.xml on Sat Aug  2 19:23:53 EDT 2014
 
 var aerodromeCalendar = {
   "?" : [
@@ -3050,6 +3050,8 @@ var aerodromeCalendar = {
         [19181011,19181012,[["GE", "Jasta", "26"]]]
         ],
   "Savy" : [
+        ],
+  "Savy-Berlette" : [
         [19160101,19160317,[["BR", "RFC", "11"]]],
         [19160318,19160731,[["BR", "RFC", "11"], ["BR", "RFC", "13"]]],
         [19160801,19160831,[["BR", "RFC", "13"]]],
