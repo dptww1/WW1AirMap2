@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v1 2014-08-02 19:25
+# v2 2014-08-20 21:49
 
 CACHE:
 index.html
@@ -8,7 +8,6 @@ help.html
 # external libraries
 extjs/underscore.js
 extjs/binarysearch.js
-ejs/overliboverrides.js
 extjs/overlib.js
 extjs/jquery-2.1.1.js
 extjs/jquery.overscroll.js
@@ -30,6 +29,7 @@ libjs/columnizer.js
 js/globals.js
 js/mapinfo.js
 js/mapstate.js
+js/overliboverrides.js
 js/unitcollection.js
 js/util.js
 js/toolbar.js
@@ -59,11 +59,9 @@ images/map-n.png
 images/map-n0.png
 images/nextday_off.png
 images/nextday_on.png
-images/notes
 images/olivedot.png
 images/prevday_off.png
 images/prevday_on.png
-images/pspbrwse.jbf
 images/reddot.png
 images/rivers-full-n.png
 images/rivers_off.png
