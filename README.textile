@@ -18,7 +18,7 @@ Hover your mouse over an aerodrome to see more information about it.
 
 h1. Technical Notes
 
-See "WW1AirMap2":http://www.patriot.net/~townsend/WW1AirMap2 for a usable version.
+See "WW1AirMap2":http://www.davetownsend.org/WW1AirMap2/ for a usable version.
 
 Implemented entirely in client-side JavaScript using jQuery (with some plugins) and Overlib.
 
