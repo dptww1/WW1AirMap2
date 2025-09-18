@@ -8,7 +8,7 @@ var refPts = {
     "Brussels"   : [ 539, 169 ],
     "Cambrai"    : [ 365, 331 ],
     "Charleroi"  : [ 556, 275 ],
-    "Compiègne"  : [ 299, 518 ],
+    "CompiÃ¨gne"  : [ 299, 518 ],
     "Gent"       : [ 455, 115 ],
     "Laon"       : [ 423, 484 ],
     "Lille"      : [ 343, 217 ],
@@ -43,6 +43,7 @@ function createAerodromeDivs() {
                 continue;
             }
 
+          console.log(gazetteerData[0]);
             var locationX = refPts[gazetteerData[0]][0] + Math.round(gazetteerData[1] / horizMilesPerPixel);
             var locationY = refPts[gazetteerData[0]][1] + Math.round(gazetteerData[2] / vertMilesPerPixel);
             if (refPts[gazetteerData[0]] && refPts[gazetteerData[0]].length > 0 && locationX > 0 && locationY > 0) {

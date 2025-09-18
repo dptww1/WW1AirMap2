@@ -4,9 +4,9 @@ require 'rexml/document'
 
 include REXML
 
-inf = File.new('gazetteer.xml', 'r')
+inf = File.new('gazetteer.xml', 'r', encoding: 'utf-8')
 
-outf = File.new('gazetteer.js', 'w')
+outf = File.new('gazetteer.js', 'w', encoding: 'utf-8')
 outf.puts("// Created by mkgazetteer.rb from gazetteer.xml on " + `date` + "\n")
 outf.print("var gazetteer = {")
 

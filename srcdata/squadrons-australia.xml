@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
-
-<!-- $Id: $ -->
+<?xml version='1.0' encoding='utf-8'?>
 
 <squadrons>
     <squadron nation='AU' type='AFC' num='2'>
@@ -26,7 +24,7 @@
         <location name="Proyart" fromDate='9/6/1918' toDate='9/20/1918'/>
         <location name="Bouvincourt" fromDate='9/21/1918' toDate='10/5/1918'/>
         <location name="Bernes" fromDate='10/6/1918' toDate='10/16/1918'/>
-        <location name="Prémont" fromDate='10/17/1918' toDate='11/11/1918'/><!-- added accent -->
+        <location name="PrÃ©mont" fromDate='10/17/1918' toDate='11/11/1918'/><!-- added accent -->
     </squadron>
     <squadron nation='AU' type='AFC' num='4'>
         <location name="Castle Bromwich" fromDate='3/27/1917' toDate='12/21/1917'/>
@@ -35,6 +33,6 @@
         <location name="Reclinghem" fromDate='6/30/1918' toDate='9/28/1918'/>
         <location name="Serny" fromDate='9/29/1918' toDate='10/19/1918'/>
         <location name="Auchel" fromDate='10/20/1918' toDate='10/25/1918'/>
-        <location name="Ennetières" fromDate='10/26/1918' toDate='11/11/1918'/><!-- was Grand Ennetieres, OtF6.1 has this the same as Ennetières -->
+        <location name="EnnetiÃ¨res" fromDate='10/26/1918' toDate='11/11/1918'/><!-- was Grand Ennetieres, OtF6.1 has this the same as EnnetiÃ¨res -->
     </squadron>
 </squadrons>

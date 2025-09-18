@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
-
-<!-- $Id: $ -->
+<?xml version='1.0' encoding='utf-8'?>
 
 <!--
 Information from Pieters, "Above Flanders' Fields", Grub Street Press, 1998.
@@ -28,12 +26,10 @@ Information from Pieters, "Above Flanders' Fields", Grub Street Press, 1998.
     <location name="Les Moeres" fromDate="3/16/1918" toDate="10/28/1918"/><!-- days of week interpolated -->
     <location name="Moerkerke" fromDate="10/29/1918" toDate="11/11/1918"/>
   </squadron>
-  
+
   <squadron nation="BE" type="Chasse" num="11">
     <!-- formed in March, but not operational until May 28 -->
     <location name="Les Moeres" fromDate="5/28/1918" toDate="10/28/1918"/><!-- days of week interpolated -->
     <location name="Moerkerke" fromDate="10/29/1918" toDate="11/11/1918"/>
   </squadron>
 </squadrons>
-
-

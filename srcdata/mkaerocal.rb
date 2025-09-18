@@ -180,7 +180,7 @@ end
 abort "usage: ruby mkaerocal.rb squadronFile1.xml [...]" if ARGV.length == 0
 
 # Read aerodrome names and make a record in @aerodromes for each
-inf = File.new("gazetteer.xml", "r")
+inf = File.new("gazetteer.xml", "r", encoding: 'utf-8')
 gDoc = Document.new inf
 gDoc.elements.each('gazetteer/location') do |loc|
   @aerodromes[loc.attributes['name'].encode("ISO-8859-1")] = { 'dates' => [] }
@@ -188,7 +188,7 @@ end
 
 # Read squadron data
 ARGV.each do |filename|
-  inf = File.new(filename, "r")
+  inf = File.new(filename, "r", encoding: 'utf-8')
   jDoc = Document.new inf
   jDoc.elements.each('squadrons/squadron') do |sq|
     num    = sq.attributes['num']
@@ -210,7 +210,7 @@ end
 
 # Write out calendar info
 first = true
-outf = File.new('aerodromeCalendar.js', 'w')
+outf = File.new('aerodromeCalendar.js', 'w', encoding: 'utf-8')
 outf.puts("// Created by mkaerocal.rb from jastas.xml and gazetteer.xml on " + `date` + "\n")
 outf.puts("var aerodromeCalendar = {")
 @aerodromes.keys().sort().each do |loc|
@@ -229,7 +229,7 @@ outf.puts
 outf.puts("};")
 
 # Write out the timeline diffs
-outf = File.new('changedates.js', 'w')
+outf = File.new('changedates.js', 'w', encoding: 'utf-8')
 outf.puts("// Created by mkaerocal.rb from jastas.xml on " + `date` + "\n")
 outf.puts("var startChangeDates = [")
 outf.puts("    " + startDates.keys().sort().join(",\n    "))

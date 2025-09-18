@@ -21,7 +21,7 @@ def canonicalizeDateStr(s)
 end
 
 def processFile(outf, infname)
-  inf = File.new(infname, "r")
+  inf = File.new(infname, "r", encoding: 'utf-8')
   doc = Document.new inf
   doc.elements.each('squadrons/squadron') do |sq|
     nation = sq.attributes['nation']
@@ -50,7 +50,7 @@ end
 
 abort "usage: ruby mksquadrons.rb squadronFile1.xml [...]" if ARGV.length == 0
 
-outf = File.new('squadrons.js', 'w')
+outf = File.new('squadrons.js', 'w', encoding: 'utf-8')
 outf.puts("// Created by mksquadrons.rb from\n//    #{ARGV.sort.join("\n//    ")}\n// on " + `date` + "\n")
 outf.print("var squadrons = [")
 
