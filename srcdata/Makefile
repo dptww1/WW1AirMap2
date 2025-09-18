@@ -8,13 +8,13 @@ RUBY = ruby
 
 .PHONY: missing all refpts
 
-all: 
+all:
 	$(RUBY) mkgazetteer.rb
 	$(RUBY) mkaerocal.rb squadrons-*.xml
 	$(RUBY) mksquadrons.rb squadrons-*.xml
 	mv *.js ../data
 
-missing: 
+missing:
 	grep location gazetteer.xml | grep -v mapLoc | grep -v Macedonia | grep -v Italy | grep -v Turkey | grep -v Austria | grep -v Britain
 
 reconcile:
@@ -22,4 +22,3 @@ reconcile:
 
 refpts:
 	$(RUBY) refpts.rb
-		
