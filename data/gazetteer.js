@@ -231,7 +231,7 @@ var gazetteer = {
 "Florenville": {loc:["Luxembourg",-37.14,-4.29],id:"Florenville"},
 "Floringhem": {loc:["Arras",-15.6,-14.2],id:"Floringhem"},
 "Folkestone": "Britain",
-"Fonfry": {loc:["Reims",-22.22,2.11],notes:"Nothing close to &quot;Fonfry&quot; or &quot;Foufry&quot; in Mapquest or calle.com; since tJP gazetteer calls it &quot;Fonfry, N Fère-en-Tardenois&quot;, I've arbitrarily chosen a location a mile north of Fère-en-Tardenois",id:"Fonfry"},
+"Fonfry": {loc:["Reims",-22.22,2.11],notes:"https://www.anciens-aerodromes.com/?p=2677",id:"Fonfry"},
 "Fontaine Notre Dame": {loc:["Cambrai",8.57,17.14],notes:"Mapquest has two in the area, one WSW of Cambrai, and one ENE of St Quentin.  tJP map uses the latter",id:"Fontaine_Notre_Dame"},
 "Fontaine-sur-May": {loc:["Amiens",-16.8,-24.5],notes:"Constable data and OtF6.1 agree on this spelling, but this is Google's &quot;Fontaine-sur-Maye&quot; (with the &quot;e&quot; on the end)",id:"Fontaine_sur_May"},
 "Fontaine-Uterte": {loc:["Cambrai",6.36,14.77],id:"Fontaine_Uterte"},
