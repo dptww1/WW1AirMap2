@@ -131,6 +131,7 @@
     <location name="Caudry" country="France"><mapLoc refPt="Cambrai" xDist="7.8" yDist="3.6"/></location>
     <location name="Cervada" country="Italy"></location>
     <location name="Ceune" country="Belgium"><mapLoc refPt="Lille" xDist="9.55" yDist="-12.73"/><notes>Appears to correspond with Mapquest's "Kuurne"</notes></location>
+    <location name="Chailly-en-Brie" country="France"><mapLoc refPt="Paris" xDist="37.14" yDist="4.29"/><notes>See The War in the Air Vol 6 p.412</notes></location>
     <location name="Chambry" country="France"><mapLoc refPt="Laon" xDist="1.10" yDist="-1.60"/></location>
     <location name="Champien" country="France"><mapLoc refPt="Arras" xDist="3.6" yDist="42.3"/></location>
     <location name="Champles" country="Belgium"><mapLoc refPt="Brussels" xDist="10.00" yDist="7.14"/></location>

@@ -1,4 +1,4 @@
-// Created by mkgazetteer.rb from gazetteer.xml on Thu Sep 18 15:13:23 EDT 2025
+// Created by mkgazetteer.rb from gazetteer.xml on Sat Nov  1 18:30:52 EDT 2025
 
 var gazetteer = {
 "Abbeville": {loc:["Amiens",-20.9,-16.0],id:"Abbeville"},
@@ -129,6 +129,7 @@ var gazetteer = {
 "Caudry": {loc:["Cambrai",7.8,3.6],id:"Caudry"},
 "Cervada": "Italy",
 "Ceune": {loc:["Lille",9.55,-12.73],notes:"Appears to correspond with Mapquest's &quot;Kuurne&quot;",id:"Ceune"},
+"Chailly-en-Brie": {loc:["Paris",37.14,4.29],notes:"See The War in the Air Vol 6 p.412",id:"Chailly_en_Brie"},
 "Chambry": {loc:["Laon",1.10,-1.60],id:"Chambry"},
 "Champien": {loc:["Arras",3.6,42.3],id:"Champien"},
 "Champles": {loc:["Brussels",10.00,7.14],id:"Champles"},
