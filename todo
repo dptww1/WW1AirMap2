@@ -24,12 +24,10 @@
    canvas (but hide it...)
 
 * General
-** TODO remove $Id:$
 ** TODO switch to jQuery UI tooltip (which can use function to compute tooltip -- better than creating all of them at once)
 ** Use template (Mithril?) for heavy-duty HTML-generation stuff
 ** aerodrome notes need spell checking
 ** Complete docs per Natural Docs (?)
-** move from ISO-8859-1 to UTF-8
 ** move tooltips from Overlib to JQuery
 ** favicon
 
@@ -77,7 +75,6 @@
 
 * Bugs
 ** Multi-nationality aerodromes (e.g. Cappy & Suzanne, E of Amiens) show blanks when one nationality is turned off
-
 
 * Profiling
 ** initial state change to By Aerodrome
