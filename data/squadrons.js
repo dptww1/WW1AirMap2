@@ -3,8 +3,7 @@
 //    squadrons-belgium.xml
 //    squadrons-britain.xml
 //    squadrons-germany.xml
-//    squadrons-us.xml
-// on Thu Sep 18 15:13:24 EDT 2025
+// on Sat Nov  1 18:30:53 EDT 2025
 
 var squadrons = [
   { nation:'AU', type:'AFC', n:'2', locs: [
@@ -531,7 +530,7 @@ var squadrons = [
      ["Beauvois",19180324,19180328],
      ["Ruisseauville",19180329,19180420],
      ["Fourneuil",19180421,19180714],
-     ["Chailly",19180715,19180806],
+     ["Chailly-en-Brie",19180715,19180806],
      ["Beauvois",19180807,19181028],
      ["Villers-lès-Cagnicourt",19181029,19181111]
     ]},
@@ -1137,7 +1136,7 @@ var squadrons = [
      ["Coudekerque",19180525,19180605],
      ["Ruisseauville",19180606,19180620],
      ["Drionville",19180621,19180712],
-     ["Chailly",19180713,19180802],
+     ["Chailly-en-Brie",19180713,19180802],
      ["Blangermont",19180803,19181026],
      ["Abscon",19181027,19181111]
     ]},
@@ -1206,7 +1205,7 @@ var squadrons = [
      ["Lake Down",19171202,19180604],
      ["Le Quesnoy",19180605,19180624],
      ["Drionville",19180625,19180714],
-     ["Chailly",19180715,19180802],
+     ["Chailly-en-Brie",19180715,19180802],
      ["Ecoivres",19180803,19181025],
      ["Moislains",19181026,19181111]
     ]},
@@ -2585,94 +2584,5 @@ var squadrons = [
     ]},
   { nation:'GE', type:'SEE', n:'II', locs: [
      ["Neumünster",19171001,19180831]
-    ]},
-  { nation:'US', type:'Aero', n:'1', locs: [
-     ["Ourches",19180411,19180628],
-     ["Saints",19180629,19180705],
-     ["Francheville",19180706,],
-     ["Morass farm",19180702,],
-     ["May-en-Multien",19180802,19180809],
-     ["Coincy",19180810,19180811],
-     ["Chailly-en-Brie",19180812,]
-    ]},
-  { nation:'US', type:'Aero', n:'9', locs: [
-     ["Gondreville-sur-Moselle",19180904,]
-    ]},
-  { nation:'US', type:'Aero', n:'12', locs: [
-     ["Ourches",19180503,19180612],
-     ["Flin",19180613,19180628],
-     ["Saints",19180629,19180705],
-     ["Francheville",19180706,],
-     ["Morass farm",19180702,],
-     ["May-en-Multien",19180802,19180809],
-     ["Coincy",19180810,19180811],
-     ["Chailly-en-Brie",19180812,]
-    ]},
-  { nation:'US', type:'Aero', n:'13', locs: [
-     ["Toul",19180815,]
-    ]},
-  { nation:'US', type:'Aero', n:'22', locs: [
-     ["Toul",19180821,]
-    ]},
-  { nation:'US', type:'Aero', n:'24', locs: [
-     ["Gondreville-sur-Moselle",19180912,]
-    ]},
-  { nation:'US', type:'Aero', n:'27', locs: [
-     ["Toul",19180602,19180628],
-     ["Tonquin",19180629,19180706],
-     ["Saints",19180707,]
-    ]},
-  { nation:'US', type:'Aero', n:'28', locs: [
-     ["Vaulcouleurs",19180902,]
-    ]},
-  { nation:'US', type:'Aero', n:'49', locs: [
-     ["Toul",19180816,]
-    ]},
-  { nation:'US', type:'Aero', n:'88', locs: [
-     ["Ourches",19180503,19180628],
-     ["Saints",19180629,19180705],
-     ["Francheville",19180706,19180802],
-     ["Ferme-de-Graves",19180803,]
-    ]},
-  { nation:'US', type:'Aero', n:'90', locs: [
-     ["Ourches",19180616,]
-    ]},
-  { nation:'US', type:'Aero', n:'91', locs: [
-     ["Gondreville-sur-Moselle",19180607,]
-    ]},
-  { nation:'US', type:'Aero', n:'93', locs: [
-     ["Vaulcouleurs",19180811,]
-    ]},
-  { nation:'US', type:'Aero', n:'94', locs: [
-     ["Toul",19180407,19180628],
-     ["Tonquin",19180629,19180706],
-     ["Saints",19180707,]
-    ]},
-  { nation:'US', type:'Aero', n:'95', locs: [
-     ["Epiez",19180425,19180503],
-     ["Toul",19180504,19180628],
-     ["Tonquin",19180629,19180706],
-     ["Saints",19180707,]
-    ]},
-  { nation:'US', type:'Aero', n:'96', locs: [
-     ["Amanty",19180612,]
-    ]},
-  { nation:'US', type:'Aero', n:'99', locs: [
-     ["Amanty",19180622,19180630],
-     ["Luxeuil-les-Bains",19180701,19180630]
-    ]},
-  { nation:'US', type:'Aero', n:'103', locs: [
-     ["Vaulcouleurs",19180815,]
-    ]},
-  { nation:'US', type:'Aero', n:'139', locs: [
-     ["Toul",19180630,]
-    ]},
-  { nation:'US', type:'Aero', n:'147', locs: [
-     ["Toul",19180602,19180628],
-     ["Tonquin",19180629,19180706],
-     ["Saints",19180707,]
-    ]},
-  { nation:'US', type:'Aero', n:'213', locs: [
-     ["Vaulcouleurs",19180814,]
     ]}
 ];

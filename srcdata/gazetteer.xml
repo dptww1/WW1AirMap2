@@ -235,7 +235,7 @@
     <location name="Floringhem" country="France"><mapLoc refPt="Arras" xDist="-15.6" yDist="-14.2"/></location>
     <location name="Folkestone" country="Britain"/>
     <!-- location name="Fonsommes"></location; tJP has "Fonfommes", "Fonsomme" -->
-    <location name="Fonfry" country="France"><mapLoc refPt="Reims" xDist="-22.22" yDist="2.11"/><notes>Nothing close to "Fonfry" or "Foufry" in Mapquest or calle.com; since tJP gazetteer calls it "Fonfry, N Fère-en-Tardenois", I've arbitrarily chosen a location a mile north of Fère-en-Tardenois</notes></location>
+    <location name="Fonfry" country="France"><mapLoc refPt="Reims" xDist="-22.22" yDist="2.11"/><notes>https://www.anciens-aerodromes.com/?p=2677</notes></location>
     <location name="Fontaine Notre Dame" country="France"><mapLoc refPt="Cambrai" xDist="8.57" yDist="17.14"/><notes>Mapquest has two in the area, one WSW of Cambrai, and one ENE of St Quentin.  tJP map uses the latter</notes></location>
     <location name="Fontaine-sur-May" country="France"><mapLoc refPt="Amiens" xDist="-16.8" yDist="-24.5"/><notes>Constable data and OtF6.1 agree on this spelling, but this is Google's "Fontaine-sur-Maye" (with the "e" on the end)</notes></location>
     <location name="Fontaine-Uterte" country="France"><mapLoc refPt="Cambrai" xDist="6.36" yDist="14.77"/></location>

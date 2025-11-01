@@ -10,8 +10,8 @@ RUBY = ruby
 
 all:
 	$(RUBY) mkgazetteer.rb
-	$(RUBY) mkaerocal.rb squadrons-*.xml
-	$(RUBY) mksquadrons.rb squadrons-*.xml
+	$(RUBY) mkaerocal.rb squadrons-[^u]*.xml
+	$(RUBY) mksquadrons.rb squadrons-[^u]*.xml
 	mv *.js ../data
 
 missing:
