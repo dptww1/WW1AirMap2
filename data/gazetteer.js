@@ -1,4 +1,4 @@
-// Created by mkgazetteer.rb from gazetteer.xml on Sat Nov  1 18:30:52 EDT 2025
+// Created by mkgazetteer.rb from gazetteer.xml on Sat Nov  1 18:44:39 EDT 2025
 
 var gazetteer = {
 "Abbeville": {loc:["Amiens",-20.9,-16.0],id:"Abbeville"},
@@ -400,7 +400,7 @@ var gazetteer = {
 "Mont-d'Origny": {loc:["Laon",-5.33,-15.56],notes:"tJP omits the dash in the name",id:"Mont_d_Origny"},
 "Mont-Notre-Dame": {loc:["Soissons",11.56,4.44],notes:"tJP omits the dashes",id:"Mont_Notre_Dame"},
 "Mont-St.-Martin": {loc:["Reims",-17.33,-0.88],notes:"tJP omits the dashes in the name.  There are four &quot;Mont-Saint-Martin&quot;s in France; one in the south, which can be ignored for these purposes, one near the France/Belgium/Luxembourg border, one east of Reims, and one west of Reims.  From comparing dates, the front line, and Jasta positions before and after being stationed here, it appears that the town west of Reims is the aerodrome.",id:"Mont_St__Martin"},
-"Montbanis Ferme": "",
+"Montbanis Ferme": {loc:["Soissons",10.57,7.14],notes:"Evidently Ferme Montbani, see 2https://www.anciens-aerodromes.com/?p=2905",id:"Montbanis_Ferme"},
 "Monthussart Ferme": {loc:["Soissons",10.7,2.0],notes:"Located by http://www.theaerodrome.com/forum/other-wwi-aviation/22065-monthussart-ferme.html",id:"Monthussart_Ferme"},
 "Montigny Ferme": {loc:["Cambrai",-3.4,11.2],notes:"Located by http://www.sim-outhouse.com/sohforums/showthread.php?t=8637, using online trench map at http://lt1.mcmaster.ca/ww1/wrz4mp.php?grid=62c&map_id=83&view",id:"Montigny_Ferme"},
 "Möntingen": {loc:["Metz",4.44,0.00],notes:"A note on the tJP map says &quot;Möntingen is modern Montoy; this is Montoy-Flanville in Mapquest; it seems to be missing from calle.com",id:"M_ntingen"},

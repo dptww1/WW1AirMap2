@@ -3,7 +3,7 @@
 //    squadrons-belgium.xml
 //    squadrons-britain.xml
 //    squadrons-germany.xml
-// on Sat Nov  1 18:30:53 EDT 2025
+// on Sat Nov  1 18:44:40 EDT 2025
 
 var squadrons = [
   { nation:'AU', type:'AFC', n:'2', locs: [
